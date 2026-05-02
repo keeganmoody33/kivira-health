@@ -1,0 +1,105 @@
+# Kivira.health GTM knowledge graph taxonomy
+
+version: 1.2.0
+last_updated: 2026-04-06
+
+domains:
+  blessed:
+    - technical
+    - business
+    - methodology
+    - emergent
+
+node_types:
+  blessed:
+    - concept
+    - pattern
+    - case-study
+    - framework
+
+status_values:
+  blessed:
+    - emergent
+    - validated
+    - canonical
+
+topic_library:
+  technical:
+    - ehr-integration
+    - smart-on-fhir
+    - cds-clinical-decision-support
+    - patient-app
+    - safety-risk-notification
+    - digital-phenotyping
+    - source-public-web
+    - buyer-diligence
+    - compliance
+    - regulatory-risk
+    - evidence-discipline
+    # Billing/coding (added 2026-04-05)
+    - hcc-hierarchical-condition-categories
+    - cpt-billing-codes
+    - v28-model-cms
+    - collaborative-care-cocm
+    - source-internal-doc
+  business:
+    - icp-primary-care
+    - b2b-health-system
+    - pricing-opaque
+    - competitive-landscape
+    - funding-signals
+    - third-party-press
+    - source-public-web
+    - source-research-synthesis
+    - source-internal-doc
+    - evidence-discipline
+    - buyer-persona
+    - credibility
+    - partnerships
+    - primary-care-buyer
+    - behavioral-health
+    - messaging
+    # Market sizing (added 2026-04-05)
+    - tam-total-addressable-market
+    - sam-serviceable-addressable-market
+    - som-serviceable-obtainable-market
+    - market-segmentation
+    # Financial models (added 2026-04-05)
+    - risk-adjustment-raf
+    - value-based-care-vbc
+    - fee-for-service-ffs
+    - star-ratings-cms
+    # Life sciences (added 2026-04-05)
+    - clinical-trials
+    - digital-biomarkers
+    - cns-pharma
+    # Buyer personas and market adoption (added 2026-04-06)
+    - buying-committee
+    - market-adoption-stage
+    - existential-data-point
+    - pain-intensity
+    - collaborative-care-cocm
+  methodology:
+    - gtm-motion
+    - discovery-calls
+    - objection-handling
+    - evidence-discipline
+    - source-research-synthesis
+    - source-internal-doc
+    - buyer-diligence
+    - workflow
+    # Execution cadence (added 2026-04-05)
+    - execution-cadence
+    # TAM building and account management (added 2026-04-06)
+    - tam-total-addressable-market
+    - account-schema
+    - exclusion-rules
+    - persona-title-mapping
+    - public-data-sources
+    - tier-architecture
+    - market-segmentation
+
+quality_thresholds:
+  tag_sprawl_warning: 20
+  minimum_topic_count: 3
+  maximum_topic_count: 7

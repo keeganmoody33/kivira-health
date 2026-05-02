@@ -1,0 +1,2754 @@
+{
+  "generated_at": "2026-05-02 02:57 UTC",
+  "nodes": [
+    {
+      "name": "B2B_CLINIC_BUYER_MODEL",
+      "rel_path": "knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Kivira sells to clinics/health systems; the patient-facing app is free to patients and the customer (clinic) pays.",
+      "tags": [
+        "business",
+        "b2b-health-system",
+        "source-public-web"
+      ],
+      "topics": [
+        "pricing-opaque",
+        "buyer-persona"
+      ],
+      "related_concepts": [
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[EHR_INTEGRATION_SMART_ON_FHIR]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/legal-patient-app-terms.md",
+      "body_lines": 21,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
+      ],
+      "inbound": [
+        "DIRECT_BILLING_MODEL_FFS",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_MOTION_HYPOTHESIS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "BUYER_PERSONA_CLINICAL_CHAMPION",
+      "rel_path": "knowledge_base/business/BUYER_PERSONA_CLINICAL_CHAMPION.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Dr. Jennifer R. archetype - Medical Director of Integrated Behavioral Health who initiates and evangelizes Kivira deals based on clinical evidence and peer trust.",
+      "tags": [
+        "business",
+        "buyer-persona",
+        "icp-primary-care",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "buyer-persona",
+        "primary-care-buyer",
+        "behavioral-health",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[BUYER_PERSONA_TECHNOLOGY_GATEKEEPER]]",
+        "[[BUYER_PERSONA_OPERATIONAL_BUYER]]",
+        "[[BUYING_COMMITTEE_DYNAMICS]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 93,
+      "outbound": [
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "BUYER_PERSONA_OPERATIONAL_BUYER",
+      "rel_path": "knowledge_base/business/BUYER_PERSONA_OPERATIONAL_BUYER.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Alex M. archetype - Director of Behavioral Health Services who validates ROI through CoCM billing math, care manager time, and quality metrics.",
+      "tags": [
+        "business",
+        "buyer-persona",
+        "b2b-health-system",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "buyer-persona",
+        "collaborative-care-cocm",
+        "value-based-care-vbc",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[BUYER_PERSONA_CLINICAL_CHAMPION]]",
+        "[[BUYER_PERSONA_TECHNOLOGY_GATEKEEPER]]",
+        "[[BUYING_COMMITTEE_DYNAMICS]]",
+        "[[CPT_BILLING_CODES_BHI]]",
+        "[[EDP_COCM_REVENUE_REALIZATION]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 97,
+      "outbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "CPT_BILLING_CODES_BHI",
+        "EDP_COCM_REVENUE_REALIZATION"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "EDP_COCM_REVENUE_REALIZATION",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+      "rel_path": "knowledge_base/business/BUYER_PERSONA_TECHNOLOGY_GATEKEEPER.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Dr. Marcus A. archetype - CMIO/VP Clinical Informatics who approves or blocks integration based on architecture, security, and workflow burden.",
+      "tags": [
+        "business",
+        "buyer-persona",
+        "b2b-health-system",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "buyer-persona",
+        "ehr-integration",
+        "buyer-diligence",
+        "compliance"
+      ],
+      "related_concepts": [
+        "[[BUYER_PERSONA_CLINICAL_CHAMPION]]",
+        "[[BUYER_PERSONA_OPERATIONAL_BUYER]]",
+        "[[BUYING_COMMITTEE_DYNAMICS]]",
+        "[[EHR_INTEGRATION_SMART_ON_FHIR]]",
+        "[[PRIVACY_AND_HIPAA_ROLE]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 93,
+      "outbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PRIVACY_AND_HIPAA_ROLE"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "BUYING_COMMITTEE_DYNAMICS",
+      "rel_path": "knowledge_base/business/BUYING_COMMITTEE_DYNAMICS.md",
+      "domain": "business",
+      "node_type": "pattern",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "How the Clinical Champion, Technology Gatekeeper, and Operational Buyer interact during a Kivira deal—sequence, shared blockers, and triggers to yes.",
+      "tags": [
+        "business",
+        "buyer-persona",
+        "b2b-health-system",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "buyer-persona",
+        "gtm-motion",
+        "discovery-calls",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[BUYER_PERSONA_CLINICAL_CHAMPION]]",
+        "[[BUYER_PERSONA_TECHNOLOGY_GATEKEEPER]]",
+        "[[BUYER_PERSONA_OPERATIONAL_BUYER]]",
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[EDP_COCM_REVENUE_REALIZATION]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 81,
+      "outbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "GTM_MOTION_HYPOTHESIS",
+        "EDP_COCM_REVENUE_REALIZATION"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "gtm-plan-v1",
+        "wave1a_heyreach_copy"
+      ],
+      "issues": []
+    },
+    {
+      "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+      "rel_path": "knowledge_base/business/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Digital phenotyping as secondary endpoints in CNS clinical trials",
+      "tags": [
+        "business",
+        "clinical-trials",
+        "digital-biomarkers",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "clinical-trials",
+        "digital-biomarkers",
+        "cns-pharma"
+      ],
+      "related_concepts": [
+        "[[LIFE_SCIENCES_VALUE_PROP]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 44,
+      "outbound": [
+        "LIFE_SCIENCES_VALUE_PROP",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "THREE_SEGMENT_ICP_FRAMEWORK"
+      ],
+      "inbound": [
+        "LIFE_SCIENCES_VALUE_PROP"
+      ],
+      "issues": []
+    },
+    {
+      "name": "COMPETITIVE_EVIDENCE_GAP",
+      "rel_path": "knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md",
+      "domain": "business",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-04-06",
+      "description": "Public materials lack peer-reviewed Kivira-specific clinical validation; quantitative performance on the website should be treated as unverified until backed by transparent methods and results.",
+      "tags": [
+        "business",
+        "evidence-discipline",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "regulatory-risk",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 19,
+      "outbound": [
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "CLINICAL_INSTRUMENTS_SURFACE"
+      ],
+      "inbound": [
+        "FUNDING_AND_BACKING_SIGNALS",
+        "MARKET_ADOPTION_STAGE_2026",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "GTM_MOTION_HYPOTHESIS",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "DIRECT_BILLING_MODEL_FFS",
+      "rel_path": "knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "ROI framework for immediate fee-for-service revenue via automated BHI billing codes",
+      "tags": [
+        "business",
+        "fee-for-service-ffs",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "fee-for-service-ffs",
+        "cpt-billing-codes",
+        "icp-primary-care"
+      ],
+      "related_concepts": [
+        "[[CPT_BILLING_CODES_BHI]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 43,
+      "outbound": [
+        "CPT_BILLING_CODES_BHI",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "B2B_CLINIC_BUYER_MODEL",
+        "GTM_30_60_90_EXECUTION_CADENCE"
+      ],
+      "inbound": [
+        "EDP_COCM_REVENUE_REALIZATION",
+        "TAM_TIER_1_PROVIDER_534M",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "CPT_BILLING_CODES_BHI"
+      ],
+      "issues": []
+    },
+    {
+      "name": "EDP_COCM_REVENUE_REALIZATION",
+      "rel_path": "knowledge_base/business/EDP_COCM_REVENUE_REALIZATION.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "The Existential Data Point for Kivira GTM - CoCM Revenue Realization Rate measures the gap between mental health work PCPs do and revenue they capture.",
+      "tags": [
+        "business",
+        "value-based-care-vbc",
+        "collaborative-care-cocm",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "collaborative-care-cocm",
+        "cpt-billing-codes",
+        "gtm-motion",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[CPT_BILLING_CODES_BHI]]",
+        "[[PAIN_SEGMENT_MATRIX]]",
+        "[[BUYER_PERSONA_OPERATIONAL_BUYER]]",
+        "[[DIRECT_BILLING_MODEL_FFS]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 92,
+      "outbound": [
+        "CPT_BILLING_CODES_BHI",
+        "PAIN_SEGMENT_MATRIX",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "DIRECT_BILLING_MODEL_FFS"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "MARKET_ADOPTION_STAGE_2026",
+        "PAIN_SEGMENT_MATRIX",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+      "rel_path": "knowledge_base/business/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md",
+      "domain": "business",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-04-06",
+      "description": "Channel partnership opportunity via VBC enablement companies - LinkedIn video outreach to VPs of Partnerships/Product for embedded distribution.",
+      "tags": [
+        "business",
+        "value-based-care-vbc",
+        "gtm-motion",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "partnerships"
+      ],
+      "related_concepts": [
+        "[[TAM_TIER_2_ACO_VBC_73M]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas call 2026-04-06",
+      "body_lines": 52,
+      "outbound": [
+        "TAM_TIER_2_ACO_VBC_73M",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "PRIMARY_CARE_WEDGE_ICP"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "FUNDING_AND_BACKING_SIGNALS",
+      "rel_path": "knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Public signals include YC/Antler callouts on the website; third-party reporting on Wellstar-led pre-seed and other grants—treat round details as partially verified across sources.",
+      "tags": [
+        "business",
+        "funding-signals",
+        "source-public-web",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "credibility",
+        "partnerships"
+      ],
+      "related_concepts": [
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[COMPETITIVE_EVIDENCE_GAP]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/www-home.md; raw-context/MARKETANALYSIS.md",
+      "body_lines": 22,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026"
+      ],
+      "inbound": [
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "LIFE_SCIENCES_VALUE_PROP",
+      "rel_path": "knowledge_base/business/LIFE_SCIENCES_VALUE_PROP.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Value proposition for life sciences and clinical trials market - high-margin expansion play",
+      "tags": [
+        "business",
+        "clinical-trials",
+        "digital-biomarkers",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "clinical-trials",
+        "digital-biomarkers",
+        "cns-pharma",
+        "tam-total-addressable-market"
+      ],
+      "related_concepts": [
+        "[[CLINICAL_TRIALS_DIGITAL_ENDPOINTS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 46,
+      "outbound": [
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "CLINICAL_INSTRUMENTS_SURFACE"
+      ],
+      "inbound": [
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS"
+      ],
+      "issues": []
+    },
+    {
+      "name": "MARKET_ADOPTION_STAGE_2026",
+      "rel_path": "knowledge_base/business/MARKET_ADOPTION_STAGE_2026.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Market maturity analysis - AI-powered mental health CDS in primary care is in late Early Adoption crossing into Early Majority (2026-2027 window).",
+      "tags": [
+        "business",
+        "market-segmentation",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "market-segmentation",
+        "tam-total-addressable-market",
+        "gtm-motion",
+        "evidence-discipline"
+      ],
+      "related_concepts": [
+        "[[EDP_COCM_REVENUE_REALIZATION]]",
+        "[[PAIN_SEGMENT_MATRIX]]",
+        "[[COMPETITIVE_EVIDENCE_GAP]]",
+        "[[GTM_MOTION_HYPOTHESIS]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 100,
+      "outbound": [
+        "EDP_COCM_REVENUE_REALIZATION",
+        "PAIN_SEGMENT_MATRIX",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "GTM_MOTION_HYPOTHESIS"
+      ],
+      "inbound": [
+        "PAIN_SEGMENT_MATRIX",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+      "rel_path": "knowledge_base/business/MEDICAL_SPEND_MODEL_ER_AVOIDANCE.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "ROI framework targeting VBC groups via reduction in psychiatric ER visits and hospitalization",
+      "tags": [
+        "business",
+        "value-based-care-vbc",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "value-based-care-vbc",
+        "b2b-health-system",
+        "icp-primary-care"
+      ],
+      "related_concepts": [
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[PATIENT_APP_SAFETY_ALERTS]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 33,
+      "outbound": [
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "PATIENT_APP_SAFETY_ALERTS"
+      ],
+      "inbound": [
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "THREE_SEGMENT_ICP_FRAMEWORK"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PAIN_SEGMENT_MATRIX",
+      "rel_path": "knowledge_base/business/PAIN_SEGMENT_MATRIX.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Five pain-based segments for Kivira GTM ranked by EDP intensity, conversion potential, and segment score.",
+      "tags": [
+        "business",
+        "market-segmentation",
+        "tam-total-addressable-market",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "market-segmentation",
+        "collaborative-care-cocm",
+        "value-based-care-vbc",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[EDP_COCM_REVENUE_REALIZATION]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[MARKET_ADOPTION_STAGE_2026]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 196,
+      "outbound": [
+        "EDP_COCM_REVENUE_REALIZATION",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "MARKET_ADOPTION_STAGE_2026"
+      ],
+      "inbound": [
+        "EDP_COCM_REVENUE_REALIZATION",
+        "MARKET_ADOPTION_STAGE_2026",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+      "rel_path": "knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md",
+      "domain": "business",
+      "node_type": "case-study",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story, primary-care discovery, GNVC win, product narrative, Wellstar-led pre-seed, and roadmap—use with CDS framing discipline; epidemiology in lede is article editorial.",
+      "tags": [
+        "business",
+        "source-public-web",
+        "third-party-press"
+      ],
+      "topics": [
+        "b2b-health-system",
+        "funding-signals",
+        "icp-primary-care"
+      ],
+      "related_concepts": [
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[FUNDING_AND_BACKING_SIGNALS]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]"
+      ],
+      "source_type": "url",
+      "source_file": "raw-context/third-party/polsky-how-kivira-mental-health-diagnosis-2026-03-02.md",
+      "body_lines": 35,
+      "outbound": [
+        "GTM_MOTION_HYPOTHESIS",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "B2B_CLINIC_BUYER_MODEL",
+        "FUNDING_AND_BACKING_SIGNALS",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "CDS_NOT_DIAGNOSIS_FRAMING"
+      ],
+      "inbound": [
+        "FUNDING_AND_BACKING_SIGNALS",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "GTM_MOTION_HYPOTHESIS"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PRIMARY_CARE_WEDGE_ICP",
+      "rel_path": "knowledge_base/business/PRIMARY_CARE_WEDGE_ICP.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Kivira’s public GTM wedge is mental health workload in primary care—PCPs as frontline for screening and treatment decisions.",
+      "tags": [
+        "business",
+        "icp-primary-care",
+        "source-public-web",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "primary-care-buyer",
+        "behavioral-health",
+        "b2b-health-system"
+      ],
+      "related_concepts": [
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[MESSAGING_HYPOTHESIS_DISCIPLINE]]",
+        "[[PILOT_SITE_ACQUISITION_PRIORITY]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/www-home.md; raw-context/MARKETANALYSIS.md; Josh Pappas call 2026-04-06",
+      "body_lines": 26,
+      "outbound": [
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "GTM_MOTION_HYPOTHESIS",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "PILOT_SITE_ACQUISITION_PRIORITY"
+      ],
+      "inbound": [
+        "B2B_CLINIC_BUYER_MODEL",
+        "DIRECT_BILLING_MODEL_FFS",
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "FUNDING_AND_BACKING_SIGNALS",
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "TAM_TIER_1_PROVIDER_534M",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "GTM_MOTION_HYPOTHESIS",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "CPT_BILLING_CODES_BHI",
+        "HCC_V28_CODING_OPPORTUNITY",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PUBLIC_VALUE_PROPOSITION_HOME",
+      "rel_path": "knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Public marketing claims emphasize screening + digital phenotyping + AI/DSM-5-aligned analytics, EHR integration, and accuracy/diagnostic language—must be tempered with CDS framing.",
+      "tags": [
+        "business",
+        "source-public-web"
+      ],
+      "topics": [
+        "messaging",
+        "competitive-landscape"
+      ],
+      "related_concepts": [
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/www-home.md",
+      "body_lines": 22,
+      "outbound": [
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026"
+      ],
+      "inbound": [
+        "COMPETITIVE_EVIDENCE_GAP",
+        "FUNDING_AND_BACKING_SIGNALS",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+      "rel_path": "knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "ROI framework targeting Medicare Advantage plans via accurate HCC coding for behavioral health diagnoses",
+      "tags": [
+        "business",
+        "risk-adjustment-raf",
+        "value-based-care-vbc",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "risk-adjustment-raf",
+        "hcc-hierarchical-condition-categories",
+        "v28-model-cms",
+        "icp-primary-care"
+      ],
+      "related_concepts": [
+        "[[HCC_V28_CODING_OPPORTUNITY]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 28,
+      "outbound": [
+        "HCC_V28_CODING_OPPORTUNITY",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "B2B_CLINIC_BUYER_MODEL"
+      ],
+      "inbound": [
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "HCC_V28_CODING_OPPORTUNITY"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TAM_COMPLETE_698M_ALL_TIERS",
+      "rel_path": "knowledge_base/business/TAM_COMPLETE_698M_ALL_TIERS.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Master TAM summary - $698.9M across 8,435 unique logos, deduplicated across 9 subtiers",
+      "tags": [
+        "business",
+        "tam-total-addressable-market",
+        "market-segmentation",
+        "icp-primary-care",
+        "b2b-health-system"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "market-segmentation",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[TAM_TIER_1_PROVIDER_534M]]",
+        "[[TAM_TIER_2_ACO_VBC_73M]]",
+        "[[TAM_TIER_3_ENTERPRISE_92M]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[TAM_DEDUP_METHODOLOGY]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira TAM Document Suite",
+      "body_lines": 66,
+      "outbound": [
+        "TAM_TIER_1_PROVIDER_534M",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "inbound": [
+        "TAM_TIER_1_PROVIDER_534M",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TAM_TIER_1_PROVIDER_534M",
+      "rel_path": "knowledge_base/business/TAM_TIER_1_PROVIDER_534M.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Tier 1 TAM - Provider Groups ($533.9M, 7,290 logos) - Day 1 focus segment",
+      "tags": [
+        "business",
+        "tam-total-addressable-market",
+        "icp-primary-care",
+        "market-segmentation"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "icp-primary-care",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[DIRECT_BILLING_MODEL_FFS]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Tier1 Complete Validated.pdf",
+      "body_lines": 81,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "DIRECT_BILLING_MODEL_FFS",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "GTM_30_60_90_EXECUTION_CADENCE"
+      ],
+      "inbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TAM_DEDUP_METHODOLOGY",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TAM_TIER_2_ACO_VBC_73M",
+      "rel_path": "knowledge_base/business/TAM_TIER_2_ACO_VBC_73M.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Tier 2 TAM - ACOs, VBC Enablement, and Care Management ($73.2M, 675 logos)",
+      "tags": [
+        "business",
+        "tam-total-addressable-market",
+        "value-based-care-vbc",
+        "market-segmentation"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "value-based-care-vbc",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Tier2 Complete Validated.pdf",
+      "body_lines": 103,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "OUTREACH_WAVE_STRUCTURE"
+      ],
+      "inbound": [
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "OUTREACH_WAVE_STRUCTURE"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TAM_TIER_3_ENTERPRISE_92M",
+      "rel_path": "knowledge_base/business/TAM_TIER_3_ENTERPRISE_92M.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Tier 3 TAM - Health Systems, IDNs, and Regional Payers ($91.8M, 470 logos)",
+      "tags": [
+        "business",
+        "tam-total-addressable-market",
+        "b2b-health-system",
+        "market-segmentation"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "b2b-health-system",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[MEDICAL_SPEND_MODEL_ER_AVOIDANCE]]",
+        "[[TAM_DEDUP_METHODOLOGY]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Tier3 Complete Validated.pdf",
+      "body_lines": 99,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "inbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "issues": []
+    },
+    {
+      "name": "THREE_SEGMENT_ICP_FRAMEWORK",
+      "rel_path": "knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Three-segment ICP framework for Kivira GTM - Provider/PCP, Health System/ACO, Payor/Health Plans",
+      "tags": [
+        "business",
+        "icp-primary-care",
+        "b2b-health-system",
+        "market-segmentation",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "market-segmentation",
+        "icp-primary-care",
+        "b2b-health-system",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[DIRECT_BILLING_MODEL_FFS]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 67,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "B2B_CLINIC_BUYER_MODEL",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "DIRECT_BILLING_MODEL_FFS",
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE"
+      ],
+      "inbound": [
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+        "DIRECT_BILLING_MODEL_FFS",
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "LIFE_SCIENCES_VALUE_PROP",
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+        "PAIN_SEGMENT_MATRIX",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_TIER_1_PROVIDER_534M",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "OUTREACH_WAVE_STRUCTURE",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "TAM_DEDUP_METHODOLOGY",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "ACCOUNT_SCHEMA_EXTENDED",
+      "rel_path": "knowledge_base/methodology/ACCOUNT_SCHEMA_EXTENDED.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Extended 40+ field account schema for Kivira TAM building - core ID, tier classification, tech signals, scoring, and dedup logic.",
+      "tags": [
+        "methodology",
+        "workflow",
+        "gtm-motion",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "workflow",
+        "buyer-diligence",
+        "gtm-motion",
+        "tam-total-addressable-market"
+      ],
+      "related_concepts": [
+        "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[TAM_DEDUP_METHODOLOGY]]",
+        "[[PUBLIC_DATA_SOURCES_TAM]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 121,
+      "outbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "TAM_DEDUP_METHODOLOGY",
+        "PUBLIC_DATA_SOURCES_TAM"
+      ],
+      "inbound": [
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "SUBTIER_EXCLUSION_RULES",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "COCM_ACCOUNT_PROFILE_SCHEMA",
+      "rel_path": "knowledge_base/methodology/COCM_ACCOUNT_PROFILE_SCHEMA.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Internal schema for account-level inputs to the CoCM opportunity workflow, including org identity, org type, persona priorities, and candidate-search bounds.",
+      "tags": [
+        "methodology",
+        "workflow",
+        "gtm-motion",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "workflow",
+        "buyer-diligence",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[COCM_PUBLIC_ESTIMATE_ENGINE_V2]]",
+        "[[ORG_TYPE_BUYER_MAP_COCM]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[COCM_OUTREACH_SEQUENCING]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/kivira-deployment-guide-cocm-2026-04-05.md",
+      "body_lines": 30,
+      "outbound": [
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "COCM_OUTREACH_SEQUENCING"
+      ],
+      "inbound": [
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ],
+      "issues": []
+    },
+    {
+      "name": "COCM_CONFIDENCE_GRADE_RULES",
+      "rel_path": "knowledge_base/methodology/COCM_CONFIDENCE_GRADE_RULES.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Internal confidence-grade model for deciding how hard Kivira can lean on public CoCM opportunity estimates in outreach and ranking.",
+      "tags": [
+        "methodology",
+        "evidence-discipline",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "workflow",
+        "evidence-discipline",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[COCM_PUBLIC_ESTIMATE_ENGINE_V2]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[COCM_OUTREACH_SEQUENCING]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/kivira-cocm-estimate-engine-v2-2026-04-05.md; raw-context/kivira-internal/kivira-deployment-guide-cocm-2026-04-05.md",
+      "body_lines": 30,
+      "outbound": [
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "OUTREACH_WAVE_STRUCTURE",
+        "COCM_OUTREACH_SEQUENCING"
+      ],
+      "inbound": [
+        "COCM_OUTREACH_SEQUENCING",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "wave1a_heyreach_copy"
+      ],
+      "issues": []
+    },
+    {
+      "name": "COCM_OUTREACH_SEQUENCING",
+      "rel_path": "knowledge_base/methodology/COCM_OUTREACH_SEQUENCING.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Internal tier-based outreach sequencing for the CoCM wedge, including when to use numbers, when to stay discovery-first, and when not to outbound.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[ORG_TYPE_BUYER_MAP_COCM]]",
+        "[[COCM_CONFIDENCE_GRADE_RULES]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/kivira-deployment-guide-cocm-2026-04-05.md",
+      "body_lines": 27,
+      "outbound": [
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "OUTREACH_WAVE_STRUCTURE",
+        "GTM_30_60_90_EXECUTION_CADENCE"
+      ],
+      "inbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "issues": []
+    },
+    {
+      "name": "DEMO_FIRST_OUTBOUND_STRATEGY",
+      "rel_path": "knowledge_base/methodology/DEMO_FIRST_OUTBOUND_STRATEGY.md",
+      "domain": "methodology",
+      "node_type": "principle",
+      "status": "draft",
+      "last_updated": "",
+      "description": "Prioritize booking demos via manual multi-channel outreach before investing heavily in outbound infrastructure; scale infra only after a working message/ICP loop exists.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "source-research-synthesis"
+      ],
+      "topics": [],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/kivira-internal/jp-km-outbound-strategy-meeting-notes-2026-04-07.md",
+      "body_lines": 22,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OUTREACH_BASELINE_METRICS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ],
+      "inbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "issues": [
+        "unknown node_type 'principle'",
+        "unknown status 'draft'"
+      ]
+    },
+    {
+      "name": "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+      "rel_path": "knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Starter discovery checklist for PCP-centric behavioral health + EHR-integrated CDS deals—maps to public integration and safety surfaces.",
+      "tags": [
+        "methodology",
+        "discovery-calls",
+        "gtm-motion"
+      ],
+      "topics": [
+        "buyer-diligence",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[EHR_INTEGRATION_SMART_ON_FHIR]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[PATIENT_APP_SAFETY_ALERTS]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/MARKETANALYSIS.md; internal GTM pattern",
+      "body_lines": 30,
+      "outbound": [
+        "GTM_MOTION_HYPOTHESIS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "PATIENT_APP_SAFETY_ALERTS"
+      ],
+      "inbound": [
+        "B2B_CLINIC_BUYER_MODEL",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "GTM_MOTION_HYPOTHESIS",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+      "rel_path": "knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Operating rule from research synthesis—separate public marketing claims, third-party instrument validity, and Kivira-specific outcomes; avoid conflating them in sales conversations.",
+      "tags": [
+        "methodology",
+        "evidence-discipline",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "objection-handling",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[COMPETITIVE_EVIDENCE_GAP]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 23,
+      "outbound": [
+        "COMPETITIVE_EVIDENCE_GAP",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "PUBLIC_VALUE_PROPOSITION_HOME"
+      ],
+      "inbound": [
+        "COMPETITIVE_EVIDENCE_GAP",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+      "rel_path": "knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-04-07",
+      "description": "Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap first, GA pilot, live-public gating, messaging deferred",
+      "tags": [
+        "methodology",
+        "workflow",
+        "tam-total-addressable-market",
+        "tier-architecture",
+        "account-schema"
+      ],
+      "topics": [
+        "workflow",
+        "tam-total-addressable-market",
+        "tier-architecture",
+        "account-schema",
+        "public-data-sources"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PUBLIC_DATA_SOURCES_TAM]]",
+        "[[SUBTIER_EXCLUSION_RULES]]",
+        "[[ACCOUNT_SCHEMA_EXTENDED]]",
+        "[[TAM_DEDUP_METHODOLOGY]]",
+        "[[COCM_CONFIDENCE_GRADE_RULES]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Cursor conversation — GA pilot + fresh 1A/1B/1C list build (ingest)",
+      "body_lines": 30,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "SUBTIER_EXCLUSION_RULES",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "TAM_DEDUP_METHODOLOGY",
+        "COCM_CONFIDENCE_GRADE_RULES"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "GTM_30_60_90_EXECUTION_CADENCE",
+      "rel_path": "knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "30-60-90 day execution cadence for Kivira GTM motion",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER]]",
+        "[[PILOT_SITE_ACQUISITION_PRIORITY]]",
+        "[[MESSAGING_HYPOTHESIS_DISCIPLINE]]",
+        "[[THIRTY_DAY_OFFICE_MANAGER_TARGET]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas email thread 2026-04-03; Josh Pappas call 2026-04-06",
+      "body_lines": 74,
+      "outbound": [
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_MOTION_HYPOTHESIS",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+      ],
+      "inbound": [
+        "DIRECT_BILLING_MODEL_FFS",
+        "TAM_TIER_1_PROVIDER_534M",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "COCM_OUTREACH_SEQUENCING",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "OUTREACH_WAVE_STRUCTURE",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "issues": []
+    },
+    {
+      "name": "GTM_MOTION_HYPOTHESIS",
+      "rel_path": "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS for primary care behavioral health, supported by security + clinical diligence and pilot expansion.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "discovery-calls",
+        "objection-handling"
+      ],
+      "related_concepts": [
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER]]",
+        "[[COMPETITIVE_EVIDENCE_GAP]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 22,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "B2B_CLINIC_BUYER_MODEL",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "CDS_NOT_DIAGNOSIS_FRAMING"
+      ],
+      "inbound": [
+        "BUYING_COMMITTEE_DYNAMICS",
+        "MARKET_ADOPTION_STAGE_2026",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+      ],
+      "issues": []
+    },
+    {
+      "name": "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+      "rel_path": "knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-07",
+      "description": "Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier 2 Risk-bearing/enablement, Tier 3 Enterprise expansion.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "market-segmentation",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "market-segmentation",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[PAIN_SEGMENT_MATRIX]]",
+        "[[SUBTIER_EXCLUSION_RULES]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
+        "[[DEMO_FIRST_OUTBOUND_STRATEGY]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 293,
+      "outbound": [
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "PAIN_SEGMENT_MATRIX",
+        "SUBTIER_EXCLUSION_RULES",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "OUTREACH_BASELINE_METRICS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ],
+      "inbound": [
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "PAIN_SEGMENT_MATRIX",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "OUTREACH_BASELINE_METRICS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "SUBTIER_EXCLUSION_RULES",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "MESSAGING_HYPOTHESIS_DISCIPLINE",
+      "rel_path": "knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Treat all messaging as hypothesis to be validated/disproved by outreach data - not as established truth.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "evidence-discipline",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "discovery-calls",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[PILOT_SITE_ACQUISITION_PRIORITY]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas call 2026-04-06",
+      "body_lines": 54,
+      "outbound": [
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET"
+      ],
+      "inbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET"
+      ],
+      "issues": []
+    },
+    {
+      "name": "ORG_TYPE_BUYER_MAP_COCM",
+      "rel_path": "knowledge_base/methodology/ORG_TYPE_BUYER_MAP_COCM.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Internal buyer-routing map that changes champion order, title matching, and lead angle by org type for the CoCM wedge.",
+      "tags": [
+        "methodology",
+        "buyer-diligence",
+        "gtm-motion",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "buyer-diligence",
+        "workflow",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
+        "[[COCM_OUTREACH_SEQUENCING]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[GTM_MOTION_HYPOTHESIS]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/kivira-deployment-guide-cocm-2026-04-05.md",
+      "body_lines": 31,
+      "outbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "COCM_OUTREACH_SEQUENCING",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_MOTION_HYPOTHESIS"
+      ],
+      "inbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "COCM_OUTREACH_SEQUENCING",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "issues": []
+    },
+    {
+      "name": "OUTREACH_BASELINE_METRICS",
+      "rel_path": "knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "draft",
+      "last_updated": "",
+      "description": "Minimal measurement spec for outbound so we can learn which subtiers/personas/messages generate signals and booked demos.",
+      "tags": [
+        "methodology",
+        "outbound",
+        "metrics",
+        "buyer-diligence",
+        "source-research-synthesis"
+      ],
+      "topics": [],
+      "related_concepts": [
+        "[[DEMO_FIRST_OUTBOUND_STRATEGY]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[PAIN_SEGMENT_MATRIX]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/kivira-internal/jp-km-outbound-strategy-meeting-notes-2026-04-07.md",
+      "body_lines": 40,
+      "outbound": [
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "PAIN_SEGMENT_MATRIX"
+      ],
+      "inbound": [
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ],
+      "issues": [
+        "unknown status 'draft'"
+      ]
+    },
+    {
+      "name": "OUTREACH_WAVE_STRUCTURE",
+      "rel_path": "knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Wave 1-3 outreach execution structure with contact volumes and timing",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "tam-total-addressable-market"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[TAM_TIER_1_PROVIDER_534M]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Complete TAM All Tiers.pdf",
+      "body_lines": 124,
+      "outbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_TIER_1_PROVIDER_534M",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "TAM_TIER_2_ACO_VBC_73M"
+      ],
+      "inbound": [
+        "TAM_TIER_2_ACO_VBC_73M",
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "COCM_OUTREACH_SEQUENCING",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+      "rel_path": "knowledge_base/methodology/PERSONA_TITLE_DICTIONARY_BY_SUBTIER.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-07",
+      "description": "Clay/LinkedIn-searchable title dictionary for five demo-bookable buying-committee roles across all nine GTM subtiers.",
+      "tags": [
+        "methodology",
+        "buyer-diligence",
+        "gtm-motion",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "buyer-diligence",
+        "workflow",
+        "gtm-motion",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[BUYING_COMMITTEE_DYNAMICS]]",
+        "[[ORG_TYPE_BUYER_MAP_COCM]]",
+        "[[COCM_OUTREACH_SEQUENCING]]",
+        "[[DEMO_FIRST_OUTBOUND_STRATEGY]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 329,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "COCM_OUTREACH_SEQUENCING",
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "OUTREACH_BASELINE_METRICS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ],
+      "inbound": [
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "gtm-plan-v1",
+        "wave1a_heyreach_copy"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PILOT_SITE_ACQUISITION_PRIORITY",
+      "rel_path": "knowledge_base/methodology/PILOT_SITE_ACQUISITION_PRIORITY.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Pre-seed stage priority - secure pilot sites to prove value before scaling GTM or building ICP.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[MESSAGING_HYPOTHESIS_DISCIPLINE]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas call 2026-04-06",
+      "body_lines": 36,
+      "outbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE"
+      ],
+      "inbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "wave-1a-execution-schedule-2026-05-01"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PUBLIC_DATA_SOURCES_TAM",
+      "rel_path": "knowledge_base/methodology/PUBLIC_DATA_SOURCES_TAM.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Free public data sources for Kivira TAM building - NPPES, CMS, HRSA, NCQA sources mapped to subtiers.",
+      "tags": [
+        "methodology",
+        "workflow",
+        "tam-total-addressable-market",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "workflow",
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[ACCOUNT_SCHEMA_EXTENDED]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[SUBTIER_EXCLUSION_RULES]]",
+        "[[TAM_DEDUP_METHODOLOGY]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 193,
+      "outbound": [
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "SUBTIER_EXCLUSION_RULES",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "inbound": [
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "SUBTIER_EXCLUSION_RULES",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "SUBTIER_EXCLUSION_RULES",
+      "rel_path": "knowledge_base/methodology/SUBTIER_EXCLUSION_RULES.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Exclusion rules by subtier for Kivira TAM building - what to exclude before enrichment and outreach.",
+      "tags": [
+        "methodology",
+        "workflow",
+        "gtm-motion",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "workflow",
+        "buyer-diligence",
+        "gtm-motion",
+        "tam-total-addressable-market"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[ACCOUNT_SCHEMA_EXTENDED]]",
+        "[[PUBLIC_DATA_SOURCES_TAM]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/MARKETANALYSIS.md",
+      "body_lines": 157,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "PUBLIC_DATA_SOURCES_TAM"
+      ],
+      "inbound": [
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TAM_DEDUP_METHODOLOGY",
+      "rel_path": "knowledge_base/methodology/TAM_DEDUP_METHODOLOGY.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "CMS-based deduplication methodology for Kivira TAM - ensures no logo is counted twice",
+      "tags": [
+        "methodology",
+        "tam-total-addressable-market",
+        "market-segmentation"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "market-segmentation",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[TAM_TIER_1_PROVIDER_534M]]",
+        "[[TAM_TIER_3_ENTERPRISE_92M]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Complete TAM All Tiers.pdf",
+      "body_lines": 133,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_TIER_1_PROVIDER_534M",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "THREE_SEGMENT_ICP_FRAMEWORK"
+      ],
+      "inbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_TIER_3_ENTERPRISE_92M",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "PUBLIC_DATA_SOURCES_TAM"
+      ],
+      "issues": []
+    },
+    {
+      "name": "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+      "rel_path": "knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, dialer) with cost tiers; Josh + Keegan own procurement and admin—not delegated to founder for credentials.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "outbound-infrastructure"
+      ],
+      "related_concepts": [
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[THIRTY_DAY_OFFICE_MANAGER_TARGET]]",
+        "[[ACCOUNT_SCHEMA_EXTENDED]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[GTM_MOTION_HYPOTHESIS]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "internal-document",
+      "source_file": "raw-context/kivira-internal/kivira-gtm-tech-stack-executive-summary-2026-04-06.md",
+      "body_lines": 28,
+      "outbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "OUTREACH_WAVE_STRUCTURE",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "GTM_MOTION_HYPOTHESIS",
+        "PRIMARY_CARE_WEDGE_ICP"
+      ],
+      "inbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "OUTREACH_WAVE_STRUCTURE"
+      ],
+      "issues": []
+    },
+    {
+      "name": "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+      "rel_path": "knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Concrete 30-day milestone - 5 office managers on the phone as proof of outreach output and messaging validation.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[MESSAGING_HYPOTHESIS_DISCIPLINE]]",
+        "[[PILOT_SITE_ACQUISITION_PRIORITY]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas call 2026-04-06",
+      "body_lines": 65,
+      "outbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "inbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+      ],
+      "issues": []
+    },
+    {
+      "name": "WAVE_1_SCORING_FRAMEWORK",
+      "rel_path": "knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-05",
+      "description": "Pilot feasibility and buyer complexity scoring for Wave 1 account prioritization",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "tam-total-addressable-market"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[TAM_TIER_1_PROVIDER_534M]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER]]"
+      ],
+      "source_type": "document",
+      "source_file": "Kivira Tier1 Complete Validated.pdf",
+      "body_lines": 146,
+      "outbound": [
+        "OUTREACH_WAVE_STRUCTURE",
+        "TAM_TIER_1_PROVIDER_534M",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
+      ],
+      "inbound": [
+        "TAM_TIER_1_PROVIDER_534M",
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "OUTREACH_WAVE_STRUCTURE",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET"
+      ],
+      "issues": []
+    },
+    {
+      "name": "CDS_NOT_DIAGNOSIS_FRAMING",
+      "rel_path": "knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md",
+      "domain": "technical",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Legally and clinically, Kivira’s outputs are clinical decision support that do not replace clinician judgment—this constrains marketing and sales language.",
+      "tags": [
+        "technical",
+        "cds-clinical-decision-support",
+        "source-public-web"
+      ],
+      "topics": [
+        "regulatory-risk",
+        "patient-app"
+      ],
+      "related_concepts": [
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[PRIVACY_AND_HIPAA_ROLE]]",
+        "[[PATIENT_APP_SAFETY_ALERTS]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/legal-patient-app-terms.md; raw-context/kivira-public/legal-privacy-policy.md",
+      "body_lines": 19,
+      "outbound": [
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "PATIENT_APP_SAFETY_ALERTS"
+      ],
+      "inbound": [
+        "B2B_CLINIC_BUYER_MODEL",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "GTM_MOTION_HYPOTHESIS",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "CPT_BILLING_CODES_BHI",
+        "HCC_V28_CODING_OPPORTUNITY",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "CLINICAL_INSTRUMENTS_SURFACE",
+      "rel_path": "knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md",
+      "domain": "technical",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Public instrument overview lists scale names, constructs, and primary literature references—does not reproduce items; supports evidence-grounded GTM talk tracks.",
+      "tags": [
+        "technical",
+        "cds-clinical-decision-support",
+        "source-public-web"
+      ],
+      "topics": [
+        "buyer-diligence",
+        "evidence-discipline"
+      ],
+      "related_concepts": [
+        "[[COMPETITIVE_EVIDENCE_GAP]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/instrument-overview.md",
+      "body_lines": 19,
+      "outbound": [
+        "COMPETITIVE_EVIDENCE_GAP",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PUBLIC_VALUE_PROPOSITION_HOME"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "LIFE_SCIENCES_VALUE_PROP",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+      "rel_path": "knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md",
+      "domain": "technical",
+      "node_type": "framework",
+      "status": "validated",
+      "last_updated": "2026-04-06",
+      "description": "Internal reference engine for modeled CoCM opportunity estimation using public Medicare and NPPES signals, with explicit caveats and persona messaging.",
+      "tags": [
+        "technical",
+        "collaborative-care-cocm",
+        "cpt-billing-codes",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "cpt-billing-codes",
+        "fee-for-service-ffs",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[CPT_BILLING_CODES_BHI]]",
+        "[[DIRECT_BILLING_MODEL_FFS]]",
+        "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
+        "[[COCM_CONFIDENCE_GRADE_RULES]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/kivira-cocm-estimate-engine-v2-2026-04-05.md",
+      "body_lines": 32,
+      "outbound": [
+        "CPT_BILLING_CODES_BHI",
+        "DIRECT_BILLING_MODEL_FFS",
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "COCM_CONFIDENCE_GRADE_RULES"
+      ],
+      "inbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "COCM_CONFIDENCE_GRADE_RULES"
+      ],
+      "issues": []
+    },
+    {
+      "name": "CPT_BILLING_CODES_BHI",
+      "rel_path": "knowledge_base/technical/CPT_BILLING_CODES_BHI.md",
+      "domain": "technical",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Key CPT codes for behavioral health integration billing that Kivira documentation supports",
+      "tags": [
+        "technical",
+        "cpt-billing-codes",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "cpt-billing-codes",
+        "fee-for-service-ffs",
+        "compliance"
+      ],
+      "related_concepts": [
+        "[[DIRECT_BILLING_MODEL_FFS]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 46,
+      "outbound": [
+        "DIRECT_BILLING_MODEL_FFS",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "CDS_NOT_DIAGNOSIS_FRAMING"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "DIRECT_BILLING_MODEL_FFS",
+        "EDP_COCM_REVENUE_REALIZATION",
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
+        "HCC_V28_CODING_OPPORTUNITY"
+      ],
+      "issues": []
+    },
+    {
+      "name": "EHR_INTEGRATION_SMART_ON_FHIR",
+      "rel_path": "knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md",
+      "domain": "technical",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Public documentation highlights SMART on FHIR / HL7-class integration, Epic MyChart invitation OAuth (PKCE), and clinic-configured data flows.",
+      "tags": [
+        "technical",
+        "ehr-integration",
+        "smart-on-fhir",
+        "source-public-web"
+      ],
+      "topics": [
+        "buyer-diligence",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[PRIVACY_AND_HIPAA_ROLE]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/legal-patient-app-terms.md; raw-context/kivira-public/legal-privacy-policy.md",
+      "body_lines": 19,
+      "outbound": [
+        "B2B_CLINIC_BUYER_MODEL",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "CLINICAL_INSTRUMENTS_SURFACE"
+      ],
+      "inbound": [
+        "B2B_CLINIC_BUYER_MODEL",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "HCC_V28_CODING_OPPORTUNITY",
+      "rel_path": "knowledge_base/technical/HCC_V28_CODING_OPPORTUNITY.md",
+      "domain": "technical",
+      "node_type": "concept",
+      "status": "emergent",
+      "last_updated": "2026-04-05",
+      "description": "Technical explanation of CMS V28 HCC model and behavioral health coding opportunity",
+      "tags": [
+        "technical",
+        "hcc-hierarchical-condition-categories",
+        "v28-model-cms",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "hcc-hierarchical-condition-categories",
+        "v28-model-cms",
+        "risk-adjustment-raf",
+        "compliance"
+      ],
+      "related_concepts": [
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 40,
+      "outbound": [
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "CPT_BILLING_CODES_BHI"
+      ],
+      "inbound": [
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT"
+      ],
+      "issues": []
+    },
+    {
+      "name": "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+      "rel_path": "knowledge_base/technical/LIST_BUILDING_STACK_CLAY_ENRICHMENT.md",
+      "domain": "technical",
+      "node_type": "workflow",
+      "status": "draft",
+      "last_updated": "",
+      "description": "List-building approach using Clay as an orchestration/enrichment layer, combined with public-data scraping and finite-TAM list hygiene.",
+      "tags": [
+        "technical",
+        "outbound",
+        "data-enrichment",
+        "tooling",
+        "source-research-synthesis"
+      ],
+      "topics": [],
+      "related_concepts": [
+        "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[OUTREACH_BASELINE_METRICS]]"
+      ],
+      "source_type": "research-synthesis",
+      "source_file": "raw-context/kivira-internal/jp-km-outbound-strategy-meeting-notes-2026-04-07.md",
+      "body_lines": 27,
+      "outbound": [
+        "COCM_ACCOUNT_PROFILE_SCHEMA",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS"
+      ],
+      "inbound": [
+        "DEMO_FIRST_OUTBOUND_STRATEGY",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "issues": [
+        "unknown node_type 'workflow'",
+        "unknown status 'draft'"
+      ]
+    },
+    {
+      "name": "PATIENT_APP_SAFETY_ALERTS",
+      "rel_path": "knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md",
+      "domain": "technical",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Self-harm risk may trigger provider notification (clinic-configured) and optional crisis resource emails; explicitly not real-time monitoring or emergency care.",
+      "tags": [
+        "technical",
+        "safety-risk-notification",
+        "patient-app",
+        "source-public-web"
+      ],
+      "topics": [
+        "compliance",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[PRIVACY_AND_HIPAA_ROLE]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/legal-patient-app-terms.md; raw-context/kivira-public/legal-privacy-policy.md",
+      "body_lines": 19,
+      "outbound": [
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "PRIMARY_CARE_WEDGE_ICP"
+      ],
+      "inbound": [
+        "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "PRIVACY_AND_HIPAA_ROLE",
+      "rel_path": "knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md",
+      "domain": "technical",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-04-03",
+      "description": "Privacy policy states HIPAA Business Associate role for EHR-integrated processing; limits on advertising, sale, and broker sharing; AI-assisted features with human review emphasis.",
+      "tags": [
+        "technical",
+        "patient-app",
+        "source-public-web"
+      ],
+      "topics": [
+        "compliance",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[EHR_INTEGRATION_SMART_ON_FHIR]]",
+        "[[PATIENT_APP_SAFETY_ALERTS]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-public/legal-privacy-policy.md",
+      "body_lines": 21,
+      "outbound": [
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "CDS_NOT_DIAGNOSIS_FRAMING"
+      ],
+      "inbound": [
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "gtm-plan-v1",
+        "messaging-pillars-v1",
+        "positioning-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "gtm-plan-v1",
+      "rel_path": "00_foundation/_synthesis/gtm-plan-v1.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Purpose:** Single synthesis for new GTM hires. Details live in `knowledge_base/` nodes—follow `[[wiki-links]]` before ",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 94,
+      "outbound": [
+        "MARKET_ADOPTION_STAGE_2026",
+        "EDP_COCM_REVENUE_REALIZATION",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "B2B_CLINIC_BUYER_MODEL",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PAIN_SEGMENT_MATRIX",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "ACCOUNT_SCHEMA_EXTENDED",
+        "SUBTIER_EXCLUSION_RULES",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "wave-1a-execution-schedule-2026-05-01",
+      "rel_path": "00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**For:** Josh Pappas",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 196,
+      "outbound": [
+        "PILOT_SITE_ACQUISITION_PRIORITY"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "messaging-pillars-v1",
+      "rel_path": "00_foundation/messaging/messaging-pillars-v1.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Layer 2 —** links to Layer 1 nodes. All external copy must pass legal/clinical review.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 49,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "B2B_CLINIC_BUYER_MODEL",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "wave1a_heyreach_copy",
+      "rel_path": "00_foundation/messaging/wave1a_heyreach_copy.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Audience:** Directors/VPs at multi-site primary care / specialty medical groups (~50–300 clinicians), not IDNs, not pa",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 126,
+      "outbound": [
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "positioning-v1",
+      "rel_path": "00_foundation/positioning/positioning-v1.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Layer 2 doc —** composes atomic nodes; do not duplicate long explanations here.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 29,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "B2B_CLINIC_BUYER_MODEL",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "FUNDING_AND_BACKING_SIGNALS",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "PRIVACY_AND_HIPAA_ROLE"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "context-sensitivity-model",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/context-sensitivity-model.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "Deep dive on context sensitivity assessment - determining when domain knowledge critically affects solution quality.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 253,
+      "outbound": [],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "domain-query-patterns",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/domain-query-patterns.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "Search patterns for traversing your context OS to discover domain documentation, specs, and canonical sources.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 291,
+      "outbound": [],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "falsifiability-spectrum",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/falsifiability-spectrum.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "Framework for grading the verifiability of assumptions and design decisions, preventing solutions built on weak foundati",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 337,
+      "outbound": [],
+      "inbound": [],
+      "issues": []
+    }
+  ],
+  "workflows": [
+    {
+      "name": "claims-safe-outbound",
+      "rel_path": "_system/agent_workflows/claims-safe-outbound.md",
+      "description": "Generate discovery-safe, grade-aware outbound briefs that respect CDS framing and public-data caveats."
+    },
+    {
+      "name": "cocm-opportunity-estimate",
+      "rel_path": "_system/agent_workflows/cocm-opportunity-estimate.md",
+      "description": "Estimate conservative/base/aggressive CoCM opportunity from normalized account inputs using the PDF-derived reference lo"
+    },
+    {
+      "name": "heyreach-mcp-load-runbook",
+      "rel_path": "_system/agent_workflows/heyreach-mcp-load-runbook.md",
+      "description": "**Purpose:** Step-by-step instructions for loading enriched LinkedIn URLs from `fixtures/wave1_linkedin_master.csv` into"
+    },
+    {
+      "name": "heyreach-zero-budget-sourcing",
+      "rel_path": "_system/agent_workflows/heyreach-zero-budget-sourcing.md",
+      "description": "**Purpose:** Take a qualified subtier account list and produce a CSV of LinkedIn profile URLs for the five buying-commit"
+    },
+    {
+      "name": "meeting-notes-ingest",
+      "rel_path": "_system/agent_workflows/meeting-notes-ingest.md",
+      "description": "**Purpose:** Standardize how we ingest meeting notes into the Context OS so raw evidence is preserved and durable concep"
+    },
+    {
+      "name": "persona-router",
+      "rel_path": "_system/agent_workflows/persona-router.md",
+      "description": "Convert `org_type` and priority persona inputs into a concrete buyer sequence and title map for outreach and CRM work."
+    },
+    {
+      "name": "tam-account-intake",
+      "rel_path": "_system/agent_workflows/tam-account-intake.md",
+      "description": "Normalize arbitrary TAM/list-building CSV inputs into the repo-local account schema before any scoring, routing, or brie"
+    },
+    {
+      "name": "tiered-outreach-planner",
+      "rel_path": "_system/agent_workflows/tiered-outreach-planner.md",
+      "description": "Translate modeled opportunity and confidence into a tier, an outbound recommendation, and the correct sequencing logic."
+    },
+    {
+      "name": "wave1-small-batch-iteration",
+      "rel_path": "_system/agent_workflows/wave1-small-batch-iteration.md",
+      "description": "**Purpose:** Ship **20–30 connection requests per subtier code** per round, prioritizing leads most likely to **accept q"
+    }
+  ],
+  "skills": [
+    {
+      "name": "claims-safe-outbound",
+      "rel_path": ".claude/skills/claims-safe-outbound/SKILL.md",
+      "description": "Generate grade-aware outbound briefs that stay inside evidence and CDS guardrails."
+    },
+    {
+      "name": "cocm-opportunity-estimate",
+      "rel_path": ".claude/skills/cocm-opportunity-estimate/SKILL.md",
+      "description": "Estimate CoCM opportunity using the repo-local contract and the internal PDF-derived reference logic."
+    },
+    {
+      "name": "persona-router",
+      "rel_path": ".claude/skills/persona-router/SKILL.md",
+      "description": "Route accounts to the right buyer sequence and title map by org type."
+    },
+    {
+      "name": "tam-account-intake",
+      "rel_path": ".claude/skills/tam-account-intake/SKILL.md",
+      "description": "Normalize TAM/list-building CSV inputs into the repo-local account schema before scoring or routing."
+    },
+    {
+      "name": "tiered-outreach-planner",
+      "rel_path": ".claude/skills/tiered-outreach-planner/SKILL.md",
+      "description": "Apply tier logic and produce outbound recommendations from modeled opportunity and confidence."
+    },
+    {
+      "name": "context-gap-analysis",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/context-gap-analysis/SKILL.md",
+      "description": "Enumerate required context, check what exists, and find the simplest path forward before any task. Prevents hallucinatio"
+    },
+    {
+      "name": "context-os-basics",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/context-os-basics/SKILL.md",
+      "description": "Foundation patterns for building context operating systems"
+    },
+    {
+      "name": "epistemic-context-grounding",
+      "rel_path": "gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/SKILL.md",
+      "description": "Ground implementation decisions in domain knowledge before designing solutions. Prevents over-engineering by checking wh"
+    }
+  ]
+}

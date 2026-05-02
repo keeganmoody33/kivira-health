@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Kivira GTM Tech Stack Executive Summary</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="kivira-gtm-tech-stack-print.css" />
+</head>
+<body>
+<header class="doc-head">
+  <p class="brand">Kivira.health</p>
+  <p class="meta">GTM outbound · Internal operational planning</p>
+</header>
+<header id="title-block-header">
+<h1 class="title">Kivira GTM Tech Stack Executive Summary</h1>
+</header>
+<p><strong>Date:</strong> 2026-04-06 <strong>Prepared for:</strong>
+Keegan Moody, Josh Pappas · <strong>Audience:</strong> Kivira leadership
+(budget &amp; strategy alignment) <strong>Classification:</strong>
+Internal — Operational Planning <strong>Related:</strong>
+<span class="wikilink">GTM_30_60_90_EXECUTION_CADENCE</span> · <span class="wikilink">OUTREACH_WAVE_STRUCTURE</span> ·
+<span class="wikilink">THIRTY_DAY_OFFICE_MANAGER_TARGET</span> ·
+<span class="wikilink">TECH_STACK_OUTBOUND_INFRASTRUCTURE</span></p>
+<hr />
+<h2 id="ops-ownership-read-this-first">Ops ownership (read this
+first)</h2>
+<p><strong>Josh Pappas and Keegan Moody</strong> own GTM outbound for
+this stack: vendor selection, procurement, renewals, account
+administration, integrations, and secure credential handling (shared
+vault or ops-owned identities). <strong>The founder is not expected to
+buy tools, receive API keys or passwords for routine execution, or
+operate as the day-to-day admin</strong> for these systems. If the
+company places subscriptions on a corporate card under a specific name
+for finance reasons, GTM ops still retain admin access and secrets—this
+is not a “purchase and Slack me the codes” workflow.</p>
+<p><strong>What we need from leadership:</strong> Alignment on monthly
+spend bands, runway tolerance, and go/no-go on strategic upgrades (e.g.,
+Clay, sequencer scale tiers). This document informs those decisions;
+execution stays with Josh and Keegan.</p>
+<hr />
+<h2 id="executive-summary">1. Executive Summary</h2>
+<p>Kivira needs a go-to-market stack that can find the right primary
+care accounts, identify the right people inside buying committees, reach
+them across email and LinkedIn simultaneously, and track every
+interaction through to pilot conversion — all while operating within
+healthcare compliance norms and a pre-seed budget.</p>
+<p>This document recommends a 10-layer stack built around <strong>Claude
+Code as the orchestration brain</strong>, with dedicated tools for email
+sequencing, LinkedIn automation, inbox provisioning, contact enrichment,
+CRM, and phone outreach. The architecture is designed to support
+account-based, multichannel outbound into a healthcare B2B market where
+buyers are evidence-sensitive, procurement cycles involve 3-4 persona
+types, and proof-of-value windows are short.</p>
+<p><strong>What to buy now:</strong> Email infrastructure, sequencer,
+enrichment, LinkedIn tools, and a dialer. These are required to hit the
+Day 30 milestone of 5 live office manager conversations.</p>
+<p><strong>What to defer:</strong> Dedicated CRM (Smartlead’s built-in
+or Airtable Free covers Phase 1), workflow automation between systems,
+and advanced analytics tooling. These become relevant at Day 30-60 when
+data flows between systems at volume.</p>
+<p><strong>Estimated monthly spend:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Monthly</th>
+<th>Annual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lean MVP</td>
+<td>~$460–500</td>
+<td>~$5,500–6,000</td>
+</tr>
+<tr>
+<td>Recommended Core</td>
+<td>~$700–760</td>
+<td>~$8,400–9,100</td>
+</tr>
+<tr>
+<td>Scale-Ready</td>
+<td>~$880–950</td>
+<td>~$10,600–11,400</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Highest-risk unknowns:</strong> 1. Whether email
+deliverability to healthcare admin inboxes holds at projected rates —
+healthcare domains are aggressive spam filters 2. Whether the 40+ field
+account schema can live in a free-tier CRM without friction, or forces a
+$14+/mo Pipedrive commitment early 3. Whether Clay’s waterfall
+enrichment materially improves on LeadMagic/Wiza standalone — the
+$167-185/mo delta needs to earn its keep 4. Whether the market responds
+to operator-first outreach (office managers) or demands
+clinical-champion-first messaging — this determines sequencing logic
+across the entire stack</p>
+<hr />
+<h2 id="kivira-gtm-operating-context">2. Kivira GTM Operating
+Context</h2>
+<p>This stack must support a specific GTM model — not generic SaaS
+outbound.</p>
+<h3 id="the-motion">The motion</h3>
+<p>Kivira sells clinical decision support for behavioral health into
+primary care. The wedge is PCPs who are already the frontline for mental
+health care but lack structured screening and decision-support tooling.
+The buyer environment is evidence-sensitive, operationally constrained,
+and procurement-heavy.</p>
+<h3 id="what-the-stack-must-do">What the stack must do</h3>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 31%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Operating Need</th>
+<th>Why It Matters</th>
+<th>Stack Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Account identification</strong></td>
+<td>~23,700 target accounts across 9 subtiers, sourced from NPPES, CMS,
+HRSA public data</td>
+<td>Need a research/orchestration layer (Claude Code) that builds lists
+from public registries, not just purchased databases</td>
+</tr>
+<tr>
+<td><strong>Contact enrichment</strong></td>
+<td>Must find office managers, practice admins, clinical directors — not
+just C-suite</td>
+<td>Need enrichment tools that resolve person-level contacts from
+org-level data (LeadMagic/Wiza + Clay waterfall)</td>
+</tr>
+<tr>
+<td><strong>Persona mapping</strong></td>
+<td>3-persona buying committee (clinical champion, technology
+gatekeeper, operational buyer) with strict sequencing: operator first,
+clinical second, economic third</td>
+<td>CRM must track persona type per contact and support multi-threaded
+account views</td>
+</tr>
+<tr>
+<td><strong>Subtier segmentation</strong></td>
+<td>9 subtiers across 3 tiers with different outreach rules, evidence
+grades, and messaging</td>
+<td>Sequencer must support segment-based campaign logic; enrichment must
+tag subtier membership</td>
+</tr>
+<tr>
+<td><strong>Multichannel outbound</strong></td>
+<td>Email + LinkedIn running in parallel against the same prospect
+list</td>
+<td>Need both an email sequencer and LinkedIn automation tool with
+shared lead data</td>
+</tr>
+<tr>
+<td><strong>Evidence-governed claims</strong></td>
+<td>CoCM revenue estimates can only be used in outbound above confidence
+Grade B</td>
+<td>Messaging discipline must be enforced at the campaign level, not
+just in templates</td>
+</tr>
+<tr>
+<td><strong>Pilot-first sales motion</strong></td>
+<td>Every CTA frames toward low-friction pilot setup with short
+time-to-value</td>
+<td>Pipeline tracking needs pilot stage management, not just deal
+stages</td>
+</tr>
+<tr>
+<td><strong>Healthcare compliance awareness</strong></td>
+<td>Buyers expect HIPAA-ready vendors; any tool touching prospect data
+must not inadvertently handle PHI</td>
+<td>Stack should avoid tools that require storing patient data; outreach
+data is prospect/business data, not clinical</td>
+</tr>
+<tr>
+<td><strong>30-day proof of output</strong></td>
+<td>Day 30 milestone: 5 office managers on the phone</td>
+<td>Stack must be operational within 2-3 weeks, not 2-3 months</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-constraint">The constraint</h3>
+<p>Kivira is pre-seed. The stack must be lean enough to run with 1-2
+operators, elegant enough to scale when funding arrives, and opinionated
+enough that Claude Code can orchestrate workflows without manual glue
+logic at every step.</p>
+<hr />
+<h2 id="recommended-stack-architecture">3. Recommended Stack
+Architecture</h2>
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Job To Be Done</th>
+<th>Recommended Tool</th>
+<th>Backup Option</th>
+<th>Est. Monthly</th>
+<th>Est. Annual</th>
+<th>Pricing Model</th>
+<th>Pricing Link</th>
+<th>Why It Fits Kivira</th>
+<th>Risks / Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AI Workspace / Orchestration</strong></td>
+<td>List building, research, account scoring, CoCM estimation, workflow
+orchestration</td>
+<td><strong>Claude Code Max 20x</strong></td>
+<td>Claude Code Pro ($20/mo)</td>
+<td>$200</td>
+<td>$2,400</td>
+<td>Flat subscription</td>
+<td><a href="https://claude.com/pricing">claude.com/pricing</a></td>
+<td>This is the operating system. Persistent memory, extended reasoning,
+and 20x capacity handle the volume of multi-step research and
+orchestration workflows Kivira runs</td>
+<td>Anthropic usage limits may throttle during heavy orchestration
+sprints; Pro tier ($20) is viable fallback but capacity-constrained</td>
+</tr>
+<tr>
+<td><strong>Email Sequencing</strong></td>
+<td>Send multichannel email sequences with mailbox rotation, warmup,
+open/reply tracking</td>
+<td><strong>Instantly Growth</strong></td>
+<td>Smartlead Base ($39/mo)</td>
+<td>$37–47</td>
+<td>$444–564</td>
+<td>Per-plan, unlimited accounts</td>
+<td><a href="https://instantly.ai/pricing">instantly.ai/pricing</a></td>
+<td>Unlimited email accounts + built-in warmup on all plans. Larger
+ecosystem, more integrations, simpler UX. Sufficient for Phase 1 volume
+(1K active leads, 5K emails/mo)</td>
+<td>1,000 active lead cap on Growth plan. Scale to Hypergrowth ($97/mo)
+at Day 30-60 if volume demands. Smartlead has better rotation logic if
+deliverability is an issue</td>
+</tr>
+<tr>
+<td><strong>Email Sequencing (Scale)</strong></td>
+<td>A/B testing, advanced analytics, higher volume</td>
+<td><strong>Instantly Hypergrowth</strong></td>
+<td>Smartlead Pro ($94/mo)</td>
+<td>$97</td>
+<td>$1,164</td>
+<td>Per-plan</td>
+<td><a href="https://instantly.ai/pricing">instantly.ai/pricing</a></td>
+<td>25K leads, 100K emails/mo. A/B testing unlocked. Scale tier for Day
+30+</td>
+<td>Only needed after validating messaging in Growth tier</td>
+</tr>
+<tr>
+<td><strong>Email Infrastructure</strong></td>
+<td>Provision pre-warmed inboxes with automated DNS, SPF, DKIM,
+DMARC</td>
+<td><strong>Zapmail Growth</strong></td>
+<td>ScaledMail ($199/mo)</td>
+<td>$99</td>
+<td>$1,188</td>
+<td>Per-plan + per-inbox add-ons</td>
+<td><a href="https://zapmail.ai">zapmail.ai</a></td>
+<td>30 Google Workspace mailboxes, pre-warmed, automated DNS. Modular —
+start small, scale up. Real Google Workspace accounts (better
+deliverability than custom infra)</td>
+<td>ScaledMail ($199 flat) is simpler: 196 inboxes, 4 domains, no
+decisions. Trade-off: ScaledMail uses own infra, not Google Workspace.
+Zapmail Pro ($299) adds API for programmatic provisioning from Claude
+Code</td>
+</tr>
+<tr>
+<td><strong>Domain Registration</strong></td>
+<td>Register sending domains separate from kivira.health</td>
+<td><strong>Porkbun</strong></td>
+<td>Cloudflare Registrar (~$10.44/yr)</td>
+<td>~$5</td>
+<td>~$55–88</td>
+<td>Per-domain annual</td>
+<td><a
+href="https://porkbun.com/products/domains">porkbun.com/products/domains</a></td>
+<td>Transparent pricing ($11/yr .com), renewal = registration, free
+WHOIS privacy, bulk-friendly</td>
+<td>Check whether Zapmail/ScaledMail includes domains. If so, this is
+supplemental only. Diversify registrars to avoid correlated
+blacklisting</td>
+</tr>
+<tr>
+<td><strong>Contact Enrichment (Primary)</strong></td>
+<td>Verify emails and phone numbers for target contacts</td>
+<td><strong>LeadMagic Essential</strong></td>
+<td>Wiza Email ($99/mo)</td>
+<td>$100</td>
+<td>$1,200</td>
+<td>Credit-based, pay-per-result</td>
+<td><a href="https://leadmagic.io/pricing">leadmagic.io/pricing</a></td>
+<td>10K credits/mo, credits roll over, only charged for valid results.
+19-endpoint API (email finder, validation, company enrichment, mobile
+numbers). No Sales Nav dependency. $0.008/credit</td>
+<td>Wiza claims 99% vs. LeadMagic’s 97% email accuracy. Wiza requires
+Sales Nav subscription. LeadMagic’s rollover credits are better for
+uneven usage patterns</td>
+</tr>
+<tr>
+<td><strong>Contact Enrichment (Waterfall)</strong></td>
+<td>Fill gaps on contacts primary enrichment can’t find</td>
+<td><strong>Clay Launch</strong></td>
+<td>Manual LinkedIn lookup ($0)</td>
+<td>$167–185</td>
+<td>$2,004–2,220</td>
+<td>Credit-based (data credits + actions)</td>
+<td><a href="https://www.clay.com/pricing">clay.com/pricing</a></td>
+<td>Waterfall enrichment across 75+ data providers — checks sequentially
+until a result is found. Integrates directly with HeyReach for dynamic
+personalization. 2,500 data credits, 15K actions</td>
+<td>Largest recurring line item after Claude Code. Defer to Recommended
+Core tier — validate LeadMagic standalone first in Lean MVP. March 2026
+pricing overhaul cut costs 50-90%; no charge for failed lookups</td>
+</tr>
+<tr>
+<td><strong>LinkedIn Research</strong></td>
+<td>Find and validate buyers, build lead lists, InMail</td>
+<td><strong>Sales Navigator Core</strong></td>
+<td>Free LinkedIn ($0)</td>
+<td>$90–99</td>
+<td>$1,080–1,188</td>
+<td>Per-seat subscription</td>
+<td><a
+href="https://business.linkedin.com/sales-solutions/compare-plans">business.linkedin.com/sales-solutions/compare-plans</a></td>
+<td>Advanced search filters, lead lists, InMail credits. Essential for
+buyer research in healthcare where org charts are opaque. Powers Wiza
+enrichment if chosen. 30-day free trial available</td>
+<td>$99/mo is significant at pre-seed. Start with 30-day free trial
+during Week 1-2 warmup period. If LeadMagic is enrichment tool, Sales
+Nav value is research-only</td>
+</tr>
+<tr>
+<td><strong>LinkedIn Automation</strong></td>
+<td>Automate connection requests, profile visits, message sequences</td>
+<td><strong>HeyReach Growth</strong></td>
+<td>Manual LinkedIn outreach ($0)</td>
+<td>$59–79</td>
+<td>$708–948</td>
+<td>Per-sender seat</td>
+<td><a
+href="https://www.heyreach.io/pricing">heyreach.io/pricing</a></td>
+<td>Automated LinkedIn sequences running parallel to email. Dynamic
+personalization variables from Clay integration. 1 sender seat. 14-day
+free trial (3 seats, no CC)</td>
+<td>LinkedIn automation carries platform risk — LinkedIn can restrict
+accounts if automation is detected. HeyReach’s rotation and throttling
+mitigate this. Start conservative</td>
+</tr>
+<tr>
+<td><strong>CRM / Pipeline</strong></td>
+<td>Track accounts, contacts, deals, multi-threaded buying
+committees</td>
+<td><strong>Airtable Free</strong></td>
+<td>Pipedrive Essential ($14/user/mo)</td>
+<td>$0</td>
+<td>$0</td>
+<td>Freemium</td>
+<td><a href="https://airtable.com/pricing">airtable.com/pricing</a></td>
+<td>Unlimited custom fields (fits 40+ field account schema), 1,000
+records free. Schema-flexible. Claude Code can read/write via API</td>
+<td>No pipeline UX — it’s a database, not a sales CRM. Pipedrive
+($14/mo) adds real pipeline management with unlimited custom fields.
+HubSpot Free (10 custom property cap) cannot support the 40+ field
+schema without $90/mo upgrade</td>
+</tr>
+<tr>
+<td><strong>Phone / Dialer</strong></td>
+<td>Call office managers and practice admins</td>
+<td><strong>Trellus Free</strong></td>
+<td>Quo Starter ($15–19/mo)</td>
+<td>$0</td>
+<td>$0</td>
+<td>Freemium + per-seat paid</td>
+<td><a href="https://www.trellus.ai/pricing">trellus.ai/pricing</a></td>
+<td>Free plan: 30 power dials/week with AI summaries, transcripts,
+follow-ups. Chrome extension — embeds into existing workflows, no
+separate phone system. YC-backed</td>
+<td>30 dials/week is more than enough for 5-call Day 30 target. Power
+plan ($59.99/mo) adds unlimited single-line dialing + voicemail drop.
+Parallel plan ($149.99/mo) adds multi-line for scale. Quo ($15-19/mo) is
+the pick if you want a dedicated business phone number with texting</td>
+</tr>
+<tr>
+<td><strong>Healthcare Account Data</strong></td>
+<td>Org + clinician + affiliation data for primary care targets</td>
+<td><strong>CarePrecise</strong></td>
+<td>NPPES + CMS public data ($0)</td>
+<td>—</td>
+<td>—</td>
+<td>One-time purchase</td>
+<td>Not publicly listed — estimated $300–500 from prior research</td>
+<td>Healthcare-specific dataset: org structures, clinician affiliations,
+specialty breakdowns. Closest substitute for Definitive Healthcare at a
+fraction of cost</td>
+<td>One-time purchase, not SaaS. Data ages — plan to refresh annually.
+Free public sources (NPPES, CMS, HRSA, NCQA, PECOS) cover baseline;
+CarePrecise fills affiliation gaps</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="pricing-options">4. Pricing Options</h2>
+<h3 id="lean-mvp-stack-460500mo-55006000yr">Lean MVP Stack —
+~$460–500/mo (~$5,500–6,000/yr)</h3>
+<p>Get sending on email + LinkedIn. Manual enrichment gaps. Claude Code
+does the heavy orchestration.</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Monthly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code Max 20x</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Instantly Growth (annual)</td>
+<td>$37</td>
+</tr>
+<tr>
+<td>Zapmail Starter (10 inboxes)</td>
+<td>$39</td>
+</tr>
+<tr>
+<td>Porkbun domains (5 .com)</td>
+<td>~$5</td>
+</tr>
+<tr>
+<td>LeadMagic Basic (2,500 credits)</td>
+<td>$60</td>
+</tr>
+<tr>
+<td>Sales Navigator Core (annual)</td>
+<td>$90</td>
+</tr>
+<tr>
+<td>HeyReach Growth (annual)</td>
+<td>$59</td>
+</tr>
+<tr>
+<td>Trellus Free</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Airtable Free</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~$490</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>One-time:</strong> CarePrecise ~$300–500</p>
+<p><strong>Capability gained:</strong> Multichannel outbound (email +
+LinkedIn), AI-powered list building and research, basic contact
+enrichment, pre-warmed email infrastructure, parallel dialing with AI
+transcription, CRM-flexible account tracking.</p>
+<p><strong>Capability sacrificed:</strong> No waterfall enrichment
+(Clay) — enrichment gaps require manual LinkedIn lookup. Limited to 10
+inboxes and 1,000 active leads. No dedicated CRM pipeline UX. No
+voicemail drop (Trellus Free limitation).</p>
+<hr />
+<h3 id="recommended-core-stack-700760mo-84009100yr">Recommended Core
+Stack — ~$700–760/mo (~$8,400–9,100/yr)</h3>
+<p>Core automation on both channels. Clay fills enrichment gaps.
+Upgraded email infra.</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Monthly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code Max 20x</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Instantly Growth (annual)</td>
+<td>$37</td>
+</tr>
+<tr>
+<td>Zapmail Growth (30 inboxes)</td>
+<td>$99</td>
+</tr>
+<tr>
+<td>Porkbun domains (5-8 .com)</td>
+<td>~$5</td>
+</tr>
+<tr>
+<td>LeadMagic Essential (10K credits)</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>Clay Launch</td>
+<td>$167–185</td>
+</tr>
+<tr>
+<td>Sales Navigator Core (annual)</td>
+<td>$90</td>
+</tr>
+<tr>
+<td>HeyReach Growth (annual)</td>
+<td>$59</td>
+</tr>
+<tr>
+<td>Trellus Free</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Airtable Free</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~$757–775</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>One-time:</strong> CarePrecise ~$300–500</p>
+<p><strong>Capability gained:</strong> Everything in Lean MVP plus
+waterfall enrichment across 75+ providers (Clay), 10K enrichment credits
+with rollover, 30 pre-warmed inboxes, Clay → HeyReach integration for
+dynamic LinkedIn personalization.</p>
+<p><strong>Capability sacrificed:</strong> No dedicated CRM pipeline
+(still Airtable or Smartlead built-in). No A/B testing on email
+sequences (Growth plan limitation). No parallel dialing (Trellus Free is
+single-line).</p>
+<hr />
+<h3 id="scale-ready-stack-880950mo-1060011400yr">Scale-Ready Stack —
+~$880–950/mo (~$10,600–11,400/yr)</h3>
+<p>Everything running. Upgraded sequencer. Dedicated CRM. Parallel
+dialing.</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Monthly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code Max 20x</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Instantly Hypergrowth</td>
+<td>$97</td>
+</tr>
+<tr>
+<td>ScaledMail (196 inboxes, 4 domains)</td>
+<td>$199</td>
+</tr>
+<tr>
+<td>LeadMagic Essential (10K credits)</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>Clay Launch</td>
+<td>$167–185</td>
+</tr>
+<tr>
+<td>Sales Navigator Core (annual)</td>
+<td>$90</td>
+</tr>
+<tr>
+<td>HeyReach Growth (annual)</td>
+<td>$59</td>
+</tr>
+<tr>
+<td>Trellus Power</td>
+<td>$60</td>
+</tr>
+<tr>
+<td>Pipedrive Essential</td>
+<td>$14</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~$986–1,004</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>One-time:</strong> CarePrecise ~$300–500</p>
+<p><strong>Capability gained:</strong> Everything in Core plus A/B
+testing and 25K active leads (Instantly Hypergrowth), 196 inboxes with
+zero provisioning decisions (ScaledMail), real pipeline CRM (Pipedrive),
+unlimited power dialing with voicemail drop (Trellus Power).</p>
+<p><strong>Capability sacrificed:</strong> Nothing material. This is the
+full operational stack. Monthly cost may be aggressive for pre-seed if
+runway is constrained.</p>
+<hr />
+<h2 id="context-os-mapping">5. Context OS Mapping</h2>
+<p>How each stack component maps into the Kivira Context OS operating
+model:</p>
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 7%" />
+<col style="width: 14%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 11%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th>Context OS Module</th>
+<th>Purpose</th>
+<th>System of Record</th>
+<th>Inputs</th>
+<th>Outputs</th>
+<th>Human Owner</th>
+<th>Automation Trigger</th>
+<th>Downstream Dependency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Accounts</strong></td>
+<td>Maintain canonical list of target organizations across 9
+subtiers</td>
+<td>Airtable / Pipedrive</td>
+<td>NPPES, CMS, CarePrecise, Claude Code research</td>
+<td>Scored account list with subtier tags, CoCM estimates</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Claude Code builds/updates weekly from public data sources</td>
+<td>Contacts, Segments, Outreach Sequences</td>
+</tr>
+<tr>
+<td><strong>Contacts</strong></td>
+<td>Person-level records with verified email, phone, LinkedIn, persona
+type</td>
+<td>Airtable / Pipedrive + LeadMagic/Clay</td>
+<td>Account list, LinkedIn, enrichment APIs</td>
+<td>Verified contact records with persona tags (operator, clinical,
+technical, economic)</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>LeadMagic API call per new account; Clay waterfall for gaps</td>
+<td>Outreach Sequences, Buying Committee</td>
+</tr>
+<tr>
+<td><strong>Segments / Subtiers</strong></td>
+<td>Tag accounts into 9 subtiers (1A–3C) with corresponding outreach
+rules</td>
+<td>Airtable / Pipedrive</td>
+<td>Account data, ACCOUNT_SCHEMA_EXTENDED fields,
+GTM_TIER_ARCHITECTURE</td>
+<td>Subtier assignments driving campaign routing</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Claude Code assigns subtier on account creation using scoring
+rules</td>
+<td>Outreach Sequences, Messaging Library</td>
+</tr>
+<tr>
+<td><strong>Buying Committee</strong></td>
+<td>Map multi-persona threads per account (operator → clinical →
+economic → technical)</td>
+<td>Airtable / Pipedrive</td>
+<td>Contact records with persona type, BUYING_COMMITTEE_DYNAMICS
+rules</td>
+<td>Per-account committee map showing thread status</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Manual mapping informed by Claude Code research</td>
+<td>Outreach Sequences, Pilot Pipeline</td>
+</tr>
+<tr>
+<td><strong>Messaging Library</strong></td>
+<td>Maintain hypothesis-stage messaging variants by subtier and
+persona</td>
+<td>Context OS knowledge_base</td>
+<td>MESSAGING_HYPOTHESIS_DISCIPLINE, COCM_OUTREACH_SEQUENCING, A/B test
+results</td>
+<td>Tested message templates with performance data</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Claude Code drafts variants; human approves before launch</td>
+<td>Outreach Sequences</td>
+</tr>
+<tr>
+<td><strong>Outreach Sequences</strong></td>
+<td>Execute multichannel campaigns (email via Instantly/Smartlead +
+LinkedIn via HeyReach)</td>
+<td>Instantly or Smartlead (email) + HeyReach (LinkedIn)</td>
+<td>Contact records, messaging templates, subtier routing rules</td>
+<td>Sent sequences with open/reply/acceptance tracking</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Contacts loaded to sequencer trigger campaign start; Clay
+auto-pushes to HeyReach</td>
+<td>Pilot Pipeline, Proof/ROI</td>
+</tr>
+<tr>
+<td><strong>Research / Market Intel</strong></td>
+<td>Capture competitive intelligence, market signals, account-specific
+research</td>
+<td>Context OS knowledge_base + Claude Code memory</td>
+<td>Web research, Firecrawl scrapes, call notes, public filings</td>
+<td>Knowledge nodes with source attribution and evidence tags</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Claude Code ingests artifacts weekly per
+CONTEXT_OS_OPERATING_RHYTHM</td>
+<td>Messaging Library, Accounts</td>
+</tr>
+<tr>
+<td><strong>Pilot Pipeline</strong></td>
+<td>Track accounts from first reply through to active pilot</td>
+<td>Airtable / Pipedrive</td>
+<td>Reply data from sequencer, call notes from Trellus/Quo, manual
+status updates</td>
+<td>Pipeline stages: Replied → Call Scheduled → Call Complete → Pilot
+Proposed → Pilot Active</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Reply webhook from sequencer creates pipeline record</td>
+<td>Proof/ROI</td>
+</tr>
+<tr>
+<td><strong>Proof / ROI Evidence</strong></td>
+<td>Collect and structure pilot outcomes, CoCM billing data, clinical
+metrics</td>
+<td>Context OS knowledge_base</td>
+<td>Pilot data, billing records, clinical outcome measures</td>
+<td>Case studies, ROI one-pagers, peer reference readiness</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Manual entry post-pilot; Claude Code structures into publishable
+formats</td>
+<td>Messaging Library, Accounts (expansion)</td>
+</tr>
+<tr>
+<td><strong>Content / Collateral</strong></td>
+<td>Maintain outbound assets (one-pagers, ROI calculators, integration
+docs)</td>
+<td>Google Drive / Context OS</td>
+<td>Messaging Library, Proof/ROI Evidence, product documentation</td>
+<td>Versioned collateral tied to persona and subtier</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Claude Code generates drafts; human reviews and publishes</td>
+<td>Outreach Sequences</td>
+</tr>
+<tr>
+<td><strong>Reporting / Command Center</strong></td>
+<td>Track Day 30/60/90 metrics: emails sent, opens, replies, calls
+booked, pilots started</td>
+<td>Instantly/Smartlead dashboards + Airtable/Pipedrive</td>
+<td>Sequencer analytics, CRM pipeline data, call logs</td>
+<td>Weekly metric snapshots against cadence targets</td>
+<td>Josh + Keegan (GTM ops)</td>
+<td>Sequencer dashboards are real-time; Claude Code synthesizes weekly
+summary</td>
+<td>All modules (feedback loop)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="bill-of-systems">6. Bill of Systems</h2>
+<h3 id="by-category">By category</h3>
+<p><strong>Data ($160–285/mo + $300–500 one-time)</strong></p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LeadMagic Essential</td>
+<td>$100</td>
+<td>$1,200</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>Clay Launch</td>
+<td>$167–185</td>
+<td>$2,004–2,220</td>
+<td>Day 14 (defer in Lean MVP)</td>
+</tr>
+<tr>
+<td>CarePrecise</td>
+<td>—</td>
+<td>$300–500 (one-time)</td>
+<td>Day 7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sales Engagement ($186–235/mo)</strong></p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Instantly Growth</td>
+<td>$37</td>
+<td>$444</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>HeyReach Growth</td>
+<td>$59</td>
+<td>$708</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>Sales Navigator Core</td>
+<td>$90</td>
+<td>$1,080</td>
+<td>Day 1 (start free trial)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Email Infrastructure ($99–199/mo + ~$55–88/yr
+domains)</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 25%" />
+<col style="width: 22%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zapmail Growth</td>
+<td>$99</td>
+<td>$1,188</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>Porkbun domains</td>
+<td>~$5</td>
+<td>~$55–88</td>
+<td>Day 1 (if not included with Zapmail)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CRM / RevOps ($0–14/mo)</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 25%" />
+<col style="width: 22%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airtable Free</td>
+<td>$0</td>
+<td>$0</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>Pipedrive Essential (optional)</td>
+<td>$14</td>
+<td>$168</td>
+<td>Day 30 (if pipeline UX needed)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phone / Dialer ($0–60/mo)</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 25%" />
+<col style="width: 22%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trellus Free</td>
+<td>$0</td>
+<td>$0</td>
+<td>Day 1</td>
+</tr>
+<tr>
+<td>Trellus Power (optional)</td>
+<td>$60</td>
+<td>$720</td>
+<td>Day 30 (if volume demands)</td>
+</tr>
+<tr>
+<td>Quo Starter (alternative)</td>
+<td>$15–19</td>
+<td>$180–228</td>
+<td>Day 1 (if dedicated number needed)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Research / AI ($200/mo)</strong></p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code Max 20x</td>
+<td>$200</td>
+<td>$2,400</td>
+<td>Active — already in use</td>
+</tr>
+</tbody>
+</table>
+<h3 id="totals">Totals</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Monthly</th>
+<th>Annual</th>
+<th>One-Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lean MVP</td>
+<td>~$490</td>
+<td>~$5,880</td>
+<td>~$355–588</td>
+</tr>
+<tr>
+<td>Recommended Core</td>
+<td>~$757–775</td>
+<td>~$9,084–9,300</td>
+<td>~$300–500</td>
+</tr>
+<tr>
+<td>Scale-Ready</td>
+<td>~$986–1,004</td>
+<td>~$11,832–12,048</td>
+<td>~$300–500</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cost-saving-swaps">Cost-saving swaps</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 29%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr>
+<th>Swap</th>
+<th>Saves</th>
+<th>Trade-off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smartlead Pro instead of Instantly + separate CRM</td>
+<td>~$37–53/mo</td>
+<td>Smartlead Pro ($94) includes built-in CRM, eliminating Pipedrive
+($14) and potentially Instantly ($37). Net savings depend on whether
+Smartlead’s CRM meets 40+ field needs</td>
+</tr>
+<tr>
+<td>ScaledMail instead of Zapmail Growth + domains</td>
+<td>Simplicity, not cost</td>
+<td>$199 vs. ~$104. Costs $95 more but eliminates all domain/inbox
+decisions. Worthwhile if ops overhead matters more than $95</td>
+</tr>
+<tr>
+<td>Trellus Free instead of Quo Starter</td>
+<td>$15–19/mo</td>
+<td>Lose dedicated business phone number and texting. Trellus Free’s 30
+dials/week is sufficient for Day 30 volume</td>
+</tr>
+<tr>
+<td>Skip Clay, manual LinkedIn enrichment</td>
+<td>$167–185/mo</td>
+<td>Largest single savings. But manual enrichment for 23,700 accounts is
+unsustainable beyond Phase 1</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="gaps-risks-and-questions">7. Gaps, Risks, and Questions</h2>
+<h3 id="is-this-stack-too-heavy-for-pre-seed">Is this stack too heavy
+for pre-seed?</h3>
+<p>The Lean MVP at ~$490/mo is defensible. The Scale-Ready at ~$1,000/mo
+is aggressive before first revenue. The critical question is:
+<strong>does the $167-185/mo Clay delta justify itself in the first 30
+days, or is it a Day 30-60 purchase?</strong> Recommendation: Lean MVP
+first, add Clay after validating that LeadMagic alone can’t cover
+enrichment needs.</p>
+<h3 id="tool-overlap">Tool overlap</h3>
+<ul>
+<li><strong>Instantly warmup + Zapmail/ScaledMail warmup</strong>: Both
+include warmup. If using Zapmail pre-warmed inboxes, Instantly’s warmup
+is redundant but harmless. No cost overlap — just configuration to not
+double-warm.</li>
+<li><strong>LeadMagic + Clay</strong>: Intentionally layered (primary +
+waterfall), not duplicative. But if LeadMagic’s 97% accuracy covers most
+contacts, Clay may be underutilized at $167+/mo.</li>
+<li><strong>Wiza + Sales Nav</strong>: Wiza requires Sales Nav. If
+LeadMagic is chosen over Wiza, Sales Nav value drops to research-only
+($90/mo for research is still defensible but less essential).</li>
+</ul>
+<h3 id="missing-public-pricing">Missing public pricing</h3>
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CarePrecise</td>
+<td>No public pricing page. Estimated $300-500 from prior research.
+Requires direct contact.</td>
+</tr>
+<tr>
+<td>Trellus credit costs</td>
+<td>Credit-based pricing referenced but not publicly detailed beyond
+plan tiers.</td>
+</tr>
+<tr>
+<td>ScaledMail per-inbox pricing</td>
+<td>Some sources cite $3.50-7/inbox but the main plan is flat $199.
+Custom quotes may exist.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="compliance-and-procurement-risks">Compliance and procurement
+risks</h3>
+<ul>
+<li><strong>No PHI in the stack.</strong> All data in this stack is
+prospect/business data (names, titles, work emails, org affiliations),
+not patient data. No BAA should be required for any tool listed
+here.</li>
+<li><strong>LinkedIn automation risk.</strong> LinkedIn can restrict
+accounts that use automation tools. HeyReach mitigates with throttling
+and rotation, but the risk is non-zero. Don’t run aggressive automation
+on Keegan’s primary LinkedIn profile — use a dedicated sender
+account.</li>
+<li><strong>Email deliverability in healthcare.</strong> Healthcare
+admin inboxes (especially .gov, large health system domains) may have
+aggressive spam filtering. The 10-20% open rate assumption from
+THIRTY_DAY_OFFICE_MANAGER_TARGET needs validation in the first 2 weeks.
+If open rates are &lt;5%, deliverability infrastructure needs
+re-evaluation.</li>
+</ul>
+<h3 id="workflow-complexity-vs.-team-capacity">Workflow complexity
+vs. team capacity</h3>
+<p>This is a 1-2 person operation running 10+ tools. The design relies
+on Claude Code as the glue layer — but Claude Code is a
+research/orchestration tool, not a workflow automation platform. Manual
+handoffs between systems (sequencer → CRM, enrichment → sequencer, call
+notes → pipeline) will be friction points until volume justifies
+automation.</p>
+<p><strong>Specific friction points:</strong> - Loading enriched
+contacts from LeadMagic/Clay into Instantly/Smartlead is currently a CSV
+export/import cycle - Syncing HeyReach LinkedIn engagement data back to
+the CRM is manual unless Clay is in the middle - Call disposition from
+Trellus/Quo needs manual entry into CRM/pipeline</p>
+<h3 id="human-process-vs.-software-need">Human process vs. software
+need</h3>
+<ul>
+<li><strong>Messaging hypothesis testing</strong> does not need A/B
+testing software on Day 1. It needs 5 conversations and a notebook. The
+Instantly Growth plan without A/B testing is fine for Phase 1.</li>
+<li><strong>Pipeline management</strong> does not need Pipedrive on Day
+1. A 15-row Airtable with deal stages covers the first 10 accounts.</li>
+<li><strong>Subtier segmentation</strong> is a Claude Code research
+output, not a software feature. Don’t buy a tool to do what a
+well-structured prompt already does.</li>
+</ul>
+<h3 id="unvalidated-gtm-assumptions">Unvalidated GTM assumptions</h3>
+<p>The entire stack is built on assumptions that have not yet been
+tested in market:</p>
+<ol type="1">
+<li><strong>Office managers respond to cold outbound.</strong> The
+operator-first hypothesis is logical but unproven. If office managers
+don’t engage, the stack works fine — but the messaging and targeting
+strategy changes.</li>
+<li><strong>Multichannel (email + LinkedIn) outperforms
+email-only.</strong> This is generally true in B2B SaaS but unvalidated
+in healthcare primary care specifically.</li>
+<li><strong>The CoCM revenue wedge resonates with operational
+buyers.</strong> The CoCM estimate engine is a powerful tool — but only
+if buyers recognize CoCM revenue as a real opportunity, not a
+theoretical one.</li>
+<li><strong>5 conversations in 30 days is achievable with this
+infrastructure.</strong> The funnel math (500-1000 emails → 50-200 opens
+→ 10-50 replies → 5-10 calls) assumes generic B2B benchmarks. Healthcare
+may underperform.</li>
+</ol>
+<hr />
+<h2 id="recommendations">8. Recommendations</h2>
+<h3 id="buy-first-week-1">Buy first (Week 1)</h3>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Action</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Zapmail Growth</strong></td>
+<td>Provision 30 pre-warmed inboxes. DNS/DMARC handled
+automatically.</td>
+<td>$99/mo</td>
+</tr>
+<tr>
+<td><strong>Instantly Growth</strong></td>
+<td>Connect Zapmail inboxes. Begin warming (or already pre-warmed).</td>
+<td>$37/mo (annual)</td>
+</tr>
+<tr>
+<td><strong>Sales Navigator Core</strong></td>
+<td>Start 30-day free trial. Use for buyer research while email warms
+up.</td>
+<td>$0 (trial)</td>
+</tr>
+<tr>
+<td><strong>HeyReach Growth</strong></td>
+<td>Start 14-day free trial. Build first LinkedIn sequence.</td>
+<td>$0 (trial)</td>
+</tr>
+<tr>
+<td><strong>Trellus Free</strong></td>
+<td>Install Chrome extension. Ready for first dials.</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Airtable Free</strong></td>
+<td>Set up account schema from ACCOUNT_SCHEMA_EXTENDED.</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Porkbun</strong></td>
+<td>Register 5 sending domains if not included with Zapmail.</td>
+<td>~$55 one-time</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Week 1 spend: ~$136/mo + $55 one-time</strong></p>
+<h3 id="buy-second-week-2">Buy second (Week 2)</h3>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Action</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CarePrecise</strong></td>
+<td>Purchase healthcare org data. Load into Claude Code for list
+building.</td>
+<td>$300-500 one-time</td>
+</tr>
+<tr>
+<td><strong>LeadMagic Basic</strong></td>
+<td>Begin enriching Wave 1 contacts (2,500 credits).</td>
+<td>$60/mo</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Week 2 incremental: ~$60/mo + $300-500 one-time</strong></p>
+<h3 id="validate-manually-before-purchasing">Validate manually before
+purchasing</h3>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 36%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr>
+<th>Decision</th>
+<th>What to test</th>
+<th>When to buy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Clay</strong></td>
+<td>Can LeadMagic alone get &gt;80% email coverage on Wave 1 list? If
+yes, defer Clay. If coverage is &lt;60%, add Clay Launch.</td>
+<td>Day 14-21</td>
+</tr>
+<tr>
+<td><strong>Pipedrive</strong></td>
+<td>Does Airtable Free feel workable as a pipeline tracker for 10-20
+accounts? If painful, add Pipedrive.</td>
+<td>Day 30</td>
+</tr>
+<tr>
+<td><strong>Trellus Power</strong></td>
+<td>Are 30 dials/week enough? If you’re consistently hitting the cap,
+upgrade.</td>
+<td>Day 30</td>
+</tr>
+<tr>
+<td><strong>Sales Nav</strong> (paid)</td>
+<td>Did the free trial generate research value worth $90/mo? If you’re
+building lists primarily from NPPES/CarePrecise, it may not be.</td>
+<td>Day 30</td>
+</tr>
+</tbody>
+</table>
+<h3 id="instrument-from-day-1">Instrument from Day 1</h3>
+<ul>
+<li><strong>Open rates by domain type</strong> (health system .org
+vs. independent clinic .com vs. personal Gmail) — this tells you if
+healthcare deliverability is a real problem or a theoretical one</li>
+<li><strong>Reply rate by persona type</strong> (office manager
+vs. practice admin vs. clinical director) — this validates or
+invalidates the operator-first hypothesis</li>
+<li><strong>LinkedIn acceptance rate</strong> (by subtier and persona) —
+this tells you if LinkedIn is a viable channel for this market</li>
+<li><strong>Time from first touch to first call</strong> — this sets
+realistic expectations for the 30-60-90 cadence</li>
+</ul>
+<h3 id="revisit-after-first-10-target-accounts">Revisit after first 10
+target accounts</h3>
+<ul>
+<li>Whether Clay is needed or LeadMagic standalone is sufficient</li>
+<li>Whether Smartlead’s rotation logic would have solved any
+deliverability issues Instantly couldn’t</li>
+<li>Whether a dedicated CRM (Pipedrive) is worth the $14/mo over
+Airtable</li>
+<li>Whether the 9-subtier segmentation is operationally useful or should
+be collapsed to 3-4 segments</li>
+<li>Whether the operator-first outreach sequence should shift to
+clinical-champion-first</li>
+</ul>
+<hr />
+<h2 id="decisions-needed-from-kivira">Decisions Needed From Kivira</h2>
+<ol type="1">
+<li><p><strong>Instantly or Smartlead?</strong> Both start ~$37-39/mo.
+Instantly has the larger ecosystem; Smartlead has better rotation logic
+and a built-in CRM. If Smartlead Pro ($94), the CRM question may be
+moot.</p></li>
+<li><p><strong>Zapmail or ScaledMail for email infrastructure?</strong>
+Zapmail Growth ($99) is modular with real Google Workspace accounts.
+ScaledMail ($199) is flat-rate with 196 inboxes and zero decisions.
+Zapmail Pro ($299) adds API access for Claude Code
+provisioning.</p></li>
+<li><p><strong>LeadMagic or Wiza as primary enrichment?</strong>
+LeadMagic: credits roll over, no Sales Nav dependency, 19-endpoint API.
+Wiza: higher accuracy claims (99% vs 97%), requires Sales Nav, credits
+expire monthly.</p></li>
+<li><p><strong>Clay now or Clay later?</strong> $167-185/mo is the
+largest discretionary line item. Recommendation: defer to Day 14-21
+after testing LeadMagic standalone coverage.</p></li>
+<li><p><strong>Trellus or Quo for phone?</strong> Trellus Free (30
+dials/week, AI transcription, Chrome extension). Quo Starter ($15-19/mo,
+dedicated business number, texting). Different tools for different needs
+— Trellus is a dialer, Quo is a phone system.</p></li>
+<li><p><strong>How many domains in the first batch?</strong> 5
+(conservative, ~$55) or 8-10 (aggressive warmup, ~$88-110)?
+Zapmail/ScaledMail may include domains — check before purchasing
+separately.</p></li>
+<li><p><strong>Sales Navigator: continue after free trial?</strong> At
+$90/mo, it’s the third-largest recurring cost. If LeadMagic is the
+enrichment tool (not Wiza), Sales Nav’s value is buyer research only. Is
+that worth $90?</p></li>
+<li><p><strong>CRM timing: when does Airtable stop being
+enough?</strong> The 40+ field schema fits Airtable. Pipeline management
+doesn’t. At what account volume does the team need a real CRM? 10
+accounts? 50? 100?</p></li>
+<li><p><strong>Budget tier commitment?</strong> Lean MVP (~$490/mo) is
+sufficient to hit Day 30 targets. Recommended Core (~$757/mo) adds Clay
+and more inboxes. Scale-Ready (~$986/mo) adds Pipedrive, Trellus Power,
+Hypergrowth. Which tier matches current runway tolerance?</p></li>
+<li><p><strong>When to start free trials?</strong> Sales Nav (30 days)
+and HeyReach (14 days) trials should overlap with email warmup (2-4
+weeks). If email infra goes live Week 1, trials should start Week 1 to
+maximize overlap.</p></li>
+</ol>
+<hr />
+<p><em>This document is a snapshot as of 2026-04-06. Tool pricing
+changes frequently. Verify all costs at linked pricing pages before
+procurement. All pricing reflects publicly available information; where
+pricing is estimated or unavailable, it is explicitly labeled.</em></p>
+</body>
+</html>

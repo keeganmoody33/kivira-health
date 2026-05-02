@@ -1,0 +1,38 @@
+# Kivira.health — how GTM concepts relate
+
+version: 1.0.0
+last_updated: 2026-04-03
+
+relationship_types:
+
+  enables:
+    description: "A makes B possible (foundational)"
+    example: "[[EHR_INTEGRATION_SMART_ON_FHIR]] enables [[PRIMARY_CARE_WEDGE_ICP]]"
+
+  supports:
+    description: "A provides evidence or narrative support for B"
+    example: "[[PUBLIC_PATIENT_APP_TERMS]] supports [[CDS_NOT_DIAGNOSIS_FRAMING]]"
+
+  implements:
+    description: "A is practical execution of B"
+    example: "[[GTM_SYNTHESIS_V1]] implements [[GTM_MOTION_HYPOTHESIS]]"
+
+  constrains:
+    description: "A limits what may be claimed in B"
+    example: "[[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]] constrains [[MESSAGING_PILLARS_V1]]"
+
+linking_requirements:
+  all_nodes:
+    minimum_links: 3
+    description: "Every node should link to 3+ other nodes where possible"
+
+  emergent_nodes:
+    minimum_links: 1
+    description: "New concepts can start with 1 link"
+
+quality_standards:
+  attribution_required: true
+  formats:
+    verified: "[VERIFIED: source:line]"
+    inferred: "[INFERRED: logic from sources]"
+    unverifiable: "[UNVERIFIABLE]"

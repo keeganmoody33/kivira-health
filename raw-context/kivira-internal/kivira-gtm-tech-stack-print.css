@@ -1,0 +1,210 @@
+/* Kivira.health-aligned print + screen — GTM tech stack executive summary */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap");
+
+:root {
+  --kivira-ink: #0c1a1a;
+  --kivira-muted: #3d5c5c;
+  --kivira-accent: #0d9488;
+  --kivira-accent-soft: #ccfbf1;
+  --kivira-border: #e7f1f0;
+  --kivira-paper: #fafcfb;
+}
+
+html {
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  color: var(--kivira-ink);
+  background: var(--kivira-paper);
+  line-height: 1.55;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.75rem 4rem;
+}
+
+header.doc-head {
+  border-bottom: 3px solid var(--kivira-accent);
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+header.doc-head .brand {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--kivira-accent);
+  margin: 0 0 0.35rem;
+}
+
+h1.title {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 400;
+  margin: 0 0 0.75rem;
+  line-height: 1.2;
+  color: var(--kivira-ink);
+}
+
+.meta {
+  font-size: 0.88rem;
+  color: var(--kivira-muted);
+  margin: 0.25rem 0;
+}
+
+/* Ops ownership callout */
+h2#ops-ownership-read-this-first,
+body > h2:first-of-type,
+section#ops-ownership {
+  background: linear-gradient(135deg, var(--kivira-accent-soft) 0%, #fff 100%);
+  border: 1px solid var(--kivira-border);
+  border-left: 4px solid var(--kivira-accent);
+  border-radius: 6px;
+  padding: 1rem 1.15rem 1.1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.75rem;
+  color: var(--kivira-ink);
+}
+
+h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+}
+
+p {
+  margin: 0.65rem 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--kivira-border);
+  margin: 1.25rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+  margin: 1rem 0;
+  background: #fff;
+  box-shadow: 0 1px 0 var(--kivira-border);
+}
+
+thead {
+  background: var(--kivira-ink);
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid var(--kivira-border);
+  padding: 0.45rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background: #f4faf9;
+}
+
+a {
+  color: var(--kivira-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin: 0.5rem 0 0.75rem 1.25rem;
+  padding: 0;
+}
+
+li {
+  margin: 0.25rem 0;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--kivira-muted);
+  color: var(--kivira-muted);
+  font-size: 0.92rem;
+}
+
+.wikilink {
+  font-size: 0.85em;
+  color: var(--kivira-muted);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+header#title-block-header .title {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+  color: var(--kivira-ink);
+}
+
+@media print {
+  @page {
+    margin: 1.2cm;
+  }
+
+  body {
+    background: #fff;
+    padding: 0;
+    max-width: none;
+    font-size: 9pt;
+  }
+
+  a {
+    color: var(--kivira-ink);
+  }
+
+  thead {
+    background: #1e293b !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body > h2:first-of-type,
+  section#ops-ownership {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  table {
+    font-size: 7pt;
+    page-break-inside: auto;
+  }
+
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

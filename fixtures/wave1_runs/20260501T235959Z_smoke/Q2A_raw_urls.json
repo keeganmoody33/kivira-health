@@ -1,0 +1,97 @@
+{
+  "query_id": "Q2A",
+  "query_string": "per-row 2a-named (Spider /search + site:linkedin.com/in)",
+  "industry_filter": "(N/A \u2014 account-first sourcing)",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "per-row sourcing mode=2a-named",
+  "why_this_slot": "Account-first: subtier known from CMS source, only persona/contact varies per row.",
+  "run_at": "2026-05-02T01:01:18.268726+00:00",
+  "raw_result_count": 9,
+  "deduped_result_count": 9,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karen-holt-86591b32",
+      "title": "Karen Holt - Human Resources Generalist - Saint Barnabas Health Care System | LinkedIn",
+      "snippet": "Human Resources Generalist at Saint Barnabas Medical Center / Barnabas Health \u00b7 Experience: Saint Barnabas Health Care System \u00b7 Location: Livingston \u00b7 76 connections on LinkedIn.",
+      "match_score": 3,
+      "source_account": "Accountable Care Coalition of Georgia, LLC.",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karen-stolle-85b24b52",
+      "title": "Karen Stolle - Regional Director, Accountable Care Strategies Contractor - UnitedHealth Group | LinkedIn",
+      "snippet": "Regional Director, Accountable Care Strategies SE Region \u00b7 Working in population health with Accountable Care Organizations to achieve the Triple Aim. Also, contacting in the ACO space.",
+      "match_score": 3,
+      "source_account": "Accountable Care Coalition of Georgia, LLC.",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karenkyfung",
+      "title": "Karen (AKA Ga) F. - County of Orange Health Care Agency | LinkedIn",
+      "snippet": "July 15, 2022 - My experience in the study of human behavior and development, Human Resources\u2026 \u00b7 Experience: County of Orange Health Care Agency \u00b7 Education: California State University-Fullerton \u00b7 Location: United States \u00b7 158 connections on LinkedIn. View Karen (AKA Ga) F.\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 2,
+      "source_account": "Accountable Care Coalition of Georgia, LLC.",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/venu-kondle-md-75093a11",
+      "title": "Venu Kondle, MD - Founder and CEO California ACO",
+      "snippet": "July 25, 2025 - Experienced Chief Executive Officer with a demonstrated history of working in the health\u2026 \u00b7 Experience: North Valley Nephrology \u00b7 Education: Oreagon Health Science University, Portand,OR \u00b7 Location: Sacramento \u00b7 500+ connections on LinkedIn.",
+      "match_score": 3,
+      "source_account": "Achiever Health Care Consultation and Management LLC",
+      "source_state": "CA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/venu-reddy-b924a575",
+      "title": "venu reddy - HOSPIRA HEALTH CARE INDIA LIMITED | LinkedIn",
+      "snippet": "Experience: HOSPIRA HEALTH CARE INDIA LIMITED \u00b7 Education: svu \u00b7 Location: Nagari. View venu reddy\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 3,
+      "source_account": "Achiever Health Care Consultation and Management LLC",
+      "source_state": "CA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/venus-om-9b688b120",
+      "title": "Venus Om - JenCare Senior Medical Center | LinkedIn",
+      "snippet": "JenCare Senior Medical Center depends on over four years of referral management expertise\u2026 \u00b7 Experience: JenCare Senior Medical Center \u00b7 Education: Northwestern College \u00b7 Location: Evergreen Park \u00b7 500+ connections on LinkedIn. View Venus Om\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 3,
+      "source_account": "Achiever Health Care Consultation and Management LLC",
+      "source_state": "CA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carla-belcher-63117932",
+      "title": "Carla Belcher - Community Health Care Systems,Inc. | LinkedIn",
+      "snippet": "September 17, 2025 - When complete, it will create 8,000 jobs in Apex and Wake County. Learn how this partnership is shaping the future of children\u2019s health https://unc.live/44mqCCP",
+      "match_score": 4,
+      "source_account": "ACME Health Partners ACO",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carla-belcher-0635aa1a",
+      "title": "Carla Belcher - CEO - Community Health Care Systems, Inc. | LinkedIn",
+      "snippet": "CEO at Community Health Care Systems, Inc. \u00b7 Experience: Community Health Care Systems, Inc. \u00b7 Location: Tennille \u00b7 1 connection on LinkedIn. View Carla Belcher\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 3,
+      "source_account": "ACME Health Partners ACO",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carla-harris-568927165",
+      "title": "Carla Harris - Outpatient Medical Coder - Ensemble Health Partners | LinkedIn",
+      "snippet": "Outpatient Medical Coder at Ensemble Health Partners \u00b7 Experienced in administrative duties within an office setting with high proficiency in data entry, communications, and Medical Billing &amp; Coding.",
+      "match_score": 3,
+      "source_account": "ACME Health Partners ACO",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    }
+  ]
+}

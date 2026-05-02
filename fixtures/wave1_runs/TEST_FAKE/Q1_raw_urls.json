@@ -1,0 +1,16 @@
+{
+  "query_id": "Q1",
+  "query_string": "test",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": ["1A","1C"],
+  "cluster": "OO-1+OO-2",
+  "why_this_slot": "test",
+  "run_at": "2026-05-01T18:00:00Z",
+  "raw_result_count": 2,
+  "deduped_result_count": 2,
+  "results": [
+    {"linkedin_profile_url": "https://www.linkedin.com/in/test-pop-health-vp", "title": "VP Population Health at TestCorp - LinkedIn", "snippet": "VP Population Health at TestCorp"},
+    {"linkedin_profile_url": "https://www.linkedin.com/in/test-bh-director", "title": "Director of Behavioral Health - TestHealthSystem", "snippet": "Director of Behavioral Health"}
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "query_id": "Q1",
+  "query_string": "(\"VP Population Health\" OR \"Director of Population Health\" OR \"Director of Care Management\" OR \"Director of Care Transformation\") AND (\"primary care\" OR \"ambulatory\" OR \"value-based\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care` (apply via LinkedIn UI after running Boolean)",
+  "location": "United States",
+  "expected_subtiers": [
+    "1A",
+    "1C",
+    "3A",
+    "3B` \u2014 wide net across provider org types where pop health roles concentrate"
+  ],
+  "cluster": "OO-1` + `OO-2` (Operational Owner \u2014 population health + care transformation flavors)",
+  "why_this_slot": "Highest density of operators feeling daily mental-health-in-primary-care pain. The persona that converts internally per [[COCM_OUTREACH_SEQUENCING]]. Captures 4 subtiers in one query, so a single afternoon of triage seeds 4 HeyReach campaigns.",
+  "run_at": "2026-05-01T19:04:11+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 20,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dana-mccalley-mba/",
+      "title": "Dana McCalley, MBA \u2b50\u2b50\u2b50\u2b50\u2b50 - VP of Value Based Care ...",
+      "snippet": "July 2, 2024 - \u00b7 Experience: Navina \u00b7 Education: Liberty University \u00b7 Location: North Port-Sarasota Area \u00b7 500+ connections on LinkedIn. View Dana McCalley, MBA \u2b50\u2b50\u2b50\u2b50\u2b50\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/susan-mego-9b2ba213/",
+      "title": "Susan Mego - Vice President - Payer Strategy, Managed Care, &amp; Operations / Population Health Innovation Institute - The MetroHealth System (Cleveland, OH) | LinkedIn",
+      "snippet": "Vice President - Payer Strategy, Managed Care, Operations, Population Health \u00b7 Experience: The MetroHealth System (Cleveland, OH) \u00b7 Education: The Ohio State University \u00b7 Location: Strongsville \u00b7 405 connections on LinkedIn. View Susan Mego\u2019s&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joelnsimon/",
+      "title": "Joel Simon - Value-based Care (VBC) Population Health Coordinator - One Medical | LinkedIn",
+      "snippet": "Experience: One Medical \u00b7 Location: San Francisco Bay Area \u00b7 35 connections on LinkedIn. View Joel Simon\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/maevemcclellan/",
+      "title": "Maeve McClellan, CPHQ, MPH - Healthcare Operations &amp; Public Health Leader \ud83c\udf1f Chief of Staff \ud83c\udf1fConsultant \u27ae Population Health &amp; Value-Based Operations \u27ae 15+ Years of Impact \u27ae Transformation and Evaluation | LinkedIn",
+      "snippet": "March 4, 2016 - \ud83d\ude80 THE VALUE I BRING I specialize in scaling value-based care initiatives, designing population health strategies, and transforming healthcare operations in complex, matrixed organizations."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jennifer-berres/",
+      "title": "Jen Berres - Innovative and Dedicated HR Leader",
+      "snippet": "Thank you, Amy Casseri, JD, VP of Women\u2019s &amp; Children Services, HCA Healthcare; David Lakey, M.D., MD, Senior VP for Population Health at UT Health &amp; Associate Vice Chancellor for UT System, Office of Health Affairs, The University of Texas System, and Dr Everett B."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rick-shrum-523459a0/",
+      "title": "Rick Shrum - WakeMed | LinkedIn",
+      "snippet": "WakeMed MyCare 365 \u2013 Lowes Grove is now open in Durham! \ud83c\udfe5 WakeMed MyCare 365 delivers all you expect from primary care with the expanded capacity of\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sandy-goud-023187a2",
+      "title": "Sandy Goud - Value-Based Care (VBC), Population Health ...",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mha97j/",
+      "title": "Jim Hinkle - Senior Vice President of Sales | Team Builder",
+      "snippet": "He specializes in transforming Digital Health and Analytics Programs focusing on the Provider and Payer Markets, and complex clinical and non-clinical processes. &lt;br&gt;&lt;br&gt;The enterprise solutions he has developed includes Population Health&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kungpeter/",
+      "title": "Peter Kung, MBA, MS, FACHE - MemorialCare | LinkedIn",
+      "snippet": "Great to be back in California with Kaiser Permanete (KP), looking at their integrated care and population health systems in San Francisco and Santa Clara, deep in the heart of Silicon Valley. Unsurprisingly, KP deploy leading edge digital technologies to provide better health care at lower costs than other health plans across America, particularly by investing up-front, in primary care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sarah-e-dozier/",
+      "title": "Sarah D. - Care Transformation: Population Health Services Organization - INTEGRIS Health | LinkedIn",
+      "snippet": "INTEGRIS Health Partners Provider Engagement Lead \u00b7 Passionate about healthcare transformation and guiding teams through value-based care transitions. \u00b7 Experience: INTEGRIS Health \u00b7 Education: Arizona State University \u00b7 Location: Edmond \u00b7 192 connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vpkrishnan",
+      "title": "VP Krishnan - CVS Health | LinkedIn",
+      "snippet": "January 2, 2026 - \u2022 Multi-stakeholder alignment is the implementation strategy. Convening payers, providers, and purchasers is essential to sustainable financing and system transformation. \u2022 Integration is essential, not optional. Embedding behavioral health in primary care improves access, outcomes, and whole-person care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/priyamukundan/",
+      "title": "Priya Mukundan - Post-Acute Care Network Administrator | Value-Based Care Leader | Improving Care Transitions &amp; Outcomes Across the Continuum | LinkedIn",
+      "snippet": "I am proud to be a part of the innovation and transformation that is happening in healthcare today. Areas of Expertise: Clinical Operations, KPIs Strategic Planning &amp; Implementation Program &amp; Project Management Budgeting, Revenue, &amp; Retention Value-Based Care Regulatory Compliance &amp; Audits Health Plans, Insurance, Medicare, &amp; HMOs Population Health &amp; Telemedicine Geriatrics, Neurology, Orthopedics, Chronic Care Industry Experience: Healthcare, Geriatric Care, Home Care, Rehab (in-patient and out-patient), transitional care, hospital-based clinics, health and wellness Contact: priyamukundan@gmail.com"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vinita-chaudhary-b867a5a5/",
+      "title": "Vinita Chaudhary - ProHealth Partners, Inc. | LinkedIn",
+      "snippet": "The California Advanced Primary Care Initiative focuses on value-based payment models and population health management. This collaboration between Blue Shield of California, Aetna, and Health Net seeks to enhance outcomes while supporting physicians&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/neilgomes",
+      "title": "Neil Gomes - C-suite Executive Leveraging Technology to ...",
+      "snippet": "3 weeks ago - We also discussed the role of operational transformation and financial sustainability. This work supports our Mission. It allows us to reinvest in communities and continue serving those most in need, including Medicaid and uninsured patients. At Ascension, we are building a more connected model that expands access through ambulatory, virtual, and community-based care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sheila-c-krishnan-932b7a12/",
+      "title": "Sheila C. Krishnan - Vice President at CVS Health",
+      "snippet": "Digital health is becoming the backbone of care delivery, yet for 67M+ Americans with disabilities, access remains limited and fragmented. That\u2019s not just inequity, it\u2019s a missed opportunity in value-based care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vivek-yadav/",
+      "title": "Vivek Yadav - IQVIA | LinkedIn",
+      "snippet": "June 27, 2024 - Transforming healthcare with seamless integration of data and technology, we&#x27;re elevating patient care to new heights. The Health Command Center acts as a real-time nerve center, providing live insights for coordinated, timely care. GenAI-powered assistants offer quick insights through natural language queries. Provider and Payer Analytics drive clinical and operational optimizations, while Population Health Management ensures effective chronic disease management."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/aaronmartinfc/",
+      "title": "Aaron Martin - President Medicare Advantage, Humana",
+      "snippet": "September 9, 2015 - Aaron is currently Vice President of Healthcare at Amazon where he works closely with\u2026 \u00b7 Experience: Humana \u00b7 Location: Greater Seattle Area \u00b7 500+ connections on LinkedIn. View Aaron Martin\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christinesawicki/",
+      "title": "Christine S. - CCS | LinkedIn",
+      "snippet": "March 24, 2026 - Join PHA and contribute your voice to advancing population health through our educational efforts and Councils. Contact Michael Barr, MD, MBA, PHA, Senior Director of Population Health Improvement and Member Engagement at mbarr@populationhe..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/scott-frech-3b77628/",
+      "title": "Scott Frech - American Shared Hospital Services (ASHS) | LinkedIn",
+      "snippet": "We\u2019re not just balancing budgets anymore. We\u2019re: \u2022 Driving data-informed decisions to improve patient outcomes \u2022 Collaborating across clinical and operational teams to align incentives \u2022 Investing in digital transformation to streamline care delivery and reduce waste The challenge?"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/betsy-bernstein/",
+      "title": "Betsy Bernstein - Vice President of Joint Ventures",
+      "snippet": "August 21, 2025 - We can\u2019t quickly reduce how much care older patients need, but we can change where and how services are delivered. Supporting aging patients in lower-cost settings like the home, ambulatory sites, and virtual environments is no longer just a preference or convenience, it\u2019s a necessity."
+    }
+  ]
+}

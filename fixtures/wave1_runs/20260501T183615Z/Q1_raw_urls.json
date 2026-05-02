@@ -1,0 +1,18 @@
+{
+  "query_id": "Q1",
+  "query_string": "(\"VP Population Health\" OR \"Director of Population Health\" OR \"Director of Care Management\" OR \"Director of Care Transformation\") AND (\"primary care\" OR \"ambulatory\" OR \"value-based\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care` (apply via LinkedIn UI after running Boolean)",
+  "location": "United States",
+  "expected_subtiers": [
+    "1A",
+    "1C",
+    "3A",
+    "3B` \u2014 wide net across provider org types where pop health roles concentrate"
+  ],
+  "cluster": "OO-1` + `OO-2` (Operational Owner \u2014 population health + care transformation flavors)",
+  "why_this_slot": "Highest density of operators feeling daily mental-health-in-primary-care pain. The persona that converts internally per [[COCM_OUTREACH_SEQUENCING]]. Captures 4 subtiers in one query, so a single afternoon of triage seeds 4 HeyReach campaigns.",
+  "run_at": "2026-05-01T18:36:15+00:00",
+  "raw_result_count": 0,
+  "deduped_result_count": 0,
+  "results": []
+}

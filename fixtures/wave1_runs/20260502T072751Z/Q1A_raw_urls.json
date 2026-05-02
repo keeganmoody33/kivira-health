@@ -1,0 +1,34 @@
+{
+  "query_id": "Q1A",
+  "query_string": "per-row 1a-persona (Spider /search + site:linkedin.com/in)",
+  "industry_filter": "(N/A \u2014 account-first sourcing)",
+  "location": "United States",
+  "expected_subtiers": [
+    "1A"
+  ],
+  "cluster": "per-row sourcing mode=1a-persona",
+  "why_this_slot": "Account-first: subtier known from CMS source, only persona/contact varies per row.",
+  "run_at": "2026-05-02T07:27:55.748474+00:00",
+  "raw_result_count": 2,
+  "deduped_result_count": 2,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karen-torrens-0b56b441",
+      "title": "Karen Torrens - Regional Manager - Tampa Family Health Centers | LinkedIn",
+      "snippet": "Healthcare Operations Manager \u00b7 Experienced Owner with a demonstrated history of working in the medical practice industry. Strong entrepreneurship professional skilled in Business Process, Negotiation, Internal Audit, Team Building, and Management. \u00b7 Experience: Tampa Family Health Centers&nbsp;...",
+      "match_score": 6,
+      "source_account": "TOTAL FAMILY HEALTHCARE, INC.",
+      "source_state": "OH",
+      "source_subtier": "1A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/shawn-dufford-md-mba-ms-17b00015",
+      "title": "Shawn Dufford, MD, MBA, MS - Chief Medical Officer - Memorial Health System- Gulfport | LinkedIn",
+      "snippet": "Chief Medical Officer \u00b7 Health system leader with 11 years of experience in hospital and medical staff operations, advancing quality and operational performance through the development of strong teams and a data driven approach to clinical&nbsp;...",
+      "match_score": 5,
+      "source_account": "SHACKELFORD COUNTY RURAL HEALTH",
+      "source_state": "TX",
+      "source_subtier": "1A"
+    }
+  ]
+}

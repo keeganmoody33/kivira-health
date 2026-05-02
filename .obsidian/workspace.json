@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "b47e12123058873d",
+    "type": "split",
+    "children": [
+      {
+        "id": "69460551c6d2be4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8493fb4d6d28dc2e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e238be63c296f9bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "51df83b3599a3550",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39c7462e2ab43241",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "92eafc07ddc510b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#source-research-synthesis",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "03ec9a93bb6afed9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ceef7f56b433223",
+    "type": "split",
+    "children": [
+      {
+        "id": "566ea535e990c0bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d87e6711601b13fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CLINICAL_INSTRUMENTS_SURFACE"
+            }
+          },
+          {
+            "id": "49eac6a853a676fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CLINICAL_INSTRUMENTS_SURFACE"
+            }
+          },
+          {
+            "id": "7f4a01c2241854d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a03c09b67978dd9b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8f373cafc8890f7d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CLINICAL_INSTRUMENTS_SURFACE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8493fb4d6d28dc2e",
+  "lastOpenFiles": [
+    "fixtures/wave1_runs/20260502T110336Z/Q1A_raw_urls.json",
+    "fixtures/wave1_runs/20260502T110336Z/Q1A_progress.jsonl",
+    "fixtures/wave1_runs/20260502T110336Z",
+    "scripts/__pycache__/spider_query_runner.cpython-313.pyc",
+    "scripts/check_credits.py",
+    "fixtures/wave1_runs/20260502T072751Z/Q1A_raw_urls.json",
+    "fixtures/wave1_runs/20260502T072751Z/Q1A_progress.jsonl",
+    "fixtures/wave1_runs/20260502T072751Z",
+    "fixtures/wave1_runs/20260502T072733Z",
+    "fixtures/wave1a_filtered_accounts.csv",
+    "fixtures/wave2_raw_accounts.csv",
+    "_system/agent_workflows/heyreach_cli_load_runbook.md",
+    "_system/GRAPH_INDEX.md",
+    "_system/agent_workflows/wave1-small-batch-iteration.md",
+    "fixtures/wave1_runs/README_WAVE1A.md",
+    "00_foundation/messaging/wave1a_heyreach_copy.md",
+    "output/wave1a_retro_2026-05-31.md",
+    "_system/agent_workflows/heyreach-mcp-load-runbook.md",
+    "fixtures/wave1_linkedin_queries.md",
+    "00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md",
+    "_system/agent_workflows/heyreach-zero-budget-sourcing.md",
+    "knowledge_base/business/BUYING_COMMITTEE_DYNAMICS.md",
+    "knowledge_base/business/BUYER_PERSONA_TECHNOLOGY_GATEKEEPER.md",
+    "gtm-context-os-quickstart/templates/CLAUDE_MD_STARTER.md",
+    "gtm-context-os-quickstart/CLAUDE.md",
+    "gtm-context-os-quickstart/README.md",
+    "gtm-context-os-quickstart/CLAUDE_CODE_SETUP_GUIDE.md",
+    "scripts/MANUAL_LIVE_PUBLIC_SMOKE.md",
+    "CLAUDE.md",
+    "MARKETANALYSIS.md",
+    "6.md",
+    "knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md",
+    "knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md",
+    "knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md",
+    "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md",
+    "knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md"
+  ]
+}

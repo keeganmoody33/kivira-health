@@ -1,0 +1,32 @@
+# Large data files — never commit
+NPPES_Data_Dissemination_April_2026_V2/
+output/
+artifacts/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Env / secrets
+.env
+.env.local
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.cursor/
+*.swp
+
+# Fixtures — keep JSON (lead lists), ignore large CSVs
+fixtures/*.csv
+
+# Nested git repo — track as submodule separately
+gtm-context-os-quickstart/
+*.crdownload
