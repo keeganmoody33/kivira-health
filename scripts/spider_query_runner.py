@@ -137,8 +137,10 @@ def parse_queries(md_path: Path = QUERIES_FILE) -> dict[str, Query]:
     text = md_path.read_text(encoding="utf-8")
     queries: dict[str, Query] = {}
 
-    # Split on `### Q<digits>` headers
-    sections = re.split(r"^### (Q\d+)[^\n]*$", text, flags=re.MULTILINE)
+    # Split on `### Q<id>` headers — id can be digits, letters, dashes, or
+    # underscores (e.g., Q1, Q1A-OO, Q2B-PCL). Canonical generator uses the
+    # subtier-role coded form.
+    sections = re.split(r"^### (Q[\w-]+)[^\n]*$", text, flags=re.MULTILINE)
     # split returns: [preamble, "Q1", body1, "Q2", body2, ...]
     for i in range(1, len(sections), 2):
         qid = sections[i].strip()
@@ -182,7 +184,7 @@ def parse_queries(md_path: Path = QUERIES_FILE) -> dict[str, Query]:
 # ---------------------------------------------------------------------------
 
 
-def call_spider_search(boolean: str, api_key: str) -> list[SpiderResult]:
+def call_spider_search(boolean: str, api_key: str, search_limit: int = 30) -> list[SpiderResult]:
     """POST to Spider.cloud /search with the X-ray Boolean.
 
     crawl_results=False keeps this URL-cheap; we only want the search-result
@@ -194,10 +196,9 @@ def call_spider_search(boolean: str, api_key: str) -> list[SpiderResult]:
         # llms.txt docs are stale — the live error and live API examples
         # confirm 'search').
         "search": full_query,
-        # 10 is plenty — downstream score_hit() ranks and takes top-1.
-        # Was 100, which inflated per-call cost AND was the suspect cause of
-        # intermittent 401s on max-cost calls (anti-abuse heuristic).
-        "search_limit": 10,
+        # search_limit is a CLI flag now — default 30, was hardcoded 10.
+        # Higher = more raw results per call (linear cost increase).
+        "search_limit": search_limit,
         # URL-only mode — just SERP metadata (url/title/snippet), not page
         # contents. Saves credits dramatically.
         "fetch_page_content": False,
@@ -386,16 +387,16 @@ def write_run_artifact(
 # ---------------------------------------------------------------------------
 
 
-def run(query_ids: Optional[list[str]], dry_run: bool) -> int:
+def run(query_ids: Optional[list[str]], dry_run: bool, queries_file: Path = QUERIES_FILE, search_limit: int = 30) -> int:
     load_env_local()
     api_key = os.environ.get("SPIDER_API_KEY", "").strip()
     if not api_key and not dry_run:
         sys.stderr.write("Missing SPIDER_API_KEY (set in .env.local)\n")
         return 2
 
-    queries = parse_queries()
+    queries = parse_queries(queries_file)
     if not queries:
-        sys.stderr.write(f"No queries parsed from {QUERIES_FILE}\n")
+        sys.stderr.write(f"No queries parsed from {queries_file}\n")
         return 2
 
     if query_ids:
@@ -430,7 +431,7 @@ def run(query_ids: Optional[list[str]], dry_run: bool) -> int:
             summary.append((q.query_id, 0, 0))
             continue
 
-        results = call_spider_search(q.boolean, api_key)
+        results = call_spider_search(q.boolean, api_key, search_limit=search_limit)
         new = [
             r for r in results
             if _normalize_url(r.linkedin_profile_url) not in existing
@@ -473,10 +474,26 @@ def main() -> int:
         action="store_true",
         help="Parse queries but don't hit Spider.cloud.",
     )
+    parser.add_argument(
+        "--queries-file",
+        default=str(QUERIES_FILE),
+        help="Path to the Q-block markdown file. Defaults to fixtures/wave1_linkedin_queries.md.",
+    )
+    parser.add_argument(
+        "--search-limit",
+        type=int,
+        default=30,
+        help="Max results per Spider /search call. Default 30 (was 10).",
+    )
     args = parser.parse_args()
 
     query_ids = args.query if args.query else None
-    return run(query_ids, args.dry_run)
+    return run(
+        query_ids,
+        args.dry_run,
+        queries_file=Path(args.queries_file),
+        search_limit=args.search_limit,
+    )
 
 
 if __name__ == "__main__":

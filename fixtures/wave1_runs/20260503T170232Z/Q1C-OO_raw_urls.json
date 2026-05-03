@@ -1,0 +1,86 @@
+{
+  "query_id": "Q1C-OO",
+  "query_string": "(\"VP Population Health\" OR \"Director of Population Health\" OR \"Director of Care Management\" OR \"Director of Quality\" OR \"Director of Risk Adjustment\" OR \"Care Transformation Lead\" OR \"Director of Value-Based Programs\") AND (\"value-based care\" OR \"VBC\" OR \"shared savings\" OR \"MSSP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1C"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Quality / Compliance, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:02:41+00:00",
+  "raw_result_count": 16,
+  "deduped_result_count": 14,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jeromytimmer/",
+      "title": "Jeromy Timmer - System Director of Population Health - Bronson Healthcare | LinkedIn",
+      "snippet": "The 4th highest of all MSSP ACOs \u2022 Developed revenue model for potential MA contracting. Identified over $100 Million in shared savings opportunity by contracting with MA plans. \u2022 Created the data analytics in Excel and Tableau to support strategy deployment, our work regarding hospital and skilled nursing utilization, and risk capture (including ROI calculations for HCC reviews.)"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sreekanth-chaguturu-9929ab4",
+      "title": "Sreekanth Chaguturu - EVP, President of Health Care ...",
+      "snippet": "July 9, 2024 - \u2022 Payers protect margin through friction, delay, and risk deflection. \u2022 Policymakers are evaluated on budget stability, not population health improvement. Three actors. Three incompatible incentive structures. No shared accountability for upstream health. This is why past reforms stalled. MSSP, shared savings, and incremental value-based pilots never touched the underlying payment rails."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joseph-egan-07302334/",
+      "title": "Joseph Egan - Tenet Healthcare | LinkedIn",
+      "snippet": "2\ufe0f\u20e3 DIVERSIFICATION TO DE-RISK Getting a new H # is hard. De-risking is occurring via market/pbp exits and reduced commissions in this PPO, alongside offers of other products as alternatives. Headwinds will continue after VBC/risk-bearing providers see their first lost premium revenue due to H5216&#x27;s lost PY26 QBP."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christie-ramirez-460814261",
+      "title": "Christie Ramirez - Value Based Care (VBC)",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/adamchawk/",
+      "title": "Adam Hawk - Building extraordinary teams to change healthcare to better support our patients and caregivers. | LinkedIn",
+      "snippet": "August 19, 2024 - CMS NEWS DROP- CMS just released the 2024 MSSP results. The results provide tremendous insight on the ACO landscape, risk adjustment, and value based care. Here are some numbers: As always, thanks for reading. Help us get the word out by smashing the like button, sharing the post, or commenting."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/yarly-fassih-nia-msn-aprn-fnp-c-521aaa12b/",
+      "title": "Yarly Fassih-Nia, MSN, APRN, FNP-C - Senior Director of Quality and Risk Adjustment | LinkedIn",
+      "snippet": "Your leadership, energy, and passion inspire us every day, and today\u2026 \u00b7 \ud83d\udca1Ever thought about using AI to set your goals? I hadn\u2019t -- until recently. As we explore new ways to bring AI into our work at Kyndryl, this one\u2026 ... Direct Quality and Risk Adjustment initiatives to optimize population health strategies and enhance clinical outcomes for over 100K+ patients in Greater Texas ensuring alignment with NCQA HEDIS and CMS STAR requirements"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/smvchary/",
+      "title": "Manivannan S - T-Hub | LinkedIn",
+      "snippet": "April 11, 2020 - Value Based Care (VBC) - The future of healthcare payments The shift towards reimbursement against Value Based Care\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vani-wallaja-leonard-284b1a5/",
+      "title": "Vani Wallaja-Leonard - Supply Chain - Advocate Health Care",
+      "snippet": "March 24, 2020 - With more than 615,000 lives under management in shared savings or partial to full risk, we are proud to work alongside the innovative, clinical and operational experts at SSM Health to continue to realize substantially improved quality and lower total cost of care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vijay-rajagopal-23042b16/",
+      "title": "Vijay Rajagopal - Director - Product Management at ...",
+      "snippet": "April 1, 2026 - Calling All VBC Data Friends - We Need Your Help! Did you know that athenahealth sees ~20% of the US population annually? (68 million patients) Do you want to make a meaningful impact in how healthcare is delivered for those patients? My team is hiring both Lead and Senior Engineers focused on Value Based Care Analytics &amp; Performance - exciting opportunities in a rapidly growing space."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ruth-blackwell-2634a618/",
+      "title": "Ruth Blackwell - RN, MBA, CPHQ, HACP-CMS, LSSYB",
+      "snippet": "Built on MIPS like measures of costs and quality it would put 9% of the spend in these areas into and incentive pool. CMS would retain 15% of that pool and then redistribute the rest to eligible providers based on performance two years after the performance period. Not mentioned are any future ideas updating the ACPT or administrative benchmarking in MSSP."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vineet-mishra-healthcaresme/",
+      "title": "Vineet Mishra - Engagement Director at HCLTech",
+      "snippet": "March 15, 2026 - By connecting athena&#x27;s network to other EHRs through TEFCA, VBC-enablers (such as CINs and their ACOs), and payers (then parsing these data into the correct place in the system), we&#x27;re able to inject the right information, in the right place, at the right time to thrive in value-based care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vincent-sandoval/",
+      "title": "Vincent Sandoval - HealthSnap | LinkedIn",
+      "snippet": "February 2, 2026 - True VBC platforms must: * Think in timelines, not workflows * Predict risk before it becomes cost * Orchestrate care, not just document it * Make AI explainable enough for clinicians to trust Payment models changed, contracts changed, but many products didn\u2019t."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/victorialayton/",
+      "title": "Victoria Layton - Program Administrator GME - HCA Florida JFK Hospital | LinkedIn",
+      "snippet": "October 7, 2020 - Assisted the Director of Quality Improvement with CQI tools and techniques including flow-charts, Ishikawa diagrams, Pareto analysis, data collection, and team-based problem solving. Assisted the Director in preparing for the 1994 JCAHO survey, focusing on standards related to leadership and the transition from traditional QA/QI to CQI process."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michelle-sepulvado-msn-rn-cic-023a611a7/",
+      "title": "Michelle Sepulvado, MSN, RN, CIC - Director of Quality, Patient Safety and Infection Control | LinkedIn",
+      "snippet": "Director of Quality, Patient Safety and Infection Control \u00b7 Experience: South Arkansas Regional Hospital \u00b7 Education: Kaplan University \u00b7 Location: Camden \u00b7 71 connections on LinkedIn. View Michelle Sepulvado, MSN, RN, CIC\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    }
+  ]
+}

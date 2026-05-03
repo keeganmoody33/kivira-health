@@ -1,0 +1,31 @@
+{
+  "query_id": "Q2B-TG",
+  "query_string": "(\"CTO\" OR \"VP Engineering\" OR \"VP Integrations\" OR \"Director of Platform Engineering\" OR \"VP Technology\" OR \"Head of Engineering\") AND (\"Aledade\" OR \"Privia Health\" OR \"Pearl Health\" OR \"Evolent\" OR \"agilon health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2B"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third (co-equal) priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:21+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 3,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/davis-vickers-ms-356b1036/",
+      "title": "Davis Vickers, MS - agilon health | LinkedIn",
+      "snippet": "Leader in data engineering / data science with a deep set of career experiences in\u2026 \u00b7 Experience: agilon health \u00b7 Education: Northwestern University \u00b7 Location: Placentia \u00b7 500+ connections on LinkedIn. View Davis Vickers, MS\u2019 profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/girishvenk/",
+      "title": "Girish Venkatachaliah - agilon health | LinkedIn",
+      "snippet": "Experience: agilon health \u00b7 Location: Greater Boston \u00b7 500+ connections on LinkedIn. View Girish Venkatachaliah\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bill-farry-0365b2a",
+      "title": "Bill Farry - agilon health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    }
+  ]
+}

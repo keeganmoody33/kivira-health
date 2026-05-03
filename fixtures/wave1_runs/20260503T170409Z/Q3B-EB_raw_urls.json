@@ -1,0 +1,81 @@
+{
+  "query_id": "Q3B-EB",
+  "query_string": "(\"SVP Enterprise Operations\" OR \"VP Care Transformation\" OR \"VP Population Health\" OR \"SVP Strategy\" OR \"CFO\" OR \"COO\") AND (\"IDN\" OR \"integrated delivery network\" OR \"integrated health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3B"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Third priority \u2014 primary theme ROI / Revenue, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:04:17+00:00",
+  "raw_result_count": 13,
+  "deduped_result_count": 13,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karen-matijak/",
+      "title": "Karen Matijak - SVP, Business Operations and Transformation - On Location | LinkedIn",
+      "snippet": "SVP, Business Operations &amp; Transformation - IMG Events and On Location \u00b7 I love, transforming businesses, solving customer problems, and simplifying the complicated. I have always been motivated and focused on achieving business results. Earlier in my career, GE taught me the value of simplification, collaboration, trust, and empowerment."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/susan-ray-81ab154/",
+      "title": "Susan Ray - Rippl | LinkedIn",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. Specialty infusion costs are rising fast \u2014 and employers are feeling the pressure. Our SVP of Strategy and Operations, Alex Kubal shares why\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vivienne-wei-li/",
+      "title": "Vivienne Li - AI and Data Strategy &amp; Transformation",
+      "snippet": "3 weeks ago - AI Strategy Executive with 15+ years leading enterprise transformation across consulting,\u2026 \u00b7 Experience: CVS Health \u00b7 Education: Purdue University \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Vivienne Li\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/suzanne-c-ryan/",
+      "title": "Suzanne Ryan - Aetna, a CVS Health Company | LinkedIn",
+      "snippet": "\u00b7 Experience: Aetna, a CVS Health Company \u00b7 Education: Adelphi University \u00b7 Location: New York City Metropolitan Area \u00b7 81 connections on LinkedIn. View Suzanne Ryan\u2019s profile on LinkedIn, a&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tompike/",
+      "title": "Tom Pike - VP, Health IT Solutions | LinkedIn",
+      "snippet": "This was spent in positions of progressively increasing responsibility in computer systems, fiscal management, and information management leading to both CFO and CIO positions at the medical facility level and also included a corporate level position at HQ Air Force Logistics Command performing multi-facility planning, implementations, and operations in medical information systems including systems\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joanne-wright4",
+      "title": "Joanne Wright - Senior Vice President, IBM Transformation ...",
+      "snippet": "September 12, 2024 - \u00b7 Experience: IBM \u00b7 Education: Glasgow Caledonian University \u00b7 Location: Armonk \u00b7 500+ connections on LinkedIn. View Joanne Wright\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joybrowntechexec",
+      "title": "Joy Brown - Boston Medical Center (BMC) | LinkedIn",
+      "snippet": "June 16, 2025 - \u00b7 Experience: Boston Medical Center (BMC) \u00b7 Education: Harvard Business School \u00b7 Location: United States \u00b7 500+ connections on LinkedIn. View Joy Brown\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amir-abrams/",
+      "title": "Amir Abrams - EasyVista | LinkedIn",
+      "snippet": "March 8, 2026 - METHODS: A novel, secure, bidirectional health care delivery-public health information exchange, the Louisiana Public Health Information Exchange (LaPHIE) was developed between a multi-geographical IDN and the Louisiana public\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/anne-stuart-4193059/",
+      "title": "Anne Stuart - Chief Financial and Administrative Officer at ...",
+      "snippet": "This approach, which we&#x27;ve implemented through strong partnerships in our provider networks, has led to improved health outcomes and reduced costs for our members. For example, the value-based Sanitas care model at our Florida Blue | Sanitas Medical Centers creates more seamless and coordinated care for our members that prioritizes prevention and early intervention."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alisonelworthy/",
+      "title": "Alison Elworthy - Billtrust | LinkedIn",
+      "snippet": "August 2, 2021 - \u201cI worked with Alison for a number of years at HubSpot, first with her on my marketing team and then collaborated with her while she was in sales and strategy roles. Alison is an exceptionally smart and strategic leader. She can look at most situations, break down the data, devise the most effective strategy, and implement it. I recommend Alison as a CEO or COO, and as a board member or advisor.\u201d"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/leahmillercio",
+      "title": "Leah Miller - Synapticure | LinkedIn",
+      "snippet": "2 weeks ago - By integrating financial and clinical data using the Concerto Analytics platform, BRHS created a transparent, collaborative environment where funding decisions are directly linked to care outcomes. Attendees will learn how real time scenario modelling, CFO led conversations and AI enhanced insights are enabling clinical and operational leaders to drive measurable improvements in service delivery and cost efficiency."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rajuiyer0121/",
+      "title": "Raju Iyer - San Francisco Bay Area | Professional Profile | LinkedIn",
+      "snippet": "Experienced Chief Financial Officer with a demonstrated history of working in the\u2026 \u00b7 Location: San Francisco Bay Area. 500+ connections on LinkedIn. View Raju Iyer\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stephenbranstetter/",
+      "title": "Stephen Branstetter - KYG Trade\u2122 | LinkedIn",
+      "snippet": "February 6, 2018 - By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. \u201cStephen is a great partner - with those working for him, with him, or customers with delicate and tricky issues - Stephen can be counted on to find the path that works best for everyone involved. He is passionate and driven while at the same time maintaining genuine openness and caring for those around him. As a VP of Smartsheet, he has helped to drive customer retention and servicing strategies that have been a big part of the growth that has led to the company&#x27;s success."
+    }
+  ]
+}

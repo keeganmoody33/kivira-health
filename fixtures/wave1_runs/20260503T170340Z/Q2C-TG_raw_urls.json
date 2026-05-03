@@ -1,0 +1,106 @@
+{
+  "query_id": "Q2C-TG",
+  "query_string": "(\"VP Product\" OR \"IT Director\" OR \"Director of Integrations\" OR \"VP Technology\" OR \"CTO\" OR \"Director of Clinical Systems\") AND (\"care management\" OR \"chronic care management\" OR \"CCM\" OR \"remote patient monitoring\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2C"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:49+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 18,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/richard-a-keller/",
+      "title": "Richard Keller - Healthcare Chief Information Officer (CIO) | VP IT Product Delivery | Executive Director Enterprise IT | Trusted Advisor to Business &amp; Clinical Leadership | Digital &amp; Operations Transformation | LinkedIn",
+      "snippet": "Healthcare Chief Information Officer (CIO) | VP IT Product Delivery | Executive Director Enterprise IT | Trusted Advisor to Business &amp; Clinical Leadership | Digital &amp; Operations Transformation \u00b7 Healthcare Digital Technology &amp; Operations Transformation Leader with demonstrated success modernizing systems and implementing enterprise solutions across large organizations."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/todd-holling-bab363171/",
+      "title": "Todd Holling - Healthcare Chief Information Officer (CIO) | Chief Technology Officer (CTO) | Chief Digital Officer (CDO) | Chief Strategy &amp; Innovation Officer (CSIO) | Enterprise Clinical &amp; Business Technology &amp; AI Transformation| | LinkedIn",
+      "snippet": "Healthcare Chief Information Officer (CIO) | Chief Technology Officer (CTO) | Chief Digital Officer (CDO) | Chief Strategy &amp; Innovation Officer (CSIO) | Enterprise Clinical &amp; Business Technology &amp; AI Transformation| \u00b7 Digital Transformation Leader with proven success executing state-of-the-art technology programs for large, renowned multi-hospital Healthcare systems."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/chris-oltmans-b4808077/",
+      "title": "Chris Oltmans - Passionate executive with over 20 years of ...",
+      "snippet": "5 days ago - One theme keeps surfacing: strong proposals require more than a compelling vision - they need a credible plan, a proven model, and partners who can help hospitals execute quickly. If your application includes Remote Patient Monitoring, virtual care, chronic disease management, or strategies to expand rural access, AMC Health can strengthen both your proposal and your implementation roadmap."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mark-amey/",
+      "title": "Mark Amey, MBA, CHCIO, CDH-E - Ellit Groups | LinkedIn",
+      "snippet": "November 21, 2025 - His team&#x27;s close collaboration with physician leaders helped optimize clinical workflows, improve the patient portal, and enhance the overall patient experience. Mark\u2019s relentless focus on customer service and servant leadership created a unique synergy between technology and clinical operations."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/novative1",
+      "title": "David A. Hall MHA, MA, MIS/IT, PMP - AKT Health Inc. | LinkedIn",
+      "snippet": "February 18, 2026 - \ud83d\udccd Interoperability + SMART Pavilion ... #HL7DaVinciProject #FHIR #HealthIT #Interoperability ... \ud83d\ude91 Remote Patient Monitoring Is Reshaping Healthcare in 2025...."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/philipkwu/",
+      "title": "Philip Wu - VP-CE Chief Medical Information Officer ...",
+      "snippet": "- EHR integration is optimizing medication safety and coordination, especially for chronic diseases. - Mobile and same-day delivery solutions are transforming the last mile of care, bringing meds directly to doorsteps. - Data-driven workflows are embedding pharmacists into specialty care to fast-track therapy and reduce wait times. What we\u2019re seeing is more than operational change\u2014it\u2019s the evolution of care delivery. When tech tools are built around patient needs and used by empowered clinical teams, we achieve what Connected Care truly stands for: continuity, personalization, and equity."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/raabjosh/",
+      "title": "Josh Raab - Sr. Director, Enterprise Clinical Systems at Envision Healthcare - Envision Healthcare | LinkedIn",
+      "snippet": "Sr. Director, Enterprise Clinical Systems at Envision Healthcare \u00b7 I am an IT leader with a passion for continuous improvement and developing leaders. I enjoy creating technical solutions that solve business problems. My strengths include: Team collaboration, metrics analysis/data mining, strategic planning, coaching/mentoring, managing to key performance indicators, and delivering solutions to technology issues."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/danielmartinezmba/",
+      "title": "Dan Martinez, MBA - Surgery Partners Methodist Healthcare | LinkedIn",
+      "snippet": "Dan Martinez IT Healthcare Executive Highly successful, industrious, Senior VP of\u2026 \u00b7 Experience: Surgery Partners Methodist Healthcare \u00b7 Education: University of Phoenix \u00b7 Location: Dallas-Fort Worth Metroplex \u00b7 500+ connections on LinkedIn. View Dan Martinez, MBA\u2019s profile on LinkedIn,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ryanbarry/",
+      "title": "Ryan Barry - Raintree Systems | LinkedIn",
+      "snippet": "March 11, 2026 - Chronic Care Management just got easier. Introducing TempDev\u2019s CCM 2.1 Template Suite\u2014built to streamline documentation, improve patient enrollment visibility, and support accurate billing within native NextGen workflows. Less admin. More clarity. Better care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jameswellman",
+      "title": "James Wellman, CHCIO, CDH-E, MSHCA - Nathan Littauer Hospital &amp; Nursing Home | LinkedIn",
+      "snippet": "4 weeks ago - Healthcare CIO, Consultant, VP Operations, Legacy Support, Client Executive, Delivery Director&lt;br&gt;&lt;br&gt; All Invitations to Connect Welcome&lt;br&gt;&lt;br&gt;LION \u2013 LinkedIn Open Networker&lt;br&gt;&lt;br&gt;****************************&lt;br&gt; Healthcare IT EXECUTIVE&lt;br&gt;&lt;br&gt;As a C-Level IT Executive, I offer proven success in analyzing, designing, deploying and delivering strategic technology solutions that align with and support key defined business goals of my organization."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sachdevavikas/",
+      "title": "Vikas Sachdeva - HealthDrive Corporation | LinkedIn",
+      "snippet": "March 9, 2026 - \u00b7 Experience: HealthDrive Corporation \u00b7 Education: Indian Institute of Science (IISc) \u00b7 Location: Greater Boston \u00b7 500+ connections on LinkedIn. View Vikas Sachdeva\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mikejimenez/",
+      "title": "Mike Jimenez - Chief Technology Officer (CTO) for Healthcare.gov - CCIIO/CMS/HHS | LinkedIn",
+      "snippet": "Specialties: \u2022 IT Strategy Development \u2022 Agile team building and leadership \u2022 Vendor Management \u2022 Offshoring \u2022 Multi-site team leadership and management \u2022 SDLC Implementation \u2022 Capacity/Resource planning process implementation \u2022 New system integrations \u2022 Global eCommerce sites \u2022 Multi-technology environments - Ruby/Java/HTML/CSS \u2022 Object Oriented Development - C/C++/Obj-C/Swift \u2022 Project/Team turn-arounds \u2022 Budget management (over $14MM)"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kevindawson/",
+      "title": "Kevin Dawson - Los Angeles Network for Enhanced Services (LANES) | LinkedIn",
+      "snippet": "January 23, 2026 - \u00b7 Experience: Los Angeles Network for Enhanced Services (LANES) \u00b7 Location: Los Angeles Metropolitan Area \u00b7 500+ connections on LinkedIn. View Kevin Dawson\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/krista-robertson-92a23191/",
+      "title": "Krista Robertson - The Resource Group, Spend Management Solutions | LinkedIn",
+      "snippet": "One of the programs we offer is Accelerate, which brings together some of our top directors and AVPs in an immersive experience. Over several months, participants learn about all aspects of our business and how we care for our patients, while spending time with senior leaders to hear firsthand about their journeys."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stevetuohy/",
+      "title": "Steve Tuohy - Senior Vice President and Chief Information ...",
+      "snippet": "February 23, 2026 - Experience: Trinity Health (HQ Michigan) \u00b7 Education: Xavier University \u00b7 Location: Detroit Metropolitan Area \u00b7 500+ connections on LinkedIn. View Steve Tuohy\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/seanupdegrove/",
+      "title": "Sean Updegrove - Community Health Systems | LinkedIn",
+      "snippet": "October 12, 2025 - \u00b7 Experience: Community Health Systems \u00b7 Education: Western Governors University \u00b7 Location: Greater Seattle Area \u00b7 500+ connections on LinkedIn. View Sean Updegrove\u2019s profile on LinkedIn, a&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/adnan-hamid-81a8068/",
+      "title": "Adnan Hamid - Healthcare Technology Executive",
+      "snippet": "Their approach keeps technology in the background and preserves the moments that matter most between patients and providers. With ambient AI, predictive tools, and Microsoft DAX Copilot integrated thoughtfully across workflows, TMC can automate administrative tasks, capture structured data accurately, and provide clinicians with actionable insights in real time."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cawitmer/",
+      "title": "Craig Witmer - Kern Medical | LinkedIn",
+      "snippet": "\u00b7 Experience: Kern Medical \u00b7 Education: Penn State University \u00b7 Location: Los Angeles Metropolitan Area \u00b7 500+ connections on LinkedIn. View Craig Witmer\u2019s profile on LinkedIn, a professional&nbsp;..."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "query_id": "Q1B-OO",
+  "query_string": "(\"Practice Administrator\" OR \"Office Manager\" OR \"Practice Manager\" OR \"Director of Practice Operations\" OR \"Operations Manager\" OR \"Clinic Administrator\") AND (\"primary care\" OR \"family practice\" OR \"family medicine\" OR \"PCP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1B"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Workflow / Ops, secondary ROI / Revenue",
+  "run_at": "2026-05-03T17:02:33+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 9,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/melissa-spangler-60336a165/",
+      "title": "Melissa Spangler - Public Health Administrator - OGLE COUNTY HEALTH DEPARTMENT | LinkedIn",
+      "snippet": "Experienced Operations Manager with a demonstrated history of working in the hospital &amp; health care industry. Skilled in Customer Service, Safety Training, and facilities management. Strong operations professional with a Master of Healthcare Administration - MHA focused in Health/Health Care&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jean-williams-1116824a/",
+      "title": "Jean Williams - Stone Mountain, Georgia, United States",
+      "snippet": "\u00b7 Experience: Village Medical \u00b7 Education: DeKalb Technical College \u00b7 Location: Stone Mountain \u00b7 65 connections on LinkedIn. View Jean Williams\u2019 profile on LinkedIn, a professional community of 1&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/parag-patel-md-cmd-6146853b/",
+      "title": "Parag Patel MD CMD - Canyon Vista Medical Center | LinkedIn",
+      "snippet": "Experienced Managing Director with a demonstrated history of working in the medical\u2026 \u00b7 Experience: Canyon Vista Medical Center \u00b7 Education: University of California, Los Angeles \u00b7 Location: Sierra Vista \u00b7 500+ connections on LinkedIn. View Parag Patel MD CMD\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sueanne-oates/",
+      "title": "SueAnne Oates - Medical Practice Associates | LinkedIn",
+      "snippet": "We&#x27;ve got Duff Sprague CEO of one of our provinces largest family health teams and former director at the MOH- pulling no punches in this clip from our upcoming episode with Dr. Ivy Oandasan and our host, Anthony DiValentino. &quot;Ten years without a base budget increase. Six years without a salary adjustment. Medical students steering away from comprehensive family medicine. Other disciplines following suit. We&#x27;re no longer the employer of choice for nurse practitioners or mental health workers. The primary care sector has been neglected.&quot;"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rosemary-anderson-ma-78771265/",
+      "title": "Rosemary Anderson MA - Practice Manager - Medical Practice | LinkedIn",
+      "snippet": "Efficiently coordinate all operational aspects of thriving medical practice. Contribute to 20% annual growth of new patients. Prepare quarterly and annual revenue reports. Schedule appointments in system. Authorize and submit claims to full range of insurance companies."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/anastasia-kartsev-5893a9318/",
+      "title": "Anastasia Kartsev - Medical Office Manager - Integrative Manual Physical Therapy | LinkedIn",
+      "snippet": "Works with the Landmark Health Medical Director, Director of Health Services, Corporate Director of Health Services, and UM staff in the development and/or implementation of medical management policy, clinical protocols, utilization management guidelines, and quality management programs. Dedicated to improving the health and well-being of members, this position collaborates with the PCP, and as needed, the health plan Medical Director and other health professionals, to develop members&#x27; goals of care in all phases of long-term care. Primary Responsibilities: Practices in accordance with the res"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lauren-miller-6105b7105/",
+      "title": "Lauren Miller - Physician Assistant at Mercy Primary Care - Piedmont | LinkedIn",
+      "snippet": "I am honored to share that I have accepted the position of Director at ROGER Bank, a digital bank designed specifically for the military community.\u2026 \u00b7 &quot;33 But seek first his kingdom and his righteousness, and all these things will be given to you as well&quot; Matthew 6:33 \ud83d\ude4f\ud83c\udffc\ud83d\udcd6\ud83c\udf0e\ud83d\udcd6\ud83d\ude4f\ud83c\udffc \u00b7 When it comes to incredible nurses, we hit the jackpot. ... Family medicine physician assistant. ... Family Practice, Allergy, Immunology &amp; Pediatric Pulmonology Educated and supervised by Mayo Clinic trained, triple board certified physician, Dr."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/krystal-hardin-b76182292/",
+      "title": "Krystal Hardin - Executive Administrative Assistant - Encore Health Partners | LinkedIn",
+      "snippet": "I have over 20 years experience in the medical field. I began my medical career as a medical assistant in various specialties and soon learned my strengths were in the administrative role. Highlights of my career have been the opportunity to be a member of a hospital start-up team with Jewish&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amber-anderson-41010073/",
+      "title": "Amber Anderson - Manager in Family Medicine and Pediatrics at Mayo Clinic Health System | LinkedIn",
+      "snippet": "Manager in Family Medicine and Pediatrics at Mayo Clinic Health System \u00b7 Experience: Mayo Clinic Health System in Eau Claire \u00b7 Education: Lakeland College \u00b7 Location: Eau Claire \u00b7 214 connections on LinkedIn. View Amber Anderson\u2019s profile&nbsp;..."
+    }
+  ]
+}

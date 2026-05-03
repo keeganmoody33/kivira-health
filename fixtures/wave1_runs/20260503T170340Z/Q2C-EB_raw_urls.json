@@ -1,0 +1,116 @@
+{
+  "query_id": "Q2C-EB",
+  "query_string": "(\"CEO\" OR \"GM\" OR \"President\" OR \"VP Operations\" OR \"COO\" OR \"Executive Director\" OR \"CFO\") AND (\"care management\" OR \"chronic care management\" OR \"CCM\" OR \"remote patient monitoring\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2C"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Second priority \u2014 primary theme ROI / Revenue, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:44+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 20,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mario-espino-4aa6a390/",
+      "title": "Mario Espino - Founder and Chairman CEO - Complete Care Management Services | LinkedIn",
+      "snippet": "January 24, 2018 - COB, Founder Complete Care Management Services \u00b7 Currently Mario holds the position of Founder/Chairman CEO at CCMS-ACO, a Post-Acute, Care Management, chronic care management, virtual primary care medical group practice, and a Commercial ACO. CCMS-ACO is the parent company of MDsOnDemand.com, a telemedicine service that serves both individuals and organizations in their quests to receive cost effective health care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ehowie/",
+      "title": "Eric Howie - CEO/COO | Operations Leadership",
+      "snippet": "September 10, 2025 - Design specific endpoints that move economics - readmissions, ED visits, nursing time per patient, and length of stay. For chronically ill populations and the ever-moving site-of-care shift, tie clinical deltas to reimbursable programs like Remote Patient Monitoring or Chronic Care Management codes."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sharon-jacoby-00607219/",
+      "title": "Sharon Jacoby - CEO - Managed Care Resources, Inc. | LinkedIn",
+      "snippet": "CEO at Managed Care Resources, Inc. \u00b7 Experience: Managed Care Resources, Inc. \u00b7 Location: Los Angeles \u00b7 3 connections on LinkedIn. View Sharon Jacoby\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/fredjohnsonphx/",
+      "title": "Fred Johnson - President &amp; CEO @ Team Select Home Care",
+      "snippet": "\u00b7 Experience: Team Select Home Care \u00b7 Education: University of Wisconsin-Madison \u00b7 Location: Phoenix \u00b7 500+ connections on LinkedIn. View Fred Johnson\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/arjumandjkhan/",
+      "title": "Arjumand Shan Khan - Taxpayer Advocate Service | LinkedIn",
+      "snippet": "December 19, 2025 - Best Regards, Shan Khan Arjumand President and Executive Director CIA, CPA, and Executive MBA WhatsApp: +1-201-401-4805...more ... We are seeking an experienced, innovative, and proactive Medical Doctor with excellent written and verbal English communication skills to lead our integrated care services, including Chronic Care Management (CCM), Remote Patient Monitoring (RPM), and Remote Therapeutic Monitoring (RTM)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/camerondenisebusinessgrowth/",
+      "title": "Denise Cameron - Committed to helping people stay healthy. | LinkedIn",
+      "snippet": "July 28, 2025 - Committed to helping people stay healthy. \u00b7 Areas of Expertise Expert in the development of new business opportunities for hospital and physician networks; deep knowledge of managed care, negotiating complex payment methodologies for commercial HMO, PPO and Medicare/Medicaid product lines."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bsaxon/",
+      "title": "Bryant Saxon - Healthcare Executive | Expert in Home Health &amp; Hospice | Driving Operational Excellence in At-Home Care through Technology | LinkedIn",
+      "snippet": "August 13, 2025 - Healthcare Executive | Expert in Home Health &amp; Hospice | Driving Operational Excellence in At-Home Care through Technology \u00b7 Specialties: healthcare, hospice, home health, post-acute, data analytics, security, compliance, Medicare, EMR, Homecare Homebase, CRM, process improvement, acquisitions&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cathleen-santiago-6334a95/",
+      "title": "Cathleen Santiago - CMO - The Care Management Company of Montefiore Medical Center | LinkedIn",
+      "snippet": "\u201cBy meeting patients where they are, we aim to reduce stress, minimize missed appointments and emergency room visits, and improve overall health outcomes.\u201d The Mobile Unit partners closely with each patient\u2019s established Cooper primary care provider to deliver coordinated, seamless care. Services include routine health assessments, sick visits, chronic condition management, preventive screenings, medication management, post-hospitalization follow-up, and health education for patients and caregivers."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jennifer-malynn/",
+      "title": "Jennifer Malynn - Director Of Business Development at Chronic Care Management, Inc | LinkedIn",
+      "snippet": "June 22, 2018 - Director Of Business Development at Chronic Care Management, Inc \u00b7 Have worked as a professional in the Long Term Care industry for 24 years. Chronic Care Management provides software solutions for Providers nationally. \u00b7 Experience: Chronic Care Management, Inc \u00b7 Location: Solon \u00b7 261&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/flavia-daher-sullivan-9a0212b3/",
+      "title": "Flavia Daher - Sullivan - NAPSRx\u2018s Pharmacology/Pharmaceutical Sales | LinkedIn",
+      "snippet": "March 10, 2022 - Med-Kick is at the forefront of the #telehealth industry. We offer high-quality Remote Patient Monitoring (RPM) and Chronic Care Management (CCM) programs designed to provide value to your patients and earn your practice additional revenue."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sandy-young-1367341a/",
+      "title": "Sandy Young - Director Patient Financial Services, ...",
+      "snippet": "\ud83c\udfa5 Hear from Samantha Fisher, Director of Patient Services and Engagement at the Michigan Primary Care Association, as she shares how MPCA is leveraging Azara Care Connect to: \u2705 Strengthen care management and coordination across the state&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/medical-applications-6a25a565/",
+      "title": "Medical Applications - President &amp; CEO - MedApps Inc. | LinkedIn",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ... NYSOFA has tutorial videos to help older adults apply for benefits like Medicare, Medicaid, the MSP, HEAP, EPIC, STAR tax rebates and SNAP food assistance. That\u2019s a lot of acronyms \u2013 we spell them out for you and show how you can get help. Watch and share our videos here. https://lnkd.in/eRWJA6Cr ... \ud83d\udcc8 Scaling patient care without scaling staff - a success story: 7.6x increase in chronic care management enrollment 95% monthly patient engagement rate 9.4/10 patient satisfaction score How did Eastern Connecticut Hematology &amp; Oncology achieve these results?"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cheryl-lulias/",
+      "title": "Cheryl Lulias - President &amp; CEO Medical Home Network ...",
+      "snippet": "September 19, 2025 - By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ... Social risk factors lead to an increase in healthcare cost and utilization even after controlling for past hospital utilization, chronic conditions, age, and gender. Managed care networks should routinely screen for social factors to target at-risk patients to better manage long-term healthcare costs. See publication ... State of Reform annual health policy conferences are a gathering of senior market executives and health policy leaders whose goal is to bring everyone to the table for productive conversations about the complex issues facing the health sector."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stevelandersmd",
+      "title": "Steve Landers MD, MPH - President, Landers StratAGEy",
+      "snippet": "November 22, 2024 - \ud83d\udcac &quot;We pair a downtown hospital CEO with a regional CEO to lead system-wide initiatives.\u201d Volpe Michele, COO University of Pennsylvania Health System. At the Becker\u2019s CEO + CFO Roundtable, Michelle Volpe shared a powerful leadership model accelerating improvement across Penn Medicine\u2019s diverse hospital network: CEO matchmaking."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/teresascarroll/",
+      "title": "Teresa Carroll - Board Director | CEO | Advisor",
+      "snippet": "March 16, 2019 - \u00b7 Experience: BAYADA Home Health Care \u00b7 Education: University of Michigan \u00b7 Location: United States \u00b7 500+ connections on LinkedIn. View Teresa Carroll\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/matt-smith-48b1614/",
+      "title": "Matt Smith - Collaborative Healthcare leader | Problem solver",
+      "snippet": "October 6, 2025 - I&#x27;m a collaborative, relationship-oriented healthcare executive with a demonstrated track\u2026 \u00b7 Experience: Unified Women&#x27;s Healthcare \u00b7 Education: University of North Carolina at Chapel Hill - Kenan-Flagler Business School \u00b7 Location: Chapel Hill \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/catherine-mchenry-77a10b88/",
+      "title": "Catherine McHenry - Patient Accounts Manager | LinkedIn",
+      "snippet": "Patient Accounts Manager \u00b7 Patient Accounts Manager with 20+ years&#x27; experience in hospital billing, accounts receivable and denial management. Oversees Urgent Admissions for NOVA Post Team, Cash Posting, Customer Service and 501R Regulatory Financial Assistance Program, main contact for Self&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/subramanian-ramachandran-1741b2103/",
+      "title": "Subramanian Ramachandran - RM Healthcare Services Global Inc | LinkedIn",
+      "snippet": "December 13, 2025 - As the Founder &amp; CEO of \ud835\udde5\ud835\udde0 \ud835\udddb\ud835\uddf2\ud835\uddee\ud835\uddf9\ud835\ude01\ud835\uddf5\ud835\uddf0\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\udde6\ud835\uddf2\ud835\uddff\ud835\ude03\ud835\uddf6\ud835\uddf0\ud835\uddf2\ud835\ude00, I lead global teams\u2026 \u00b7 Experience: RM Healthcare Services Global Inc \u00b7 Education: Patrician College Of Arts And Science \u00b7 Location: Bird in Hand \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/heatherhelle/",
+      "title": "Heather Helle - BAYADA Home Health Care | LinkedIn",
+      "snippet": "In this Q&amp;A with Becker&#x27;s Healthcare, Heather O\u2019Sullivan, MS, APRN, president and COO of Mass General Brigham Healthcare at Home, and Thomas Roberts,\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/timcooke/",
+      "title": "Tim Cooke - Agape In Home Care | LinkedIn",
+      "snippet": "June 18, 2020 - As a Co-Founder and CEO at Agape In Home Care, Agape Adult Family Homes, Agape Senior\u2026 \u00b7 Experience: Agape In Home Care \u00b7 Education: University of Washington - Michael G. Foster School of Business \u00b7 Location: Greater Seattle Area \u00b7 500+ connections on LinkedIn."
+    }
+  ]
+}

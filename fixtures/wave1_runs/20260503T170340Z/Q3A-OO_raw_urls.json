@@ -1,0 +1,31 @@
+{
+  "query_id": "Q3A-OO",
+  "query_string": "(\"VP Ambulatory\" OR \"VP Population Health\" OR \"Director of Ambulatory Operations\" OR \"Director of Care Management\" OR \"VP Primary Care Service Line\" OR \"VP Clinical Transformation\" OR \"Director of Ambulatory Strategy\") AND (\"health system\" OR \"regional health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3A"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Workflow / Ops, secondary ROI / Revenue",
+  "run_at": "2026-05-03T17:03:51+00:00",
+  "raw_result_count": 3,
+  "deduped_result_count": 3,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kimberley-rowlett-19697361/",
+      "title": "Kimberley Rowlett - Director of Financial Operations at ...",
+      "snippet": "The founder spent 18 months doing three things: 1. Documented every operational process across 10 domains 2. Built a management team and delegated authority 3. Implemented dashboards that tracked 25+ KPIs monthly When the practice returned to market: 7x EBITDA. $5.7 million. The investment that produced this result: ~$180,000 over 18 months. The return: $2.4 million in incremental enterprise value. The difference between 4x and 7x wasn&#x27;t better clinical care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/doug-nipper-9a550799/",
+      "title": "Doug Nipper - VP Sales ED/OB - Intermedix",
+      "snippet": "Our strategy of combining organic growth with selective investments in strong, mission-aligned companies continues to drive success and deliver results for our clients.\u201d About EqualizeRCM EqualizeRCM is a leading RCM services company with a focus on small to medium hospitals, primary care physicians (urgent care, primary care, FQHC, RHC), and specialty practices (including dental, DME, and behavioral health). The Company partners with healthcare providers across the country to maximize reimbursement and streamline operations through customized RCM solutions comprised of skilled, cost-effective teams and proprietary RCM software."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dr-vivek-jha-320644132/",
+      "title": "Dr. Vivek Jha - Postgraduate Institute of Medical Education and Research | LinkedIn",
+      "snippet": "\ud83d\udea8 Imagine a rural primary healthcare centre at 2 AM with power cuts. A young intern (on night duty) on his first day, holds a life in their hands with no senior support available immediately. This is happening across India and most LMICs. EVERY. SINGLE. DAY. \ud83d\udcaf This is also where AI in healthcare can make the greatest difference not just in urban hospitals, but in remote clinics and PHCs supporting those who need it most."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q2A-TG",
+  "query_string": "(\"Director of Analytics\" OR \"VP Data & Analytics\" OR \"Interoperability Lead\" OR \"Director of Reporting\" OR \"Health IT Director\" OR \"Director of Clinical Analytics\") AND (\"ACO\" OR \"Accountable Care Organization\" OR \"MSSP ACO\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third priority \u2014 primary theme Technical / Integration, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:03:11+00:00",
+  "raw_result_count": 6,
+  "deduped_result_count": 2,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/robert-lystrup-md-a21355162/",
+      "title": "Robert Lystrup, MD - Physician | Abacus ACO Medical ...",
+      "snippet": "\u00b7 Experience: Arizona Community Physicians \u00b7 Location: United States \u00b7 84 connections on LinkedIn. View Robert Lystrup, MD\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sierra-powell-b5614667/",
+      "title": "Sierra Powell - Manager of Quality - McLaren Health Care | LinkedIn",
+      "snippet": "Manager of Quality at McLaren Physician Partners \u00b7 I am an experienced professional in healthcare with experience in hospital systems, independent and employed physician practices, accountable care organizations, insurance payor initiatives, population health management, implementation of Patient Centered Medical Home and Healthcare Effectiveness Data and Information Set data management."
+    }
+  ]
+}

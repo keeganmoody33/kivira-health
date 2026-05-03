@@ -1,0 +1,51 @@
+{
+  "query_id": "Q2B-CC",
+  "query_string": "(\"CMO\" OR \"VP Clinical Strategy\" OR \"Medical Director\" OR \"VP Clinical Operations\" OR \"Chief Clinical Officer\" OR \"SVP Clinical\") AND (\"Aledade\" OR \"Privia Health\" OR \"Pearl Health\" OR \"Evolent\" OR \"agilon health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2B"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "Second priority \u2014 primary theme Clinical Outcomes, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:18+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 7,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/benjamin-lee-1b389771/",
+      "title": "Benjamin Lee - Physician - Internal Medicine | LinkedIn",
+      "snippet": "&quot;Privia was the only option where we could continue to own ourselves but benefit from the payer contracting, tech stack, and &#x27;group-ness&#x27; of a\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karilipscomb/",
+      "title": "Kari Lipscomb - Privia Health | LinkedIn",
+      "snippet": "3 weeks ago - Experience: Privia Health \u00b7 Education: Texas Tech University \u00b7 Location: Fort Worth \u00b7 464 connections on LinkedIn. View Kari Lipscomb\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ericjbeyer/",
+      "title": "Eric Beyer - Executive Vice President at Privia Health",
+      "snippet": "Experienced health care executive with consistent record of growing market share, leading\u2026 \u00b7 Experience: APEX Healthcare Group \u00b7 Education: State University of Albany \u00b7 Location: Wellesley Hills \u00b7 500+ connections on LinkedIn. View Eric Beyer\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/fred-taweel-198493164/",
+      "title": "Fred Taweel - Privia Health | LinkedIn",
+      "snippet": "August 2, 2024 - Experience: Privia Health \u00b7 Location: Washington DC-Baltimore Area \u00b7 395 connections on LinkedIn. View Fred Taweel\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/james-%E2%80%9Cjd%E2%80%9D-mccoy-a356ab17/",
+      "title": "James \u201cJD\u201d McCoy - Senior Director, Value-Based Care - Privia Health | LinkedIn",
+      "snippet": "Value-Based Care and Operational Leader at Privia Health \u00b7 JD is a healthcare leader with experience in a wide variety of healthcare settings passionate about improving healthcare delivery and moving the industry towards value based care. His areas of expertise include physician practice&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nicholas-a-29b46570/",
+      "title": "Nicholas A. - Associate Growth Director - Privia Health | LinkedIn",
+      "snippet": "Associate Growth Director - Privia Medical Group of Ohio \u00b7 Experience: Privia Health \u00b7 Education: Kent State University \u00b7 Location: Greater Cleveland \u00b7 291 connections on LinkedIn. View Nicholas A.\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ksgoss/",
+      "title": "Kenneth Goss - Privia Health | LinkedIn",
+      "snippet": "Innovative commercial and operational healthcare executive, founder and investor with a\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Brigham Young University \u00b7 Location: Naples \u00b7 500+ connections on LinkedIn. View Kenneth Goss\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    }
+  ]
+}

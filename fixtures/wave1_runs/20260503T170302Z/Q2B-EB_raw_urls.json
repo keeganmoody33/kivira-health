@@ -1,0 +1,71 @@
+{
+  "query_id": "Q2B-EB",
+  "query_string": "(\"CEO\" OR \"GM\" OR \"COO\" OR \"VP Revenue\" OR \"Chief Revenue Officer\" OR \"President\" OR \"CFO\") AND (\"Aledade\" OR \"Privia Health\" OR \"Pearl Health\" OR \"Evolent\" OR \"agilon health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2B"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Third priority \u2014 primary theme ROI / Revenue, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:20+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 11,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jeffschwaneke/",
+      "title": "Jeff Schwaneke - Fortune 25 Chief Financial Officer",
+      "snippet": "\u00b7 Experience: agilon health \u00b7 Location: Greater St. Louis \u00b7 500+ connections on LinkedIn. View Jeff Schwaneke\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mark-cone-md-a1220046/",
+      "title": "Mark Cone MD - Gulf Coast Texas at Privia Health",
+      "snippet": "September 4, 2025 - \u00b7 Experience: Privia Health \u00b7 Education: Baylor College of Medicine \u00b7 Location: Houston \u00b7 500+ connections on LinkedIn. View Mark Cone MD\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ronald-kuerbitz-63820813/",
+      "title": "Ronald Kuerbitz - Chief Executive Officer at ilumed LLC",
+      "snippet": "Proud to be a cofounder of the agilon health women physician leadership council with Dr. Kristin Oaks, Dr. Liam Fry, and Dr."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/corey-perdue-4203a96/",
+      "title": "Corey Perdue - Privia Health | LinkedIn",
+      "snippet": "May 6, 2016 - Experience: Privia Health \u00b7 Education: Virginia Commonwealth University School of Medicine \u00b7 Location: Fairfax County \u00b7 500+ connections on LinkedIn. View Corey Perdue\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paulshen/",
+      "title": "Paul Shenenberger - Privia Health | LinkedIn",
+      "snippet": "\u00b7 Experience: Privia Health \u00b7 Education: Thomas Edison State College \u00b7 Location: Kintnersville \u00b7 500+ connections on LinkedIn. View Paul Shenenberger\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pjbayless/",
+      "title": "Paul Bayless - Privia Health | LinkedIn",
+      "snippet": "\ud83c\udf89 Big News! We&#x27;re expanding our national ACO presence with the acquisition of Evolent Health\u2019s ACO business."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/john-lawley-57330a43/",
+      "title": "John Lawley - Privia Medical Group North Texas | LinkedIn",
+      "snippet": "February 4, 2026 - \u00b7 Experience: Privia Medical Group North Texas \u00b7 Education: The University of Dallas \u00b7 Location: Fort Worth \u00b7 500+ connections on LinkedIn. View John Lawley\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/farzad-mostashari-933210",
+      "title": "Farzad Mostashari - Aledade, Inc. | LinkedIn",
+      "snippet": "3 weeks ago - A visionary leader at the intersection of healthcare innovation, policy, and technology, Dr. Mostashari is the Founder &amp; CEO of Aledade, former National Coordinator for Health IT at the U.S."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sethblackley/",
+      "title": "Seth Blackley - Evolent Health | LinkedIn",
+      "snippet": "December 19, 2023 - Experience: Evolent Health \u00b7 Location: Arlington \u00b7 500+ connections on LinkedIn. View Seth Blackley\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joeabbott/",
+      "title": "Joe Abbott - Privia Health | LinkedIn",
+      "snippet": "December 3, 2025 - Seasoned sales professional with over 16 years of consultative sales experience and a\u2026 \u00b7 Experience: Privia Health \u00b7 Location: Greater Seattle Area \u00b7 500+ connections on LinkedIn. View Joe Abbott\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nathan-barbour-a296345/",
+      "title": "Nathan Barbour - HealthJoy | LinkedIn",
+      "snippet": "Today is bittersweet as it marks the end of an almost 12 year run with Evolent."
+    }
+  ]
+}

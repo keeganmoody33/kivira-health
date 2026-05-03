@@ -1,0 +1,96 @@
+{
+  "query_id": "Q3A-TG",
+  "query_string": "(\"CMIO\" OR \"CIO\" OR \"VP Clinical Informatics\" OR \"Director of EHR Applications\" OR \"VP Interoperability\" OR \"Digital Health Director\" OR \"Director of Clinical Systems\") AND (\"health system\" OR \"regional health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3A"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Second priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:57+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 16,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jchelico",
+      "title": "John Chelico, MD, MA, FACP, FAMIA - CommonSpirit Health | LinkedIn",
+      "snippet": "March 28, 2026 - The ideal candidate brings a strong background in clinical #informatics and #Epic systems, with proven experience leading large-scale #EHR optimization, physician engagement, and data-driven care transformation across our health system. This is an opportunity to influence strategy at the highest level, align technology with clinical priorities, and create meaningful impact for patients and providers alike. If you\u2019re ready to lead transformative change, apply now: https://bit.ly/4a7JQiy #CMIO #ChiefMedicalInformationOfficer #DigitalHealth #EpicEHR #HealthcareLeadership #NowHiring #PhysicianJobs...more"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paulcontino/",
+      "title": "Paul Brian Contino - Chief Information Officer (CIO)",
+      "snippet": "March 23, 2026 - Here are must-have capabilities for a smoother transition and long-term success: \u00b7 End-to-end clinical workflows \u00b7 Interoperability \u00b7 Advanced reporting and analytics \u00b7 Scalable, cloud-ready architecture \u00b7 User-friendly design \u00b7 Reliable vendor support Don\u2019t just replace your system, upgrade your future. #EMR #HealthcareIT #CPSItransition #RCM #HealthTech ... Alrajhi Medicine is adopting Oracle Health Foundation EHR and Oracle Fusion Cloud Applications to increase efficiency and drive growth."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kumar-murukurthy/",
+      "title": "Kumar Murukurthy, MD - AI Executive/ CIDO/ Chief Clinical Officer | LinkedIn",
+      "snippet": "The new CMS Interoperability Framework is a critical step toward a more\u2026 \u00b7 Epic go live and Ukulele at Campbell County Health System, Gillette, Wyoming https://lnkd.in/gPsi-nxj \u00b7 I am very honored and humbled to represent Sanford Health on this recognition list from Becker&#x27;s Healthcare. A CIO is powerless and ineffective\u2026 ... Responsible for leading implementations and operations of EHR throughout the CommonSpirit 1000+ sites."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alonbenari/",
+      "title": "Alon Ben-Ari - CMIO, ACOS Clinical Informatics at VA Northern California Health Care System | LinkedIn",
+      "snippet": "January 5, 2017 - Digital Health, Healthcare applications of ML, user interfaces clinical medicine, anesthesiology, acute-surgical pain, biomedical informatics data\u2026 ... Advancing healthcare through technology and innovation. As CMIO I have led impactful projects that optimize healthcare delivery, improve patient outcomes, and streamline operations."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brian-r-jacobs/",
+      "title": "Brian R. Jacobs, MD - eClinicalWorks | LinkedIn",
+      "snippet": "\u00b7 Experience: eClinicalWorks \u00b7 Education: University of California, Los Angeles \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn. View Brian R. Jacobs, MD\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kevin-shorten-chcio-cdh-e-43414840/",
+      "title": "Kevin Shorten, CHCIO, CDH-E - Henry Mayo Newhall Hospital | LinkedIn",
+      "snippet": "\u00b7 Experience: Henry Mayo Newhall Hospital \u00b7 Education: Harvard Medical School \u00b7 Location: Agoura Hills \u00b7 500+ connections on LinkedIn. View Kevin Shorten, CHCIO, CDH-E\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carlohallak/",
+      "title": "Carlo Hallak, MD - Valparaiso, Indiana, United States | Professional Profile | LinkedIn",
+      "snippet": "Chief Medical Information Officer \u00b7 As a seasoned Chief Medical Information Officer (CMIO) with over a decade of experience in healthcare delivery through information technology, I specialize in crafting and executing health IT strategies aimed&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ryansmithcio",
+      "title": "Ryan Smith - Intermountain Health | LinkedIn",
+      "snippet": "February 26, 2026 - Moores Todd and Jason consistently demonstrate innovation and excellence and have both played pivotal roles in driving our system-wide EHR, clinical decision support, and physician and nursing ambient listening capabilities forward."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/woojinkim",
+      "title": "Woojin Kim - LinkedIn Top Voice \u00b7 Chief Strategy Officer &amp; CMIO at HOPPR \u00b7 CMO at ACR DSI \u00b7 MSK Radiologist \u00b7 Serial Entrepreneur \u00b7 Keynote Speaker \u00b7 Advisor/Consultant \u00b7 Transforming Radiology Through Innovation | LinkedIn",
+      "snippet": "5 days ago - Involved with various IT-related projects within the Department of Radiology. Worked with CMIO of the University of Pennsylvania Health System on informatics projects, including design and deployment of mobile version of Penn&#x27;s patient information system."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/thomaspowell-md-cmio/",
+      "title": "Thomas Powell, MD MS - Experienced Chief Medical Information Officer and Physician Executive | Expert in Applied Clinical Informatics | Expert in Epic Implementation, Optimization, Refuel, and Cerner Conversions | Skillful Speaker &amp; Mentor | LinkedIn",
+      "snippet": "July 26, 2024 - CMIO (Comprehensive Medical Informatics &amp; Optimization), LLC ... As an experienced clinician, formally trained clinical informaticist, and accomplished healthcare executive with extensive experience, I have a proven track record of delivering significant improvements in patient outcomes, clinical care quality, patient safety and satisfaction, and physician wellness, while helping to reduce the cost of care delivery with workflow efficiencies."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dale-lepper/",
+      "title": "Dale Lepper - Grande Ronde Hospital | LinkedIn",
+      "snippet": "\u00b7 Experience: Grande Ronde Hospital \u00b7 Education: Capella University \u00b7 Location: Rancho Cucamonga \u00b7 222 connections on LinkedIn. View Dale Lepper\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ctlin",
+      "title": "CT Lin MD, FACP, FAMIA - CMIO, UCHealth",
+      "snippet": "3 days ago - CT Lin MD is CMIO at UCHealth-Colorado, a 14-hospital, 900-clinic system. UCHealth is\u2026 \u00b7 Experience: UCHealth \u00b7 Location: Aurora \u00b7 500+ connections on LinkedIn. View CT Lin MD, FACP, FAMIA\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/davidmcswain/",
+      "title": "David McSwain, MD MPH - UNC Health | LinkedIn",
+      "snippet": "3 weeks ago - S. David McSwain, MD, MPH, is the System Chief Medical Informatics Officer (CMIO) for UNC\u2026 \u00b7 Experience: UNC Health \u00b7 Education: UNC Chapel Hill \u00b7 Location: Raleigh \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/benpatel/",
+      "title": "Ben Patel - Chief Information Officer (CIO) | IT Strategist",
+      "snippet": "\u00b7 Experience: UC Health \u00b7 Education: MIT Sloan School of Management \u00b7 Location: Charlotte Metro \u00b7 500+ connections on LinkedIn. View Ben Patel\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jennifer-goldman-do-mba-faafp-47101890",
+      "title": "Jennifer Goldman DO, MBA, FAAFP - VP, CMIO, and Chief ...",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stephanie-lahr-md-chcio/",
+      "title": "Stephanie Lahr, MD, CHCIO, FACHDM - Direct Recruiters Healthcare Operator Advisory | LinkedIn",
+      "snippet": "What tactics have you used successfully? What results have you seen from clinical engagement? ... Big news from MCG Health: We just kicked off MCG Path, an API-based solution designed to support the content portions of the CMS Interoperability and Prior Authorization Final Rule requirements."
+    }
+  ]
+}

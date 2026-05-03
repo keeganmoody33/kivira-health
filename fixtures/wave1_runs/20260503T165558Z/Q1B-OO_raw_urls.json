@@ -1,0 +1,36 @@
+{
+  "query_id": "Q1B-OO",
+  "query_string": "(\"Practice Administrator\" OR \"Office Manager\" OR \"Practice Manager\" OR \"Director of Practice Operations\" OR \"Operations Manager\" OR \"Clinic Administrator\") AND (\"primary care\" OR \"family practice\" OR \"family medicine\" OR \"PCP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1B"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Workflow / Ops, secondary ROI / Revenue",
+  "run_at": "2026-05-03T16:56:01+00:00",
+  "raw_result_count": 10,
+  "deduped_result_count": 4,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sandra-whittington-11b82120/?_l=en",
+      "title": "Sandra Whittington - Clinic Operations Manager - Primary Care Plus | LinkedIn",
+      "snippet": "Clinic Operations Manager, Primary Care Plus \u00b7 Experienced Practice Manager with a demonstrated history of working in the health wellness and fitness industry. Skilled in U.S. Health Insurance Portability and Accountability Act (HIPAA), Team Building, Administration, Healthcare Information&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/anne-marie-williams-297b8a18/",
+      "title": "Anne-Marie Williams - Practice Manager - Sportsmed East | LinkedIn",
+      "snippet": "NHS Administrator | Experienced Healthcare Administrative Professional | Supporting GPs and Multidisciplinary Teams with Efficient Administrative Solutions"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mark-antal-7a48b845/",
+      "title": "Mark Antal - Operations Manager/Physician Practice ...",
+      "snippet": "October 15, 2020 - Experience: Regional Imaging Associates \u00b7 Education: The Ohio State University \u00b7 Location: Dublin \u00b7 114 connections on LinkedIn. View Mark Antal\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alex-kikuchi/",
+      "title": "Alex Kikuchi - Office Manager - Elite Primary Care",
+      "snippet": "Management of personnel, medical billing and coding, financials, and marketing for a busy primary care office."
+    }
+  ]
+}

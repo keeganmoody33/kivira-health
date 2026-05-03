@@ -1,0 +1,101 @@
+{
+  "query_id": "Q1B-EB",
+  "query_string": "(\"Physician Owner\" OR \"Managing Partner\" OR \"Practice Owner\" OR \"Founding Physician\" OR \"Senior Partner\" OR \"Principal Physician\") AND (\"primary care\" OR \"family practice\" OR \"family medicine\" OR \"PCP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1B"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme ROI / Revenue, secondary Clinical Outcomes",
+  "run_at": "2026-05-03T17:02:35+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 17,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sumi-sexton-7b735b7/",
+      "title": "Sumi Sexton - Owner - Premier Primary Care Physicians | LinkedIn",
+      "snippet": "View Sumi Sexton\u2019s profile on LinkedIn, the world\u2019s largest professional community. Sumi has 4 jobs listed on their profile. See the complete profile on LinkedIn and discover Sumi\u2019s connections and jobs at similar companies."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/richard-kim-a3051b144/",
+      "title": "Richard Kim - Primary Care Sports Medicine Physician at Princeton Sports and Family Medicine | LinkedIn",
+      "snippet": "Primary Care Sports Medicine Physician ... Antigua College of Medicine \u00b7 Location: Princeton \u00b7 113 connections on LinkedIn. View Richard Kim\u2019s profile on LinkedIn, ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jim-kendall-7360b525/",
+      "title": "Jim Kendall - Founder and CEO at KPS Physician Staffing and KPS Locums | LinkedIn",
+      "snippet": "June 26, 2018 - Founder and CEO at KPS Physician Staffing and KPS Locums \u00b7 Jim Kendall&#x27;s unparalleled experience in the medical recruiting industry is the hallmark of KPS Physician Staffing. Early in his career, Kendall founded Kendall &amp; Davis, Inc., and built the firm to be one of the premier physician&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kristina-samson-2648a711/",
+      "title": "Kristina Samson - Business Owner, Physician Assistant, Clinical Preceptor, Certified Functional Nutrition Informed Professional, Reiki practitioner, and essential oils educator | LinkedIn",
+      "snippet": "Shoutout to our Daleville clinic manager, Tyler Kelly, who help lead a class of seniors at the Local Office on Aging in\u2026 \u00b7 Happy Retirement! From his farm roots in Hillsboro to becoming a dedicated family physician, Dr. Ronald Johnson&#x27;s passion for rural healthcare has\u2026 \u00b7 I am excited to announce my new business opening! I am so excited that my article about GERD and chronic use of PPIs was published online JAAPA in the Dec 2023 issue! I\u2019m happy to share that I\u2019m working as a Family Medicine Physician Assistant at HSHS Medical Group!"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kyla-krofta-md-866772210/",
+      "title": "Kyla Krofta, MD - Family Medicine Direct Primary Care ...",
+      "snippet": "March 10, 2022 - Family Medicine Physician \u00b7 Experience: Pure Family Medicine \u00b7 Education: The University of Chicago Pritzker School of Medicine \u00b7 Location: Denver Metropolitan Area \u00b7 85 connections on LinkedIn. View Kyla Krofta, MD\u2019s profile on LinkedIn,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kennethpowermd",
+      "title": "Kenneth Power MD - Family Physician and Medical ...",
+      "snippet": "March 1, 2025 - \u00b7 Experience: WeCare tlc \u00b7 Education: Memorial University of Newfoundland \u00b7 Location: Perrysburg \u00b7 500+ connections on LinkedIn. View Kenneth Power MD\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/eric-samuel-9ab65b109/",
+      "title": "Eric Samuel - Primary Care Physician with over 20 years of ...",
+      "snippet": "February 5, 2021 - \u00b7 Experience: Memorial Healthcare System \u00b7 Education: Bayfront Family Medicine Residency \u00b7 Location: Fort Lauderdale \u00b7 73 connections on LinkedIn. View Eric Samuel\u2019s profile on LinkedIn, a&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/marlene-wolf-10884a1a/",
+      "title": "Marlene Wolf - Physician at Lifetime Family Medicine",
+      "snippet": "I\u2026 \u00b7 Experience: Lifetime Family Medicine \u00b7 Location: Pompano Beach \u00b7 10 connections on LinkedIn. View Marlene Wolf\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/methodistphysicians/",
+      "title": "Methodist Physician Practices - Methodist Physician Practices | LinkedIn",
+      "snippet": "October 18, 2016 - Methodist Physicians is a network comprised of primary care, specialist, and\u2026 \u00b7 Experience: Methodist Physician Practices \u00b7 Location: San Antonio \u00b7 500+ connections on LinkedIn. View Methodist Physician Practices\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kimberly-laing-aabb0a233/",
+      "title": "Kimberly Laing - Practice Manager - Penn Highlands ...",
+      "snippet": "Licensed Practical Nurse \u00b7 At Penn Highlands Family Medicine, my focus as Practice Manager encompasses streamlining healthcare delivery and overseeing quality auditing to ensure the highest standards of patient care. Leveraging expertise in patient education, I empower individuals to make informed health decisions."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brianpiercemd/",
+      "title": "Brian Pierce - Megunticook Medicine | LinkedIn",
+      "snippet": "1 month ago - Feneisha Franklin shares how she entered #DirectPrimaryCare in a completely different way by purchasing an established practice in Lexington, South Carolina. Living Well Family Medicine already had: \u2022 patients who believed in the #DPCmodel&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cstachler/",
+      "title": "Christian Stachler, PA-C - Family Medicine PA - CRESTWOOD MEDICAL CENTER | LinkedIn",
+      "snippet": "June 9, 2023 - Family Medicine \u00b7 As a PA in family medicine, I treat patients across all stages of life \u2014 from everyday concerns to chronic conditions. I enjoy the variety of primary care and the relationships that grow from seeing patients over time. I\u2019m interested in all aspects of medicine and believe&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/diana-nassar-303545114/",
+      "title": "Diana Nassar - Cedars-Sinai | LinkedIn",
+      "snippet": "Diana Nassar, MD is a board-certified primary care doctor at Mount Sinai Doctors. She is\u2026 \u00b7 Experience: Cedars-Sinai \u00b7 Education: NYU Langone School of Medicine \u00b7 Location: Beverly Hills \u00b7 183 connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jenna-earls-pa-c/",
+      "title": "Jenna Tatgenhorst - Physician Assistant | LinkedIn",
+      "snippet": "Joseph\u2019s Hospital, Atlanta, GA - Family Medicine, rural-- Adel Family Medicine, Adel, GA - OB-GYN, rural-- Women&#x27;s Care Florida, Fernandina Beach, FL - Emergency Medicine-- Emory Hospital, Decatur, GA - Pediatrics, rural-- Pediatric Associates of LaGrange, GA - Dermatology-- Kayal Dermatology &amp; Cosmetics, Marietta, GA - Neurology, inpatient-- Emory Hospital Main, Decatur, GA - General Surgery-- VA Hospital, Atlanta, GA - Internal Medicine, inpatient-- VA Hospital, Atlanta, GA - Psychiatry, inpatient-- Grady Memorial Hospital, Atlanta, GA Show less"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/adam-stewart-6a4087120/",
+      "title": "Adam Stewart - Section on General &amp; Family Practice | LinkedIn",
+      "snippet": "March 12, 2026 - He has also led in public and private systems. https://lnkd.in/ecQd3sHv His website has a large section of educational information for patients and physicians. Enjoy...more...more \u00b7 Education and Leadership in Family Medicine Dr Adam Stewart"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cresandracorbin/",
+      "title": "Cresandra Corbin, MD, FAAFP - Capital Health Family Medicine Residency Program | LinkedIn",
+      "snippet": "Experience: Capital Health Family Medicine Residency Program \u00b7 Education: Rutgers Robert Wood Johnson Medical School \u00b7 Location: Trenton \u00b7 136 connections on LinkedIn. View Cresandra Corbin, MD, FAAFP\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christie-heany-pa-c-44a47011/",
+      "title": "Christie Heany PA-C - Peninsula Family Medical Center | LinkedIn",
+      "snippet": "Specialties: Family Practice Preventive Health Women's Health Pediatrics \u00b7 Experience: Peninsula Family Medical Center \u00b7 Education: A.T. Still University \u00b7 Location: Gig Harbor \u00b7 71 connections on LinkedIn. View Christie Heany PA-C\u2019s profile&nbsp;..."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "query_id": "Q3B-OO",
+  "query_string": "(\"VP Population Health\" OR \"VP Care Transformation\" OR \"Director of Care Transformation\" OR \"Enterprise Care Management Director\" OR \"Director of Ambulatory Strategy\" OR \"VP Ambulatory Operations\") AND (\"IDN\" OR \"integrated delivery network\" OR \"integrated health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3B"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Workflow / Ops, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:04:13+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 13,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nataliegurvich/",
+      "title": "Natalie Gurvich, RN, MSN - Director Clinical Business Technology Ops/Clinical Transformation/Population Health/Value-Based Care/Performance &amp; Quality Improvement/Provider Enablement/Clinical Analytics/Tech Solutions for Providers/Managed Care/ACO | LinkedIn",
+      "snippet": "Director Clinical Business Technology Ops/Clinical Transformation/Population Health/Value-Based Care/Performance &amp; Quality Improvement/Provider Enablement/Clinical Analytics/Tech Solutions for Providers/Managed Care/ACO \u00b7 Dedicated, successful, and results-oriented Registered Nurse (Master of Science degree in Nursing) with extensive professional Senior Leadership experience in healthcare and clinical expertise in Adult and Pediatric Primary care, Specialty care, OB/GYN and Women\u2019s care, Behavioral Health, Home care, Population &amp; Care Management /Transitions of Care, acting as a strategic thought leader to solve unique and complex problems with broad impact on the business."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/john-seguin-6925b29/",
+      "title": "John Seguin - Vice President of Health System Partnerships - Luna Physical Therapy | LinkedIn",
+      "snippet": "April 18, 2016 - Specialties Include: Complex Sales Strategy and Execution; Sales Management; Delivering Customer Value, Outsourcing, HealthCare IT, Accountable Care, Population Health Management, Medical Devices and Medical Device Integration, Remote Hosting, Electronic Health Records, Revenue Cycle, Medical Imaging (PACS), Clinical Decision Support, Workflow and Integration Engines, Financial Decision Support, ROI Analysis and Cost Accounting."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tom-bradfield-609931204",
+      "title": "Tom Bradfield - VP of Marketing at Integrated Medical ...",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/david-rhew-m-d-1832764",
+      "title": "David Rhew, M.D. - Microsoft | LinkedIn",
+      "snippet": "April 22, 2020 - Let&#x27;s champion innovations for accessible, personalized, and effective healthcare. \u2796\u2796\u2796 Over the last 25+ years as an MD with an MBA and MPH, I have worked with 3 Multi-Million dollar Hospital organizations serving as VPMA and CMO saving millions of dollars and improving quality."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lindsey-arenas-196686105/",
+      "title": "Lindsey Arenas - VP of Operations at Integrated Medical Evaluations, Inc. | LinkedIn",
+      "snippet": "VP of Operations at Integrated Medical Evaluations, Inc. \u00b7 I have a diverse skill set including but not limited to: - Multichannel digital campaign strategy consulting and management - Paid and organic search marketing optimization - Analytics tracking plan creation based on company objectives&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pushpendu-pal-43094a2",
+      "title": "Pushpendu Pal - CVS Health | LinkedIn",
+      "snippet": "5 days ago - Healthcare\u2019s Data Advantage Digital platforms and advanced analytics are enabling us to accelerate insights and improve care decisions, from predictive population health to integrated, data-led care pathways. Importantly, at @QuestDiagnostics, we are actively embracing these themes, helping transform capabilities, strengthen outcomes, and support the broader mission of advancing care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/leila-yodkovik-b0a6a61b",
+      "title": "Leila Yodkovik - VP Business Development/Operations at ...",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cindyrkent",
+      "title": "Cindy Kent - President &amp; General Manager | Med Device and Med Tech | Life Sciences | Board Director | LinkedIn",
+      "snippet": "June 19, 2025 - President &amp; General Manager | Med Device and Med Tech | Life Sciences | Board Director \u00b7 EXECUTIVE SUMMARY (TLDR)// Skilled healthcare operator who drives both growth and transformation\u2014while leading large, complex, people-intensive organizations. I\u2019m passionate about transforming healthcare&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vip-dev-177ba343/",
+      "title": "Vip Dev - Physician Leadership Program (California ...",
+      "snippet": "I have displayed consistent high quality service and patient standards of care as a director and advisor of operations optimization. Through Innovative thinking as a medical professional, I have always aimed at identifying and evaluating continuous opportunities for improvement. My specific areas of expertise include: Strategic Planning, Stakeholder Relations, Team Leadership &amp; Collaboration, Profit &amp; Loss Management, Executive Healthcare Leadership, Forecasting, Clinical Integration, Business Operations &amp; Logistics, Accountable Care Organization, Financial Modeling &amp; Metrics, Continuous Improvement Process, and Patient Care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paolaarbour/",
+      "title": "Paola Arbour - Tenet Healthcare | LinkedIn",
+      "snippet": "Leading IT Strategy and Service to The Tenet Healthcare enterprise driving service\u2026 \u00b7 Experience: Tenet Healthcare \u00b7 Education: Michigan State University \u00b7 Location: Dallas \u00b7 500+ connections on LinkedIn. View Paola Arbour\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/helenwilmot/",
+      "title": "Helen Wilmot - Stanford Health Care | LinkedIn",
+      "snippet": "December 21, 2025 - This week I joined Christian Lindmark, CHCIO, CDH-E, CPHIMS, RCDD VP and Chief Technology Officer and Anurang Revri, VP and Chief Enterprise Architect and Michael Pfeffer SVP and Chief Information and Digital Officer, with Stanford University School of Medicine Health Care to lead the discussion about the role and importance of sustainability infrastructure and strategies at the CIO Summit &quot;Future-Proofing Healthcare: #AI, #Sustainability &amp; #Resilience&quot; hosted at #Li Ka Shing Learning and Knowledge Center by #Stanford Medicine and #Scottsdale Institute on Jan 29."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jordan-lerner-15256920/",
+      "title": "Jordan Lerner - Medical Solutions | LinkedIn",
+      "snippet": "September 17, 2025 - As Vice President of Operations and recent Chief of Staff, I bring over a decade of\u2026 \u00b7 Experience: Medical Solutions \u00b7 Education: Eastern Illinois University \u00b7 Location: San Diego \u00b7 500+ connections on LinkedIn. View Jordan Lerner\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/gautamshah/",
+      "title": "Gautam M Shah, MBA, FACHDM - Carelon | LinkedIn",
+      "snippet": "November 3, 2021 - The efforts of General Catalyst to partner with founders and startups across healthcare innovation in alignment with our Health Assurance model are well known. More recently we have been focused on integrating transformation at the health systems level to further improve outcomes and patient care."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "query_id": "Q2C-CC",
+  "query_string": "(\"Medical Director\" OR \"VP Clinical Programs\" OR \"Chief Clinical Officer\" OR \"Clinical Director\" OR \"VP Medical Affairs\" OR \"Chief Nursing Officer\") AND (\"care management\" OR \"chronic care management\" OR \"CCM\" OR \"remote patient monitoring\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2C"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "Second (co-equal) priority \u2014 primary theme Clinical Outcomes, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:46+00:00",
+  "raw_result_count": 15,
+  "deduped_result_count": 14,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christa-thomas-bsn-pa-rn-ccm-cphq-78786416a/?_l=en",
+      "title": "Christa Thomas, BSN, PA, RN, CCM, CPHQ - Optum | LinkedIn",
+      "snippet": "Accomplished leader in Health Care Management with experience in Utilization Management\u2026 \u00b7 Experience: Optum \u00b7 Education: University of Tennesssee Health Science Center \u00b7 Location: Nashville Metropolitan Area \u00b7 500+ connections on LinkedIn. View Christa Thomas, BSN, PA, RN, CCM, CPHQ\u2019s&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/liane-parker-532a12161/",
+      "title": "Liane Parker - Chief Clinical Officer, Quantify Specialty Care | LinkedIn",
+      "snippet": "January 12, 2019 - Chief Clinical Officer, Quantify Specialty Care \u00b7 With over 20 years of experience in the healthcare industry, I am the CEO and founder of Quantify Remote Care, a company that provides remote care delivery solutions to improve quality and access to care. As a certified professional in healthcare management and a registered nurse, I have a deep understanding of the clinical, operational, and financial aspects of value-based medicine, data analytics, and evidence-based guideline clinical pathways."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michelle-kerr-6105588/",
+      "title": "Michelle Kerr - Executive Director Patient Flow and Throughput at The MetroHealth System | LinkedIn",
+      "snippet": "Her role oversaw the operational, financial and clinical responsibility over the department, and the management of organization-wide TeleHealth monitoring program, ... In this role, Michelle duties included telephonic support and outreach through the In-Touch Care program for employees of Nordstrom, implementation of preventative healthcare protocols and chronic disease management and triage of plan member phone calls regarding health and benefits."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/medsource-medical-supplies-50a1bb2a2/",
+      "title": "MEDSOURCE MEDICAL SUPPLIES - med source | LinkedIn",
+      "snippet": "Our Virtual Nursing and Healthcare VA teams are trained in: - Remote Patient Monitoring (RPM) - Admissions &amp; Discharge Coordination - Medication Reconciliation - Patient Education &amp; Engagement - Documentation &amp; EMR Optimization Licensed. Experienced. Aligned with U.S. standards. By partnering with hospitals and clinics, we help reduce local staff burnout, streamline workflows, and enhance continuity of care\u2014virtually."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tracy-velarn/",
+      "title": "Tracy Vela RN CCM LNCC - Compliance Auditor, Clinical - Centene Corporation | LinkedIn",
+      "snippet": "The Office Of Inspector General issued a report that discusses the increased use of remote patient monitoring and highlights the need for greater oversight."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/irina-ekelman-rn-bsn-ccm-clnc-793462187",
+      "title": "Irina Ekelman, RN, BSN, CCM, CLNC",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/samir-shah-md-mmm",
+      "title": "Samir Shah, MD, MMM FACR - Chief Medical Officer, Qure.ai",
+      "snippet": "August 11, 2015 - WVU Medicine\u2019s transition to a centralized, hybrid remote patient monitoring model highlights a critical shift in #healthcareIT, designing systems that scale without adding complexity. By consolidating workflows and improving #datavisibility, they\u2019re enabling faster clinical decisions and more sustainable care delivery."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cody-hartley-88032aa5/",
+      "title": "Cody Hartley - Chief Clinical Officer | VP of Clinic Operations at Renew Physiotherapy | Clinical Leader in Outpatient Rehab Growth | LinkedIn",
+      "snippet": "Chief Clinical Officer | VP of Clinic Operations at Renew Physiotherapy | Clinical Leader in Outpatient Rehab Growth \u00b7 As Chief Clinical Officer, I oversee the clinical direction and quality of care across a growing network of physical therapy clinics. My focus is on maintaining the integrity&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/medstar-philippines-9171b61b6/",
+      "title": "Medstar Philippines - Medstar Philippines | LinkedIn",
+      "snippet": "Our Virtual Nursing and Healthcare VA teams are trained in: - Remote Patient Monitoring (RPM) - Admissions &amp; Discharge Coordination - Medication Reconciliation - Patient Education &amp; Engagement - Documentation &amp; EMR Optimization Licensed. Experienced. Aligned with U.S. standards. By partnering with hospitals and clinics, we help reduce local staff burnout, streamline workflows, and enhance continuity of care\u2014virtually."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vvoll/",
+      "title": "Vicki V. - Medical Case Manager - Genex Services | LinkedIn",
+      "snippet": "\uf0a7 Provide discharge instructions, diabetes, and general health education \uf0a7 Review charts for accuracy and ICD-10 coding \uf0a7 Perform quarterly quality assurance audits, provide staff training. \uf0a7 COVID Vaccine clinic ... \uf0a7 Provided patient-centered coordinated care to members with chronic diseases and complex medical conditions across the continuum of care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vrdotechnologies/",
+      "title": "VRDO TECHNOLOGIES - VRDO Technologies | LinkedIn",
+      "snippet": "August 3, 2015 - Why it matters for providers: \u2714\ufe0f Billable for 10\u201320 minutes of RPM treatment management \u2714\ufe0f Expands beyond the current 20-minute minimum (CPT 99457) \u2714\ufe0f Supports shorter, clinically valuable patient interactions \u2714\ufe0f Estimated reimbursement: ~$23.73 (about half of 99457) \ud83d\udcd6 \ud835\udde2\ud835\ude02\ud835\uddff \ud835\uddf9\ud835\uddee\ud835\ude01\ud835\uddf2\ud835\ude00\ud835\ude01 \ud835\uddef\ud835\uddf9\ud835\uddfc\ud835\uddf4 \ud835\uddf2\ud835\ude05\ud835\uddfd\ud835\uddf9\ud835\uddee\ud835\uddf6\ud835\uddfb\ud835\ude00: \u2022 What CPT 99XX5 covers \u2022 Documentation and billing requirements \u2022 Who can bill the code \u2022 Key differences with 99457 and 99458 \u2022 How practices can prepare before January 1, 2026 \ud83d\udc49 Read the full article here: https: //https://lnkd.in/dFaQiKYy \ud83d\udcac Do you think CPT 99XX5 will encourage wider adoption of Remote Patient Monitoring programs in small and rural practices?"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vikram-jairam-4560b617/",
+      "title": "Vikram Jairam - Sutter Health | LinkedIn",
+      "snippet": "Experience: Sutter Health \u00b7 Education: Yale University School of Medicine \u00b7 Location: Sacramento \u00b7 277 connections on LinkedIn. View Vikram Jairam\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/elbert-springs-b36362205/",
+      "title": "Elbert Springs - MHM Services, Inc. | LinkedIn",
+      "snippet": "\u201cBut to move from \u2018I think this works better\u2019 to real evidence, you need data, and that comes from rigorous scientific inquiry.\u201d In addition to their own independent programs of research, Nurse scientists assist bedside staff in designing studies, mentor them throughout the process, and translate data into evidence-based practice. The work of a nurse scientist spans hospitals, outpatient clinics, telehealth, and community settings \u2014 anywhere patients and their families interact with the healthcare system."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vinod-kannarkat-m-d-718a76172/",
+      "title": "Vinod Kannarkat, M.D. - Care Connectors Medical Group | LinkedIn",
+      "snippet": "Clinical Cardiology/ Electrophysiology / Health Care Delivery / Preventative Care/\u2026 \u00b7 Experience: Care Connectors Medical Group \u00b7 Education: Georgetown University \u00b7 Location: Orange County \u00b7 212 connections on LinkedIn. View Vinod Kannarkat, M.D.\u2019s profile on LinkedIn, a professional&nbsp;..."
+    }
+  ]
+}

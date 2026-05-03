@@ -1,0 +1,86 @@
+{
+  "query_id": "Q1B-CC",
+  "query_string": "(\"Medical Director\" OR \"Lead Physician\" OR \"Behavioral Health Champion\" OR \"Clinical Director\" OR \"Chief of Medicine\" OR \"Supervising Physician\") AND (\"primary care\" OR \"family practice\" OR \"family medicine\" OR \"PCP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1B"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "Second priority \u2014 primary theme Clinical Outcomes, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:02:37+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 14,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/patrick-carroll-a7b5a364",
+      "title": "Patrick Carroll - Chief Medical Officer at HIMS-HERS",
+      "snippet": "May 5, 2020 - \ud83d\udccaInitial clinical tracks are pragmatic and \u201cvolume ready\u201d: early CKM (HTN/lipids/weight/A1c), CKM (diabetes/CKD/ASCVD), MSK chronic pain, and behavioral health (depression/anxiety). \ud83d\udcc5 Timeline: model runs 10 years starting July 1, 2026; applications opening January 1, 2026. \ud83e\ude7a Integration with primary care is baked in: co-management payment for coordination (with no copay!), required electronic updates to PCPs/referrals and HIE connectivity."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kirby-harvey-8023ba12b/",
+      "title": "Kirby Harvey - Medical Director | LinkedIn",
+      "snippet": "Medical Director \u00b7 Experience: Windmoor Healthcare Of Clearwater \u00b7 Education: Washington University in St. Louis \u00b7 Location: Orlando \u00b7 115 connections on LinkedIn. View Kirby Harvey\u2019s profile on LinkedIn, a professional community of 1&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nusrat-khan-a4021237/",
+      "title": "Nusrat Khan - UNT-Health Sciences Center | LinkedIn",
+      "snippet": "\u00b7 Experience: UNT-Health Sciences Center \u00b7 Education: Cleveland Clinic Foundation \u00b7 Location: United States \u00b7 252 connections on LinkedIn. View Nusrat Khan\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dr-jeff-bullard/",
+      "title": "Jeff Bullard, MD - MaxHealth Direct Primary Care | LinkedIn",
+      "snippet": "February 16, 2026 - \u00b7 Experience: MaxHealth Direct Primary Care \u00b7 Education: Creighton University School of Medicine \u00b7 Location: Plano \u00b7 500+ connections on LinkedIn. View Jeff Bullard, MD\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/barak-gaster-399200183/",
+      "title": "Barak Gaster - Professor of Medicine, Director Cognition in Primary Care | LinkedIn",
+      "snippet": "August 1, 2025 - I&#x27;m the Director of the Cognition in Primary Care Program, a professor of medicine at the University of Washington, a practicing primary care physician, and a dementia expert with more than 20 years experience in clinical care and medical education. Cognition in Primary Care provides comprehensive training and tools to help PCPs detect, diagnose, and manage mild cognitive impairment and dementia in the primary care setting."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stephen-nord-md-21761b5/",
+      "title": "Stephen Nord MD - PremierCOMP Medical Group | LinkedIn",
+      "snippet": "The Family Medicine Residency Program\u2019s \u201cclinic-first\u201d model gives trainees experience in various care environments, making it possible to have years-long therapeutic relationships with their patients. The program is also committed to training Family Medicine physicians to be trailblazers while advancing the mission of transforming primary care and wellness for all."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/drerinmclaughlin/",
+      "title": "Erin McLaughlin - Medical Director, Quality &amp; Safety Medical Director, Occupational Health | LinkedIn",
+      "snippet": "Medical Director, Quality &amp; Safety Medical Director, Occupational Health \u00b7 Experience: Nuvance Health \u00b7 Education: University of California, San Francisco \u00b7 Location: Poughkeepsie \u00b7 408 connections on LinkedIn. View Erin McLaughlin\u2019s profile&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jessrogersconsultant/",
+      "title": "Jess Rogers - AFHTO - Advancing Primary Care Teams | LinkedIn",
+      "snippet": "2 days ago - \u00b7 Experience: AFHTO - Advancing Primary Care Teams \u00b7 Location: Greater Toronto Area, Canada \u00b7 500+ connections on LinkedIn. View Jess Rogers\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/zahir-jamal-86142829/",
+      "title": "Zahir Jamal - Family Practice Associates | LinkedIn",
+      "snippet": "Using this model, they have managed to provide primary care to &gt;6000 people in the country who otherwise would have NO access. In our latest episode of Primary Focus, I take you with me to Renfrew County where we meet patients, physicians and other health professionals who are part of this model."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/romina-moradi-515120183/",
+      "title": "Romina Moradi - BC College of Family Physicians | LinkedIn",
+      "snippet": "December 4, 2025 - In clinical practice, small clarifications often lead to meaningful change. Understanding emotions, behaviours, or attention patterns can reduce uncertainty and stress for individuals and families alike. ... \ud83d\udce2New Top10! The Critical Care Medicine (Canada) PSP worked with patients, family and clinicians to identify the Top 10 priorities for future research about admission to, care in, and outcomes after intensive care unit stays."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/steve-klemish-m-d-6914774a/",
+      "title": "Steve Klemish, M.D. - Family physician - ProHealth Care | LinkedIn",
+      "snippet": "Family Physician and part time Epic Physician Builder at ProHealth Care \u00b7 Experience: ProHealth Care \u00b7 Education: Columbia Family Practice Residency \u00b7 Location: Waukesha \u00b7 318 connections on LinkedIn. View Steve Klemish, M.D.\u2019s profile&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cynthia-calixte-md-mph-6609a229/",
+      "title": "Cynthia Calixte, MD, MPH - Family Physician/ Physician Deputy | LinkedIn",
+      "snippet": "Family Physician/ Physician Deputy \u00b7 Experienced Family Physician who provides full-spectrum reproductive health care. Skilled in Microsoft Excel, Clinical Research, Microsoft Word, Medical Education, and Epidemiology. Strong healthcare services professional graduated from State University of New York Downstate Medical Center College of Medicine."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jeremy-wigginton-md-mba-faafp-a9903072/",
+      "title": "Jeremy Wigginton, MD, MBA, FAAFP - Valley Youth House | LinkedIn",
+      "snippet": "February 14, 2026 - \u00b7 Experience: Valley Youth House \u00b7 Education: University of Mississippi School of Medicine \u00b7 Location: Harrisburg \u00b7 500+ connections on LinkedIn. View Jeremy Wigginton, MD, MBA, FAAFP\u2019s profile&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/prakash-patel-m-d-health/",
+      "title": "Prakash Patel, M.D. - United States | Professional Profile | LinkedIn",
+      "snippet": "January 5, 2025 - \ud83d\udccaInitial clinical tracks are pragmatic and \u201cvolume ready\u201d: early CKM (HTN/lipids/weight/A1c), CKM (diabetes/CKD/ASCVD), MSK chronic pain, and behavioral health (depression/anxiety). \ud83d\udcc5 Timeline: model runs 10 years starting July 1, 2026; applications opening January 1, 2026. \ud83e\ude7a Integration with primary care is baked in: co-management payment for coordination (with no copay!), required electronic updates to PCPs/referrals and HIE connectivity."
+    }
+  ]
+}

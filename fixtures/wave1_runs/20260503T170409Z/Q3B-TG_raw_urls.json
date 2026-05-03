@@ -1,0 +1,31 @@
+{
+  "query_id": "Q3B-TG",
+  "query_string": "(\"CMIO\" OR \"VP Enterprise Applications\" OR \"VP Interoperability\" OR \"Digital Health Officer\" OR \"Director of Clinical Systems\" OR \"VP Health IT\" OR \"Director of Enterprise Architecture\") AND (\"IDN\" OR \"integrated delivery network\" OR \"integrated health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3B"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Second priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:04:20+00:00",
+  "raw_result_count": 8,
+  "deduped_result_count": 3,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stevegarske/",
+      "title": "Steve Garske, PhD, MSc, MBA - Logan Health | LinkedIn",
+      "snippet": "June 21, 2023 - The best cybersecurity CIO &amp; CMIO available. One of the keys to success throughout my\u2026 \u00b7 Experience: Logan Health \u00b7 Education: Massachusetts Institute of Technology \u00b7 Location: Los Angeles \u00b7 500+ connections on LinkedIn. View Steve Garske, PhD, MSc, MBA\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brian-zimmerman-md-a8092a16/",
+      "title": "Brian Zimmerman, MD - Chief Medical Information Officer @ Microsoft | MD, FACP, FAAP | LinkedIn",
+      "snippet": "October 16, 2025 - I work closely with internal and external stakeholders, such as product managers, engineers, clinicians, executives, and customers, to ensure that our solutions meet the needs and expectations of the healthcare market. I also lead and support several initiatives and projects that aim to improve the quality, safety, and usability of EHR and HIT systems, such as the EHR build and optimization program, the integration of voice recognition technology with EHR systems, and the development of new features and functionalities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sarahmjrichardson",
+      "title": "Sarah Richardson - This Week Health | LinkedIn",
+      "snippet": "3 weeks ago - \ud835\ude52\ud835\ude5a&#x27;\ud835\ude61\ud835\ude61 \ud835\ude5e\ud835\ude62\ud835\ude65\ud835\ude61\ud835\ude5a\ud835\ude62\ud835\ude5a\ud835\ude63\ud835\ude69 \ud835\ude68\ud835\ude64\ud835\ude62\ud835\ude5a\ud835\ude69\ud835\ude5d\ud835\ude5e\ud835\ude63\ud835\ude5c \ud835\ude56\ud835\ude63\ud835\ude59 \ud835\ude5b\ud835\ude5e\ud835\ude63\ud835\ude59 \ud835\ude64\ud835\ude6a\ud835\ude69 \ud835\ude67\ud835\ude5a\ud835\ude56\ud835\ude61\ud835\ude61\ud835\ude6e \ud835\ude66\ud835\ude6a\ud835\ude5e\ud835\ude58\ud835\ude60\ud835\ude61\ud835\ude6e \ud835\ude69\ud835\ude5d\ud835\ude56\ud835\ude69... \ud835\ude69\ud835\ude5d\ud835\ude67\ud835\ude5a\ud835\ude5a \ud835\ude59\ud835\ude5e\ud835\ude5b\ud835\ude5b\ud835\ude5a\ud835\ude67\ud835\ude5a\ud835\ude63\ud835\ude69 \ud835\ude65\ud835\ude5a\ud835\ude64\ud835\ude65\ud835\ude61\ud835\ude5a \ud835\ude56\ud835\ude67\ud835\ude5a \ud835\ude6a\ud835\ude68\ud835\ude5e\ud835\ude63\ud835\ude5c \ud835\ude5e\ud835\ude69 \ud835\ude5e\ud835\ude63 \ud835\ude6b\ud835\ude5a\ud835\ude67\ud835\ude6e \ud835\ude59\ud835\ude5e\ud835\ude5b\ud835\ude5b\ud835\ude5a\ud835\ude67\ud835\ude5a\ud835\ude63\ud835\ude69 \ud835\ude6c\ud835\ude56\ud835\ude6e\ud835\ude68.\u201d This awesome conversation with Veena Jones, CMIO at Sutter Health, really got me thinking even more deeply about the impact of tech on clinical workflows."
+    }
+  ]
+}

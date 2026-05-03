@@ -1,0 +1,71 @@
+{
+  "query_id": "Q1B-TG",
+  "query_string": "(\"EHR Administrator\" OR \"IT Manager\" OR \"Operations Lead\" OR \"EHR Coordinator\" OR \"Practice Technology Lead\") AND (\"primary care\" OR \"family practice\" OR \"family medicine\" OR \"PCP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1B"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:02:39+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 11,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/camille-spurck-82138847/",
+      "title": "Camille Spurck - Senior Primary Care Staffing Specialist - CompHealth | LinkedIn",
+      "snippet": "October 21, 2024 - Helping Primary Care Physicians Escape Burnout with Locums - Primary Care Physician Sr. Representative @ CompHealth - Specialties Include: Family Medicine, Internal Medicine, FP/OB, Urgent Care, Occupational Medicine \u00b7 At CompHealth we connect healthcare providers with urban and rural clinics."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pamela-o-hara-hopp-b1004b73/",
+      "title": "Pamela (O'HARA) Hopp - Sr Implementation/Regional ...",
+      "snippet": "\ud835\udc13\ud835\udc21\ud835\udc1e \ud835\udc1b\ud835\udc22\ud835\udc20\ud835\udc20\ud835\udc1e\ud835\udc2c\ud835\udc2d \ud835\udc20\ud835\udc1a\ud835\udc29 \ud835\udc22\ud835\udc27 \ud835\udc1c\ud835\udc1a\ud835\udc2b\ud835\udc1e \ud835\udc22\ud835\udc2c\ud835\udc27\u2019\ud835\udc2d \ud835\udc22\ud835\udc27 \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc30\ud835\udc28\ud835\udc2b\ud835\udc24\ud835\udc1f\ud835\udc25\ud835\udc28\ud835\udc30 - \ud835\udc22\ud835\udc2d\u2019\ud835\udc2c \ud835\udc22\ud835\udc27 \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc1c\ud835\udc28\ud835\udc26\ud835\udc26\ud835\udc2e\ud835\udc27\ud835\udc22\ud835\udc1c\ud835\udc1a\ud835\udc2d\ud835\udc22\ud835\udc28\ud835\udc27. Think about it: A test result comes in, but the care team doesn\u2019t see it in time. A specialist changes a treatment plan, but the PCP never gets the update. A nurse raises a concern, but it\u2019s lost in the noise of emails and EHR alerts."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pratheeka-palayil-5b276314a/",
+      "title": "Pratheeka Palayil - Yiewsley Family Practice | LinkedIn",
+      "snippet": "March 23, 2026 - Here are 3 smart moves you can make this week: 1. Target high-growth roles \u2013 Positions like nurse practitioners, surgical technologists, and patient access specialists are in high demand across both NHS and private sectors. These roles offer not just job security, but career progression too. 2. Level up your tech skills \u2013 Healthcare is rapidly digitising. Employers value candidates who can navigate EHR systems, telehealth platforms, and even emerging AI tools."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paulmuzopappa/",
+      "title": "Paul Muzopappa - Manager, Government Payer ...",
+      "snippet": "March 26, 2026 - I thrive at the intersection of strategy and execution, ensuring complex healthcare IT initiatives scale effectively while maintaining compliance.&lt;br&gt;&lt;br&gt;Core Expertise&lt;br&gt;&lt;br&gt;Healthcare Systems: Epic Tapestry/MyChart, Optum CES, ServiceNow, QNXT, TruCare, SyntraNet&lt;br&gt;&lt;br&gt;Agile &amp; SDLC Leadership: Certified Scrum Master (CSM), SAFe Certified, Release Train Engineer, Jira &amp; Azure DevOps delivery leadership&lt;br&gt;&lt;br&gt;Governance &amp; Vendor Management: RFP/RFR management, contract negotiations, vendor scorecards, SLA oversight, CMS/DHCS compliance&lt;br&gt;&lt;br&gt;Data &amp; Analytics: SQL, BI/EDW migrations, advanc"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bryce-kephart-144978196/",
+      "title": "Bryce Kephart - Practice Manager - FirstHealth of the Carolinas | LinkedIn",
+      "snippet": "View Bryce Kephart\u2019s profile on LinkedIn, the world\u2019s largest professional community. Bryce has 5 jobs listed on their profile. See the complete profile on LinkedIn and discover Bryce\u2019s connections and jobs at similar companies."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/colleen-schaeffel/",
+      "title": "Colleen Schaeffel, PA-C, MPAS - Self Publishing School | LinkedIn",
+      "snippet": "\u00b7 Experience: Self Publishing School \u00b7 Education: Des Moines University \u00b7 Location: Greater Minneapolis-St. Paul Area \u00b7 432 connections on LinkedIn. View Colleen Schaeffel, PA-C, MPAS\u2019 profile on LinkedIn, a professional community of 1&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nishpatelmbamph/",
+      "title": "Nishtha Patel - Manager, Care Transformation at IEHP",
+      "snippet": "July 14, 2023 - I thrive at the intersection of strategy and execution, ensuring complex healthcare IT initiatives scale effectively while maintaining compliance.&lt;br&gt;&lt;br&gt;Core Expertise&lt;br&gt;&lt;br&gt;Healthcare Systems: Epic Tapestry/MyChart, Optum CES, ServiceNow, QNXT, TruCare, SyntraNet&lt;br&gt;&lt;br&gt;Agile &amp; SDLC Leadership: Certified Scrum Master (CSM), SAFe Certified, Release Train Engineer, Jira &amp; Azure DevOps delivery leadership&lt;br&gt;&lt;br&gt;Governance &amp; Vendor Management: RFP/RFR management, contract negotiations, vendor scorecards, SLA oversight, CMS/DHCS compliance&lt;br&gt;&lt;br&gt;Data &amp; Analytics: SQL, BI/EDW migrations, advanc"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alex-hibshman-mha-897202a3/",
+      "title": "Alex Hibshman, MHA - Health Center Administrator at Duke Primary Care Brier Creek Internal Medicine and Pediatrics | LinkedIn",
+      "snippet": "Responsible for implementation, ongoing management and strategic growth of the program: outpatient Wound Care Center, HBO, inpatient and outreach. Oversees day to day program operations and is responsible for budgeting, revenue and cost management,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/laura-baker-lcpc-ma-ed-m-23a05819/",
+      "title": "Laura Baker, LCPC, MA, Ed.M. - Clinical Operations Leader",
+      "snippet": "April 20, 2022 - \u00b7 Experience: The Dorm \u00b7 Location: Washington \u00b7 469 connections on LinkedIn. View Laura Baker, LCPC, MA, Ed.M.\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/emilyheath7/",
+      "title": "Emily H. - Physician Assistant - Bridgeport Family Medicine | LinkedIn",
+      "snippet": "Reviewed charts using Epic EHR to screen patients for clinical trials in pulmonary arterial hypertension, COPD, and acute respiratory distress syndrome. Assisted research coordinators in their clinical trial work."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/erika-east/",
+      "title": "Erika East, MPH, MHA - TeamHealth | LinkedIn",
+      "snippet": "June 2, 2023 - \u00b7 Experience: TeamHealth \u00b7 Education: Texas A&amp;M University \u00b7 Location: Parker \u00b7 387 connections on LinkedIn. View Erika East, MPH, MHA\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    }
+  ]
+}

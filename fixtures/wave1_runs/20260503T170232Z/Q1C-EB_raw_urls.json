@@ -1,0 +1,101 @@
+{
+  "query_id": "Q1C-EB",
+  "query_string": "(\"VP Value-Based Care\" OR \"CFO\" OR \"COO\" OR \"President\" OR \"VP Finance\" OR \"VP Revenue Cycle\" OR \"Chief Strategy Officer\") AND (\"value-based care\" OR \"VBC\" OR \"shared savings\" OR \"MSSP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1C"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Second priority \u2014 primary theme ROI / Revenue, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:02:45+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 17,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/monica-gould-8a275131/",
+      "title": "Monica Gould - VP, Value Based Care - Teladoc Health",
+      "snippet": "VP, Value Based Care \u00b7 Experience: Teladoc Health \u00b7 Education: Columbia University Mailman School of Public Health \u00b7 Location: New York City Metropolitan Area \u00b7 500+ connections on LinkedIn. View Monica Gould\u2019s profile on LinkedIn, a&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/benjamin-schoen-b1b6966/",
+      "title": "Benjamin Schoen - EVP, Corporate Chief Business Officer &amp; COO VBC Segment | LinkedIn",
+      "snippet": "EVP, Corporate Chief Business Officer &amp; COO VBC Segment \u00b7 Highly skilled senior executive with strong business acumen focused on forward-thinking strategies for healthcare organizations. Demonstrates personal integrity and a consistency of character. Adept at quickly responding to ever-changing&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/chris-macinnis-5103392b/",
+      "title": "Chris MacInnis - Chief VBC Strategy and Growth",
+      "snippet": "January 1, 2026 - MD Revolution focuses on redefining healthcare delivery through innovative digital health\u2026 \u00b7 Experience: Old Mission Wound Care, PLLC \u00b7 Education: University of South Carolina - The Moore School of Business \u00b7 Location: Marietta \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dean-neese/",
+      "title": "Dean Neese - Strategic COO / CFO",
+      "snippet": "February 9, 2026 - Over the course of our two-year partnership at Placer, I have witnessed his unwavering professionalism and exceptional intellect. Dean consistently embraces new challenges, assuming additional responsibilities with ease which showcases his creative problem-solving ability. His title may say CFO, but he is much more than that for us."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amycomptonphillips",
+      "title": "Amy Compton-Phillips, MD - CVS Health | LinkedIn",
+      "snippet": "August 29, 2025 - Our Chicagoland clinics in Oak Park and Brighton Park are serving thousands of seniors every day with real skill, dignity, and heart. They&#x27;ve figured out how to bring value-based care to life - for them VBC is not just theory, it&#x27;s fundamental to how they practice."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brekkechristopher/",
+      "title": "Christopher Brekke - Senior Director, Value Based Care ...",
+      "snippet": "The director\u2019s role should exhibit the following attributes: \u00b7 Present successful HPM or related business model achievements with communication and cooperative work efforts amongst all departments and professionals of diverse occupational backgrounds and personalities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/curtisatkisson/",
+      "title": "Curtis Atkisson - CFO Ampersand",
+      "snippet": "\u00b7 Experience: Ampersand \u00b7 Education: Stanford Graduate School of Business \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Curtis Atkisson\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/eric-brown-03861714",
+      "title": "Eric Brown - Cohesity | LinkedIn",
+      "snippet": "March 20, 2024 - As a colleague, he made lots of time available to me and my teams to ensure we were properly enabled and prepared to take on new investment opportunities. I hope to work with Mr. Brown again someday. He taught me how the role of CFO and COO should be performed.\u201d"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/v-care-financial-services-a9a56b222/",
+      "title": "V Care Financial Services - Chief Operating Officer - Self-employed | LinkedIn",
+      "snippet": "Chief Operating Officer \u00b7 Experience: Self-employed \u00b7 Location: Bangalore Urban. View V Care Financial Services\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/anush-gevorgyanhg/",
+      "title": "Anush Gevorgyan - Sound Physicians | LinkedIn",
+      "snippet": "\u00b7 Experience: Sound Physicians \u00b7 Education: University of California, Los Angeles - School of Public Health \u00b7 Location: Eagle \u00b7 500+ connections on LinkedIn. View Anush Gevorgyan\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vaibhav-srivastava-a344a016/",
+      "title": "Vaibhav Srivastava - Salud Revenue Partners | LinkedIn",
+      "snippet": "May 22, 2025 - \u00b7 Experience: Salud Revenue Partners \u00b7 Education: Purdue University \u00b7 Location: West Lafayette \u00b7 500+ connections on LinkedIn. View Vaibhav Srivastava\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/richard-belenski-6125283/",
+      "title": "Richard Belenski - Fractional Execs On Demand (fractionalexecsondemand.com) | LinkedIn",
+      "snippet": "CEO/President who consistently drives record-breaking results in sales and profits\u2026 \u00b7 Experience: Fractional Execs On Demand (fractionalexecsondemand.com) \u00b7 Education: Fairleigh Dickinson University \u00b7 Location: New York City Metropolitan Area \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vcare-hospital-0a57ab13b/",
+      "title": "Vcare Hospital - Self-employed | LinkedIn",
+      "snippet": "Vcare Hospital is a healthcare venture of Dr. Pawan Mittal (MS- Gen. Surgery\u2026 \u00b7 Experience: Self-employed \u00b7 Location: Sahibzada Ajit Singh Nagar \u00b7 1 connection on LinkedIn. View Vcare Hospital\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/v-care-financial-services-8565a31ab/",
+      "title": "V-Care Financial Services - V-Care Financial Services | LinkedIn",
+      "snippet": "October 11, 2020 - Experience: V-Care Financial Services \u00b7 Location: 400070 \u00b7 29 connections on LinkedIn. View V-Care Financial Services\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vipul-sachdeva-07259625/",
+      "title": "Vipul Sachdeva - Chief Financial Officer, Strategic Business partner, Controllership, FP&amp;A, Mars, Amazon, PepsiCo, ICAI, ISB | LinkedIn",
+      "snippet": "Chief Financial Officer, Strategic Business partner, Controllership, FP&amp;A, Mars, Amazon, PepsiCo, ICAI, ISB \u00b7 Finance leader with strategic focus and driving profitable growth while taking care of the ecosystem. I offer over 2 decades of expertise in Finance Business partnering, Business controllership and Financial planning and analysis enabled through my experiences with large and global FMCG and retail organisations."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vipul-patel-893a36172/",
+      "title": "Vipul Patel - President - V-Care Specialty Pharmacy | LinkedIn",
+      "snippet": "President at V-Care Specialty and Retail Pharmacies \u00b7 Experienced President with a demonstrated history of working in the health wellness and community retail/specialty pharmacy Skilled in Business Planning, Pharmacy, Management, technology and Leadership. Strong business development professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/richard-chambers-3526b35",
+      "title": "Richard Chambers - Director - VTM,LLC | LinkedIn",
+      "snippet": "View Richard Chambers\u2019 profile on LinkedIn, the world\u2019s largest professional community. Richard has 10 jobs listed on their profile. See the complete profile on LinkedIn and discover Richard\u2019s connections and jobs at similar companies."
+    }
+  ]
+}

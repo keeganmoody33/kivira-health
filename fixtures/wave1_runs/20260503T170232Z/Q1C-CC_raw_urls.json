@@ -1,0 +1,81 @@
+{
+  "query_id": "Q1C-CC",
+  "query_string": "(\"CMO\" OR \"VP Medical Affairs\" OR \"Medical Director of Population Health\" OR \"VP Medical Director Value-Based Care\" OR \"Chief Clinical Officer\" OR \"Medical Director Quality Programs\") AND (\"value-based care\" OR \"VBC\" OR \"shared savings\" OR \"MSSP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1C"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme Clinical Outcomes, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:02:43+00:00",
+  "raw_result_count": 17,
+  "deduped_result_count": 13,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/scottandersmd/",
+      "title": "Scott Anders MD MBA FAAFP CPE - Ardent Health | LinkedIn",
+      "snippet": "February 5, 2026 - As Chief Medical Officer (CMO) of Value Based Care (VBC) I am responsible for\u2026 \u00b7 Experience: Ardent Health \u00b7 Education: University of Utah - David Eccles School of Business \u00b7 Location: Seattle \u00b7 500+ connections on LinkedIn. View Scott Anders MD MBA FAAFP CPE\u2019s profile on LinkedIn,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/laddudy/",
+      "title": "Ladd Udy - Mercyhealth Wisconsin and Illinois | LinkedIn",
+      "snippet": "Did not author, was interviewed for this article. Described HCC risk-adjustment as it applies to ACOs in the Medicare Shared Savings Program (MSSP), discussed efforts to ensure accuracy within the ACO and the challenges ACOs have with managing to this aspect of the model."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michelle-best-mba-cphq-93697058/",
+      "title": "Michelle Best, MBA, CPHQ - Providence St. Joseph Health | LinkedIn",
+      "snippet": "November 4, 2025 - \u2b07\ufe0f \u2796\u2796\u2796 Over the last 25+ years as an MD with an MBA and MPH, I have worked with 3 Multi-Million dollar Hospital organizations serving as VPMA and CMO saving millions of dollars and improving quality. I went on to serve as Chief Physician Executive for BDO USA, the fifth-largest professional services firm in the United States."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cathleen-santiago-6334a95/",
+      "title": "Cathleen Santiago - CMO - The Care Management Company of Montefiore Medical Center | LinkedIn",
+      "snippet": "A healthcare leader with 20+ years spanning public health, health systems, and payors, Dr. Parsons brings deep expertise in physician leadership, population health, and care management. As Vice President of Clinical Management at Healthfirst, she leads transformative care management programs."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/katie-corelli-md-mph-5744692a/",
+      "title": "Katie Corelli, MD, MPH - Mass General Brigham | LinkedIn",
+      "snippet": "August 27, 2025 - Participants will leave the Fellowship with an expertise in developing, implementing and analyzing population health and value-based care strategies. Applications are due by October 1st. Reach out to Jeanine Bulan, MD, FACP, Associate Chief Population Health Officer and Fellowship Program Director or Keri Sperry, PHSO Program Director at ksperry@mgb.org for information on how to apply."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vikram-saini-jd-mha-67379a6/",
+      "title": "Vikram Saini, JD/MHA - Florida Accountable Care Services, LLC | LinkedIn",
+      "snippet": "\u00b7 Experience: Florida Accountable Care Services, LLC \u00b7 Education: University of Florida \u00b7 Location: Winter Park \u00b7 500+ connections on LinkedIn. View Vikram Saini, JD/MHA\u2019s profile on LinkedIn,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/usha-mohandas-md-facp-0a822667/",
+      "title": "Usha Mohandas, MD FACP - Associate Medical Director ...",
+      "snippet": "Does supporting physicians to delivering better, more coordinated care actually save #Medicare money? A new study in JAMA Health Forum by Dr. Dhruv Khullar looked at the Medicare Shared Savings Program from 2012\u20132023. Here\u2019s what it found: Medicare paid $15.8 billion in bonus payments to groups of physicians and hospitals that improved care and reduced unnecessary spending."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/srin-vishwanath-6342059/",
+      "title": "Srin Vishwanath - OPN Healthcare | LinkedIn",
+      "snippet": "March 26, 2026 - Our last panel of the day, Outlook for Accountable Care, discussed the future of accountable care, ways to improve accountable care models, advice for the new administration, and ideas for moving forward. Thank you to our speakers Dr. Ali Khan, MD, MPP, Chief Medical Officer, Medicare, Aetna/CVS Health; Dr."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michael-wallace-ccpm-mba-ccp-c-nrp-38021610/",
+      "title": "Michael Wallace, CCPM, MBA, CCP-C, NRP - Williamson Health | LinkedIn",
+      "snippet": "They only benefit from the elevation of our profession at the primary care level. Check out Table 92 of the 2026 PFS Proposed Rule. \ud83e\udd26\ud83c\udffc\u200d\u2640\ufe0f We need to be codified as practitioners and perceived as primary care providers by physicians and policymakers. VBC is the opening."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tiffaliciousrex/",
+      "title": "Tiffany Moos - ACNPC-AG with extensive acute care RN ...",
+      "snippet": "Value-based care is based in being there for patients every time they need care. In a recent HealthLeaders interview, SSM Health chief clinical officer Stephanie Duggan MD, FACEP, FAAPL, CPE, shares how investing in foundational building blocks&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/zacharymenn/",
+      "title": "Zachary Menn, MD, MHA, MBA - Houston Methodist | LinkedIn",
+      "snippet": "Congratulations to: Sharla Baenen Stephen Bello Scott Carboy Amanda Cresswell Corey Cronrath Eric Crowder Chris Eberlein MD Michael Ezzie Laline Leav Gutierrez, CPA Lauren Hardison Meghan Skalsky Hooley Christine Laprise Todd Liu Anna Lopez Zachary Menn, MD, MHA, MBA Katherine Mieure Benjamin Milligan, MD, FACEP Adam Momper, FACHE, FHFMA, UVA Health Christina Monk Jacqueline Naeem Elizabeth Paterson Ely Perea Heather Rowenhorst Carolann Stanek Mika Taylor Wanda Walker Hodges AnneMarie West, MBA, BSN, RN, NE-BC Michele Wingate #ceo #cfo #healthcarefinance #healthcareinnovation #cmo #cno #nurseleaders #hospitals #healthsystems #workforce #healthcareprofessionals #healthcareleaders #leadership #event #networking #leadershipdevelopment #upnext"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/samir-shah-md-mmm",
+      "title": "Samir Shah, MD, MMM FACR - Chief Medical Officer, Qure.ai",
+      "snippet": "August 11, 2015 - Dr. Shah, a seasoned radiologist with over two decades of experience, currently serves as\u2026 \u00b7 Experience: Qure.ai \u00b7 Education: Carnegie Mellon University - Heinz College of Information Systems and Public Policy \u00b7 Location: Pittsburgh \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ravi-valluripalli-9a4456305/",
+      "title": "Ravi Valluripalli - -- | LinkedIn",
+      "snippet": "Through technology and innovation, the institute will help us advance care in ways that reflect our Mission and Values. Our goal is to continue to improve the health of the people we serve, with special attention to those most in need. Four Ascension leaders will direct this new priority for Chief Clinical Officer, Thomas A."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "query_id": "Q3C-CC",
+  "query_string": "(\"CMO\" OR \"Chief Medical Officer\" OR \"VP Clinical Affairs\" OR \"Behavioral Health Medical Director\" OR \"Population Health Medical Director\" OR \"VP Medical Director\" OR \"Chief Behavioral Health Officer\") AND (\"Medicare Advantage\" OR \"Blue Cross\" OR \"health plan\" OR \"regional payer\") site:linkedin.com/in",
+  "industry_filter": "Insurance",
+  "location": "United States",
+  "expected_subtiers": [
+    "3C"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme Clinical Outcomes, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:04:24+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 15,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sudhakar-vankayalapati-03154153/",
+      "title": "Sudhakar Vankayalapati - Operations &amp; Technology Executive | Healthcare Transformation Leader | Claims Modernization, Digital Enablement &amp; Cross-Functional Strategy | LinkedIn",
+      "snippet": "\u279e Championed enterprise-wide modernization efforts including BlueCard platform upgrade (served as the BlueCard Modernization Executive) and Medicare Advantage claims modeling with Alabama Blue. \u279e Delivered ~$500K in annual savings by streamlining paper claims processes and reallocating staff. \u279e Led NCQA reaccreditation efforts for FEP by co-developing a Population Health Management framework in partnership with the CEO and Chief Medical Officer."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mc-610solutions/",
+      "title": "Michael Carson - Healthcare CEO, Board Director, Advisor, Investor | LinkedIn",
+      "snippet": "- Multi-Market P&amp;L &amp; Growth - Regional Commercial Group, Exchange, Self-Insured Business (MA, ME, NH, CT) - National Self-Insured &amp; TPA Population Health Business - Regional Medicare Advantage &amp; Medicare Supplement Business (MA, NH, ME) - Benevera Health Plan/Hospital System/Population Health Joint Venture Oversight - Corporate Shared Services - Health Services &amp; Medical Cost Management, Provider Contracting &amp; Network Management, Sales, Marketing &amp; Product Development ... Patient-Centered, Employed Physician Primary Clinic-, Home- and Facility-Based Care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sandhya-rao-78401161/",
+      "title": "Sandhya Rao - Chief Medical Officer at Blue Cross ...",
+      "snippet": "Sandhya Rao is an experienced physician leader whose passion is inspiring and supporting\u2026 \u00b7 Experience: Blue Cross Blue Shield of Massachusetts \u00b7 Location: Boston \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/darrel-weaver-a74a5553/",
+      "title": "Darrel Weaver - Medical Director BCBS Alabama - Blue Cross Blue Shield | LinkedIn",
+      "snippet": "Medical Director and Director of Network Contracting at Blue Cross Blue Shield \u00b7 Experience: Blue Cross Blue Shield \u00b7 Location: Brierfield \u00b7 30 connections on LinkedIn. View Darrel Weaver\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/veena-dhar-6645887b/",
+      "title": "Veena Dhar - associate medical director - Highmark Blue ...",
+      "snippet": "Experience: Highmark Blue Cross Blue Shield \u00b7 Location: Monroeville \u00b7 1 connection on LinkedIn. View Veena Dhar\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/randal-hundley-a3525820/",
+      "title": "Randal Hundley - Medical Director, Arkansas Blue Cross Blue Shield | LinkedIn",
+      "snippet": "Medical Director, Arkansas Blue Cross Blue Shield \u00b7 Experience: Arkansas Blue Cross Blue Shield \u00b7 Education: Harvard Medical School \u00b7 Location: Little Rock \u00b7 456 connections on LinkedIn. View Randal Hundley\u2019s profile on LinkedIn, a&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/john-brineman-3a049257/",
+      "title": "John Brineman - Arkansas Blue Cross Blue Shield | LinkedIn",
+      "snippet": "Experience: Arkansas Blue Cross Blue Shield \u00b7 Education: Walter Reed Army Medical Center, Washington, D.C. \u00b7 Location: Little Rock \u00b7 500+ connections on LinkedIn. View John Brineman\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/don-liss-6b1ab53a/",
+      "title": "Don Liss - Johns Hopkins Health Plans | LinkedIn",
+      "snippet": "November 11, 2025 - \u00b7 Experience: Johns Hopkins Health Plans \u00b7 Education: Drexel University College of Medicine \u00b7 Location: Philadelphia \u00b7 500+ connections on LinkedIn. View Don Liss\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brookeparish/",
+      "title": "Brooke Parish - Executive Medical Director of BH at Blue ...",
+      "snippet": "Specialties: Board certified in Internal Medicine, Psychiatry, Forensic Psychiatry\u2026 \u00b7 Experience: Blue Cross Blue Shield of New Mexico \u00b7 Education: The University of Tennessee Health Science Center \u00b7 Location: Albuquerque \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/thomas-hui-8a14442a/",
+      "title": "Thomas Hui - Senior Medical Director - Horizon Blue Cross Blue Shield of New Jersey | LinkedIn",
+      "snippet": "Senior Medical Director at Horizon Blue Cross Blue Shield of New Jersey \u00b7 Experience: Horizon Blue Cross Blue Shield of New Jersey \u00b7 Location: Trenton \u00b7 2 connections on LinkedIn. View Thomas Hui\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/frankfasano1/",
+      "title": "Frank Fasano - Vice President, Product Strategy &amp; Outcomes",
+      "snippet": "Visana Health\u2019s leadership team is led by founders Joe Connolly (CEO) and Shelly Lanning (President), joined by Barbara Levy, MD, FACOG, FACS (CMO), Chevon Rariy, MD (Chief Clinical Innovation Officer), Scib Ebel (CTO), Carla Eckhardt Taracena&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ryan-larsen-576257180/",
+      "title": "Ryan Larsen - Chief Executive Officer at Community ...",
+      "snippet": "22-24, we&#x27;re sharing the clear-sighted and resourceful &quot;Roadmap to Strong Rural Health Care&quot; PDF that the organization developed along with the Nebraska Rural Health Association. Among other calls to action, the report cites Medicare Advantage and prior-authorization practices as areas in need of reform."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/raziahashmi/",
+      "title": "Razia Hashmi - Blue Cross Blue Shield Association | LinkedIn",
+      "snippet": "Medicare Advantage #RiskAdjustment Explained... Learn HCCs, RAFs + More. This excerpt from a previous Training Session Hits the Highlights of the Risk-Adjust Payment Methodology for #MedicareAdvantage Plans. Medicare Advantage (MA) Payments to health insurance companies totaled $361B..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jean-o-brien-3926aa107/",
+      "title": "Jean O'Brien - Anthem Blue Cross Blue Shield Medicaid | LinkedIn",
+      "snippet": "This is definitely something to watch closely in 2026. Official CMS link https://www.cms.gov #MedicalBilling #RevenueCycleManagement #CMS #MedicareAdvantage #PriorAuthorization #RCM ... Find out about the best practices for #physician development. Mike Angelidis, MD, CPE,SFHM, CMO at SSM Health St."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/surf/",
+      "title": "Dr. Surafel Ejigu, MSSA, LCSW - Chief Clinical Officer - Montrose Behavioral Health Hospital | LinkedIn",
+      "snippet": "\u2022 Oversee compliance with all healthcare regulations and accreditation standards, including CMS, Joint Commission, and state-level requirements. \u2022 Work closely with the CMO AND CNO to drive integration across medical, nursing, and support teams, ensuring cohesive patient care and service delivery."
+    }
+  ]
+}

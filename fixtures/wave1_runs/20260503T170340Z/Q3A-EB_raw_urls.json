@@ -1,0 +1,106 @@
+{
+  "query_id": "Q3A-EB",
+  "query_string": "(\"VP Ambulatory\" OR \"COO\" OR \"CFO\" OR \"SVP Clinical Affairs\" OR \"VP Finance\" OR \"SVP Operations\") AND (\"health system\" OR \"regional health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3A"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Third priority \u2014 primary theme ROI / Revenue, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:56+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 18,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carol-eckhart-a636bab/",
+      "title": "Carol Eckhart - Director Financial Operations - Community Health Systems | LinkedIn",
+      "snippet": "Director Financial Operations at Community Health Systems \u00b7 Experience: Community Health Systems \u00b7 Education: DeSales University \u00b7 Location: Spring Hill \u00b7 187 connections on LinkedIn. View Carol Eckhart\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pushpendu-pal-43094a2",
+      "title": "Pushpendu Pal - CVS Health | LinkedIn",
+      "snippet": "5 days ago - Thibodaux Regional Health System (Thibodaux Regional) recognized opportunities to improve performance and patient outcomes by increasing its focus on care delivery in its ambulatory care settings. By partnering with Health Catalyst professional services and leveraging the Health Catalyst\u00ae Data Platform, Thibodaux Regional identified and closed care gaps, optimized workflows, and improved clinical documentation, leading to meaningful ambulatory care improvements and more efficient care delivery."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/april-urata-6916b116b/",
+      "title": "April Urata - Community Health System | LinkedIn",
+      "snippet": "Experience: Community Health System \u00b7 Education: California State University, Fresno \u00b7 Location: Metropolitan Fresno \u00b7 303 connections on LinkedIn. View April Urata\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christopher-slachta-phd/",
+      "title": "Christopher Slachta, Ph.D., M.B.A. - Chief Operating Officer - Cytovale | LinkedIn",
+      "snippet": "COO | Operations &amp; Supply Chain Executive | Healthcare | Clinical Laboratory (CLIA) Leadership | Cross-Functional Leadership | Scale-Up &amp; Launch | Scientific Leader | Manufacturing Management | VP | Expert Witness IVD \u00b7 My philosophy is grounded in the belief that meticulous operations management&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/antoneeek/",
+      "title": "Antone Eek - Virginia Mason Franciscan Health | LinkedIn",
+      "snippet": "As a Financial Operations Executive ... and Science University \u00b7 Location: Vancouver \u00b7 500+ connections on LinkedIn. View Antone Eek\u2019s profile on LinkedIn, a professional ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/raymoraleslink/",
+      "title": "Ray Morales - VP of Sales &amp; Marketing | MPA | LinkedIn",
+      "snippet": "September 4, 2025 - Led sales team and accountability for national business accounts in the healthcare sector including Integrated Delivery Networks (IDN), Ambulatory Surgical Centers (ASC), Independent Physician Associations (IPA), and large to mid-size private&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/courtneyrclarke/",
+      "title": "Courtney Clarke - NorthBay Health | LinkedIn",
+      "snippet": "March 6, 2026 - As NorthBay Health continues to grow and strengthen its role as a regional health system, I\u2019ll continue leading strategic marketing and brand initiatives across the organization, including enterprise brand strategy, service line and ambulatory&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/denisemihalnh/",
+      "title": "Denise Mihal - Novant Health | LinkedIn",
+      "snippet": "October 20, 2025 - Experience: Novant Health \u00b7 Education: Rutgers, The State University of New Jersey-Newark \u00b7 Location: Greensboro--Winston-Salem--High Point Area \u00b7 500+ connections on LinkedIn. View Denise Mihal\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jordan-lerner-15256920/",
+      "title": "Jordan Lerner - Medical Solutions | LinkedIn",
+      "snippet": "September 17, 2025 - \u00b7 Experience: Medical Solutions \u00b7 Education: Eastern Illinois University \u00b7 Location: San Diego \u00b7 500+ connections on LinkedIn. View Jordan Lerner\u2019s profile on LinkedIn, a professional community of 1&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jim-o-gorman-0b32278/",
+      "title": "Jim O'Gorman - Included Health | LinkedIn",
+      "snippet": "1 month ago - \u00b7 Experience: Included Health \u00b7 Location: Los Angeles Metropolitan Area \u00b7 500+ connections on LinkedIn. View Jim O'Gorman\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joe-nicassio-72017740/",
+      "title": "Joe Nicassio - Community Health System | LinkedIn",
+      "snippet": "\u00b7 Experience: Community Health System \u00b7 Education: University of Phoenix- Fresno \u00b7 Location: Fresno \u00b7 187 connections on LinkedIn. View Joe Nicassio\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alpa-vyas-healthcare/",
+      "title": "Alpa Vyas - Senior Vice President, Chief Patient Experience &amp; Operational Performance Officer at Stanford Health Care | LinkedIn",
+      "snippet": "August 15, 2025 - Senior Vice President, Chief Patient ... University of South Carolina \u00b7 Location: Palo Alto \u00b7 500+ connections on LinkedIn. View Alpa Vyas\u2019 profile on LinkedIn, a ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/camile-mohammed-7012984/",
+      "title": "Camile Mohammed - Director Community Health System",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ... Healthcare technology leader with broad range of executive, operational, and technology and a passion for advancing healthcare delivery models | Doctor in Business Administration ... Sr. Director Clinical Systems at HCA"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/susan-dargon-hart-64a94713/",
+      "title": "Susan Dargon-Hart - Massachusetts League of Community Health Centers | LinkedIn",
+      "snippet": "Experience: Massachusetts League of Community Health Centers \u00b7 Location: Newton \u00b7 500+ connections on LinkedIn. View Susan Dargon-Hart\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rob-bordonaro/",
+      "title": "Rob Bordonaro - Chief Operating Officer| Client Experience Manager | Accountable Leadership | Statistical Analysis | Cross-functional Partnering | Messaging Vision Purpose | Sales Enablement | Training | Workshops | Strategy | LinkedIn",
+      "snippet": "A highly accomplished, client centric, and well-rounded COO with multiple Fortune 500 experience in differing vertical markets: Legal Services, Retail Banking, Wealth Management, Healthcare, Capital Equipment, &amp; Real Estate. A results-driven business executive with a successful record of accomplishment in operations management, change management, client experience, employee experience, and process implementation."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/elizabeth-marano-msn-rn-6790729a/",
+      "title": "Elizabeth Marano, MSN, RN - Integrated Medical Professionals, PLLC | LinkedIn",
+      "snippet": "A proven and verifiable record for: &lt;br&gt;- Setting up and coordinating care in either downsized facilities or new clinic environments, &lt;br&gt; ensuring that the process remains seamless.&lt;br&gt;- Recipient of Secretary\u2019s award for Nursing Excellence in 2009&lt;br&gt;\u2022 Recipient of numerous Letters of Commendation and Appreciation &lt;br&gt;Education&lt;br&gt;Carolina Theological Institute and Seminary, Jacksonville, NC&lt;br&gt;Doctorate of Philosophy in Ministry&lt;br&gt;Masters in Ministry&lt;br&gt;Medical College of Virginia-Virginia Commonwealth University, Richmond, VA."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nawzer-mehta-b166934/",
+      "title": "Nawzer Mehta - Sr. VP Clinical Affairs at Protembis GmbH",
+      "snippet": "\u00b7 Experience: Protembis GmbH \u00b7 Education: St. George's Hospital Medical School, Univ. of London \u00b7 Location: Redmond \u00b7 500+ connections on LinkedIn. View Nawzer Mehta\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ruth-blackwell-2634a618/",
+      "title": "Ruth Blackwell - RN, MBA, CPHQ, HACP-CMS, LSSYB",
+      "snippet": "Innovative, creative, results-oriented leader with a strong track record of increasing\u2026 \u00b7 Experience: AMN Healthcare \u00b7 Location: Keller \u00b7 248 connections on LinkedIn. View Ruth Blackwell\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    }
+  ]
+}

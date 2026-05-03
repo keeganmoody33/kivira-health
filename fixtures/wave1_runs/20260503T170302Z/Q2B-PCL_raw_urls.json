@@ -1,0 +1,116 @@
+{
+  "query_id": "Q2B-PCL",
+  "query_string": "(\"VP Partnerships\" OR \"VP Business Development\" OR \"VP Strategic Alliances\" OR \"Director of Partnerships\" OR \"GM Provider Solutions\" OR \"Head of Partnerships\" OR \"SVP Business Development\") AND (\"Aledade\" OR \"Privia Health\" OR \"Pearl Health\" OR \"Evolent\" OR \"agilon health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2B"
+  ],
+  "cluster": "PCL (Partnership / Channel Lead)",
+  "why_this_slot": "First priority \u2014 primary theme ROI / Revenue, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:03:14+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 20,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/eric-schumann-mba-b4911014/",
+      "title": "Eric Schumann, MBA - Privia Health | LinkedIn",
+      "snippet": "March 12, 2026 - I am a proven healthcare executive who has enhanced operations and service delivery in a \u00b7 Experience: Privia Health \u00b7 Education: Virginia Commonwealth University \u00b7 Location: St. Petersburg \u00b7 500+ connections on LinkedIn. View Eric Schumann, MBA\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lori-c-moore",
+      "title": "Lori Moore - VP, Population Health, Privia Health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nick-ward-48925956/",
+      "title": "Nick Ward - Sr. National Growth Director at Privia Health",
+      "snippet": "September 20, 2024 - Swipe to see Privia&#x27;s Vice President of Practice Operations &amp; Value-Based Care, Ryan Graham, CPHIT, Director of Corporate Strategy &amp; Partnerships at athenahealth, Regina Haynes, and Vice President of Value-Based Care at Navina, Dana McCalley, at #ViVE2025 where they dropped major industry gems during their Fireside Chat on Transforming patient care: How Privia Health leverages AI and partnerships for value-based success."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lisa-freda-076679b",
+      "title": "Lisa Freda - Privia Health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jbbutler/",
+      "title": "Jeff Butler - Privia Health | LinkedIn",
+      "snippet": "Jeff can introduce you to 10+ people at Privia Health"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/shawn-morris-50aa0a7",
+      "title": "Shawn Morris - Chief Executive Officer - Privia Health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christyparker1/",
+      "title": "Christy Parker - Privia Health | LinkedIn",
+      "snippet": "Privia Health Expands Value-Based Care Footprint with Acquisition of Accountable Care Organization Business from Evolent Health - Privia Health"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/elizabeth-bramham-67a20bb7/",
+      "title": "Elizabeth Bramham - Privia Health | LinkedIn",
+      "snippet": "March 31, 2022 - Experience: Privia Health \u00b7 Education: The George Washington University \u00b7 Location: Arlington \u00b7 355 connections on LinkedIn. View Elizabeth Bramham\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/melaniesuranto/",
+      "title": "Melanie Suranto - Privia Health | LinkedIn",
+      "snippet": "Experience: Privia Health \u00b7 Education: Cornell University \u00b7 Location: Bradenton \u00b7 500+ connections on LinkedIn. View Melanie Suranto\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jasonmjohnson1032/",
+      "title": "Jason Johnson, MHA, PMP - Privia Health | LinkedIn",
+      "snippet": "July 27, 2016 - Over a decade of award-winning healthcare business development/growth experience, with a\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Trinity University \u00b7 Location: San Antonio \u00b7 500+ connections on LinkedIn. View Jason Johnson, MHA, PMP\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amycatkins/",
+      "title": "Amy Atkins - Privia Health | LinkedIn",
+      "snippet": "Aledade, Inc."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lydia-merritt-22ab2a86/",
+      "title": "Lydia Merritt - Privia Health | LinkedIn",
+      "snippet": "May 17, 2023 - Highly motivated, nationally recognized healthcare marketing professional with more than\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Virginia Polytechnic Institute and State University \u00b7 Location: Roanoke \u00b7 500+ connections on LinkedIn. View Lydia Merritt\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tommy-prince/",
+      "title": "Tommy Prince - Privia Health | LinkedIn",
+      "snippet": "September 26, 2025 - As an experienced leader with a strong background in IT and Healthcare, I have\u2026 \u00b7 Experience: Privia Health \u00b7 Education: University of Colorado Denver \u00b7 Location: Washington DC-Baltimore Area \u00b7 500+ connections on LinkedIn. View Tommy Prince\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kelly-banning-6068676b/",
+      "title": "Kelly Banning - Managing Director - Evolent | LinkedIn",
+      "snippet": "Healthcare professional providing strategic planning for quality improvement and driving down cost for managed populations. Fostering relationship between Evolent and the health system/providers sharing back practices. Coordinates with local hospital administrators, health plan executives, key physician leaders, client partners to promote population health."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tripcothren/",
+      "title": "Trip Cothren - Chief Strategy and Integration Officer @ U.S. ...",
+      "snippet": "October 20, 2025 - We\u2019re excited to introduce you to our 2025 class of new partner organizations: Graves Gilbert Clinic in Kentucky, Mankato Clinic in Minnesota, Springfield Clinic in Illinois, and Twin Cities Network in Minnesota as well as an independent, multi-specialty practice in North Carolina that will be named at a later date. With these new partnerships, agilon will enter the state of Illinois for the first time and expand its existing footprint in Kentucky, Minnesota and North Carolina."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lynn-lecluyse-16808330/",
+      "title": "Lynn LeCluyse - Patient Marketing at Privia Health",
+      "snippet": "April 7, 2023 - Event planning not your thing? That&#x27;s okay because we have over 50 positions available right now including Salesforce development, talent acquisition, and product marketing. Message me if you want to learn more about Privia Health and the amazing people I work with."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/james-garner-63a8027/",
+      "title": "James Garner - Privia Health | LinkedIn",
+      "snippet": "Over 20 years of internal audit, consulting and finance experience in healthcare\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Freed-Hardeman University \u00b7 Location: Franklin \u00b7 500+ connections on LinkedIn. View James Garner\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/caroline-patterson-83a73430",
+      "title": "Caroline Patterson - Privia Health Elon University",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/evanvaradi/",
+      "title": "Evan Varadi, MBA - Privia Health | LinkedIn",
+      "snippet": "Experience: Privia Health \u00b7 Education: Tulane University - A.B. Freeman School of Business \u00b7 Location: Greater Houston \u00b7 500+ connections on LinkedIn. View Evan Varadi, MBA\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/terrybrandes/",
+      "title": "Terry Brandes, AVP Engineering/Tech Ops at Privia Health - Privia Health | LinkedIn",
+      "snippet": "May 25, 2017 - Experienced IT Leader, establishing a culture of innovation that understands our customer\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Trident University International \u00b7 Location: Soddy-Daisy \u00b7 500+ connections on LinkedIn. View Terry Brandes, AVP Engineering/Tech Ops at Privia Health\u2019s&nbsp;..."
+    }
+  ]
+}

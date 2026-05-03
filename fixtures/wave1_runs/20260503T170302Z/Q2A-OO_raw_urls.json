@@ -1,0 +1,41 @@
+{
+  "query_id": "Q2A-OO",
+  "query_string": "(\"VP Population Health\" OR \"Director of Population Health\" OR \"Director of Care Coordination\" OR \"Quality Director\" OR \"Director of Network Performance\" OR \"Risk Operations Leader\" OR \"Director of Value-Based Operations\") AND (\"ACO\" OR \"Accountable Care Organization\" OR \"MSSP ACO\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Quality / Compliance, secondary ROI / Revenue",
+  "run_at": "2026-05-03T17:03:04+00:00",
+  "raw_result_count": 5,
+  "deduped_result_count": 5,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/uop-l-6275aaa8/",
+      "title": "UOP L. - United Outstanding Physicians | LinkedIn",
+      "snippet": "June 19, 2025 - \ud83d\udd37 Celebrating a New Chapter with United Outstanding Physicians (UOP) Value-Based Care (VBC) and Accountable Care Organization (ACO)!"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/susan-da-silva-cpc-cpma-crc-cemc-492775ba/",
+      "title": "Susan da Silva CPC, CPMA, CRC, CEMC - Blue Cross Blue Shield of Massachusetts | LinkedIn",
+      "snippet": "Provided key evaluation, risk and ROI assessments to administrators, providers, regulators, underwriters, sales/marketing groups, financial investors and customers for managerial decision making.&lt;br&gt;&lt;br&gt;Specialties: Health Reform - Implications and Strategy, Health Analytics, Health Economics, Comparative Effectiveness Research, Pharmacoeconomics/Epidemiology, Observational Studies, Secondary Use of Real World Evidence, Precision Medicine, Value Based Purchasing, Quality Measurement, Performance Metrics Development, Episode Bundled Cost of Care, Medical Informatics, Predictive Modeling, Accountable Care Organizations/Patient Centered Medical Home strategies, Population Health Management, Clinical Innovation and Transformation."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/crystalmaycode/",
+      "title": "Crystal May, CCS, CPC, CDEO, CPMA, CRC, Approved Instructor - SME | Educator | Risk Consultant | Auditor | Former Chapter President | LinkedIn",
+      "snippet": "March 18, 2020 - Risk Adjustment Coder at Centauri Health Solutions, Inc ... Clinical Provider Auditor Sr. at Elevance Health ... Owner and Medical Coding Instructor at C.A.R.E. (Coding and Reimbursement Education ... Greater Minneapolis-St. Paul Area ... CMS NEWS DROP- CMS just released the 2024 MSSP results. The results provide tremendous insight on the ACO landscape, risk adjustment, and value based care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/narda-moreno-ccs-cpc-crc-cpc-i-cpma-pmcc-9674841b/",
+      "title": "Narda Moreno, CCS, CPC, CRC, CPC-I, CPMA, PMCC - SCCIPA | LinkedIn",
+      "snippet": "Experience: SCCIPA \u00b7 Location: Oakland \u00b7 240 connections on LinkedIn. View Narda Moreno, CCS, CPC, CRC, CPC-I, CPMA, PMCC\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/deanna-seymourian-niles-cpc-crc-cpma-cpco-68404641/",
+      "title": "Deanna Seymourian Niles, CPC, CRC, CPMA, CPCO - Tufts Medicine | LinkedIn",
+      "snippet": "- MIPS Program Penalties: MIPS-eligible clinicians will receive a zero score in the Promoting Interoperability category if found to have committed information blocking. - Medicare Shared Savings Program Disqualification: Providers participating in Accountable Care Organizations (ACOs) may face disqualification for at least one year."
+    }
+  ]
+}

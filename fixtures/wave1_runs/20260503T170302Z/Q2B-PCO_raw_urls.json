@@ -1,0 +1,71 @@
+{
+  "query_id": "Q2B-PCO",
+  "query_string": "(\"VP Product\" OR \"VP Clinical Programs\" OR \"Chief Product Officer\" OR \"Director of Product Management\" OR \"VP Product Strategy\" OR \"Head of Product\" OR \"SVP Product\") AND (\"Aledade\" OR \"Privia Health\" OR \"Pearl Health\" OR \"Evolent\" OR \"agilon health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2B"
+  ],
+  "cluster": "PCO (Product / Clinical Owner)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme Workflow / Ops, secondary Clinical Outcomes",
+  "run_at": "2026-05-03T17:03:16+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 11,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stevendherz/",
+      "title": "Steven Herz - Chief Product Officer/Vice President Product Management - Experienced Healthcare Product Leader | Strategic Product Management | Driving Growth, Revenue, and Stakeholder Satisfaction | LinkedIn",
+      "snippet": "Chief Product Officer/Vice President Product Management - Experienced Healthcare Product Leader | Strategic Product Management | Driving Growth, Revenue, and Stakeholder Satisfaction \u00b7 Experienced product leader with 20+ years in healthcare specializing in product management, strategic&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jshamelashvili",
+      "title": "Josh Shamelashvili - agilon health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/philipsimpsonprivia",
+      "title": "Philip Simpson - Privia Health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/d-keith-fernandez-36837631/",
+      "title": "D. Keith Fernandez - Privia Health | LinkedIn",
+      "snippet": "July 12, 2019 - Dr. Keith Fernandez is the Chief Clinical Officer of Privia Health, and CEO of the Privia\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Uniformed Services University of the Health Sciences - F Edward Hebert SOM \u00b7 Location: Houston \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/crystalpughboyd",
+      "title": "Crystal Boyd - RPA Product Owner at Privia Health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/russelljosephharris/",
+      "title": "Russell Harris - Head of Product | VP of Product | B2B &amp; B2C | eCommerce | AI/ML | Scaled 0\u21921 &amp; $100M+ Growth | Product Strategy | Team Builder | LinkedIn",
+      "snippet": "Head of Product | VP of Product | B2B &amp; B2C | eCommerce | AI/ML | Scaled 0\u21921 &amp; $100M+ Growth | Product Strategy | Team Builder \u00b7 I\u2019m a product executive with 15+ years of experience leading product, design, and engineering teams to launch category-defining platforms, scale businesses from&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/curt-niekamp-298b506",
+      "title": "Curt Niekamp - agilon health",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/julie-moloney-ri2032",
+      "title": "Julie Moloney - Evolent",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rebekah-steggert-b6bb48b4/",
+      "title": "Rebekah Steggert - Evolent | LinkedIn",
+      "snippet": "CMS 2024 Final Rule: Top Takeaways Take a read of the full blog below - authored by Andrew Finkelstein, VP Compliance."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/andrewjamesgibbonsdc/",
+      "title": "Andrew Gibbons, CMPE - Privia Health | LinkedIn",
+      "snippet": "I&#x27;m an experienced, motivated and skilled leader who enjoys the challenge presented by\u2026 \u00b7 Experience: Privia Health \u00b7 Education: Bloomsburg University of Pennsylvania \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn. View Andrew Gibbons, CMPE\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/chris-casler-93b6b81b6/",
+      "title": "Chris Casler - Chief Human Resources Officer - agilon health | LinkedIn",
+      "snippet": "Chief Human Resources Officer at agilon health \u00b7 Experience: agilon health \u00b7 Location: United States \u00b7 1 connection on LinkedIn. View Chris Casler\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "query_id": "Q1C-TG",
+  "query_string": "(\"Analytics Director\" OR \"VP Analytics\" OR \"IT/EHR Lead\" OR \"Interoperability Lead\" OR \"Director of Clinical Informatics\" OR \"Director of Health Information Exchange\") AND (\"value-based care\" OR \"VBC\" OR \"shared savings\" OR \"MSSP\") site:linkedin.com/in",
+  "industry_filter": "Medical Practice",
+  "location": "United States",
+  "expected_subtiers": [
+    "1C"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third priority \u2014 primary theme Technical / Integration, secondary Workflow / Ops",
+  "run_at": "2026-05-03T17:02:47+00:00",
+  "raw_result_count": 12,
+  "deduped_result_count": 9,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nicole-saladin-3b5a3030/",
+      "title": "Nicole Saladin - Director Value Based Care | LinkedIn",
+      "snippet": "Director Value Based Care \u00b7 Dynamic and results-driven healthcare leader with over 14 years of experience optimizing clinical operations and leading strategic initiatives in value-based care and population health. Proven record of managing cross-functional teams, integrating data analytics&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vpdata1/",
+      "title": "Vipul Patel - Integrity | LinkedIn",
+      "snippet": "January 31, 2025 - 3. Provider Analytics &amp; Population Health Management The Unified Data Foundation powers a Population Health Management platform that enables VBC (Value-Based Care) providers to shift from reactive treatment to proactive, data-driven care decisions \u2014 built and operated in partnership with health plans. 4. SDoH \u2014 Social Determinants of Health Extends the data foundation beyond clinical boundaries by connecting social and economic data to the broader enterprise through SDoH Explorer, EMR Integration, SDoH APIs, and Impact Reporting \u2014 recognizing that where people live, work, and eat shapes health outcomes as much as medicine does."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cheryltownsendbakkum/",
+      "title": "Cheryl Townsend-Bakkum - VP of Sales Strategy &amp; ...",
+      "snippet": "ICYMI, Healthcare IT Today featured NASCO&#x27;s Linda Leigh Brock in a three-part series about value-based care adoption. In the third article, Brock and 13 other experts answer the question, What challenges do healthcare organizations face in aligning their IT infrastructure with VBC care goals, and how can they overcome these barriers?"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/davidgallegos/",
+      "title": "David Gallegos, MS, MPH - Deron Health Partners | LinkedIn",
+      "snippet": "March 13, 2026 - \u2022 Policymakers are evaluated on budget stability, not population health improvement. Three actors. Three incompatible incentive structures. No shared accountability for upstream health. This is why past reforms stalled. MSSP, shared savings, and incremental value-based pilots never touched the underlying payment rails."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/eswaran-kalyani/",
+      "title": "Eswaran Kalyani - Director Of Informatics at Aetna, a CVS ...",
+      "snippet": "October 2, 2020 - \u00b7 Experience: Aetna, a CVS Health Company \u00b7 Education: Anna University \u00b7 Location: Greater Pittsburgh Region \u00b7 500+ connections on LinkedIn. View Eswaran Kalyani\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bill-o-brien-mba-a4781411/",
+      "title": "Bill O'Brien, MBA - VP - Strategic Solutions - GE Healthcare | LinkedIn",
+      "snippet": "\u2022 Manage MR Business for 3 State Sales Territory creating business/territory plans, contribute to account plans at accounts covered by One GE Healthcare account team, provide training to all account team members on strategy and product offerings, provide pricing strategy and ensure pricing compliance, forecast orders and sales for assigned territory/products \u2022 MRI clinical/technical expert, effectively differentiate GE\u2019s product offerings, convey compelling value propositions, lead\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/samsudeenb/",
+      "title": "Samsudeen B - Sr Development Manager - Telstra Health CloudMed | LinkedIn",
+      "snippet": "For healthcare organizations to fully realize the cost savings and quality improvement goals of #VBC, they must be able to do the following: \u2022 Utilize a data-driven digital infrastructure that supports a multi-stakeholder &quot;network of networks,&quot; which includes different payment capabilities. \u2022 Attain data interoperability to facilitate permissioned data-sharing. \u2022 Build longitudinal healthcare records that patients can supplement with their personal data. \u2022 Draw insights from patient data and external data sets to guide clinical decision-making."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vipin-gopal/",
+      "title": "Vipin Gopal - Chief AI and Data Officer at Fortune 100s",
+      "snippet": "\u00b7 Experience: Concentra \u00b7 Education: Carnegie Mellon University \u00b7 Location: Indianapolis \u00b7 500+ connections on LinkedIn. View Vipin Gopal\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vikascmishra/",
+      "title": "Vikas Mishra - EY | LinkedIn",
+      "snippet": "April 12, 2025 - \u00b7 Experience: EY \u00b7 Education: Mumbai University Mumbai \u00b7 Location: Mumbai \u00b7 500+ connections on LinkedIn. View Vikas Mishra\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    }
+  ]
+}

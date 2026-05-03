@@ -1,0 +1,111 @@
+{
+  "query_id": "Q3C-EB",
+  "query_string": "(\"CFO\" OR \"VP Medical Management\" OR \"VP Stars Performance\" OR \"COO\" OR \"VP Finance\" OR \"Chief Strategy Officer\" OR \"SVP Health Plan Operations\") AND (\"Medicare Advantage\" OR \"Blue Cross\" OR \"health plan\" OR \"regional payer\") site:linkedin.com/in",
+  "industry_filter": "Insurance",
+  "location": "United States",
+  "expected_subtiers": [
+    "3C"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Second priority \u2014 primary theme ROI / Revenue, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:04:25+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 19,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stacie-heiden-48b1b63b/",
+      "title": "Stacie Heiden - EVP, Health Strategy &amp; Delivery at Blue Cross Blue Shield of North Dakota | LinkedIn",
+      "snippet": "EVP, Health Strategy &amp; Delivery at Blue Cross Blue Shield of North Dakota \u00b7 A Business Leader with specific skills in healthcare organizations&#x27; strategic and operational planning, care delivery, utilization management, forecasting, financial analysis, metrics management, workflow improvement, accounting, financing, and reimbursement, in non-profit and for-profit environments."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tony-cahn-a78b1142/",
+      "title": "Tony Cahn - Regional Vice President of Health Care Networks at Anthem Blue Cross Blue Shield of Georgia | LinkedIn",
+      "snippet": "Regional Vice President of Health Care Networks at Anthem Blue Cross Blue Shield of Georgia \u00b7 Over 20 years experience in the health care industry managing provider networks, leading teams, and negotiating complex healthcare contracts. \u00b7 Experience: Elevance Health \u00b7 Education: Sullivan&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/curtis-barnett-cebs-pahm-93774a10/",
+      "title": "Curtis Barnett, CEBS, PAHM - Arkansas Blue Cross Blue Shield | LinkedIn",
+      "snippet": "October 4, 2024 - Staying healthy becomes top of mind as we age, but the good news is there are ways all of us can begin to improve our health with some small and easy steps. At Arkansas Blue Cross and Blue Shield, we know that healthy aging is influenced by many interconnected factors such as physical health and wellbeing. Learn tips from Chief Medical Officer Dr."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/chris-reiten-49aa1526b/",
+      "title": "Chris Reiten - Vice President at Blue Cross and Blue Shield of Minnesota | LinkedIn",
+      "snippet": "Vice President at Blue Cross and Blue Shield of Minnesota \u00b7 Experience: Blue Cross and Blue Shield of Minnesota \u00b7 Location: St Paul \u00b7 202 connections on LinkedIn. View Chris Reiten\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/philipgbowling/",
+      "title": "Philip Bowling - Blue Cross and Blue Shield of Kansas City | LinkedIn",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ... \ud835\udc13\ud835\udc21\ud835\udc1e \ud835\udc05\ud835\udc2e\ud835\udc2d\ud835\udc2e\ud835\udc2b\ud835\udc1e \ud835\udc28\ud835\udc1f \ud835\udc04\ud835\udc26\ud835\udc29\ud835\udc25\ud835\udc28\ud835\udc32\ud835\udc1e\ud835\udc2b \ud835\udc07\ud835\udc1e\ud835\udc1a\ud835\udc25\ud835\udc2d\ud835\udc21 \ud835\udc0f\ud835\udc25\ud835\udc1a\ud835\udc27\ud835\udc2c \ud835\udc12\ud835\udc2d\ud835\udc1a\ud835\udc2b\ud835\udc2d\ud835\udc2c \ud835\udc16\ud835\udc22\ud835\udc2d\ud835\udc21 \ud835\udc18\ud835\udc28\ud835\udc2e\u2063 \u2063 When I was a CFO, we made decisions that looked risky on the surface, but they were calculated and backed by a strategy.\u2063 \u2063 We:\u2063 \u2063 \ud83d\udd38 Built direct contracts with local providers for high-cost orthopedic services and key preventive screenings.\u2063 \ud83d\udd38 Worked through our independen"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christine-brown-vp/",
+      "title": "Christine Brown - Horizon Blue Cross Blue Shield of New Jersey | LinkedIn",
+      "snippet": "Experience: Horizon Blue Cross Blue Shield of New Jersey \u00b7 Education: Walden University \u00b7 Location: Carteret \u00b7 393 connections on LinkedIn. View Christine Brown\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/joseph-beatty-0429b47a/",
+      "title": "Joseph Beatty - Horizon Blue Cross Blue Shield of New Jersey | LinkedIn",
+      "snippet": "\ud835\udc04\ud835\udc17\ud835\udc04\ud835\udc02\ud835\udc14\ud835\udc13\ud835\udc08\ud835\udc15\ud835\udc04 \ud835\udc12\ud835\udc14\ud835\udc0c\ud835\udc0c\ud835\udc00\ud835\udc11\ud835\udc18 \ud835\udc0e\ud835\udc05 \ud835\udc10\ud835\udc14\ud835\udc00\ud835\udc0b\ud835\udc08\ud835\udc05\ud835\udc08\ud835\udc02\ud835\udc00\ud835\udc13\ud835\udc08\ud835\udc0e\ud835\udc0d\ud835\udc12 \u2022 Global\u2026 \u00b7 Experience: Horizon Blue Cross Blue Shield of New Jersey \u00b7 Education: College of Saint Elizabeth \u00b7 Location: New York City Metropolitan Area&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/arun-prasad-hcsc/",
+      "title": "Arun Prasad - Health Care Service Corporation | LinkedIn",
+      "snippet": "It\u2019s a case study\u2014and a lightning rod moment\u2014for what happens when a young public company gets outpaced by better-capitalized rivals in one of the country&#x27;s most competitive new-home development and construction regions. This TBD analysis goes deep on: \u2705 UHG\u2019s Q1 numbers and recapitalization efforts \u2705 The rise of hybrid financial-strategic acquirers \u2705 The competitive battleground in the Carolinas \u2705 The shifting power dynamics of homebuilding M&amp;A in 2025 Capital access, leadership clarity, and cultural fit reshape who grows and who seeks an exit ramp. ... Only 62% of Medicare Advantage enrollees are in plans rated four stars or higher\u2014a steep decline from 74% last year."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ruth-greene-21236651",
+      "title": "Ruth Greene - VP, Treasurer &amp; CFO at Blue Cross and ...",
+      "snippet": "We cannot provide a description for this page right now"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stephaniagrober/",
+      "title": "Stephania Grober - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "March 26, 2025 - As president of Oklahoma\u2019s only statewide customer-owned health insurer in Oklahoma\u2026 \u00b7 Experience: Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas \u00b7 Education: Oklahoma City University \u00b7 Location: Tulsa \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/gregdurante/",
+      "title": "Greg Durante - Vice President, Marketing Channel Strategy ...",
+      "snippet": "\u00b7 Experience: eHealth, Inc. \u00b7 Location: Greater Sacramento \u00b7 500+ connections on LinkedIn. View Greg Durante\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pradip-khemani-8478033/",
+      "title": "Pradip Khemani - Blue Shield of California | LinkedIn",
+      "snippet": "March 22, 2024 - \u00b7 Experience: Blue Shield of California \u00b7 Education: Shri Ramdeobaba College of Engineering and Management \u00b7 Location: Oakland \u00b7 500+ connections on LinkedIn. View Pradip Khemani\u2019s profile on LinkedIn, a professional community of 1 billion&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/darrell-langlois-82591176/",
+      "title": "Darrell Langlois - Blue Cross and Blue Shield of Louisiana | LinkedIn",
+      "snippet": "December 4, 2024 - In case you missed it, the Office of Inspector General (OIG) has released Industry Segment-Specific Compliance Program Guidance. This comprehensive guide covers several key areas: \u2022 Access to Care \u2022 Marketing and Enrollment \u2022 Risk Adjustment \u2022 Quality of Care \u2022 Oversight of Third Parties \u2022 Submission of Accurate Claims For teams working in the Medicare Advantage space, consider adding this valuable resource to your next team meeting agenda."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kari-dixon-3b6270153/",
+      "title": "Kari Dixon - Transformational Executive | CFO at MCA",
+      "snippet": "Healthcare |\u2026 \u00b7 Experience: Mobile Communications America \u00b7 Education: University of Maryland - Robert H. Smith School of Business \u00b7 Location: Charlotte \u00b7 500+ connections on LinkedIn. View Kari Dixon\u2019s profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/lepre-chris-424690106/",
+      "title": "Lepre Chris - SVP HBCBSNJ - Horizon Blue Cross Blue Shield of New Jersey | LinkedIn",
+      "snippet": "While payor performance in the recently added health equity index will not impact Star Ratings calculations until 2027, HealthPayerIntelligence explains how data from this year will inform those 2027 ratings: https://hubs.la/Q02DXtmK0 ... We recently learned that Humana has revised its Medicare Advantage policy for coverage of PNS for chronic pain."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/katiewilsonmcbreen/",
+      "title": "Katie McBreen - Vice President, Strategic Communications at the Blue Cross Blue Shield Association | LinkedIn",
+      "snippet": "September 19, 2023 - Vice President, Strategic Communications at the Blue Cross Blue Shield Association \u00b7 Experience: Blue Cross Blue Shield Association \u00b7 Education: Whitman College \u00b7 Location: Washington \u00b7 500+ connections on LinkedIn. View Katie McBreen\u2019s&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dbcrean/",
+      "title": "David Crean - Blue Cross Blue Shield of Massachusetts | LinkedIn",
+      "snippet": "\u00b7 Experience: Blue Cross Blue Shield of Massachusetts \u00b7 Education: Tulane University \u00b7 Location: Atlanta \u00b7 500+ connections on LinkedIn. View David Crean\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dave-lederman-b775272b/",
+      "title": "Dave Lederman - Elevance Health | LinkedIn",
+      "snippet": "By clicking Continue to join or sign in, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. Proud moment for our Anthem Blue Cross and Blue Shield team in New Hampshire. \ud83d\udc99 We have been voted a Best of Business (BOB) Award winner by readers\u2026 \u00b7 This past week my team sent me these incredible flowers to thank me for my leadership. Now it&#x27;s my turn to recognize you and say thank you for being\u2026 \u00b7 I\u2019m excited to share that I am starting a new role as Regional Vice President of Commercial Markets at Anthem Blue Cross and Blue Shield in\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alison-west-8447926b/",
+      "title": "Alison West - Planning &amp; Performance Director, Chief of Staff | LinkedIn",
+      "snippet": "Planning &amp; Performance Director, Chief of Staff \u00b7 Experience: Anthem Blue Cross Blue Shield-Medicaid Health Plans \u00b7 Education: College of St. Joseph \u00b7 Location: Albany, New York Metropolitan Area \u00b7 500+ connections on LinkedIn. View Alison West\u2019..."
+    }
+  ]
+}

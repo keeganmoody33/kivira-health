@@ -1,0 +1,46 @@
+{
+  "query_id": "Q2C-OO",
+  "query_string": "(\"VP Clinical Operations\" OR \"Director of Care Management\" OR \"Director of Care Navigation\" OR \"Director of Clinical Programs\" OR \"Director of Behavioral Health\" OR \"Director of Patient Engagement\" OR \"VP Care Delivery\") AND (\"care management\" OR \"chronic care management\" OR \"CCM\" OR \"remote patient monitoring\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2C"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Workflow / Ops, secondary Clinical Outcomes",
+  "run_at": "2026-05-03T17:03:41+00:00",
+  "raw_result_count": 6,
+  "deduped_result_count": 6,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vicki-miller-rn-bsn-ccm-74830916/",
+      "title": "Vicki Miller, RN BSN CCM - Team Lead Case Management - Great Lakes Integrated Network IPA (GLIN IPA) | LinkedIn",
+      "snippet": "Team Lead Case Management \u00b7 Experienced Manager with a demonstrated history of working in the health care industry. Strong professional, skilled in Managed Care, Case and Disease Management, Patient Advocacy, Nursing Education, Certified Homecare, Inpatient Acute Psychiatry, Skilled Nursing&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/nicolinovak/",
+      "title": "Nicoli V. Novak MSN, RN, NE-BC - Detroit Community Health Connection, Inc. | LinkedIn",
+      "snippet": "Operations | Project Management | Mergers &amp; Acquisition | Business Development Regulatory Compliance | Vendor Management |Quality Systems | Growth Strategies | Empowering Teams | Change Management ... Elevating Chronic Care Management through Nurse Care Managers As healthcare continues to pivot towards value-based care models, the role of #NurseCareManagers (#NCMs) in Chronic Care Management (#CCM) has never been more pivotal."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vicki-wingate-rn-ccm-51104842/",
+      "title": "Vicki Wingate, RN, CCM - WellCare Health Plans",
+      "snippet": "As Vice President, Population Health Clinical Operations at Centene Corporation, Hannah Hartung brings a deeply personal perspective to #healthcare leadership. In this month&#x27;s WBL Member Spotlight, she reflects on how chance encounters and her experience navigating her child\u2019s complex care have shaped her approach to leading teams and improving the patient experience."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amy-tennis-rn-mba-ccm-b87874aa/",
+      "title": "Amy Tennis, RN MBA CCM - Vice President of Medical Management - MedWatch, LLC | LinkedIn",
+      "snippet": "-- \u00b7 Experience: MedWatch, LLC \u00b7 Education: Troy University \u00b7 Location: United States \u00b7 55 connections on LinkedIn. View Amy Tennis, RN MBA CCM\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/martin-schmitt-ccm/",
+      "title": "Marty Schmitt, CCM - AGCM Project Management | LinkedIn",
+      "snippet": "1 month ago - Experience: AGCM Project Management \u00b7 Education: Wentworth Institute of Technology \u00b7 Location: Greater Houston \u00b7 500+ connections on LinkedIn. View Marty Schmitt, CCM\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/carol-mcnasby-bsn-rn-ccm-28290678/",
+      "title": "Carol McNasby BSN,RN,CCM - Utilization Management - Prospect Medical Holdings, Inc. | LinkedIn",
+      "snippet": "Discharge assessment and planning. Utilization Review. Patient Advocate, Certified in Case Managment"
+    }
+  ]
+}

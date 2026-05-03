@@ -1,0 +1,101 @@
+{
+  "query_id": "Q3C-TG",
+  "query_string": "(\"VP Data & Analytics\" OR \"Director of Clinical Analytics\" OR \"VP Interoperability\" OR \"Product/Program Operations Director\" OR \"Director of Health Informatics\" OR \"Director of Data Science\") AND (\"Medicare Advantage\" OR \"Blue Cross\" OR \"health plan\" OR \"regional payer\") site:linkedin.com/in",
+  "industry_filter": "Insurance",
+  "location": "United States",
+  "expected_subtiers": [
+    "3C"
+  ],
+  "cluster": "TG (Technical Gatekeeper)",
+  "why_this_slot": "Third priority \u2014 primary theme Technical / Integration, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:04:28+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 17,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/peter-albert-b9796b23/",
+      "title": "Peter Albert - Blue Cross Blue Shield of Michigan | LinkedIn",
+      "snippet": "\u201cPete was able to handle a variety of health policy projects including large, long term and short ad hoc, in a professional, methodical way. He has good analytic skills and is able to distill large amounts of information into understandable readable presentations or reports.\u201d"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/xiaobo-guo-28749335/",
+      "title": "Xiaobo Guo - Blue Cross and Blue Shield of Illinois, ...",
+      "snippet": "Sr. Director, Data Science \u00b7 Experience: Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas \u00b7 Education: Virginia Tech \u00b7 Location: United States \u00b7 103 connections on LinkedIn. View Xiaobo Guo\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bryanlo/",
+      "title": "Bryan Lo - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "In this article, I\u2019ve tried to simplify: \u2705 What Medicare Advantage really is (in plain language) \u2705 How insurers are incentivized to deliver better care \u2705 The impact of accurate coding and risk adjustment \u2705 Why data engineering and AI are essential to making it all work Whether you&#x27;re in healthcare, tech, or just curious about how this system operates - this one\u2019s worth a read."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kevin-cohen-44988814/",
+      "title": "Kevin Cohen - Blue Cross and Blue Shield of Kansas | LinkedIn",
+      "snippet": "August 11, 2017 - Our Data Analytics Program at BCBSKS is really taking off! We&#x27;re providing new ways to enable business decisions that will create positive impact\u2026 ... Sentrais Inc. ... Most health plans know CMS wants Medicare Advantage provider directories public by 2027."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kristin-meier-57521878/",
+      "title": "Kristin Meier - Senior Data Science Manager - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "Senior Data Science Manager at Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas \u00b7 Experience: Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas \u00b7 Education: Northwestern University \u00b7 Location: Greater Chicago Area \u00b7 500+ connections&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/somheil/",
+      "title": "David Somheil - Blue Cross Blue Shield Association | LinkedIn",
+      "snippet": "Known for effectively leading teams, achieving results, and fostering strong community relationships.&lt;br&gt;&lt;br&gt;Areas of expertise:&lt;br&gt;- Strategic Planning: Proven ability to develop and execute strategic initiatives that align technology with business goals, driving growth and competitive advantage.&lt;br&gt;- Digital Transformation: Track record of successfully leading digital transformation efforts, leveraging cutting-edge technologies to streamline operations and enhance customer experiences.&lt;br&gt;- Agile Delivery &amp; DevOps: Proficient in implementing agile methodologies and DevOps practices, ensuring"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ted-burke-a74a763/",
+      "title": "Ted Burke - Blue Cross Blue Shield of Massachusetts | LinkedIn",
+      "snippet": "Ted\u2019s strategic vision for the area improved operations and efficiency at every level. His willingness to seek out input for contributors at all levels of the organization resulted in informed decisions that were supported by all stakeholders. It was a pleasure working under Ted\u2019s leadership at BCBSMA.\u201d ... By clicking Continue, you agree to LinkedIn\u2019s User Agreement, Privacy Policy, and Cookie Policy. ... Sr. Director, Provider Operations &amp; Data Management at Blue Cross Blue Shield of Massachusetts"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/thomas-hawkins-12664012/",
+      "title": "Thomas Hawkins - Medical Director Health Informatics &amp; Wellness, Blue Cross Blue Shield Massachusetts | LinkedIn",
+      "snippet": "Medical Director Health Informatics ... School of Public Health \u00b7 Location: Marblehead \u00b7 270 connections on LinkedIn. View Thomas Hawkins\u2019 profile on LinkedIn, a professional ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vaysburg/",
+      "title": "Boris Vaysburg - Blue Cross Blue Shield Association | LinkedIn",
+      "snippet": "February 17, 2026 - We talk about new EHRs, cloud migrations, AI-driven analytics, and interoperability, but too often, the underlying challenge isn\u2019t technology at all. It\u2019s \ud835\uddfd\ud835\uddff\ud835\uddf6\ud835\uddfc\ud835\uddff\ud835\uddf6\ud835\ude01\ud835\uddf6\ud835\ude07\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \ud835\uddee\ud835\uddfb\ud835\uddf1 \ud835\uddf4\ud835\uddfc\ud835\ude03\ud835\uddf2\ud835\uddff\ud835\uddfb\ud835\uddee\ud835\uddfb\ud835\uddf0\ud835\uddf2. In a fast-growing, provider services organization, especially one backed by private equity, the noise is endless. Every region, practice, and business unit has \u201cmust-have\u201d projects."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vivek-gupta-497527169/",
+      "title": "Vivek Gupta - Director Analytics Enablement &amp; Data Engineering - Blue Cross Blue Shield of Michigan | LinkedIn",
+      "snippet": "Demonstrated skills and expertise in following areas: \u2022 STRATEGIC PLANNING AND EXECUTION \u2022 PROGRAM LEADERSHIP \u2022 DESIGNING END TO END BI SOLUTIONS \u2022 DATA GOVERNANCE \u2022 CLOUD BASED ANALYTICS PLATFORM \u2022 BIG DATA &amp; ADVANCE ANALYTICS Specialties: Enterprise Business Intelligence &amp; Analytics Strategy | IT Architecture | Information Management | Big Data | Hadoop | Data Strategy | Data &amp; BI Governance | MicroStrategy, Business Objects, Tableau, QlikView, Microsoft Power BI, SSAS, DAX, Impala, Snowflake, Streamsets | Microsoft Azure, ADLS, ADLA, ADF | Elastic Search"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/premsomasundaram/",
+      "title": "Prem Somasundaram - Blue Cross Blue Shield of Massachusetts | LinkedIn",
+      "snippet": "\u00b7 Experience: Blue Cross Blue Shield of Massachusetts \u00b7 Location: Austin, Texas Metropolitan Area \u00b7 500+ connections on LinkedIn. View Prem Somasundaram\u2019s profile on LinkedIn, a professional community&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/meganbuckley0/",
+      "title": "Megan Burns - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "\ud83d\udcb0 Plan cost and timeline realistically: From MVPs starting around $70k in 3\u20134 months to enterprise builds with strict compliance\u2014budget, staff, and phase accordingly. Ready to build a warehouse that\u2019s fast, compliant, and future\u2011ready? \ud83d\udc49 Read the full guide: https://lnkd.in/eNTfGE-r #DataWarehouse #DataStrategy #Analytics #DataGovernance #ETL #Lakehouse #DataMesh #Exasol"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ralphperrine/",
+      "title": "Ralph Perrine - Blue Cross NC | LinkedIn",
+      "snippet": "July 2, 2024 - Ralph Perrine is a results-oriented change leader experienced in applying innovation to\u2026 \u00b7 Experience: Blue Cross NC \u00b7 Education: CEB IT Business Leadership Academy \u00b7 Location: Raleigh-Durham-Chapel Hill Area \u00b7 500+ connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vincent-smith-2934993a/",
+      "title": "Vincent Smith - Pharmacy Benefit Analyst - Keenan | LinkedIn",
+      "snippet": "There are optimal periods and critical deadlines, each presenting unique advantages to ...... https://ayr.app/l/cx8p ... Are you struggling to engage payers? Join experts Melanie Elliott, PhD, VP of Analytics Strategy, SimiTree, and guest Jennifer Riha, Chief Strategy Officer; I Am Boundless, TOMORROW for a webinar that equips you with proven strategies to leverage data for stronger payer relations in Behavioral Health &amp; Intellectual and Developmental Disabilities (IDD)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vibhutisinghal/",
+      "title": "Vibhuti Singhal - Assistant Director Medicare Advantage at UCLA Health | LinkedIn",
+      "snippet": "Other key responsibilities include developing, modifying, and executing strategies and policies that impact the immediate operations of the health plan and the Medical Group. Articulate vision for provider data management and claims encounter departments, leading cross-functional efforts to enhance data integration, vendor performance, and governance. Manage a high-performing team, promotes a culture of accountability, continuous improvement, leverages analytics and best practices to support organizational goals."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/tiffany-n-davis-esq-a5a49a158/",
+      "title": "Tiffany N. Davis, Esq. - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "3 weeks ago - We talked about interoperability. We talked about the operational realities of making these things actually work in the real world. But what stood out most wasn\u2019t just the technology. It was the shared recognition that real people \u2014 patients, families, and clinicians \u2014 are impacted by how well we get this right."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/chad-williams-3970abaa/",
+      "title": "Chad Williams - Pharmacy Operations Coordinator II - Excellus BCBS | LinkedIn",
+      "snippet": "Leveraging my Certified Lean Six Sigma Green Belt and hands-on experience in process improvement, I\u2019ve led successful initiatives that reduce waste, enhance compliance, and drive measurable results. Currently pursuing a Master\u2019s in Data Analytics, I\u2019m expanding my skills in data-driven decision-making, machine learning, and advanced analytics to further impact healthcare operations through innovation and insight."
+    }
+  ]
+}

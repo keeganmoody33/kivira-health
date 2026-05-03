@@ -1,0 +1,76 @@
+{
+  "query_id": "Q2A-CC",
+  "query_string": "(\"CMO\" OR \"VP Medical Affairs\" OR \"Medical Director Population Health\" OR \"Physician Executive VBC\" OR \"Chief Clinical Officer\" OR \"Medical Director Quality\" OR \"VP Clinical Affairs\") AND (\"ACO\" OR \"Accountable Care Organization\" OR \"MSSP ACO\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme Clinical Outcomes, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:03:06+00:00",
+  "raw_result_count": 13,
+  "deduped_result_count": 12,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/shivachandrasekaran/",
+      "title": "Shiva Chandrasekaran, MD FACP - Lumeris | LinkedIn",
+      "snippet": "March 10, 2026 - We were clearly vibing with Centers for Medicare &amp; Medicaid Services yesterday, as we released this great blog by my Premier Inc. colleague, Somaieh McMullan, PhD that outlines policy recommendations for better engaging specialists in VBC. This is a critical policy need, as specialists are the missing link in value-based care \u2014 and CMS is starting to close the gap. While ~77% of primary care physicians participate in MSSP ACOs, specialists remain 40\u201350% less likely to engage in value-based payment models."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/calderonmd/",
+      "title": "Mark Calderon, MD - Medical Director",
+      "snippet": "April 13, 2018 - \u00b7 Experience: Atlantic Health System \u00b7 Location: New York City Metropolitan Area \u00b7 500+ connections on LinkedIn. View Mark Calderon, MD\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/mario-espino-4aa6a390/",
+      "title": "Mario Espino - Founder and Chairman CEO - Complete Care Management Services | LinkedIn",
+      "snippet": "January 24, 2018 - COB, Founder Complete Care Management Services \u00b7 Currently Mario holds the position of Founder/Chairman CEO at CCMS-ACO, a Post-Acute, Care Management, chronic care management, virtual primary care medical group practice, and a Commercial ACO. CCMS-ACO is the parent company of MDsOnDemand.com,&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cristine-vogel-mph-cphq-pmp-46357347/",
+      "title": "Cristine Vogel, MPH, CPHQ, PMP - Director, Office of Value-Based Health Care Delivery | LinkedIn",
+      "snippet": "Responsible for healthcare system market research and strategic planning, accountable care organization (ACO) strategy, provider operations, and Certificate of Need (CON) consulting."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/will-bleser",
+      "title": "William K. Bleser, PhD, MSPH - Duke-Margolis Institute for Health Policy | LinkedIn",
+      "snippet": "STUDY DESIGN: Fixed-effects analysis examined associations of within-ACO MSSP quality metric changes with key time-variant ACO traits: changes in postacute care (PAC) expenditure and size (attributed beneficiaries). Fixed-effects subgroup analyses and linear regression were used for key time-invariant traits: ACO taxonomy (physician-led\u2026 Show more \u00b7 OBJECTIVES: To investigate accountable care organization (ACO) quality improvement over the first 4 Medicare Shared Savings Program (MSSP) years."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/heathercarley/",
+      "title": "Heather Carley, FNTP - Chief Operating Officer &amp; Office Manager - Southern Booth &amp; Equipment | LinkedIn",
+      "snippet": "\u2022 Clinical workflow redesign and EHR optimization: design efficient and effective clinical workflows to maximize EHR optimization. \u2022 Quality measure reporting: Align quality measures, data capture and reporting used in CMS quality programs such as Accountable Care Organizations, Meaningful Use and Physician Quality Reporting System (PQRS)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ross-thompson-a3b32813/",
+      "title": "Ross Thompson - UNC Health | LinkedIn",
+      "snippet": "August 8, 2024 - Enjoyed writing this publication with my CMO and CNO at Tufts MC as we predict how pharmacy practice will be influenced by expected changes in physician and nurse work forces."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/samarth-chandra-7210a94/",
+      "title": "Samarth Chandra - Enhanced Healthcare Partners | LinkedIn",
+      "snippet": "September 30, 2025 - The primary care physician who changed your life, the one you rave to all your\u2026 \u00b7 &quot;The earlier we can impact someone&#x27;s health and wellbeing, the more profound the ripple effect throughout their life.&quot; - Shiva&#x27;s powerful insight\u2026 \u00b7 Navigating ACO programs made simple. Choosing the right Accountable Care Organization (ACO) program for your practice, like the Medicare Shared\u2026"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michelle-kerr-6105588/",
+      "title": "Michelle Kerr - Executive Director Patient Flow and Throughput at The MetroHealth System | LinkedIn",
+      "snippet": "As the Chief Clinical Officer, Michelle provides leadership over the clinical operations in the Northeast and Mid-Ohio markets."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/will-smith-066914255/",
+      "title": "Will Smith - Wellstar Health System | LinkedIn",
+      "snippet": "#hiring *Family Practice - Without OB Physician*, Jacksonville, *United States*, fulltime #opentowork #jobs #jobseekers #careers #Jacksonvillejobs #Floridajobs #HealthcareMedical *To Apply --&gt;*: https://lnkd.in/driNBF8T Job Description Taking primary care to the leading edge of medicine through an innovative and interconnected value-based platform from which today s physicians rise to tomorrow s healthcare challenges. Fort Myers-based Millennium Physician Group is a national leader in value-based healthcare as a consistently top-ranked Accountable Care Organizations (ACO)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sharihofer/",
+      "title": "Shari Hofer - Board Director I Strategic Advisor I CMO and ...",
+      "snippet": "March 15, 2023 - \u00b7 Experience: Tovuti LMS \u00b7 Education: University of Chicago Booth School of Business Executive Education \u00b7 Location: Seattle \u00b7 500+ connections on LinkedIn. View Shari Hofer\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/marleece-barber-526a1814/",
+      "title": "Marleece Barber - Director of Global Health and Medical Services - John Deere | LinkedIn",
+      "snippet": "Director of Global Health and Medical Services at John Deere \u00b7 Experience: John Deere \u00b7 Location: Moline \u00b7 4 connections on LinkedIn. View Marleece Barber\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    }
+  ]
+}

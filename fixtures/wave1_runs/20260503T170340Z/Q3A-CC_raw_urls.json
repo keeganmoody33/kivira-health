@@ -1,0 +1,81 @@
+{
+  "query_id": "Q3A-CC",
+  "query_string": "(\"CMO\" OR \"Chief Medical Officer\" OR \"VP Medical Affairs\" OR \"Behavioral Health Service Line Medical Director\" OR \"Primary Care Medical Executive\" OR \"VP Medical Operations\" OR \"Associate CMO Ambulatory\") AND (\"health system\" OR \"regional health\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "3A"
+  ],
+  "cluster": "CC (Clinical Champion)",
+  "why_this_slot": "First (co-equal) priority \u2014 primary theme Clinical Outcomes, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:03:54+00:00",
+  "raw_result_count": 16,
+  "deduped_result_count": 13,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jennifer-mason-147930145/",
+      "title": "Jennifer Mason - Community Medical Services | LinkedIn",
+      "snippet": "Implement these strategies for more streamlined operations, quicker processing times, and a spotless reputation. How have you tackled the credentialing challenge? Drop your insights below! \u2b07 \u2796\u2796\u2796 Over the last 25+ years as an MD with an MBA and MPH, I have worked with 3 Multi-Million dollar Hospital organizations serving as VPMA and CMO saving millions of dollars and improving quality. I went on to serve as Chief Physician Executive for BDO USA, the fifth-largest professional services firm in the United States."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/matasha-russell-4993b9141/",
+      "title": "Matasha Russell - Harris Health System | LinkedIn",
+      "snippet": "Dr. Matasha Russell is currently the Chief Medical Officer (CMO) of Ambulatory Care\u2026 \u00b7 Experience: Harris Health System \u00b7 Education: Christus Santa Rosa \u00b7 Location: Greater Houston \u00b7 170 connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/baileykmyers/",
+      "title": "Bailey Myers - Sentara Health | LinkedIn",
+      "snippet": "November 3, 2025 - EPT is pleased to announce the appointment of Dr. Doug Browder as EPT's Chief Medical Officer (CMO)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/karl-leistikow-1215b54/",
+      "title": "Karl Leistikow - Chief Executive Officer at HCA Florida ...",
+      "snippet": "March 14, 2026 - Its care model combines primary care, behavioral health, pharmacy, urgent care, and social services. The company claims a 34% drop in ER visits and a 30% reduction in total cost of care. The round was led by Kinderhook Industries, with support from CVS Health Ventures, Pacific Life, and Lexington Partners. ... Hear from leading experts Steven Nathan, MD, Medical Director of Inova Fairfax Hospital, and Howard M. Lazarus, MD, Chief Medical Officer of Avalyn, on the evolving landscape of #PulmonaryFibrosis (PF)."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paul-martone-78284b15/",
+      "title": "Paul Martone - Physicians Regional Healthcare System | LinkedIn",
+      "snippet": "Experience: Physicians Regional Healthcare System \u00b7 Education: Johns Hopkins Bloomberg School of Public Health \u00b7 Location: Punta Gorda \u00b7 500+ connections on LinkedIn. View Paul Martone\u2019s profile on LinkedIn, a professional community of&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jared-sanford-699b5225/",
+      "title": "Jared Sanford - Valley Behavioral Health | LinkedIn",
+      "snippet": "\u00b7 Experience: Valley Behavioral Health \u00b7 Education: Brigham Young University \u00b7 Location: Salt Lake City. View Jared Sanford\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/donnalrobinson/",
+      "title": "Donna Robinson - Senior Leader in Healthcare ...",
+      "snippet": "February 26, 2026 - We\u2019re proud to feature our dynamic Chief Medical Officer, Thomas Milam, MD, MDiv , alongside Laura Bauer, our VP of Solutions, as they lead an essential discussion on referral optimization for behavioral health and the integration of behavioral&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jwbeardmdmba/",
+      "title": "John Beard - GE Healthcare | LinkedIn",
+      "snippet": "April 23, 2025 - \ud83d\udc49 In this episode, Dr. Stephen Riggs welcomes Dr. Jason Hafron, CMO at Michigan Institute of Urology, to explore private equity backed group model and how this model creates and measures quality, monitors adherence, and incorporates research to drive better care."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/bmc-mumbai-86599a74/",
+      "title": "Bmc Mumbai - Chief Medical Officer at MCGM | LinkedIn",
+      "snippet": "Chief Medical Officer at MCGM \u00b7 Experience: MCGM \u00b7 Location: Mumbai \u00b7 6 connections on LinkedIn. View Bmc Mumbai\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jaredodor/",
+      "title": "Jared Odor - Physicians Regional Healthcare System | LinkedIn",
+      "snippet": "Experience: Physicians Regional Healthcare System \u00b7 Education: University of Florida \u00b7 Location: Naples \u00b7 500+ connections on LinkedIn. View Jared Odor\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michael-seaton-m-d-faap-6b362623/",
+      "title": "Michael Seaton, M.D., FAAP - Associate Chief Medical Officer at UVM Health Network Porter Medical Center | LinkedIn",
+      "snippet": "Associate Chief Medical Officer ... Albany Medical College \u00b7 Location: Middlebury \u00b7 87 connections on LinkedIn. View Michael Seaton, M.D., FAAP\u2019s profile ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michael-eck-882994258/",
+      "title": "Michael Eck - Assistant Chief Medical Officer | LinkedIn",
+      "snippet": "Assistant Chief Medical Officer \u00b7 Experience: VitalCore Health Strategies \u00b7 Location: United States \u00b7 21 connections on LinkedIn. View Michael Eck\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/michellecpan/",
+      "title": "Michelle Pan - CareMore Health | LinkedIn",
+      "snippet": "June 15, 2022 - Senior Application Developer and Business Systems Analyst Advisor experienced in\u2026 \u00b7 Experience: CareMore Health \u00b7 Education: Purdue University Krannert School of Management \u00b7 Location: Los Angeles Metropolitan Area \u00b7 115 connections on LinkedIn. View Michelle Pan\u2019s profile on LinkedIn,&nbsp;..."
+    }
+  ]
+}

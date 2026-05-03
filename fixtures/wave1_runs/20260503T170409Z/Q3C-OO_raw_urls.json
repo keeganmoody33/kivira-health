@@ -1,0 +1,111 @@
+{
+  "query_id": "Q3C-OO",
+  "query_string": "(\"VP Medical Management\" OR \"VP Quality\" OR \"Director of Quality\" OR \"Director of Behavioral Health Programs\" OR \"VP Stars\" OR \"Director of Risk Adjustment\" OR \"Director of Care Management\" OR \"VP Clinical Operations\") AND (\"Medicare Advantage\" OR \"Blue Cross\" OR \"health plan\" OR \"regional payer\") site:linkedin.com/in",
+  "industry_filter": "Insurance",
+  "location": "United States",
+  "expected_subtiers": [
+    "3C"
+  ],
+  "cluster": "OO (Operational Owner)",
+  "why_this_slot": "First priority \u2014 primary theme Quality / Compliance, secondary ROI / Revenue",
+  "run_at": "2026-05-03T17:04:22+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 19,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vernita-kelley-healthcare-executive/",
+      "title": "Vernita Kelley. DNP, MBA, MA, RN, CPHQ, FACHE - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "January 11, 2026 - \u2705 Cross-Functional Knowledge: The CVBA curriculum emphasizes health plan contracting, performance metrics, care management, and population health strategies \u2014 all essential areas for Risk Adjustment leaders aiming to go beyond RAF scores and into true value transformation. \ud83c\udfaf Whether you\u2019re a coder, educator, analyst, or director, this certification is a strategic move to stay competitive and drive results in a rapidly evolving landscape. Are you planning to pursue the CVBA? I\u2019d love to hear how you think this certification will impact your role or team. #AAPC #CVBA #ValueBasedCare #RiskAdjustment #MedicareAdvantage #HealthCareLeadership #VBC #PopulationHealth #HealthCareStrategy"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jonathan-harding-401828b/",
+      "title": "Jonathan Harding - NCQA | LinkedIn",
+      "snippet": "December 24, 2024 - Blue Cross Blue Shield of Vermont warns rates could rise because of the proposed changes. Find out more about what the bill proposes by reading this Becker&#x27;s article: https://hubs.li/Q02tGYB40 #hospitalfinance #hospitalrevenuecycle #outpatientrevenue #hospitalrevenue #hospitalmargins #rcm #revenuecyclemanagement #ai ... Medicare Advantage insurers secured a significant victory as CMS agreed to recalculate the Star Ratings used to assess health plan quality, following court rulings favoring SCAN HEALTH PLAN (R) and Elevance Health."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amy-cleveland-mshi-bsn-rn-ccm-cphq-a9200037/",
+      "title": "Amy Cleveland, MSHI,BSN,RN,CCM,CPHQ - Cleveland Clinical Consulting, LLC | LinkedIn",
+      "snippet": "March 16, 2026 - Amy is an experienced executive leader who empowers her team to achieve goals by fostering a positive, collaborative environment. Amy demonstrates strong business acumen and possesses deep understanding of clinical services (CM and UM), health plan operations, and Medicare and Medicaid including LTSS/Duals programs."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sharon-tinsley-09a787175/",
+      "title": "Sharon Tinsley - Sr Stars Strategy Consultant - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "This shift could serve risk-bearing providers well, as overly generous and unmanageable supplemental benefit allowances have often driven MLR headwinds in recent years. ... With over 2 million members displaced by major healthcare players exiting underperforming Medicare Advantage markets, regional insurers face both a challenge and an opportunity."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/vikki-vilcek/?_l=en",
+      "title": "Vikki V. - Leader of Medicare Market Development - Blue Cross NC | LinkedIn",
+      "snippet": "It was such a pleasure and privilege to sit knee to knee with Matthew Gibson, Tanya Little (Budlender), and Health Plan Alliance sales, marketing and strategy leaders and imagine what a \u201cproduct of the future\u201d could look like if regional payers reward engagement that matters to transform the member experience, offer something truly different in your market, and freeze your population\u2019s health risk by leading members where wellbeing meets care. ... Oak Street Health, now under CVS Health, has agreed to a $60 million settlement with the federal government. This resolution addresses claims under the False Claims Act related to Medicare Advantage kickbacks. Allegations pointed to Oak Street Health offering incentives to insurance agents for directing seniors to their clinics, highlighting significant compliance and ethical considerations in healthcare practices."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/raymoraleslink/",
+      "title": "Ray Morales - VP of Sales &amp; Marketing | MPA | LinkedIn",
+      "snippet": "September 4, 2025 - Through work with providers, Governing Boards and regional leadership led regional operations through rapid growth and quality care transformation. I received my MPA from BYU Marriott School of Business and a Bachelor of Science in Behavioral Science and Health from the University of Utah."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/phillip-vallejo-a3595a18a/",
+      "title": "Phillip Vallejo - Manager - CVS Health | LinkedIn",
+      "snippet": "Chief Health Management Officer at Arkansas Blue Cross and Blue Shield, Alicia Berkemeyer, discusses the importance of integrating mental health and physical health in primary care. Full episode here: https://hubs.li/Q02YWD-10 #behavioralhealth #healthcareleaders #mentalhealth ... Both payers and providers face pressures like never before\u2014but finding common ground in Medicare Advantage is crucial to improve outcomes for all."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/stella-onuoha-obilor-md-drph-mph-rn-cphq-ccm-fache-fachdm-bb078218/",
+      "title": "Stella Onuoha-Obilor, MD, DrPH, MPH, RN, CPHQ, CCM, FACHE, FACHDM - GLG | LinkedIn",
+      "snippet": "February 20, 2017 - This work reflects what\u2019s possible when clinical rigor, population health strategy, and operational discipline are intentionally integrated. The focus was never automation for its own sake\u2014it was about designing smarter, clinician-informed workflows that protect quality, sustain Medicare Stars performance, strengthen compliance, and measurably improve both member and employee experience. Sustained results in Stars, HEDIS, risk adjustment, and audit readiness come from disciplined execution, data integrity, and teams who are empowered to translate strategy into action."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/charles-dolan-dhsc-mba-msm-cphrm-cphq-phr-fache-45562663/",
+      "title": "Charles Dolan, DHSc, MBA, MSM, CPHRM, CPHQ, PHR, FACHE - Vice President of Clinical Operations - TidalHealth | LinkedIn",
+      "snippet": "Vice President, Clinical Operations \u00b7 Experience: TidalHealth \u00b7 Education: Cornell Law School \u00b7 Location: Salisbury \u00b7 500+ connections on LinkedIn. View Charles Dolan, DHSc, MBA, MSM, CPHRM, CPHQ, PHR, FACHE\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/yarly-fassih-nia-msn-aprn-fnp-c-521aaa12b/",
+      "title": "Yarly Fassih-Nia, MSN, APRN, FNP-C - Senior Director of Quality and Risk Adjustment | LinkedIn",
+      "snippet": "Direct Quality and Risk Adjustment initiatives to optimize population health strategies and enhance clinical outcomes for over 100K+ patients in Greater Texas ensuring alignment with NCQA HEDIS and CMS STAR requirements ... Create and execute strategic and operational planning for market of 16 PCP clinics and 12,500 Medicare Advantage patients ... Implemented and monitored patient care plans while serving as lead facilitator of all disciplines ensuring effective communication of patient condition as appropriate and high-quality patient outcomes."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sheryl-sargent-rossi-mba-cpc-40583b16/",
+      "title": "Sheryl Sargent Rossi, MBA, CPC - Senior Analyst - Blue Cross Blue Shield of Michigan | LinkedIn",
+      "snippet": "December 8, 2022 - Quality &amp; Provider Education Consultant HEDIS/Stars at Blue Cross Blue Shield of Michigan \u00b7 Certified Manager through ICPM. Certified Professional Coder through the AAPC Society of Human Resource Management member SHRM BCBSM Leadership Development Association member \u00b7 Experience: Blue Cross&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sharibaird1/",
+      "title": "Shari Baird, MS, RD, CPHQ, LSSBB - Sr Operations Analyst - Blue Cross Blue Shield of Arizona | LinkedIn",
+      "snippet": "Coordinate, administer and oversee all aspects of the Systems Redesign (Quality/Process Improvement) program for the Phoenix VA Health Care System (PVAHCS) which is comprised of approximately 3,000 employees from acute care, nursing care center, outpatient, home care, and behavioral health."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/pung-m-23903376/",
+      "title": "Pung M - UMR COBRA Administrator at UMR",
+      "snippet": "The 2026 CMS Final Notice brings both opportunity and increased complexity for Medicare Advantage plans. Coding accuracy, documentation standards, and operational alignment are all under greater scrutiny, making proactive risk adjustment strategy critical for long-term success."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/frank-webster",
+      "title": "Frank Webster - Blue Cross and Blue Shield of Illinois, ...",
+      "snippet": "We cannot provide a description for this page right now"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/gregorygharris",
+      "title": "Gregory Harris - Blue Cross Blue Shield of Massachusetts | LinkedIn",
+      "snippet": "\u00b7 Experience: Blue Cross Blue Shield of Massachusetts \u00b7 Education: Tufts University School of Medicine \u00b7 Location: Greater Boston \u00b7 500+ connections on LinkedIn. View Gregory Harris\u2019 profile on&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/patrice-knapp-63886729/",
+      "title": "Patrice Knapp - Director of Quality Management - The University of Vermont Health Network - Central Vermont Medical Center | LinkedIn",
+      "snippet": "-- \u00b7 Experience: The University of Vermont Health Network - Central Vermont Medical Center \u00b7 Education: UMass Medical School \u00b7 Location: Morrisville \u00b7 36 connections on LinkedIn. View Patrice Knapp\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/christophertlane/",
+      "title": "Christopher T. Lane - VHC Health | LinkedIn",
+      "snippet": "October 2, 2025 - Christopher T. Lane is an accomplished, innovative healthcare leader with almost three\u2026 \u00b7 Experience: VHC Health \u00b7 Education: Colgate University \u00b7 Location: Arlington \u00b7 406 connections on LinkedIn. View Christopher T. Lane\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/deb-stanger-rn-cphq-a6418b70/",
+      "title": "Deb Stanger, RN CPHQ - Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas | LinkedIn",
+      "snippet": "May 2, 2018 - Experienced Quality Specialist with a demonstrated history of working in the hospital &amp;\u2026 \u00b7 Experience: Blue Cross and Blue Shield of Illinois, Montana, New Mexico, Oklahoma &amp; Texas \u00b7 Education: Loyola University of Chicago \u00b7 Location: Downers Grove \u00b7 178 connections on LinkedIn."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/paulhendley",
+      "title": "Paul Hendley - Blue Cross NC",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+    }
+  ]
+}

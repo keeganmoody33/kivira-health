@@ -1,0 +1,91 @@
+{
+  "query_id": "Q2A-EB",
+  "query_string": "(\"CEO\" OR \"President\" OR \"CFO\" OR \"VP Network Performance\" OR \"SVP Clinical Affairs\" OR \"Executive Director\") AND (\"ACO\" OR \"Accountable Care Organization\" OR \"MSSP ACO\") site:linkedin.com/in",
+  "industry_filter": "Hospital & Health Care",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "EB (Economic Buyer)",
+  "why_this_slot": "Second priority \u2014 primary theme ROI / Revenue, secondary Quality / Compliance",
+  "run_at": "2026-05-03T17:03:09+00:00",
+  "raw_result_count": 20,
+  "deduped_result_count": 15,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/amanda-larschan-mha-pmp-5469687b/",
+      "title": "Amanda Larschan, MHA, PMP - Palm Beach Accountable Care Organization | LinkedIn",
+      "snippet": "3 weeks ago - We\u2019ll cover: \u2022 How CMS is working with ACOs to combat FWA in Traditional Medicare \u2022 What the Crushing Fraud Chili Cook-Off Competition means for the ACO community \u2022 What\u2019s actually working when it comes to engaging executives, providers, and patients in program integrity If you\u2019re thinking about how to strengthen fraud detection in your ACO, let\u2019s connect."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/david-buchanan-22ba2214",
+      "title": "David Buchanan - Town Square Health | LinkedIn",
+      "snippet": "1 week ago - Accountable Care Organizations (ACOs) represent a market-based solution to fragmented, costly care. By aligning incentives, the MSSP empowers local physicians, hospitals, and other providers to collaborate in improving quality, enhancing patient&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/a-lineconsulting/",
+      "title": "Rob Rogers - Value Based Care | MSO | DSO | ACO",
+      "snippet": "\u00b7 Experience: Milliman \u00b7 Education: University of Washington \u00b7 Location: Seattle \u00b7 500+ connections on LinkedIn. View Rob Rogers\u2019 profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alpa-vyas-healthcare/",
+      "title": "Alpa Vyas - Senior Vice President, Chief Patient Experience &amp; Operational Performance Officer at Stanford Health Care | LinkedIn",
+      "snippet": "August 15, 2025 - Senior Vice President, Chief Patient ... University of South Carolina \u00b7 Location: Palo Alto \u00b7 500+ connections on LinkedIn. View Alpa Vyas\u2019 profile on LinkedIn, a professional community of 1 billion members...."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/gilbertalan/",
+      "title": "Alan Gilbert, MPA - H3Tech, Inc. | LinkedIn",
+      "snippet": "February 4, 2026 - If your MSSP ACO isn\u2019t proactively preparing for 2025 eCQM reporting, you risk quality scores\u2014and shared savings. Dive into our guide for step-by-step strategies, breaking down how to consolidate data from multiple EHRs, identify quality gaps, generate compliant QRDA-III &amp; JSON files, and so much more."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dereknovak/",
+      "title": "Derek Novak - System SVP, Population Health",
+      "snippet": "\u00b7 Experience: CommonSpirit Health \u00b7 Location: United States \u00b7 500+ connections on LinkedIn. View Derek Novak\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/davidmuhlestein",
+      "title": "David Muhlestein - Chief Research &amp; Innovation Officer - Health Management Associates, Inc. | LinkedIn",
+      "snippet": "I oversee Leavitt Partners&#x27; strategic planning, and lead the quantitative and qualitative investigation of the changing healthcare system. I use statistical and mixed methods approaches to evaluate the success of accountable care organizations (ACOs) and to evaluate geographic variation in healthcare markets."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/moss-mendelson-b3b93350/",
+      "title": "Moss Mendelson - Medical Director, Sentara Accountable Care Organization - Sentara Healthcare | LinkedIn",
+      "snippet": "View Moss Mendelson\u2019s profile on LinkedIn, the world\u2019s largest professional community. Moss has 6 jobs listed on their profile. See the complete profile on LinkedIn and discover Moss\u2019 connections and jobs at similar companies."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/4susanherbert/",
+      "title": "Susan Herbert, MSL - Executive Director, Accountable ...",
+      "snippet": "June 9, 2024 - Let\u2019s talk Accountable Care Organizations, Realizing Equity, Access, and Community Health (REACH), Primary Care First (PCF), Shared Savings Programs, and more."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/deb-rodgers-0a765313/",
+      "title": "Deb Rodgers - Atlantic Accountable Care Organization- Atlantic Health System | LinkedIn",
+      "snippet": "Experience: Atlantic Accountable Care Organization- Atlantic Health System \u00b7 Education: Temple University - James E. Beasley School of Law \u00b7 Location: Summit \u00b7 378 connections on LinkedIn. View Deb Rodgers\u2019 profile on LinkedIn, a professional&nbsp;..."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ryanroslansky",
+      "title": "Ryan Roslansky - Executive Vice President at Microsoft",
+      "snippet": "2 weeks ago - CEO at LinkedIn \u00b7 As CEO of LinkedIn and EVP of Microsoft Office, I am passionate about connecting the world\u2019s professionals to make them more productive and successful. In my years with LinkedIn, I&#x27;ve been fortunate to work alongside talented and innovative colleagues, and together we have developed the world&#x27;s leading professional networking platform."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/david-stevens-a967b761/",
+      "title": "David Stevens - Chief Medical Officer, Accountable Care Organization at NYC Health + Hospitals Chief of Ambulatory Care, NYC H+H/Kings County | LinkedIn",
+      "snippet": "Chief Medical Officer, Accountable ... New York University \u00b7 Location: Brooklyn \u00b7 500+ connections on LinkedIn. View David Stevens\u2019 profile on LinkedIn, ......"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/andrew-devoe-a5625810/",
+      "title": "Andrew DeVoe - Executive Vice President &amp; Chief ...",
+      "snippet": "\u00b7 Experience: Tufts Medicine \u00b7 Education: Belmont University \u00b7 Location: Boston \u00b7 500+ connections on LinkedIn. View Andrew DeVoe\u2019s profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/davidstevensmd/",
+      "title": "David Stevens - Chief Medical Officer, Accountable Care ...",
+      "snippet": "A new report from the Commonwealth Fund shows that 62% of CHCs now participate in Accountable Care Organizations \u2014 improving outcomes for low-income and uninsured patients. \ud83d\udcc8 CHCs in ACOs saw higher rates of cancer screenings and expanded behavioral health services, despite operating on tight margins."
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/brandonburket/",
+      "title": "Brandon J. Burket, MHA - Vice President, Orlando Health ...",
+      "snippet": "\u201cI\u2019ve worked closely with Brandon on a variety of projects at Orlando Health. He is tremendously talented in finance, healthcare administration, accountable care, clinically integrated networks, telemedicine, payer contract negotiation and many other highly sought after skills."
+    }
+  ]
+}
