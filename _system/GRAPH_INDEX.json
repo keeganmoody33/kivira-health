@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 13:07 UTC",
+  "generated_at": "2026-05-04 13:11 UTC",
   "nodes": [
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -685,7 +685,7 @@
       "domain": "business",
       "node_type": "concept",
       "status": "validated",
-      "last_updated": "2026-04-06",
+      "last_updated": "2026-05-04",
       "description": "Kivira’s public GTM wedge is mental health workload in primary care—PCPs as frontline for screening and treatment decisions.",
       "tags": [
         "business",
@@ -707,13 +707,15 @@
       ],
       "source_type": "document",
       "source_file": "raw-context/kivira-public/www-home.md; raw-context/MARKETANALYSIS.md; Josh Pappas call 2026-04-06",
-      "body_lines": 26,
+      "body_lines": 31,
       "outbound": [
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "CDS_NOT_DIAGNOSIS_FRAMING",
         "GTM_MOTION_HYPOTHESIS",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
-        "PILOT_SITE_ACQUISITION_PRIORITY"
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
         "B2B_CLINIC_BUYER_MODEL",
@@ -1107,6 +1109,9 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY"
       ],
       "inbound": [
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
       ],
@@ -1154,6 +1159,9 @@
         "COCM_CONFIDENCE_GRADE_RULES"
       ],
       "inbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_WAVE_STRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
       ],
@@ -1199,6 +1207,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE"
       ],
       "inbound": [
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
       ],
@@ -1582,14 +1591,16 @@
       ],
       "source_type": "notes",
       "source_file": "Cursor conversation — GA pilot + fresh 1A/1B/1C list build (ingest)",
-      "body_lines": 30,
+      "body_lines": 35,
       "outbound": [
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "PUBLIC_DATA_SOURCES_TAM",
         "SUBTIER_EXCLUSION_RULES",
         "ACCOUNT_SCHEMA_EXTENDED",
         "TAM_DEDUP_METHODOLOGY",
-        "COCM_CONFIDENCE_GRADE_RULES"
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04"
       ],
       "inbound": [
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
@@ -1603,7 +1614,7 @@
       "domain": "methodology",
       "node_type": "framework",
       "status": "validated",
-      "last_updated": "2026-04-06",
+      "last_updated": "2026-05-04",
       "description": "30-60-90 day execution cadence for Kivira GTM motion",
       "tags": [
         "methodology",
@@ -1629,7 +1640,7 @@
       ],
       "source_type": "call-notes",
       "source_file": "Josh Pappas email thread 2026-04-03; Josh Pappas call 2026-04-06",
-      "body_lines": 74,
+      "body_lines": 79,
       "outbound": [
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "GTM_MOTION_HYPOTHESIS",
@@ -1638,7 +1649,9 @@
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
-        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04"
       ],
       "inbound": [
         "DIRECT_BILLING_MODEL_FFS",
@@ -1711,7 +1724,7 @@
       "domain": "methodology",
       "node_type": "framework",
       "status": "validated",
-      "last_updated": "2026-04-07",
+      "last_updated": "2026-05-04",
       "description": "Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier 2 Risk-bearing/enablement, Tier 3 Enterprise expansion.",
       "tags": [
         "methodology",
@@ -1737,7 +1750,7 @@
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/MARKETANALYSIS.md",
-      "body_lines": 293,
+      "body_lines": 298,
       "outbound": [
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "PAIN_SEGMENT_MATRIX",
@@ -1746,7 +1759,9 @@
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "OUTREACH_BASELINE_METRICS",
-        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -1945,7 +1960,7 @@
       "domain": "methodology",
       "node_type": "framework",
       "status": "validated",
-      "last_updated": "2026-04-05",
+      "last_updated": "2026-05-04",
       "description": "Wave 1-3 outreach execution structure with contact volumes and timing",
       "tags": [
         "methodology",
@@ -1968,7 +1983,7 @@
       ],
       "source_type": "document",
       "source_file": "Kivira Complete TAM All Tiers.pdf",
-      "body_lines": 124,
+      "body_lines": 129,
       "outbound": [
         "GTM_30_60_90_EXECUTION_CADENCE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -1976,7 +1991,9 @@
         "TAM_TIER_1_PROVIDER_534M",
         "WAVE_1_SCORING_FRAMEWORK",
         "THREE_SEGMENT_ICP_FRAMEWORK",
-        "TAM_TIER_2_ACO_VBC_73M"
+        "TAM_TIER_2_ACO_VBC_73M",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
         "TAM_TIER_2_ACO_VBC_73M",
@@ -2220,7 +2237,7 @@
       "domain": "methodology",
       "node_type": "framework",
       "status": "validated",
-      "last_updated": "2026-04-06",
+      "last_updated": "2026-05-04",
       "description": "Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, dialer) with cost tiers; Josh + Keegan own procurement and admin—not delegated to founder for credentials.",
       "tags": [
         "methodology",
@@ -2244,7 +2261,7 @@
       ],
       "source_type": "internal-document",
       "source_file": "raw-context/kivira-internal/kivira-gtm-tech-stack-executive-summary-2026-04-06.md",
-      "body_lines": 28,
+      "body_lines": 34,
       "outbound": [
         "GTM_30_60_90_EXECUTION_CADENCE",
         "OUTREACH_WAVE_STRUCTURE",
@@ -2252,7 +2269,10 @@
         "ACCOUNT_SCHEMA_EXTENDED",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "GTM_MOTION_HYPOTHESIS",
-        "PRIMARY_CARE_WEDGE_ICP"
+        "PRIMARY_CARE_WEDGE_ICP",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04"
       ],
       "inbound": [
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
@@ -2971,9 +2991,15 @@
         "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
-        "WEEKLY_INBOXKIT_HEALTH_2026_05_04"
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
       ],
       "issues": []
     },

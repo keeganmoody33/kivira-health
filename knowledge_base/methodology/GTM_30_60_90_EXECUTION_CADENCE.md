@@ -4,7 +4,7 @@ description: 30-60-90 day execution cadence for Kivira GTM motion
 domain: methodology
 node_type: framework
 status: validated
-last_updated: 2026-04-06
+last_updated: 2026-05-04
 tags:
   - methodology
   - gtm-motion
@@ -104,3 +104,8 @@ The execution framework for Kivira's go-to-market motion, structured in 30-day p
 - [[PILOT_SITE_ACQUISITION_PRIORITY]] - Why pilots are the immediate priority
 - [[MESSAGING_HYPOTHESIS_DISCIPLINE]] - How to treat messaging pre-validation
 - [[THIRTY_DAY_OFFICE_MANAGER_TARGET]] - Concrete 30-day success metric
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — 30-day milestones on track: 10/14 Linear issues shipped, infrastructure live, campaigns launched
+- [[WEEKLY_LINEAR_SHIPPED_2026_05_04]] — LEC-33 through LEC-45 execution log for week ending 2026-05-04

@@ -4,7 +4,7 @@ description: Wave 1-3 outreach execution structure with contact volumes and timi
 domain: methodology
 node_type: framework
 status: validated
-last_updated: 2026-04-05
+last_updated: 2026-05-04
 tags:
   - methodology
   - gtm-motion
@@ -151,3 +151,8 @@ Structured wave approach to outreach execution across the 23,705 contact univers
 - [[TAM_TIER_1_PROVIDER_534M]] - Tier 1 detail for Wave 1-3
 - [[TAM_TIER_2_ACO_VBC_73M]] - Tier 2 detail for Wave 1
 - [[THREE_SEGMENT_ICP_FRAMEWORK]] - Segment strategy
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — Wave 1 structure live: 3 campaigns, 104 connection requests in flight, 1,115 pending sends
+- [[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]] — Campaign metrics proving wave execution for launch week 2026-05-04

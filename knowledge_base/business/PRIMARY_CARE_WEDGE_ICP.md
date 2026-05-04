@@ -4,7 +4,7 @@ description: Kivira’s public GTM wedge is mental health workload in primary ca
 domain: business
 node_type: concept
 status: validated
-last_updated: 2026-04-06
+last_updated: 2026-05-04
 tags:
   - business
   - icp-primary-care
@@ -52,3 +52,8 @@ This node is the **anchor ICP hypothesis** for GTM: sell to clinics/health syste
 - [[GTM_MOTION_HYPOTHESIS]] — Plausible enterprise motion given wedge + buyer.
 - [[MESSAGING_HYPOTHESIS_DISCIPLINE]] — Treat ICP messaging as hypothesis until outreach-validated.
 - [[PILOT_SITE_ACQUISITION_PRIORITY]] — Secure pilots to validate ICP before scaling.
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — Wedge execution started: 1C Provider Group personas (590 leads) and 2A ACO contacts (359 leads) loaded, targeting primary care BH workload
+- [[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]] — Lead routing by campaign / persona proving wedge targeting (Wave1-ClinicalChampion 1C, Wave1-OperationalOwner 2A ACO)

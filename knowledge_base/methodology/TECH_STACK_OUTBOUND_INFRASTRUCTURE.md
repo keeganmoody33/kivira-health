@@ -4,7 +4,7 @@ description: Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM,
 domain: methodology
 node_type: framework
 status: validated
-last_updated: 2026-04-06
+last_updated: 2026-05-04
 tags:
   - methodology
   - gtm-motion
@@ -56,3 +56,9 @@ Print-ready view (open in browser → Print to PDF): [raw-context/kivira-interna
 ## Open decisions (track in procurement)
 
 Ten tool-choice items remain (Instantly vs Smartlead, Zapmail vs ScaledMail, Clay timing, etc.)—see §8 and “Decisions Needed” in the executive summary dated ingest.
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — End-to-end operational: HeyReach (3 campaigns) + InboxKit (16 mailboxes) + Linear (10 issues shipped) + scripts (export, persona rules)
+- [[WEEKLY_LINEAR_SHIPPED_2026_05_04]] — Execution node documenting stack integration and shipped LEC threads for the same week
+- [[WEEKLY_INBOXKIT_HEALTH_2026_05_04]] — Infrastructure health node confirming deliverability / warmup layer

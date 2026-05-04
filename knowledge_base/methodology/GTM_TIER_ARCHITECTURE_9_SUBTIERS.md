@@ -4,7 +4,7 @@ description: Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, T
 domain: methodology
 node_type: framework
 status: validated
-last_updated: 2026-04-07
+last_updated: 2026-05-04
 tags:
   - methodology
   - gtm-motion
@@ -323,3 +323,8 @@ Apply across every subtier:
 - [[SUBTIER_EXCLUSION_RULES]] — Detailed exclusion rules (canonical source; criteria inlined above for convenience)
 - [[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]] — Title mapping per subtier
 - [[COCM_ACCOUNT_PROFILE_SCHEMA]] — Account fields for list building
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — 9×5 structure exercised: 3 campaigns (1C Provider, 2A ACO, Baseline) with 1,219 leads loaded across the Wave 1 cohort
+- [[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]] — HeyReach campaign breakdown proving subtier / persona routing (Operational Owner 2A ACO, Clinical Champion 1C Provider, Baseline 9-subtier)

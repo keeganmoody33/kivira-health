@@ -60,3 +60,8 @@ This pattern describes **how to run** fresh subtier account lists (1A, 1B, 1C) w
 - [[ACCOUNT_SCHEMA_EXTENDED]] — Where subtier and account fields live in the normalized schema.
 - [[TAM_DEDUP_METHODOLOGY]] — Keys and dedup across waves.
 - [[COCM_CONFIDENCE_GRADE_RULES]] — How confidence and tiering relate to saved scores alongside `base_gap`.
+
+## Production Validation
+
+- [[WEEKLY_MOC_2026_05_04]] — Exercised at scale: LEC-41 (1A wedge taxonomy + NPPES proxy) and LEC-45 (cross-subtier baseline) shipped and run in `build_list_1a.py`
+- [[WEEKLY_LINEAR_SHIPPED_2026_05_04]] — Execution node documenting list-build + launch week (includes LEC-41 / LEC-45); aligns with 1,219 leads loaded per weekly evidence
