@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Read-oriented InboxKit API sweep for local testing / weekly reporting.
+# Mailboxes: use POST /v1/api/mailboxes/list (+ X-Workspace-Id when required); GET /v1/mailboxes is not valid.
 # Usage: export INBOXKIT_API_KEY='...'; bash scripts/inboxkit_api_smoke.sh
 # Writes full payloads to OUT (default under /tmp) and prints a compact status table.
 

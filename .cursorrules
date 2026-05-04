@@ -1,0 +1,32 @@
+# Kivira.health — Cursor agent rules (GTM Context OS)
+
+All work here follows **[CLAUDE.md](CLAUDE.md)** as the canonical navigation guide, epistemic rules, agent constraints, and Codex/Cursor split. **Do not duplicate** that file; enforce the same boundaries.
+
+## Hard constraints (from CLAUDE.md)
+
+- **Do not edit** `00_foundation/positioning/` or `00_foundation/messaging/` without explicit human approval.
+- **Never delete** nodes with `status: validated` or `status: canonical` — archive per CLAUDE.md.
+- **Commit hygiene:** `git add -A && git commit -m "pre-agent: …"` before substantive agent work and `post-agent: …` after, when the session policy applies.
+- **Evidence discipline:** Distinguish public copy vs internal research; weekly MOC claims must **wiki-link** to nodes with `source:` frontmatter or be marked `[UNVERIFIABLE]`.
+- **Clinical / regulatory:** Align outbound and product framing with CDS (clinical decision support), not autonomous diagnosis, per repo standards.
+
+## Weekly ritual (Thursday, America/Denver)
+
+1. **Pull three evidence surfaces** for the week (same calendar week as the MOC date):
+   - HeyReach → deposit or refresh `knowledge_base/gtm_signals/heyreach/weekly-evidence-YYYY-MM-DD.md`
+   - Linear → `knowledge_base/execution/linear/weekly-shipped-YYYY-MM-DD.md`
+   - InboxKit → `knowledge_base/gtm_signals/inboxkit/weekly-health-YYYY-MM-DD.md` (rollup + optional UI captures under `raw-context/kivira-internal/` when needed)
+2. **Compose** `00_foundation/weekly_updates/YYYY-MM-DD.md` from **`00_foundation/weekly_updates/weekly-moc-template.md`**, wiring every quantitative or operational claim to `[[…]]` wiki-links into those three nodes (or flag `[UNVERIFIABLE]`).
+3. **Optional:** maintain a sibling **investor copy-paste** file `00_foundation/weekly_updates/YYYY-MM-DD-investor-email.md` when a send-ready layer is useful; it must not introduce numbers absent from the evidence nodes.
+
+**Length:** Aim **≤ ~500 words** in the weekly MOC body unless the human expands scope; trim template sections rather than inventing filler.
+
+## Tone and execution discipline
+
+- **Investor-ready, operator-honest** — concise signal, explicit uncertainty, no hype inventory.
+- **No guessing:** If a metric is not in an evidence node or ingest, do not assert it.
+- **InboxKit API:** Use **`POST /v1/api/mailboxes/list`** (and workspace header as required), or run **`scripts/inboxkit_api_smoke.sh`** — not `GET /v1/mailboxes`.
+
+## Repo navigation
+
+- Prefer **`_system/GRAPH_INDEX.md`** after `python scripts/index_graph.py` when resolving node paths and backlinks.
