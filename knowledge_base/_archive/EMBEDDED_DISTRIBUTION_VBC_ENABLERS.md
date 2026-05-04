@@ -3,8 +3,10 @@ name: EMBEDDED_DISTRIBUTION_VBC_ENABLERS
 description: Channel partnership opportunity via VBC enablement companies - LinkedIn video outreach to VPs of Partnerships/Product for embedded distribution.
 domain: business
 node_type: pattern
-status: emergent
-last_updated: 2026-04-06
+status: archived
+last_updated: 2026-05-04
+archived_at: "2026-05-04"
+archive_reason: "Zero inbound links in graph index; cold path — archived per Context OS hygiene (see knowledge_base/_index/heat-2026-05-04.md)."
 tags:
   - business
   - value-based-care-vbc
@@ -24,6 +26,8 @@ source:
   file: "Josh Pappas call 2026-04-06"
   date: "2026-04-06"
 ---
+
+> **Archived 2026-05-04.** Moved from `knowledge_base/business/` to `knowledge_base/_archive/` — cold orphan (no inbound graph links). Content preserved for recall.
 
 # Embedded Distribution via VBC Enablers
 

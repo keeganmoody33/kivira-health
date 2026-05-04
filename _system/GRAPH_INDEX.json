@@ -1,6 +1,47 @@
 {
-  "generated_at": "2026-05-04 13:14 UTC",
+  "generated_at": "2026-05-04 13:16 UTC",
   "nodes": [
+    {
+      "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+      "rel_path": "knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md",
+      "domain": "business",
+      "node_type": "pattern",
+      "status": "archived",
+      "last_updated": "2026-05-04",
+      "description": "Channel partnership opportunity via VBC enablement companies - LinkedIn video outreach to VPs of Partnerships/Product for embedded distribution.",
+      "tags": [
+        "business",
+        "value-based-care-vbc",
+        "gtm-motion",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "partnerships"
+      ],
+      "related_concepts": [
+        "[[TAM_TIER_2_ACO_VBC_73M]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "call-notes",
+      "source_file": "Josh Pappas call 2026-04-06",
+      "body_lines": 54,
+      "outbound": [
+        "TAM_TIER_2_ACO_VBC_73M",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "PRIMARY_CARE_WEDGE_ICP"
+      ],
+      "inbound": [
+        "HEAT_2026_05_04"
+      ],
+      "issues": [
+        "unknown status 'archived'"
+      ]
+    },
     {
       "name": "HEAT_2026_05_04",
       "rel_path": "knowledge_base/_index/heat-2026-05-04.md",
@@ -42,7 +83,9 @@
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "OUTREACH_BASELINE_METRICS"
       ],
-      "inbound": [],
+      "inbound": [
+        "WEEKLY_MOC_2026_05_04"
+      ],
       "issues": []
     },
     {
@@ -441,45 +484,6 @@
       "issues": []
     },
     {
-      "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
-      "rel_path": "knowledge_base/business/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md",
-      "domain": "business",
-      "node_type": "pattern",
-      "status": "emergent",
-      "last_updated": "2026-04-06",
-      "description": "Channel partnership opportunity via VBC enablement companies - LinkedIn video outreach to VPs of Partnerships/Product for embedded distribution.",
-      "tags": [
-        "business",
-        "value-based-care-vbc",
-        "gtm-motion",
-        "source-internal-doc"
-      ],
-      "topics": [
-        "gtm-motion",
-        "workflow",
-        "partnerships"
-      ],
-      "related_concepts": [
-        "[[TAM_TIER_2_ACO_VBC_73M]]",
-        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
-        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
-        "[[PRIMARY_CARE_WEDGE_ICP]]"
-      ],
-      "source_type": "call-notes",
-      "source_file": "Josh Pappas call 2026-04-06",
-      "body_lines": 52,
-      "outbound": [
-        "TAM_TIER_2_ACO_VBC_73M",
-        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
-        "THREE_SEGMENT_ICP_FRAMEWORK",
-        "PRIMARY_CARE_WEDGE_ICP"
-      ],
-      "inbound": [
-        "HEAT_2026_05_04"
-      ],
-      "issues": []
-    },
-    {
       "name": "FUNDING_AND_BACKING_SIGNALS",
       "rel_path": "knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md",
       "domain": "business",
@@ -764,10 +768,10 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "HEAT_2026_05_04",
         "B2B_CLINIC_BUYER_MODEL",
         "DIRECT_BILLING_MODEL_FFS",
-        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "FUNDING_AND_BACKING_SIGNALS",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -1094,9 +1098,9 @@
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE"
       ],
       "inbound": [
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
         "DIRECT_BILLING_MODEL_FFS",
-        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "LIFE_SCIENCES_VALUE_PROP",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "PAIN_SEGMENT_MATRIX",
@@ -1816,8 +1820,8 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
-        "HEAT_2026_05_04",
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "HEAT_2026_05_04",
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "ACCOUNT_SCHEMA_EXTENDED",
@@ -3034,12 +3038,13 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 77,
+      "body_lines": 78,
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "HEAT_2026_05_04",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
