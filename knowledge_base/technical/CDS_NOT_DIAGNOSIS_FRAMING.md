@@ -3,8 +3,8 @@ name: CDS_NOT_DIAGNOSIS_FRAMING
 description: Legally and clinically, Kivira’s outputs are clinical decision support that do not replace clinician judgment—this constrains marketing and sales language.
 domain: technical
 node_type: framework
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-04
 tags:
   - technical
   - cds-clinical-decision-support

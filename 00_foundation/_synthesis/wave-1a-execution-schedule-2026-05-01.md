@@ -194,3 +194,9 @@ Wave 1B should take roughly half the calendar time of 1A. Wave 1C onward should 
 - [Outreach sequencing logic](computer:///Users/keeganmoody/KIVIRA.HEALTH/knowledge_base/methodology/COCM_OUTREACH_SEQUENCING.md)
 - [Pilot site acquisition priority](computer:///Users/keeganmoody/KIVIRA.HEALTH/knowledge_base/methodology/PILOT_SITE_ACQUISITION_PRIORITY.md)
 - [Existing 1A list builder script](computer:///Users/keeganmoody/KIVIRA.HEALTH/scripts/build_list_1a.py)
+
+---
+
+## Referenced By
+
+- [[WEEKLY_MOC_2026_05_04]] — Execution schedule informed this week's campaign launch

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 13:48 UTC",
+  "generated_at": "2026-05-04 22:47 UTC",
   "nodes": [
     {
       "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -2489,8 +2489,8 @@
       "rel_path": "knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md",
       "domain": "technical",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-04",
       "description": "Legally and clinically, Kivira’s outputs are clinical decision support that do not replace clinician judgment—this constrains marketing and sales language.",
       "tags": [
         "technical",
@@ -2918,9 +2918,10 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 196,
+      "body_lines": 202,
       "outbound": [
-        "PILOT_SITE_ACQUISITION_PRIORITY"
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "WEEKLY_MOC_2026_05_04"
       ],
       "inbound": [],
       "issues": []
@@ -3042,7 +3043,7 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 78,
+      "body_lines": 80,
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
@@ -3066,7 +3067,8 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_WAVE_STRUCTURE",
-        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "wave-1a-execution-schedule-2026-05-01"
       ],
       "issues": []
     },

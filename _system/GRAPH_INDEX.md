@@ -1,5 +1,5 @@
 # Context OS — Graph Index
-> Generated: 2026-05-04 13:48 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-04 22:47 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
@@ -10,7 +10,7 @@
 | foundation / synthesis docs | 8 |
 | Agent workflows | 10 |
 | Skills | 8 |
-| Total wiki-links mapped | 394 |
+| Total wiki-links mapped | 395 |
 | Orphan nodes (0 inbound) | 0 |
 | Taxonomy issues | 9 across 7 nodes |
 
@@ -56,6 +56,7 @@
 `TECH_STACK_OUTBOUND_INFRASTRUCTURE    ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←9
 `THIRTY_DAY_OFFICE_MANAGER_TARGET      ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←3
 `WAVE_1_SCORING_FRAMEWORK              ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←8
+`CDS_NOT_DIAGNOSIS_FRAMING             ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←14
 `COCM_PUBLIC_ESTIMATE_ENGINE_V2        ` → `knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md` ✅ [technical/framework] ←2
 `B2B_CLINIC_BUYER_MODEL                ` → `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` 🌱 [business/concept] ←9
 `CLINICAL_TRIALS_DIGITAL_ENDPOINTS     ` → `knowledge_base/business/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md` 🌱 [business/concept] ←1
@@ -77,7 +78,6 @@
 `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP    ` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md` 🌱 [methodology/framework] ←1
 `WEEKLY_LINEAR_SHIPPED_2026_05_04      ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md` 🌱 [methodology/execution_digest] ←6
 `WEEKLY_MOC_GRAPH_RITUAL               ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` 🌱 [methodology/framework] ←7
-`CDS_NOT_DIAGNOSIS_FRAMING             ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` 🌱 [technical/framework] ←14
 `CLINICAL_INSTRUMENTS_SURFACE          ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` 🌱 [technical/concept] ←10
 `CPT_BILLING_CODES_BHI                 ` → `knowledge_base/technical/CPT_BILLING_CODES_BHI.md` 🌱 [technical/concept] ←5
 `EHR_INTEGRATION_SMART_ON_FHIR         ` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md` 🌱 [technical/concept] ←7
@@ -93,7 +93,7 @@
 `wave-1a-execution-schedule-2026-05-01 ` → `00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md` ❓ [/] ←0
 `wave1a_heyreach_copy                  ` → `00_foundation/messaging/wave1a_heyreach_copy.md` ❓ [/] ←0
 `2026-05-04-investor-email             ` → `00_foundation/weekly_updates/2026-05-04-investor-email.md` ❓ [/] ←0
-`WEEKLY_MOC_2026_05_04                 ` → `00_foundation/weekly_updates/2026-05-04.md` ❓ [/] ←10
+`WEEKLY_MOC_2026_05_04                 ` → `00_foundation/weekly_updates/2026-05-04.md` ❓ [/] ←11
 `weekly-moc-template                   ` → `00_foundation/weekly_updates/weekly-moc-template.md` ❓ [/] ←0
 `EMBEDDED_DISTRIBUTION_VBC_ENABLERS    ` → `knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md` ❓ [business/pattern] ←1
 `DEMO_FIRST_OUTBOUND_STRATEGY          ` → `knowledge_base/methodology/DEMO_FIRST_OUTBOUND_STRATEGY.md` ❓ [methodology/principle] ←4
@@ -136,6 +136,7 @@
 | `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 9 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
 | `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 3 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
 | `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 8 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
+| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 14 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
 | `COCM_PUBLIC_ESTIMATE_ENGINE_V2` | technical | framework | ✅ validated | 2 | 32 | Internal reference engine for modeled CoCM opportunity estimation usin… |
 | `B2B_CLINIC_BUYER_MODEL` | business | concept | 🌱 emergent | 9 | 21 | Kivira sells to clinics/health systems; the patient-facing app is free… |
 | `CLINICAL_TRIALS_DIGITAL_ENDPOINTS` | business | concept | 🌱 emergent | 1 | 44 | Digital phenotyping as secondary endpoints in CNS clinical trials |
@@ -157,7 +158,6 @@
 | `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP` | methodology | framework | 🌱 emergent | 1 | 34 | Target operating model for outbound—InboxKit fully configured for doma… |
 | `WEEKLY_LINEAR_SHIPPED_2026_05_04` | methodology | execution_digest | 🌱 emergent | 6 | 49 | Linear issue throughput snapshot for week ending 2026-05-04 (LEC team) |
 | `WEEKLY_MOC_GRAPH_RITUAL` | methodology | framework | 🌱 emergent | 7 | 25 | Weekly email as graph operation—the MOC is a citation hub that heats e… |
-| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | 🌱 emergent | 14 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
 | `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | 🌱 emergent | 10 | 19 | Public instrument overview lists scale names, constructs, and primary … |
 | `CPT_BILLING_CODES_BHI` | technical | concept | 🌱 emergent | 5 | 46 | Key CPT codes for behavioral health integration billing that Kivira do… |
 | `EHR_INTEGRATION_SMART_ON_FHIR` | technical | concept | 🌱 emergent | 7 | 19 | Public documentation highlights SMART on FHIR / HL7-class integration,… |
@@ -170,10 +170,10 @@
 | `gtm-plan-v1` |  |  | ❓  | 0 | 94 | **Purpose:** Single synthesis for new GTM hires. Details live in `know… |
 | `messaging-pillars-v1` |  |  | ❓  | 0 | 49 | **Layer 2 —** links to Layer 1 nodes. All external copy must pass lega… |
 | `positioning-v1` |  |  | ❓  | 0 | 29 | **Layer 2 doc —** composes atomic nodes; do not duplicate long explana… |
-| `wave-1a-execution-schedule-2026-05-01` |  |  | ❓  | 0 | 196 | **For:** Josh Pappas |
+| `wave-1a-execution-schedule-2026-05-01` |  |  | ❓  | 0 | 202 | **For:** Josh Pappas |
 | `wave1a_heyreach_copy` |  |  | ❓  | 0 | 126 | **Audience:** Directors/VPs at multi-site primary care / specialty med… |
 | `2026-05-04-investor-email` |  |  | ❓ draft | 0 | 115 |  |
-| `WEEKLY_MOC_2026_05_04` |  |  | ❓ draft | 10 | 78 |  |
+| `WEEKLY_MOC_2026_05_04` |  |  | ❓ draft | 11 | 80 |  |
 | `weekly-moc-template` |  |  | ❓ draft | 0 | 203 |  |
 | `EMBEDDED_DISTRIBUTION_VBC_ENABLERS` | business | pattern | ❓ archived | 1 | 54 | Channel partnership opportunity via VBC enablement companies - LinkedI… |
 | `DEMO_FIRST_OUTBOUND_STRATEGY` | methodology | principle | ❓ draft | 4 | 22 | Prioritize booking demos via manual multi-channel outreach before inve… |
@@ -309,6 +309,10 @@
 **←** `COCM_CONFIDENCE_GRADE_RULES`, `OUTREACH_WAVE_STRUCTURE`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_TIER_1_PROVIDER_534M`
 
+### `CDS_NOT_DIAGNOSIS_FRAMING`
+**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**→** `PATIENT_APP_SAFETY_ALERTS`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`
+
 ### `COCM_PUBLIC_ESTIMATE_ENGINE_V2`
 **←** `COCM_ACCOUNT_PROFILE_SCHEMA`, `COCM_CONFIDENCE_GRADE_RULES`
 **→** `COCM_ACCOUNT_PROFILE_SCHEMA`, `COCM_CONFIDENCE_GRADE_RULES`, `CPT_BILLING_CODES_BHI`, `DIRECT_BILLING_MODEL_FFS`
@@ -393,10 +397,6 @@
 **←** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `HEAT_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
 **→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_BASELINE_METRICS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
 
-### `CDS_NOT_DIAGNOSIS_FRAMING`
-**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
-**→** `PATIENT_APP_SAFETY_ALERTS`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`
-
 ### `CLINICAL_INSTRUMENTS_SURFACE`
 **←** `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_TRIALS_DIGITAL_ENDPOINTS`, `COMPETITIVE_EVIDENCE_GAP`, `EHR_INTEGRATION_SMART_ON_FHIR`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `LIFE_SCIENCES_VALUE_PROP`, `PUBLIC_VALUE_PROPOSITION_HOME`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `COMPETITIVE_EVIDENCE_GAP`, `PUBLIC_VALUE_PROPOSITION_HOME`
@@ -435,7 +435,7 @@
 
 ### `wave-1a-execution-schedule-2026-05-01`
 **←** _(no inbound links — orphan)_
-**→** `PILOT_SITE_ACQUISITION_PRIORITY`
+**→** `PILOT_SITE_ACQUISITION_PRIORITY`, `WEEKLY_MOC_2026_05_04`
 
 ### `wave1a_heyreach_copy`
 **←** _(no inbound links — orphan)_
@@ -446,7 +446,7 @@
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`
 
 ### `WEEKLY_MOC_2026_05_04`
-**←** `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`
+**←** `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `wave-1a-execution-schedule-2026-05-01`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_GRAPH_RITUAL`
 
 ### `weekly-moc-template`
