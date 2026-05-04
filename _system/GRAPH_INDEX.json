@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 08:35 UTC",
+  "generated_at": "2026-05-04 12:47 UTC",
   "nodes": [
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -625,6 +625,7 @@
       "inbound": [
         "EDP_COCM_REVENUE_REALIZATION",
         "MARKET_ADOPTION_STAGE_2026",
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
         "gtm-plan-v1",
@@ -1052,6 +1053,7 @@
         "TAM_TIER_1_PROVIDER_534M",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -1062,6 +1064,123 @@
         "gtm-plan-v1"
       ],
       "issues": []
+    },
+    {
+      "name": "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+      "rel_path": "knowledge_base/execution/linear/weekly-shipped-2026-05-04.md",
+      "domain": "methodology",
+      "node_type": "execution_digest",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "Linear issue throughput snapshot for week ending 2026-05-04 (LEC team)",
+      "tags": [
+        "linear",
+        "weekly-evidence",
+        "shipped"
+      ],
+      "topics": [
+        "execution"
+      ],
+      "related_concepts": [
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[FRESH_LIST_BUILD_RUNBOOK_1ABC]]"
+      ],
+      "source_type": "tool_export",
+      "source_file": "",
+      "body_lines": 36,
+      "outbound": [
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTREACH_WAVE_STRUCTURE",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC"
+      ],
+      "inbound": [
+        "2026-05-04-investor-email",
+        "2026-05-04"
+      ],
+      "issues": [
+        "unknown node_type 'execution_digest'"
+      ]
+    },
+    {
+      "name": "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+      "rel_path": "knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "HeyReach outbound metrics snapshot for Wave 1 launch week ending 2026-05-04",
+      "tags": [
+        "heyreach",
+        "weekly-evidence",
+        "outbound",
+        "wave1"
+      ],
+      "topics": [
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[wave1a_heyreach_copy]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
+      ],
+      "source_type": "tool_export",
+      "source_file": "",
+      "body_lines": 29,
+      "outbound": [
+        "OUTREACH_WAVE_STRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+      ],
+      "inbound": [
+        "2026-05-04-investor-email",
+        "2026-05-04"
+      ],
+      "issues": [
+        "unknown node_type 'gtm_signal'"
+      ]
+    },
+    {
+      "name": "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+      "rel_path": "knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "InboxKit mailbox and warmup status for 2026-05-04 (product UI screenshots + MCP config note; REST API appendix)",
+      "tags": [
+        "inboxkit",
+        "weekly-evidence",
+        "email-deliverability"
+      ],
+      "topics": [
+        "outbound"
+      ],
+      "related_concepts": [
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]"
+      ],
+      "source_type": "screenshot_capture",
+      "source_file": "",
+      "body_lines": 123,
+      "outbound": [
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTREACH_BASELINE_METRICS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "inbound": [
+        "2026-05-04-investor-email",
+        "2026-05-04"
+      ],
+      "issues": [
+        "unknown node_type 'gtm_signal'"
+      ]
     },
     {
       "name": "ACCOUNT_SCHEMA_EXTENDED",
@@ -1104,6 +1223,48 @@
         "SUBTIER_EXCLUSION_RULES",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "gtm-plan-v1"
+      ],
+      "issues": []
+    },
+    {
+      "name": "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
+      "rel_path": "knowledge_base/methodology/CANONICAL_GTM_SEGMENTATION_MIRO_BOARD.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-04",
+      "description": "High-level visual canonical for Kivira GTM segmentation—three verticals, nine subtiers, five buying-committee roles per subtier—hosted on a shared Miro board; aligns to tier and persona dictionary nodes.",
+      "tags": [
+        "methodology",
+        "market-segmentation",
+        "gtm-motion",
+        "source-public-web"
+      ],
+      "topics": [
+        "gtm-motion",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[SUBTIER_EXCLUSION_RULES]]",
+        "[[PAIN_SEGMENT_MATRIX]]",
+        "[[INBOXKIT_SENDKIT_SEQUENCER_ROADMAP]]"
+      ],
+      "source_type": "public-web",
+      "source_file": "",
+      "body_lines": 27,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "SUBTIER_EXCLUSION_RULES",
+        "PAIN_SEGMENT_MATRIX",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP"
+      ],
+      "inbound": [
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP"
       ],
       "issues": []
     },
@@ -1230,6 +1391,7 @@
       "inbound": [
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "COCM_CONFIDENCE_GRADE_RULES",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "ORG_TYPE_BUYER_MAP_COCM",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
       ],
@@ -1312,7 +1474,9 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "GTM_MOTION_HYPOTHESIS",
         "WAVE_1_SCORING_FRAMEWORK",
-        "gtm-plan-v1"
+        "gtm-plan-v1",
+        "2026-05-04-investor-email",
+        "2026-05-04"
       ],
       "issues": []
     },
@@ -1397,7 +1561,10 @@
         "TAM_DEDUP_METHODOLOGY",
         "COCM_CONFIDENCE_GRADE_RULES"
       ],
-      "inbound": [],
+      "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "2026-05-04"
+      ],
       "issues": []
     },
     {
@@ -1447,6 +1614,7 @@
         "DIRECT_BILLING_MODEL_FFS",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "COCM_OUTREACH_SEQUENCING",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "OUTREACH_WAVE_STRUCTURE",
@@ -1552,6 +1720,7 @@
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "PAIN_SEGMENT_MATRIX",
         "ACCOUNT_SCHEMA_EXTENDED",
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "OUTREACH_BASELINE_METRICS",
@@ -1560,7 +1729,49 @@
         "SUBTIER_EXCLUSION_RULES",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
-        "gtm-plan-v1"
+        "gtm-plan-v1",
+        "2026-05-04-investor-email",
+        "2026-05-04"
+      ],
+      "issues": []
+    },
+    {
+      "name": "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+      "rel_path": "knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-04",
+      "description": "Target operating model for outbound—InboxKit fully configured for domains/mailboxes/warmup; SendKit (sendkit.ai) as the locked sequencing layer pending vendor call and integration work.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound-infrastructure",
+        "source-public-web"
+      ],
+      "topics": [
+        "outbound-infrastructure",
+        "deliverability"
+      ],
+      "related_concepts": [
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[COCM_OUTREACH_SEQUENCING]]",
+        "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]",
+        "[[CANONICAL_GTM_SEGMENTATION_MIRO_BOARD]]"
+      ],
+      "source_type": "hybrid",
+      "source_file": "",
+      "body_lines": 34,
+      "outbound": [
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTREACH_BASELINE_METRICS",
+        "COCM_OUTREACH_SEQUENCING",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
+      ],
+      "inbound": [
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
       ],
       "issues": []
     },
@@ -1681,10 +1892,13 @@
         "PAIN_SEGMENT_MATRIX"
       ],
       "inbound": [
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "2026-05-04",
         "weekly-moc-template"
       ],
       "issues": [
@@ -1732,10 +1946,14 @@
       ],
       "inbound": [
         "TAM_TIER_2_ACO_VBC_73M",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
-        "WAVE_1_SCORING_FRAMEWORK"
+        "WAVE_1_SCORING_FRAMEWORK",
+        "2026-05-04"
       ],
       "issues": []
     },
@@ -1781,6 +1999,7 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ],
       "inbound": [
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
@@ -1910,6 +2129,7 @@
         "PUBLIC_DATA_SOURCES_TAM"
       ],
       "inbound": [
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "PUBLIC_DATA_SOURCES_TAM",
@@ -2000,7 +2220,11 @@
         "PRIMARY_CARE_WEDGE_ICP"
       ],
       "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "OUTREACH_WAVE_STRUCTURE"
       ],
       "issues": []
@@ -2086,9 +2310,12 @@
       ],
       "inbound": [
         "TAM_TIER_1_PROVIDER_534M",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_CONFIDENCE_GRADE_RULES",
         "OUTREACH_WAVE_STRUCTURE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "2026-05-04",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2380,6 +2607,7 @@
       "inbound": [
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
       ],
       "issues": [
@@ -2609,6 +2837,58 @@
         "FUNDING_AND_BACKING_SIGNALS",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "PRIVACY_AND_HIPAA_ROLE"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "2026-05-04-investor-email",
+      "rel_path": "00_foundation/weekly_updates/2026-05-04-investor-email.md",
+      "domain": "",
+      "node_type": "",
+      "status": "draft",
+      "last_updated": "",
+      "description": "",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 115,
+      "outbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
+      "name": "2026-05-04",
+      "rel_path": "00_foundation/weekly_updates/2026-05-04.md",
+      "domain": "",
+      "node_type": "",
+      "status": "draft",
+      "last_updated": "",
+      "description": "",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 65,
+      "outbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "OUTREACH_WAVE_STRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [],
       "issues": []
