@@ -3,8 +3,8 @@ name: FRESH_LIST_BUILD_RUNBOOK_1ABC
 description: Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap first, GA pilot, live-public gating, messaging deferred
 domain: methodology
 node_type: pattern
-status: emergent
-last_updated: 2026-04-07
+status: validated
+last_updated: 2026-05-04
 tags:
   - methodology
   - workflow

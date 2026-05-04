@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02 02:57 UTC",
+  "generated_at": "2026-05-04 08:35 UTC",
   "nodes": [
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -627,7 +627,8 @@
         "MARKET_ADOPTION_STAGE_2026",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
-        "gtm-plan-v1"
+        "gtm-plan-v1",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -1350,7 +1351,8 @@
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "gtm-plan-v1",
         "messaging-pillars-v1",
-        "positioning-v1"
+        "positioning-v1",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -1359,8 +1361,8 @@
       "rel_path": "knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md",
       "domain": "methodology",
       "node_type": "pattern",
-      "status": "emergent",
-      "last_updated": "2026-04-07",
+      "status": "validated",
+      "last_updated": "2026-05-04",
       "description": "Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap first, GA pilot, live-public gating, messaging deferred",
       "tags": [
         "methodology",
@@ -1451,7 +1453,8 @@
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
-        "WAVE_1_SCORING_FRAMEWORK"
+        "WAVE_1_SCORING_FRAMEWORK",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -1681,7 +1684,8 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
-        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "weekly-moc-template"
       ],
       "issues": [
         "unknown status 'draft'"
@@ -1825,7 +1829,8 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
-        "wave-1a-execution-schedule-2026-05-01"
+        "wave-1a-execution-schedule-2026-05-01",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -2083,7 +2088,8 @@
         "TAM_TIER_1_PROVIDER_534M",
         "COCM_CONFIDENCE_GRADE_RULES",
         "OUTREACH_WAVE_STRUCTURE",
-        "THIRTY_DAY_OFFICE_MANAGER_TARGET"
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -2608,6 +2614,32 @@
       "issues": []
     },
     {
+      "name": "weekly-moc-template",
+      "rel_path": "00_foundation/weekly_updates/weekly-moc-template.md",
+      "domain": "",
+      "node_type": "",
+      "status": "draft",
+      "last_updated": "",
+      "description": "",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 146,
+      "outbound": [
+        "PAIN_SEGMENT_MATRIX",
+        "OUTREACH_BASELINE_METRICS",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "PILOT_SITE_ACQUISITION_PRIORITY",
+        "CONTEXT_OS_OPERATING_RHYTHM"
+      ],
+      "inbound": [],
+      "issues": []
+    },
+    {
       "name": "context-sensitivity-model",
       "rel_path": "gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/context-sensitivity-model.md",
       "domain": "",
@@ -2682,6 +2714,11 @@
       "name": "heyreach-zero-budget-sourcing",
       "rel_path": "_system/agent_workflows/heyreach-zero-budget-sourcing.md",
       "description": "**Purpose:** Take a qualified subtier account list and produce a CSV of LinkedIn profile URLs for the five buying-commit"
+    },
+    {
+      "name": "heyreach_cli_load_runbook",
+      "rel_path": "_system/agent_workflows/heyreach_cli_load_runbook.md",
+      "description": "**Last updated:** 2026-05-01"
     },
     {
       "name": "meeting-notes-ingest",
