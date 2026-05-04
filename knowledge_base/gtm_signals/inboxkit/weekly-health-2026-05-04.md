@@ -4,6 +4,7 @@ description: InboxKit mailbox and warmup status for 2026-05-04 (product UI scree
 domain: business
 node_type: gtm_signal
 status: emergent
+date: "2026-05-04"
 evidence_date: 2026-05-04
 tags:
   - inboxkit
@@ -18,7 +19,7 @@ related_concepts:
   - "[[WAVE_1_SCORING_FRAMEWORK]]"
 source:
   type: screenshot_capture
-  system: inboxkit-product-ui
+  system: inboxkit # product UI + REST appendix; template: source inboxkit
   date: "2026-05-04"
   files:
     - raw-context/kivira-internal/inboxkit-ui-2026-05-04/mcp-settings.png
@@ -31,6 +32,19 @@ related_sources:
 ---
 
 # InboxKit Health — May 4
+
+Domain rollup pulled 2026-05-04 (UI KPIs + mailbox grid + REST cross-check — see screenshots in `raw-context/kivira-internal/inboxkit-ui-2026-05-04/` and Appendix A/B below).
+
+| Domain | Mailboxes | Warmup Day | Health Score | Status |
+|--------|-----------|------------|--------------|--------|
+| groundskeep.xyz | 0 | — | — | registered; no mailboxes |
+| kivira.online | 3 | 8 | ~98.4 | active; warmup in_progress |
+| kivira.xyz | 3 | 8 | ~98.4 | active; warmup in_progress |
+| kivirahealth.info | 2 | 8 | ~98.4 | active; warmup in_progress |
+| kivirahealth.live | 2 | 8 | ~98.4 | active; warmup in_progress |
+| kivirahealth.online | 3 | 8 | ~98.4 | active; warmup in_progress |
+| kivirahealth.xyz | 3 | 8 | ~98.4 | active; warmup in_progress |
+| scuttlewutt.com | 0 | — | — | registered; no mailboxes |
 
 [VERIFIED: Operator-captured **InboxKit product UI screenshots** archived under `raw-context/kivira-internal/inboxkit-ui-2026-05-04/` on 2026-05-04.]
 

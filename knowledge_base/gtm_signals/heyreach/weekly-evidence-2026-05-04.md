@@ -4,6 +4,7 @@ description: HeyReach outbound metrics snapshot for Wave 1 launch week ending 20
 domain: business
 node_type: gtm_signal
 status: emergent
+date: "2026-05-04"
 evidence_date: 2026-05-04
 tags:
   - heyreach
@@ -19,7 +20,7 @@ related_concepts:
   - "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
 source:
   type: tool_export
-  system: heyreach-mcp
+  system: heyreach-mcp # template: source heyreach-mcp
   date: "2026-05-04"
 ---
 

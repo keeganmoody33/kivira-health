@@ -4,6 +4,7 @@ description: Linear issue throughput snapshot for week ending 2026-05-04 (LEC te
 domain: methodology
 node_type: execution_digest
 status: emergent
+date: "2026-05-04"
 evidence_date: 2026-05-04
 tags:
   - linear
@@ -18,7 +19,7 @@ related_concepts:
   - "[[FRESH_LIST_BUILD_RUNBOOK_1ABC]]"
 source:
   type: tool_export
-  system: linear-mcp
+  system: linear-mcp # template: source linear-mcp
   date: "2026-05-04"
 ---
 
@@ -51,10 +52,10 @@ source:
 
 ## In Progress
 
-- **LEC-32:** Wave 1A account-first pipeline + HeyReach launch (parent thread)
+- LEC-32: Wave 1A account-first pipeline + HeyReach launch (the parent thread)
 
 ## Backlog
 
-- **LEC-40:** 1C grind (~500 URLs)
-- **LEC-43:** ClinicalChampion accept rate monitoring
-- **LEC-44:** Wave 2-9 templates
+- LEC-40: 1C grind (~500 URLs)
+- LEC-43: ClinicalChampion accept rate monitoring
+- LEC-44: Wave 2-9 templates
