@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-05-04 13:11 UTC",
+  "generated_at": "2026-05-04 13:14 UTC",
   "nodes": [
+    {
+      "name": "HEAT_2026_05_04",
+      "rel_path": "knowledge_base/_index/heat-2026-05-04.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-04",
+      "description": "Week-of heat snapshot for the Context OS graph — hot nodes, link velocity vs prior index run, orphans, and next targets (2026-05-04).",
+      "tags": [
+        "context-os",
+        "graph-health",
+        "weekly-moc"
+      ],
+      "topics": [
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_04]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]]",
+        "[[WEEKLY_LINEAR_SHIPPED_2026_05_04]]",
+        "[[WEEKLY_INBOXKIT_HEALTH_2026_05_04]]"
+      ],
+      "source_type": "graph-exec",
+      "source_file": "_system/GRAPH_INDEX.md",
+      "body_lines": 53,
+      "outbound": [
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "OUTREACH_BASELINE_METRICS"
+      ],
+      "inbound": [],
+      "issues": []
+    },
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
       "rel_path": "knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md",
@@ -430,7 +474,9 @@
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "PRIMARY_CARE_WEDGE_ICP"
       ],
-      "inbound": [],
+      "inbound": [
+        "HEAT_2026_05_04"
+      ],
       "issues": []
     },
     {
@@ -718,6 +764,7 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "B2B_CLINIC_BUYER_MODEL",
         "DIRECT_BILLING_MODEL_FFS",
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -1109,6 +1156,7 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -1159,6 +1207,7 @@
         "COCM_CONFIDENCE_GRADE_RULES"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "PRIMARY_CARE_WEDGE_ICP",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_WAVE_STRUCTURE",
@@ -1207,6 +1256,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
@@ -1603,6 +1653,7 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_MOC_2026_05_04"
       ],
@@ -1654,6 +1705,7 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "DIRECT_BILLING_MODEL_FFS",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
@@ -1764,6 +1816,7 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
@@ -1940,6 +1993,7 @@
         "PAIN_SEGMENT_MATRIX"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -1996,6 +2050,7 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "TAM_TIER_2_ACO_VBC_73M",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
@@ -2275,6 +2330,7 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
@@ -2410,6 +2466,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
@@ -2991,6 +3048,7 @@
         "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [
+        "HEAT_2026_05_04",
         "PRIMARY_CARE_WEDGE_ICP",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
