@@ -20,7 +20,7 @@ related_concepts:
   - "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
 source:
   type: tool_export
-  system: heyreach-mcp # template: source heyreach-mcp
+  system: heyreach-mcp
   date: "2026-05-04"
 ---
 
@@ -52,8 +52,4 @@ source:
 
 Campaigns launched Monday May 4. Zero replies expected on Day 1. 104 connection requests active. Signal data will appear by Thursday May 8.
 
-## Links
-
-- [[wave1a_heyreach_copy]]
-- [[OUTREACH_WAVE_STRUCTURE]]
-- [[WAVE_1_SCORING_FRAMEWORK]]
+Links: [[wave1a_heyreach_copy]], [[OUTREACH_WAVE_STRUCTURE]], [[WAVE_1_SCORING_FRAMEWORK]]

@@ -19,7 +19,7 @@ related_concepts:
   - "[[FRESH_LIST_BUILD_RUNBOOK_1ABC]]"
 source:
   type: tool_export
-  system: linear-mcp # template: source linear-mcp
+  system: linear-mcp
   date: "2026-05-04"
 ---
 

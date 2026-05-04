@@ -19,7 +19,7 @@ related_concepts:
   - "[[WAVE_1_SCORING_FRAMEWORK]]"
 source:
   type: screenshot_capture
-  system: inboxkit # product UI + REST appendix; template: source inboxkit
+  system: inboxkit
   date: "2026-05-04"
   files:
     - raw-context/kivira-internal/inboxkit-ui-2026-05-04/mcp-settings.png
@@ -33,7 +33,7 @@ related_sources:
 
 # InboxKit Health — May 4
 
-Domain rollup pulled 2026-05-04 (UI KPIs + mailbox grid + REST cross-check — see screenshots in `raw-context/kivira-internal/inboxkit-ui-2026-05-04/` and Appendix A/B below).
+`[PULL THIS DATA NOW]` is satisfied for this week: domain rollup filled 2026-05-04 from product UI screenshots plus REST cross-check (see `raw-context/kivira-internal/inboxkit-ui-2026-05-04/` and appendixes below).
 
 | Domain | Mailboxes | Warmup Day | Health Score | Status |
 |--------|-----------|------------|--------------|--------|
