@@ -13,6 +13,8 @@ tags:
 topics:
   - outbound
 related_concepts:
+  - "[[WEEKLY_MOC_2026_05_04]]"
+  - "[[WEEKLY_MOC_GRAPH_RITUAL]]"
   - "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
   - "[[OUTREACH_BASELINE_METRICS]]"
   - "[[OUTREACH_WAVE_STRUCTURE]]"

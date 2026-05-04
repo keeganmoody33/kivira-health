@@ -16,6 +16,7 @@ related_concepts:
   - "[[COMPETITIVE_EVIDENCE_GAP]]"
   - "[[CLINICAL_INSTRUMENTS_SURFACE]]"
   - "[[PUBLIC_VALUE_PROPOSITION_HOME]]"
+  - "[[WEEKLY_MOC_GRAPH_RITUAL]]"
 source:
   type: document
   file: "raw-context/MARKETANALYSIS.md"

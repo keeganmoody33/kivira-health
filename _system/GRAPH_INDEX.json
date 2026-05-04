@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 12:47 UTC",
+  "generated_at": "2026-05-04 13:01 UTC",
   "nodes": [
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -1082,6 +1082,8 @@
         "execution"
       ],
       "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_04]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
         "[[GTM_30_60_90_EXECUTION_CADENCE]]",
         "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
         "[[OUTREACH_WAVE_STRUCTURE]]",
@@ -1091,6 +1093,8 @@
       "source_file": "",
       "body_lines": 36,
       "outbound": [
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "OUTREACH_WAVE_STRUCTURE",
@@ -1098,7 +1102,7 @@
       ],
       "inbound": [
         "2026-05-04-investor-email",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": [
         "unknown node_type 'execution_digest'"
@@ -1122,6 +1126,8 @@
         "gtm-motion"
       ],
       "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_04]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
         "[[wave1a_heyreach_copy]]",
         "[[OUTREACH_WAVE_STRUCTURE]]",
         "[[WAVE_1_SCORING_FRAMEWORK]]",
@@ -1131,13 +1137,15 @@
       "source_file": "",
       "body_lines": 29,
       "outbound": [
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
       ],
       "inbound": [
         "2026-05-04-investor-email",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": [
         "unknown node_type 'gtm_signal'"
@@ -1160,6 +1168,8 @@
         "outbound"
       ],
       "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_04]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
         "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
         "[[OUTREACH_BASELINE_METRICS]]",
         "[[OUTREACH_WAVE_STRUCTURE]]",
@@ -1169,6 +1179,8 @@
       "source_file": "",
       "body_lines": 123,
       "outbound": [
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "OUTREACH_BASELINE_METRICS",
         "OUTREACH_WAVE_STRUCTURE",
@@ -1176,7 +1188,7 @@
       ],
       "inbound": [
         "2026-05-04-investor-email",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": [
         "unknown node_type 'gtm_signal'"
@@ -1476,7 +1488,7 @@
         "WAVE_1_SCORING_FRAMEWORK",
         "gtm-plan-v1",
         "2026-05-04-investor-email",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": []
     },
@@ -1500,7 +1512,8 @@
       "related_concepts": [
         "[[COMPETITIVE_EVIDENCE_GAP]]",
         "[[CLINICAL_INSTRUMENTS_SURFACE]]",
-        "[[PUBLIC_VALUE_PROPOSITION_HOME]]"
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]"
       ],
       "source_type": "document",
       "source_file": "raw-context/MARKETANALYSIS.md",
@@ -1508,11 +1521,13 @@
       "outbound": [
         "COMPETITIVE_EVIDENCE_GAP",
         "CLINICAL_INSTRUMENTS_SURFACE",
-        "PUBLIC_VALUE_PROPOSITION_HOME"
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "WEEKLY_MOC_GRAPH_RITUAL"
       ],
       "inbound": [
         "COMPETITIVE_EVIDENCE_GAP",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1",
@@ -1563,7 +1578,7 @@
       ],
       "inbound": [
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": []
     },
@@ -1622,6 +1637,7 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "WAVE_1_SCORING_FRAMEWORK",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "weekly-moc-template"
       ],
       "issues": []
@@ -1731,7 +1747,7 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
         "2026-05-04-investor-email",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": []
     },
@@ -1897,8 +1913,9 @@
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
-        "2026-05-04",
+        "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
       ],
       "issues": [
@@ -1953,7 +1970,7 @@
         "COCM_OUTREACH_SEQUENCING",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
-        "2026-05-04"
+        "WEEKLY_MOC_2026_05_04"
       ],
       "issues": []
     },
@@ -2225,7 +2242,8 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
-        "OUTREACH_WAVE_STRUCTURE"
+        "OUTREACH_WAVE_STRUCTURE",
+        "WEEKLY_MOC_GRAPH_RITUAL"
       ],
       "issues": []
     },
@@ -2315,7 +2333,50 @@
         "COCM_CONFIDENCE_GRADE_RULES",
         "OUTREACH_WAVE_STRUCTURE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
-        "2026-05-04",
+        "WEEKLY_MOC_2026_05_04",
+        "weekly-moc-template"
+      ],
+      "issues": []
+    },
+    {
+      "name": "WEEKLY_MOC_GRAPH_RITUAL",
+      "rel_path": "knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-04",
+      "description": "Weekly email as graph operation—the MOC is a citation hub that heats evidence nodes via explicit wikilinks; investor email is the side effect of tightening backlinks.",
+      "tags": [
+        "methodology",
+        "weekly-moc",
+        "context-os",
+        "evidence-discipline"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]"
+      ],
+      "source_type": "document",
+      "source_file": "knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md",
+      "body_lines": 25,
+      "outbound": [
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "OUTREACH_BASELINE_METRICS",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "GTM_30_60_90_EXECUTION_CADENCE"
+      ],
+      "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2866,7 +2927,7 @@
       "issues": []
     },
     {
-      "name": "2026-05-04",
+      "name": "WEEKLY_MOC_2026_05_04",
       "rel_path": "00_foundation/weekly_updates/2026-05-04.md",
       "domain": "",
       "node_type": "",
@@ -2878,11 +2939,12 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 65,
+      "body_lines": 77,
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
@@ -2890,7 +2952,11 @@
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
         "OUTREACH_BASELINE_METRICS"
       ],
-      "inbound": [],
+      "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04"
+      ],
       "issues": []
     },
     {
@@ -2906,8 +2972,9 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 146,
+      "body_lines": 156,
       "outbound": [
+        "WEEKLY_MOC_GRAPH_RITUAL",
         "PAIN_SEGMENT_MATRIX",
         "OUTREACH_BASELINE_METRICS",
         "WAVE_1_SCORING_FRAMEWORK",

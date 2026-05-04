@@ -1,4 +1,5 @@
 ---
+# Set name when saving the dated file, e.g. name: WEEKLY_MOC_2026_05_04 — required for graph backlinks
 title: "Kivira GTM Weekly — {{date:YYYY-MM-DD}}"
 date: {{date:YYYY-MM-DD}}
 status: draft
@@ -8,7 +9,17 @@ recipients: ["Josh Pop", "Kivira Investors"]
 
 # Week of {{date:MMMM D, YYYY}}
 
-> **Purpose:** Decision document, not status report. Every claim links to a validated graph node (✅) or is flagged as emergent (🌱).
+## Evidence This Week
+
+**Graph hub** — Create the three weekly evidence files, set each file’s YAML `name:` to the ALL_CAPS id, then paste one wikilink line per surface here (see [[WEEKLY_MOC_GRAPH_RITUAL]]). Optionally mirror those three ids under an `evidence_nodes:` list in *this* file’s frontmatter.
+
+- **HeyReach:** create `knowledge_base/gtm_signals/heyreach/weekly-evidence-{{date:YYYY-MM-DD}}.md`, set YAML `name:` to the ALL_CAPS id, then paste the matching wikilink on this line.
+- **Linear:** `knowledge_base/execution/linear/weekly-shipped-{{date:YYYY-MM-DD}}.md` — same pattern.
+- **InboxKit:** `knowledge_base/gtm_signals/inboxkit/weekly-health-{{date:YYYY-MM-DD}}.md` — same pattern.
+
+---
+
+> **Purpose:** Decision document, not status report. Every claim links to a validated graph node (✅) or is flagged as emergent (🌱). The investor email is optional; **this file is the citation hub.**
 
 ---
 

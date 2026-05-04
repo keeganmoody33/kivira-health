@@ -13,6 +13,8 @@ tags:
 topics:
   - execution
 related_concepts:
+  - "[[WEEKLY_MOC_2026_05_04]]"
+  - "[[WEEKLY_MOC_GRAPH_RITUAL]]"
   - "[[GTM_30_60_90_EXECUTION_CADENCE]]"
   - "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
   - "[[OUTREACH_WAVE_STRUCTURE]]"

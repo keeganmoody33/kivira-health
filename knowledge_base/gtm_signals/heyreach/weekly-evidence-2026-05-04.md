@@ -14,6 +14,8 @@ tags:
 topics:
   - gtm-motion
 related_concepts:
+  - "[[WEEKLY_MOC_2026_05_04]]"
+  - "[[WEEKLY_MOC_GRAPH_RITUAL]]"
   - "[[wave1a_heyreach_copy]]"
   - "[[OUTREACH_WAVE_STRUCTURE]]"
   - "[[WAVE_1_SCORING_FRAMEWORK]]"
