@@ -182,17 +182,18 @@
   },
   "active": "8493fb4d6d28dc2e",
   "lastOpenFiles": [
-    "fixtures/wave1_runs/20260502T110336Z/Q1A_raw_urls.json",
-    "fixtures/wave1_runs/20260502T110336Z/Q1A_progress.jsonl",
-    "fixtures/wave1_runs/20260502T110336Z",
-    "scripts/__pycache__/spider_query_runner.cpython-313.pyc",
-    "scripts/check_credits.py",
-    "fixtures/wave1_runs/20260502T072751Z/Q1A_raw_urls.json",
-    "fixtures/wave1_runs/20260502T072751Z/Q1A_progress.jsonl",
-    "fixtures/wave1_runs/20260502T072751Z",
-    "fixtures/wave1_runs/20260502T072733Z",
-    "fixtures/wave1a_filtered_accounts.csv",
-    "fixtures/wave2_raw_accounts.csv",
+    "scripts/heyreach_create_and_load_test.py",
+    "fixtures/randomized_test_batch.csv",
+    "scripts/build_randomized_test_batch.py",
+    "fixtures/wave1_runs/20260503T170409Z/Q3C-TG_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3C-EB_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3C-CC_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3C-OO_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3B-TG_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3B-EB_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3B-CC_raw_urls.json",
+    "fixtures/wave1_runs/20260503T170409Z/Q3B-OO_raw_urls.json",
+    "fixtures/canonical_linkedin_queries.md",
     "_system/agent_workflows/heyreach_cli_load_runbook.md",
     "_system/GRAPH_INDEX.md",
     "_system/agent_workflows/wave1-small-batch-iteration.md",
@@ -216,7 +217,6 @@
     "knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md",
     "knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md",
     "knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md",
-    "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md",
-    "knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md"
+    "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md"
   ]
 }
