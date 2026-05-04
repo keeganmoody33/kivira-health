@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 13:16 UTC",
+  "generated_at": "2026-05-04 13:48 UTC",
   "nodes": [
     {
       "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -792,7 +792,8 @@
         "PATIENT_APP_SAFETY_ALERTS",
         "gtm-plan-v1",
         "messaging-pillars-v1",
-        "positioning-v1"
+        "positioning-v1",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -1836,7 +1837,8 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
         "2026-05-04-investor-email",
-        "WEEKLY_MOC_2026_05_04"
+        "WEEKLY_MOC_2026_05_04",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -2063,7 +2065,8 @@
         "COCM_OUTREACH_SEQUENCING",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
-        "WEEKLY_MOC_2026_05_04"
+        "WEEKLY_MOC_2026_05_04",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -2341,7 +2344,8 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "OUTREACH_WAVE_STRUCTURE",
-        "WEEKLY_MOC_GRAPH_RITUAL"
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "weekly-moc-template"
       ],
       "issues": []
     },
@@ -3079,8 +3083,9 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 156,
+      "body_lines": 203,
       "outbound": [
+        "NODE",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "PAIN_SEGMENT_MATRIX",
         "OUTREACH_BASELINE_METRICS",
@@ -3088,7 +3093,10 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "PILOT_SITE_ACQUISITION_PRIORITY",
-        "CONTEXT_OS_OPERATING_RHYTHM"
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "PRIMARY_CARE_WEDGE_ICP"
       ],
       "inbound": [],
       "issues": []
