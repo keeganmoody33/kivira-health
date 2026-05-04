@@ -156,3 +156,13 @@ Warmup subscriptions cache reported `warmup_day` **8**, `warmup_status` **`in_pr
 ---
 
 **Linked procedures:** wire `https://mcp.inboxkit.com/mcp` in Cursor for OAuth-backed MCP checks; repeat REST snapshots with `scripts/inboxkit_api_smoke.sh`; strategy context: [[TECH_STACK_OUTBOUND_INFRASTRUCTURE]], [[OUTREACH_BASELINE_METRICS]].
+
+## What This Proves (Strategy Links)
+
+This infrastructure health validates the following strategic nodes:
+
+- [[TECH_STACK_OUTBOUND_INFRASTRUCTURE]] — Deliverability layer healthy across 16 mailboxes
+- [[PRIMARY_CARE_WEDGE_ICP]] — Infrastructure ready for wedge execution (no blockers)
+- [[GTM_30_60_90_EXECUTION_CADENCE]] — 30-day infra milestone met (domains provisioned, warming)
+- [[WEEKLY_MOC_2026_05_04]] — Weekly hub citing this health data
+- [[WEEKLY_MOC_GRAPH_RITUAL]] — Ritual that produced this cohesion

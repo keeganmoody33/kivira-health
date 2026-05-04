@@ -55,3 +55,17 @@ source:
 Campaigns launched Monday May 4. Zero replies expected on Day 1. 104 connection requests active. Signal data will appear by Thursday May 8.
 
 Links: [[wave1a_heyreach_copy]], [[OUTREACH_WAVE_STRUCTURE]], [[WAVE_1_SCORING_FRAMEWORK]]
+
+## What This Proves (Strategy Links)
+
+This evidence validates the following strategic nodes:
+
+- [[OUTREACH_WAVE_STRUCTURE]] — 3 campaigns = Wave 1 structure exercised at scale
+- [[WAVE_1_SCORING_FRAMEWORK]] — 1,219 leads loaded and scored against pilot feasibility
+- [[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]] — 2A ACO / 1C Provider / Baseline personas targeted with correct title strings
+- [[BUYER_PERSONA_OPERATIONAL_BUYER]] — 359 leads routed to operational owner (2A ACO)
+- [[BUYER_PERSONA_CLINICAL_CHAMPION]] — 590 leads routed to clinical champion (1C Provider)
+- [[wave1a_heyreach_copy]] — Copy variants loaded into live campaigns
+- [[COCM_CONFIDENCE_GRADE_RULES]] — Grade-aware outreach ready for CoCM revenue claims
+- [[WEEKLY_MOC_2026_05_04]] — Weekly hub citing this evidence
+- [[WEEKLY_MOC_GRAPH_RITUAL]] — Ritual that produced this cohesion

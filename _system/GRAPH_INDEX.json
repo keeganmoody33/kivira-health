@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 13:01 UTC",
+  "generated_at": "2026-05-04 13:07 UTC",
   "nodes": [
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -86,6 +86,7 @@
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "BUYING_COMMITTEE_DYNAMICS",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "gtm-plan-v1"
       ],
       "issues": []
@@ -132,6 +133,7 @@
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "BUYING_COMMITTEE_DYNAMICS",
         "EDP_COCM_REVENUE_REALIZATION",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "gtm-plan-v1"
       ],
       "issues": []
@@ -724,6 +726,7 @@
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "GTM_MOTION_HYPOTHESIS",
@@ -1091,14 +1094,17 @@
       ],
       "source_type": "tool_export",
       "source_file": "",
-      "body_lines": 36,
+      "body_lines": 49,
       "outbound": [
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "OUTREACH_WAVE_STRUCTURE",
-        "FRESH_LIST_BUILD_RUNBOOK_1ABC"
+        "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "COCM_CONFIDENCE_GRADE_RULES",
+        "DEMO_FIRST_OUTBOUND_STRATEGY"
       ],
       "inbound": [
         "2026-05-04-investor-email",
@@ -1135,13 +1141,17 @@
       ],
       "source_type": "tool_export",
       "source_file": "",
-      "body_lines": 29,
+      "body_lines": 43,
       "outbound": [
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
-        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "COCM_CONFIDENCE_GRADE_RULES"
       ],
       "inbound": [
         "2026-05-04-investor-email",
@@ -1177,14 +1187,16 @@
       ],
       "source_type": "screenshot_capture",
       "source_file": "",
-      "body_lines": 123,
+      "body_lines": 133,
       "outbound": [
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "OUTREACH_BASELINE_METRICS",
         "OUTREACH_WAVE_STRUCTURE",
-        "WAVE_1_SCORING_FRAMEWORK"
+        "WAVE_1_SCORING_FRAMEWORK",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_30_60_90_EXECUTION_CADENCE"
       ],
       "inbound": [
         "2026-05-04-investor-email",
@@ -1358,6 +1370,8 @@
         "COCM_OUTREACH_SEQUENCING"
       ],
       "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "COCM_OUTREACH_SEQUENCING",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
@@ -1440,6 +1454,7 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ],
       "inbound": [
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
@@ -1630,6 +1645,7 @@
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_OUTREACH_SEQUENCING",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "OUTREACH_WAVE_STRUCTURE",
@@ -1735,6 +1751,7 @@
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "PAIN_SEGMENT_MATRIX",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "ACCOUNT_SCHEMA_EXTENDED",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
@@ -2016,6 +2033,7 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ],
       "inbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
