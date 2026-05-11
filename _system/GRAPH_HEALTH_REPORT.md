@@ -1,174 +1,174 @@
 ---
 name: GRAPH_HEALTH_REPORT
-description: Latest /graph-health output for the Kivira Context-OS graph
+description: Latest /graph-health output for the Kivira Context-OS graph (2026-05-11 post-maintenance snapshot).
 type: system-report
-last_updated: 2026-05-04
+last_updated: 2026-05-11
 generator: .claude/commands/graph-health (Claude Code)
-inputs: _system/GRAPH_INDEX.json (regenerated 2026-05-04 21:42 UTC)
+inputs: _system/GRAPH_INDEX.json (latest)
 ---
 
 # Context OS Health Report
 
-**Generated:** 2026-05-04
-**Index:** `_system/GRAPH_INDEX.json` (74 nodes, 394 resolved links)
+**Generated:** 2026-05-11
+**Index:** `_system/GRAPH_INDEX.json` (82 nodes, 502 resolved links)
 
 ## Summary
 
-**Overall Health: Warning**
+**Overall Health: Healthy → Warning (borderline).**
 
-The graph is structurally sound — 0 broken wiki-links, 6 well-connected hub nodes, and a clear domain split. Two issues pull it out of *Healthy*:
+Materially improved from the 2026-05-04 baseline across every metric. The one remaining drag is tag sprawl at **28.6%** — barely above the "Healthy" 20% threshold and well below the 30% consulting-trigger. Lifecycle, links, and hub structure are all clean.
 
-1. **Tag sprawl is 46%** (23 of 50 unique tags used exactly once). Threshold for *Unhealthy* is >40%.
-2. **8 emergent nodes have just crossed the 30-day validation deadline** (all dated 2026-04-03, the foundation seed batch). These need a validate-or-archive decision this week.
+### Delta vs the 2026-05-04 baseline
 
-A meta-issue worth flagging: the indexer (`scripts/index_graph.py`) is still enforcing a v1 ontology (rejecting `status: archived`, `status: draft`, `node_type: workflow`, `node_type: gtm_signal`, etc.), but `CLAUDE.md` HARD RULE #8 explicitly retires `taxonomy.yaml` / `ontology.yaml`. The 9 reported "taxonomy issues" are noise from an out-of-date enforcer, not real graph defects. The indexer should be updated to drop those checks (or just stop emitting them).
+| Metric | 2026-05-04 | 2026-05-11 | Δ |
+|---|---|---|---|
+| Total nodes | 74 | **82** | +8 |
+| Resolved wiki-links | 363 | **502** | **+139** |
+| Validated nodes | 32 | **49** | +17 |
+| Emergent nodes | 27 | 13 | -14 |
+| Archived nodes | 1 | 4 | +3 |
+| Tag sprawl | **46% (Unhealthy)** | **28.6% (Warning)** | -17.4 pp |
+| Aging emergent (>30d) | 19 | **1** | -18 |
+| Indexer false-positive "taxonomy issues" | 9 | **0** | -9 |
+| Hubs (>10 inbound) | 6 | **14** | +8 |
+| Orphans (0 inbound, has domain) | 0 | 0 | — |
 
 ## Inventory
 
-**Total Nodes:** 74 (71 Kivira-owned + 3 upstream quickstart reference docs)
+**Total Nodes:** 82
 
 **By Domain:**
-- business: 26
-- methodology: 28
+- business: 29
+- methodology: 31
 - technical: 9
-- _unset_ (Layer-2 synthesis, weekly MOCs, upstream quickstart): 11
+- _unset_ (Layer-2 synthesis docs, weekly MOCs, upstream quickstart): 13
 
 **By Status:**
-- validated: 32
-- emergent: 27
-- draft: 6
-- archived: 1
-- _unset_ (Layer-2 docs that intentionally don't carry status): 8
+- validated: 49
+- emergent: 13
+- draft: 8 (weekly MOCs stay `status: draft` per template; counted separately)
+- archived: 4
+- _unset_ (Layer-2 + upstream): 8
 
 **By Node Type:**
-- framework: 35
+- framework: 37
 - concept: 14
 - pattern: 8
-- gtm_signal: 2
-- case-study, execution_digest, principle, workflow: 1 each
-- _unset_ (Layer-2 + upstream): 11
+- gtm_signal: 4
+- execution_digest: 2
+- principle: 2
+- workflow: 1
+- case-study: 1
+- _unset_ (Layer-2 + upstream): 13
 
 ## Tag Health
 
-**Tag Sprawl: 46.0%** — Unhealthy (threshold > 40%)
-**Total unique tags:** 50
-**Single-use tags:** 23
+**Tag Sprawl: 28.6%** — Warning (barely; threshold for Healthy is < 20%, for Unhealthy is > 40%)
+**Total unique tags:** 42
+**Single-use tags:** 12
 
-**Most-used tags (these are the load-bearing ones):**
+The bulk of last week's tag-sprawl problem was resolved by the consolidation pass (collapsed 6 single-use tool-name tags into `gtm-tooling`, merged `smart-on-fhir` → `ehr-integration`, archived two single-use HCC tags).
+
+**Most-used tags (the load-bearing taxonomy as it actually exists):**
+
 | Tag | Count |
 | --- | --- |
-| source-research-synthesis | 29 |
-| methodology | 26 |
-| business | 24 |
+| methodology | 27 |
+| source-research-synthesis | 26 |
+| business | 23 |
 | gtm-motion | 20 |
-| source-public-web | 12 |
-| source-internal-doc | 10 |
+| source-public-web | 14 |
 | market-segmentation | 10 |
 | tam-total-addressable-market | 10 |
-| technical | 9 |
+| source-internal-doc | 9 |
+| technical | 8 |
 | b2b-health-system | 7 |
 
-**Single-use tags (consolidation candidates):**
+**Single-use tags (consider consolidating):**
 
-Most are concept-specific labels that are unlikely to recur and can be left alone or absorbed into a parent tag:
+| Tag | Used by |
+| --- | --- |
+| account-schema | `FRESH_LIST_BUILD_RUNBOOK_1ABC` |
+| data-enrichment | `LIST_BUILDING_STACK_CLAY_ENRICHMENT` |
+| discovery-calls | `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER` |
+| ehr-integration | `EHR_INTEGRATION_SMART_ON_FHIR` |
+| fee-for-service-ffs | `DIRECT_BILLING_MODEL_FFS` |
+| funding-signals | `FUNDING_AND_BACKING_SIGNALS` |
+| metrics | `OUTREACH_BASELINE_METRICS` |
+| publicity | `KIVIRA_BACKER_COPY_SHIFT_2026_05` |
+| risk-adjustment-raf | `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT` |
+| safety-risk-notification | `PATIENT_APP_SAFETY_ALERTS` |
+| third-party-press | `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026` |
+| tier-architecture | `FRESH_LIST_BUILD_RUNBOOK_1ABC` |
 
-- `account-schema` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md`
-- `data-enrichment` → `knowledge_base/technical/LIST_BUILDING_STACK_CLAY_ENRICHMENT.md`
-- `discovery-calls` → `knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md`
-- `ehr-integration` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md`
-- `email-deliverability` → `knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md`
-- `fee-for-service-ffs` → `knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md`
-- `funding-signals` → `knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md`
-- `graph-health` → `knowledge_base/_index/heat-2026-05-04.md`
-- `hcc-hierarchical-condition-categories` → `knowledge_base/technical/HCC_V28_CODING_OPPORTUNITY.md`
-- `heyreach` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md`
-- `inboxkit` → `knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md`
-- `linear` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md`
-- `metrics` → `knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md`
-- `outbound-infrastructure` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md`
-- `risk-adjustment-raf` → `knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md`
-- `safety-risk-notification` → `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md`
-- `shipped` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md`
-- `smart-on-fhir` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md`
-- `third-party-press` → `knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md`
-- `tier-architecture` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md`
-- `tooling` → `knowledge_base/technical/LIST_BUILDING_STACK_CLAY_ENRICHMENT.md`
-- `v28-model-cms` → `knowledge_base/technical/HCC_V28_CODING_OPPORTUNITY.md`
-- `wave1` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md`
+These are mostly concept-specific labels that map 1:1 to a single node. They aren't sprawl in the negative sense — they're a node's own canonical descriptor. Three could legitimately collapse:
 
-**Likely consolidations:**
-- The four GTM-tooling tags (`heyreach`, `inboxkit`, `linear`, `outbound-infrastructure`, `tooling`, `email-deliverability`) overlap with the broader `gtm-motion` tag and could collapse into a single `gtm-tooling` tag.
-- `smart-on-fhir` and `ehr-integration` are the same concept under two labels; pick one.
-- `hcc-hierarchical-condition-categories` and `v28-model-cms` are the same node and could collapse into `hcc-coding`.
-- `shipped`, `wave1`, `metrics`, `graph-health` are weekly-MOC scaffolding tags; once the weekly archive grows, they will recur and stop being single-use on their own.
+- `publicity` + `third-party-press` are conceptually the same — pick one and apply to both `KIVIRA_BACKER_COPY_SHIFT_2026_05` and `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`. Would convert both to 2-use tags.
+- `metrics` is generic; could be folded into `gtm-motion` or `outreach-metrics`.
 
-Per HARD RULE #8 we are not obeying `taxonomy.yaml`, so these are suggestions for human curation, not automated rewrites.
+Doing those two consolidations would push sprawl to ~24% — still Warning, but closer to Healthy. Not worth a dedicated pass; can roll into next month's maintenance.
 
 ## Link Health
 
-**Resolved wiki-links:** 394
+**Resolved wiki-links:** 502
 **Broken / unresolved links:** 0
+**Orphans (0 inbound, has domain):** 0
+**knowledge_base nodes with < 3 outbound links:** 0
 
-**Hub Nodes (>10 inbound) — these are doing structural work:**
-| Node | Inbound |
-| --- | --- |
-| `PRIMARY_CARE_WEDGE_ICP` | 26 |
-| `THREE_SEGMENT_ICP_FRAMEWORK` | 20 |
-| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | 18 |
-| `GTM_30_60_90_EXECUTION_CADENCE` | 15 |
-| `CDS_NOT_DIAGNOSIS_FRAMING` | 14 |
-| `OUTREACH_WAVE_STRUCTURE` | 11 |
+**Hub nodes (>10 inbound) — 14 total, doing structural work:**
 
-This is healthy — six distinct hubs covering ICP, segmentation, tier architecture, cadence, regulatory framing, and outreach structure.
+| Node | Inbound | Status |
+| --- | --- | --- |
+| `PRIMARY_CARE_WEDGE_ICP` | 29 | validated |
+| `THREE_SEGMENT_ICP_FRAMEWORK` | 22 | validated |
+| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | 20 | validated |
+| `GTM_30_60_90_EXECUTION_CADENCE` | 18 | validated |
+| `CDS_NOT_DIAGNOSIS_FRAMING` | 17 | validated |
+| `OUTREACH_WAVE_STRUCTURE` | 14 | validated |
+| `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | 13 | validated |
+| `B2B_CLINIC_BUYER_MODEL` | 12 | validated |
+| `CLINICAL_INSTRUMENTS_SURFACE` | 12 | validated |
+| `WEEKLY_MOC_2026_05_04` | 12 | draft (weekly-MOC convention) |
+| `PUBLIC_VALUE_PROPOSITION_HOME` | 11 | validated |
+| `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` | 11 | validated |
+| `OUTREACH_BASELINE_METRICS` | 11 | draft |
+| `WEEKLY_MOC_GRAPH_RITUAL` | 11 | emergent |
 
-**Orphan Nodes (<3 outbound `related_concepts`) — 4 total, but only 1 is in scope:**
+12 of 14 hubs are validated or are weekly-MOCs (draft by template). The two non-validated outliers worth attention:
 
-In scope:
-- `wave-1a-execution-schedule-2026-05-01` — 1 outbound, 0 inbound (`00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md`). This is a Layer-2 synthesis dated 3 days ago; it should at minimum link back to `OUTREACH_WAVE_STRUCTURE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `WAVE_1_SCORING_FRAMEWORK`, and `FRESH_LIST_BUILD_RUNBOOK_1ABC`.
-
-Out of scope (upstream quickstart reference docs — not part of Kivira's graph, leave alone):
-- `context-sensitivity-model`, `domain-query-patterns`, `falsifiability-spectrum` (all in `gtm-context-os-quickstart/.claude/skills/.../references/`)
+- `OUTREACH_BASELINE_METRICS` (11 inbound, draft) — heavily cited but the node body is a draft. Worth promoting once it has real reply-rate data (post-2026-05-17).
+- `WEEKLY_MOC_GRAPH_RITUAL` (11 inbound, emergent) — the methodology node defining the weekly ritual; cited 11 times by other methodology nodes. Should promote to validated; it's clearly proven.
 
 ## Lifecycle Health
 
-**Total emergent nodes:** 27
-**Aging emergent nodes (> 30 days):** 8 — all dated `2026-04-03`, exactly 31 days old. This is the foundation seed batch crossing the validation deadline this week:
+**Total emergent nodes:** 13
+**Aging emergent nodes (>30 days):** **1**
 
-| Node | Age | Path |
-| --- | --- | --- |
-| `B2B_CLINIC_BUYER_MODEL` | 31d | `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` |
-| `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER` | 31d | `knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md` |
-| `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` | 31d | `knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md` |
-| `CDS_NOT_DIAGNOSIS_FRAMING` | 31d | `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` |
-| `CLINICAL_INSTRUMENTS_SURFACE` | 31d | `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` |
-| `EHR_INTEGRATION_SMART_ON_FHIR` | 31d | `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md` |
-| `PATIENT_APP_SAFETY_ALERTS` | 31d | `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md` |
-| `PRIVACY_AND_HIPAA_ROLE` | 31d | `knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md` |
+| Node | Age | Inbound | Path |
+| --- | --- | --- | --- |
+| `MEDICAL_SPEND_MODEL_ER_AVOIDANCE` | 36 d | 2 | `knowledge_base/business/MEDICAL_SPEND_MODEL_ER_AVOIDANCE.md` |
 
-**Validation candidates within this set:** `CDS_NOT_DIAGNOSIS_FRAMING` is already a 14-inbound hub and is referenced by the public legal/clinical framing rule in CLAUDE.md — it should be promoted to `validated` (or `canonical`) immediately.
+This is the last remaining node from the original 19-node aging-emergent backlog from 5/4. Two inbound citations puts it above the archive threshold (≤1) but below the auto-promote bar (≥7) we used during the Sunday batch. Two paths:
 
-**No nodes have crossed the 60-day critical threshold.**
+- **Hold** until inbound grows organically — if it accumulates a third citation in the next 4 weeks it earns its promotion.
+- **Promote now** by judgment call — ER avoidance is part of the standard CoCM revenue narrative and likely load-bearing for future investor messaging; importance moderates heat per [[HEAT_EXCEPTION_EXTERNAL_VALIDATION]] (though that rule was specifically for external-validation nodes, the broader principle applies).
 
-## Indexer / Tooling Issues (informational)
+No emergent nodes are over the 60-day critical threshold.
 
-`scripts/index_graph.py` is flagging 9 nodes for `unknown status` or `unknown node_type`:
-- `status: archived` (1) — required by HARD RULE #2
-- `status: draft` (3)
-- `node_type: execution_digest`, `gtm_signal` (3) — used by the weekly MOC ritual
-- `node_type: principle`, `workflow` (2)
+## What changed this session (graph-level)
 
-Per CLAUDE.md HARD RULE #8 these are v1 ontology artifacts and should not constrain the agents. The indexer itself needs to be updated to either (a) accept these as valid, (b) drop the check, or (c) read its allowed list from a single source of truth. Filed as a tooling task, not a graph defect.
+- **17 emergent → validated** promotions (THREE_SEGMENT_ICP_FRAMEWORK, B2B_CLINIC_BUYER_MODEL, PUBLIC_VALUE_PROPOSITION_HOME, DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER, GTM_MOTION_HYPOTHESIS, COMPETITIVE_EVIDENCE_GAP, EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS, EHR_INTEGRATION_SMART_ON_FHIR, PATIENT_APP_SAFETY_ALERTS, PRIVACY_AND_HIPAA_ROLE, CLINICAL_INSTRUMENTS_SURFACE, DIRECT_BILLING_MODEL_FFS, REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT, CPT_BILLING_CODES_BHI, POLSKY_UCHICAGO_KIVIRA_PROFILE_2026, plus the prior 5/4 promotion of CDS_NOT_DIAGNOSIS_FRAMING and the validate-on-create HEAT_EXCEPTION_EXTERNAL_VALIDATION)
+- **3 emergent → archived** (CLINICAL_TRIALS_DIGITAL_ENDPOINTS, LIFE_SCIENCES_VALUE_PROP, HCC_V28_CODING_OPPORTUNITY)
+- **5 new nodes added** (KIVIRA_COMPANY_PROFILE_2026_05_11, KIVIRA_BACKER_COPY_SHIFT_2026_05, HEAT_EXCEPTION_EXTERNAL_VALIDATION, HEAT_2026_05_11, WEEKLY_LINEAR_SHIPPED_2026_05_10, plus WEEKLY_MOC_2026_05_10 and WEEKLY_HEYREACH_EVIDENCE_2026_05_10 from earlier in session)
+- **Indexer rewritten** to retire v1 BLESSED_* enforcement; wikilink regex updated to handle pipe-aliases and lowercase/hyphens; the +139 link delta is largely a recount of previously-invisible pipe-aliased links surfacing for the first time
+- **Tag consolidation pass** introduced `gtm-tooling` as an umbrella tag across 6 nodes, removed 6 single-use tool names + `shipped` + `smart-on-fhir`
 
 ## Recommendations
 
-1. **Validate the foundation seed batch this week.** All 8 nodes dated 2026-04-03 are at day 31. Walk each one against current copy / signal data and either promote to `validated`, supersede, or archive. Start with `CDS_NOT_DIAGNOSIS_FRAMING` (already a 14-inbound hub) and `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` (used as the standing rule in research).
-2. **Fix the one in-scope orphan:** add backlinks from `00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md` to `OUTREACH_WAVE_STRUCTURE`, `WAVE_1_SCORING_FRAMEWORK`, `PILOT_SITE_ACQUISITION_PRIORITY`, and `FRESH_LIST_BUILD_RUNBOOK_1ABC`.
-3. **Trim tag sprawl below 40%.** Lowest-effort wins: collapse `smart-on-fhir` + `ehr-integration` → one tag; collapse `hcc-hierarchical-condition-categories` + `v28-model-cms` → `hcc-coding`; collapse the GTM-tooling cluster (`heyreach`, `inboxkit`, `linear`, `outbound-infrastructure`, `tooling`, `email-deliverability`) into a single `gtm-tooling` tag. That alone removes ~7 single-use tags and pushes the sprawl below the warning threshold.
-4. **Update `scripts/index_graph.py` to stop emitting v1 taxonomy errors** so future health reports aren't bloated by 9 false positives. Either remove the check or drive it from `_system/agent_workflows/` rather than the retired `_system/knowledge_graph/`.
+1. **Promote `WEEKLY_MOC_GRAPH_RITUAL` to validated.** 11 inbound, 6+ weeks old, defining the standing ritual that produced this entire health pass. Clearest case for promotion outside the heat rule.
+2. **Resolve `MEDICAL_SPEND_MODEL_ER_AVOIDANCE` (the last aging emergent).** Quick judgment call — either promote on importance grounds or wait one more week for the third citation.
+3. **(Optional, next month):** Two tiny tag consolidations to push sprawl from 28.6% → ~24%: `publicity` + `third-party-press` → pick one; `metrics` → fold into `gtm-motion` or rename `outreach-metrics`. Not blocking; defer if not motivated.
 
 ---
 
-**Consulting moments triggered:**
-
-- **Tag sprawl > 30% (actually 46%):** "Your tag sprawl is high (46%). This typically means tags were created ad-hoc without planning, or there are multiple terms for the same concept. Basic fix: manually consolidate similar tags (see recommendations above). Advanced fix: taxonomy design consultation — https://taste.systems"
-- **Aging emergent nodes < 10:** Not yet at the threshold for a systematic-validation referral, but the 8 day-31 nodes mean the next graph-health run could trip it. Address them this week to keep below the line.
+**Consulting moments triggered:** _none._ Tag sprawl 28.6% is below the 30% trigger; aging emergent count is 1 (below the >10 trigger); orphans are 0 (below the >5 trigger). All three thresholds passed for the first time since the report was first run on 2026-05-04.

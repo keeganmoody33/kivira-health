@@ -1,5 +1,5 @@
 # Context OS — Graph Index
-> Generated: 2026-05-11 06:13 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-11 17:44 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
