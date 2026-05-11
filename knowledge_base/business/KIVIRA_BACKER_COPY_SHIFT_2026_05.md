@@ -3,7 +3,7 @@ name: KIVIRA_BACKER_COPY_SHIFT_2026_05
 description: Between 2026-04-06 and 2026-05-11, Kivira's public site footer changed from "Backed by Y Combinator & Antler" to "Backed by Antler & major healthcare systems" — flagged for context, mechanism unverified.
 domain: business
 node_type: gtm_signal
-status: emergent
+status: validated
 last_updated: 2026-05-11
 date: "2026-05-11"
 tags:
@@ -46,6 +46,14 @@ source:
 3. **Marketing-led positioning shift.** Kivira may be reframing publicly as health-system-aligned (sales optics) without a concrete new investor or partner. Marketing departments often update footer copy ahead of formal announcements.
 
 [INFERRED: Without an external announcement, press release, or LinkedIn post, we cannot disambiguate which of these is true. Likely a combination of #1 and #2.]
+
+## Resolution (2026-05-11)
+
+[VERIFIED via user attestation 2026-05-11: **The funder is Wellstar Catalyst** (Wellstar Health System's venture / innovation arm). Hypothesis #1 above (active health-system involvement) is confirmed — the public footer's *"major healthcare systems"* phrasing refers specifically to Wellstar via its Catalyst arm. Use this as the canonical social-proof line in outbound: *"Backed by Antler, funded by Wellstar Catalyst."*]
+
+- This is now the verified backer line for any new outbound copy and investor-facing communications.
+- The public footer still uses the generic *"major healthcare systems"* plural phrasing as of the 5/11 scrape; whether to name Wellstar specifically in public copy is a marketing decision separate from internal GTM use.
+- Mint a follow-up node `KIVIRA_HEALTH_SYSTEM_PARTNER_WELLSTAR_CATALYST` if/when the relationship needs deeper documentation (term sheet, strategic-investor classification, pilot involvement, etc.).
 
 ## Why it matters for GTM
 
