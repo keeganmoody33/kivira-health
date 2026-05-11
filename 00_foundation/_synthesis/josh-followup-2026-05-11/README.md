@@ -5,9 +5,12 @@
 
 ## What's in this folder
 
-1. **`accepts-subtier-mapped.md`** — All 58 LinkedIn connection accepts from our Wave 1 outreach (Baseline + OperationalOwner + ClinicalChampion campaigns), with each person's account classified into our sub-tier structure. The honest signal: **10 are in-scope buyer targets**, the other 48 are mostly GTM-tool vendors / recruiters / off-industry connectors that came through despite our list filters.
-2. **`followup-message-template.md`** — **Ten individualized messages**, one per in-scope accept. Each is tailored to the person's role, company, sub-tier, and how Kivira would land on their day-to-day. **Sender is Keegan** (the LinkedIn account the 58 accepts connected through is keeganmoody33@gmail.com — Josh sees this brief for context, but the messages go from Keegan's account). Uses real social proof (Antler + major healthcare systems + named medical-board members like Charles Nemeroff and Teddy Akiki). Offers two paths in every message: a call with them, OR a warm intro to the right person at their org if their week is packed.
-3. **`accepts-subtier-mapped.csv`** — The same accept list as raw spreadsheet data (one row per person, with sub-tier + confidence + notes columns).
+1. **`messages-josh-preview.md`** — **START HERE for the Josh preview.** Clean scannable file with all 10 messages in copy-ready form, one-line context per person (role + company + sub-tier), send order, and a note block about what's intentionally NOT in the drafts (no fabricated funding figure, no named healthcare-system backers).
+2. **`accepts-subtier-mapped.md`** — All 58 LinkedIn connection accepts from our Wave 1 outreach (Baseline + OperationalOwner + ClinicalChampion campaigns), with each person's account classified into our sub-tier structure. **10 in-scope**, 48 noise.
+3. **`followup-message-template.md`** — The detailed version of the 10 messages with researcher-side commentary (role / day-to-day / why-they-matter notes per person). Same 10 messages as the preview file, plus the rationale and tone-check guidance. Use this if you want context on a specific draft.
+4. **`accepts-subtier-mapped.csv`** — Raw spreadsheet data (one row per person, with sub-tier + confidence + notes columns).
+
+**Sender = Keegan** on all 10 messages — the Wave 1 campaigns all ran on keeganmoody33@gmail.com, so the follow-ups need to come from that same LinkedIn account. Josh sees this brief for context and review.
 
 ## How to use this
 
