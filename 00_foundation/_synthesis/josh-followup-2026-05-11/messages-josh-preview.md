@@ -1,12 +1,16 @@
-# Wave 1 follow-up messages — Josh preview (v2, tightened)
+# Wave 1 follow-up messages — Josh annotation pass (2026-05-11)
 
-Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-scope accepts. Each one trimmed to the point — lead with the domain so they can click through, name the actual funders (Antler + Wellstar Catalyst), then one sharp sentence tying the value-prop to their world, then the ask.
+10 individualized LinkedIn DMs going out from Keegan's account to the 10 in-scope accepts from Wave 1.
+
+**Quick read for Josh:** Each entry is one person. Three lines of context (Sub-tier · Role · Company), then the message in a blockquote, then a Josh field for any edits / objections / "swap this line." Mark **OK** if no changes. We'll roll your annotations in and send.
 
 ---
 
-## 1. Yarly Fassih-Nia — Sr Director Quality & Risk Adjustment @ WellMed Medical Management
+### #1 — Yarly Fassih-Nia
 
-**Sub-tier 1C** · RAF + HEDIS owner at UnitedHealth-affiliated MA-heavy VBC PCP group
+- **Sub-tier:** 1C — VBC PCP group
+- **Role:** Sr Director of Quality & Risk Adjustment, Greater Texas Employed
+- **Company:** WellMed Medical Management *(UnitedHealth-affiliated, MA-heavy)*
 
 > Hi Yarly,
 >
@@ -18,11 +22,16 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 2. Robert Lystrup, MD — Medical Director @ Arizona Community Physicians
+### #2 — Robert Lystrup, MD
 
-**Sub-tier 1A** · Clinical Champion at large multi-site PCP group
+- **Sub-tier:** 1A — mid-market multi-site PCP
+- **Role:** Medical Director
+- **Company:** Arizona Community Physicians *(large multi-site PCP group, Tucson)*
 
 > Hi Robert,
 >
@@ -34,11 +43,16 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 3. Chris Oltmans — Chief Population Health Officer @ NxtCare
+### #3 — Chris Oltmans
 
-**Sub-tier 2C** · CPHO at transitional / pop-health platform
+- **Sub-tier:** 2C — care management / pop-health platform
+- **Role:** Chief Population Health Officer
+- **Company:** NxtCare *(transitional / pop-health platform)*
 
 > Hi Chris,
 >
@@ -50,11 +64,16 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 4. Jeremy Wigginton, MD/MBA/FAAFP — Chief Medical Officer @ Capital Blue Cross
+### #4 — Jeremy Wigginton, MD/MBA/FAAFP
 
-**Sub-tier 3C** · CMO at regional payer
+- **Sub-tier:** 3C — regional payer
+- **Role:** Chief Medical Officer
+- **Company:** Capital Blue Cross *(regional BCBS payer)*
 
 > Hi Jeremy,
 >
@@ -66,11 +85,16 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 5. Christa Thomas, BSN/PA/RN/CCM/CPHQ — VP Clinical Compliance Operations @ Optum
+### #5 — Christa Thomas, BSN/PA/RN/CCM/CPHQ
 
-**Sub-tier 3C primary / 3A secondary** · VP operator at the largest org on the list
+- **Sub-tier:** 3C primary / 3A secondary — payer-provider hybrid
+- **Role:** VP Clinical Compliance Operations
+- **Company:** Optum *(payer + Optum Care provider arm)*
 
 > Hi Christa,
 >
@@ -82,11 +106,16 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 6. Jason Johnson, PMP — Director, Growth @ Privia Health
+### #6 — Jason Johnson, PMP
 
-**Sub-tier 1C** · partnership / channel angle at multi-state VBC PCP network
+- **Sub-tier:** 1C — VBC PCP network
+- **Role:** Director, Growth
+- **Company:** Privia Health *(multi-state VBC PCP network)*
 
 > Hi Jason,
 >
@@ -98,11 +127,17 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 7. Lynn LeCluyse — Patient Marketing @ Privia Health
+### #7 — Lynn LeCluyse
 
-**Sub-tier 1C** · patient-facing role · only send if already messaging Jason
+- **Sub-tier:** 1C — VBC PCP network (patient-facing)
+- **Role:** Patient Marketing
+- **Company:** Privia Health
+- **Note:** only send if already messaging Jason (#6) — avoid double-touching the org without reason
 
 > Hi Lynn,
 >
@@ -114,11 +149,17 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 8. Chris MacInnis — Chief VBC Strategy & Growth Officer @ Old Mission Wound Care
+### #8 — Chris MacInnis
 
-**Sub-tier 2C (borderline)** · VBC + post-acute care management background
+- **Sub-tier:** 2C (borderline) — VBC + post-acute care management
+- **Role:** Chief VBC Strategy & Growth Officer
+- **Company:** Old Mission Wound Care, PLLC
+- **Note:** Quick site check before sending (verify buyer-side vs. vendor-side of VBC)
 
 > Hi Chris,
 >
@@ -130,11 +171,17 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 9. Kumar Murukurthy, MD — Chief Clinical Officer @ Optimum Healthcare IT
+### #9 — Kumar Murukurthy, MD
 
-**Sub-tier 2B (borderline)** · services consultancy · possible channel partner
+- **Sub-tier:** 2B (borderline) — healthcare IT services consultancy
+- **Role:** Chief Clinical Officer
+- **Company:** Optimum Healthcare IT
+- **Note:** Possible channel partner; one curious touch worth it
 
 > Hi Kumar,
 >
@@ -146,11 +193,17 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## 10. Scott Quinn — Founder @ EVOS Health
+### #10 — Scott Quinn
 
-**Sub-tier 2B (borderline)** · small healthcare-adjacent startup · founder-to-founder
+- **Sub-tier:** 2B (borderline) — small healthcare-adjacent startup
+- **Role:** Founder
+- **Company:** EVOS Health
+- **Note:** Site check first (partner vs. competitor); founder-to-founder framing
 
 > Hi Scott,
 >
@@ -162,26 +215,27 @@ Ten individualized LinkedIn DMs going out from Keegan's account to the 10 in-sco
 >
 > — Keegan
 
+**Josh — any objections / edits?**
+_(write feedback here, or "OK")_
+
 ---
 
-## Send order (priority)
+## Send order (for reference)
 
 1. Yarly Fassih-Nia (WellMed) — top
 2. Robert Lystrup, MD (Arizona Community Physicians)
 3. Chris Oltmans (NxtCare)
 4. Jeremy Wigginton, MD (Capital Blue Cross)
 5. Christa Thomas (Optum)
-6. Jason Johnson (Privia)
-7. Lynn LeCluyse (Privia) — only if Jason gets a touch first
+6. Jason Johnson (Privia Health)
+7. Lynn LeCluyse (Privia Health) — only if #6 first
 8. Chris MacInnis (Old Mission Wound Care) — site check first
 9. Scott Quinn (EVOS Health) — site check first
 10. Kumar Murukurthy, MD (Optimum Healthcare IT) — site check first
 
-## Notes for Josh's preview
+## Working assumptions baked into every message
 
-- **Sender = Keegan**, since the 58 LinkedIn accepts all connected through Keegan's account.
-- **Lead is the domain** (Kivira.health) — they can click through to see what we do.
-- **Social proof = "Backed by Antler, funded by Wellstar Catalyst"** — short, named, verifiable.
-- **No medical-board name-dropping** in this version (kept the page short; the names are on the site if they go there).
-- **Two-path ask in every message:** a call with them OR a warm intro to the right person at their org.
-- Per the project's HARD RULE, **HeyReach sequence copy is not being edited** — these go out as direct DMs from Keegan's LinkedIn, not as a HeyReach campaign step.
+- **Sender:** Keegan (LinkedIn keeganmoody33). All 58 accepts connected through this account.
+- **Social proof:** "Backed by Antler, funded by Wellstar Catalyst." Verifiable; replaces the longer medical-board roll-call.
+- **Lead with the domain:** `Kivira.health` — clickable, lets them browse before deciding to reply.
+- **Two-path ask:** Every message offers either a call OR a warm intro to the right person at their org. The intro fallback is the unlock — many will pick option 2.

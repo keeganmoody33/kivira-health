@@ -50,13 +50,14 @@ Plus 5 secondary in-scope: Jason Johnson + Lynn LeCluyse at Privia Health (1C), 
 
 Wave 1's vendor/recruiter noise came mostly from the Baseline campaign's generic "healthcare growth" LinkedIn slices. Wave 2 list build will exclude vendor/tool-side titles ("Founder + AI startup," "GTM Engineer," "Sales Rep," "Lead Gen") before any campaign loads. Persona-targeted lists (1C VBC + 2A ACO) were materially cleaner — most of the 10 in-scope came from those two.
 
-## 5. Next Week (May 12–18)
+## 5. What's Next (May 12–18)
 
-1. Personal-touch follow-ups to the 10 in-scope accepts — each message individualized to their role + sub-tier (Yarly first; she's the cleanest match to buyer persona).
-2. Saturday May 17 — first persona-attributable reply-rate read on the unblocked campaigns.
-3. ACO blitz prep with Josh (manual email + phone, separate from LinkedIn — focus-list under construction this week).
-4. CRM evaluation by 5/15 (HubSpot vs Salesforce vs holding on "Book a Demo").
-5. Wave 2 list-filter rules drafted and committed before any new campaign loads.
+1. **Refining the list.** Wave 2 build excludes the vendor/tool-title noise that came through Wave 1's Baseline campaign — rules drafted, committed before any new campaign loads.
+2. **Ramping send volume.** The single-sender ~25/day cap is the actual throughput floor. Adding a second LinkedIn sender to the HeyReach stack this week roughly doubles daily reach without changing list quality; targeting 3 senders by end-of-week.
+3. **ACO blitz with Josh later this week.** Manual email + phone on a focused ACO list, running in parallel with the LinkedIn campaigns — separate channel, different rhythm. Two-hour blocks of synchronous time.
+4. **Personal follow-ups to the 10 in-scope accepts** — individualized messages going out from Keegan's LinkedIn this week (Yarly @ WellMed first; cleanest match to buyer persona).
+5. **Saturday May 17** — first persona-attributable reply-rate read on the unblocked campaigns.
+6. **CRM call by May 15** — HubSpot vs Salesforce vs holding on "Book a Demo."
 
 ## 6. Asks
 
