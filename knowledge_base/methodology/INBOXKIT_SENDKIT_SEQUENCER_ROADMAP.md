@@ -8,8 +8,8 @@ last_updated: 2026-05-04
 tags:
   - methodology
   - gtm-motion
-  - outbound-infrastructure
   - source-public-web
+  - gtm-tooling
 topics:
   - outbound-infrastructure
   - deliverability

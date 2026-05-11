@@ -8,7 +8,6 @@ last_updated: 2026-05-11
 tags:
   - technical
   - ehr-integration
-  - smart-on-fhir
   - source-public-web
 topics:
   - buyer-diligence

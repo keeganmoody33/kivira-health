@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 04:50 UTC",
+  "generated_at": "2026-05-11 04:59 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -193,7 +193,69 @@
         "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "WEEKLY_MOC_2026_05_04"
+      ]
+    },
+    {
+      "name": "HEAT_2026_05_11",
+      "rel_path": "knowledge_base/_index/heat-2026-05-11.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-11",
+      "description": "Week-of heat snapshot for the Context OS graph — Sunday-night maintenance pass (regex fix + lifecycle batch + tag consolidation) measured against the post-5/4 baseline.",
+      "tags": [
+        "context-os",
+        "graph-health",
+        "weekly-moc"
+      ],
+      "topics": [
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[HEAT_2026_05_04]]",
+        "[[WEEKLY_MOC_2026_05_10]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_10]]",
+        "[[GRAPH_HEALTH_REPORT]]"
+      ],
+      "source_type": "graph-exec",
+      "source_file": "_system/GRAPH_INDEX.md",
+      "body_lines": 112,
+      "outbound": [
+        "HEAT_2026_05_04",
+        "WEEKLY_MOC_2026_05_10",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "GRAPH_HEALTH_REPORT",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "B2B_CLINIC_BUYER_MODEL",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "GTM_MOTION_HYPOTHESIS",
+        "COMPETITIVE_EVIDENCE_GAP",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "EHR_INTEGRATION_SMART_ON_FHIR",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "DIRECT_BILLING_MODEL_FFS",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "CPT_BILLING_CODES_BHI",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "WEEKLY_MOC_2026_05_04",
+        "OUTREACH_BASELINE_METRICS"
+      ],
+      "inbound": [
+        "WEEKLY_MOC_2026_05_10"
       ]
     },
     {
@@ -228,6 +290,7 @@
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "DIRECT_BILLING_MODEL_FFS",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
@@ -277,6 +340,7 @@
         "CLINICAL_INSTRUMENTS_SURFACE"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "BUYING_COMMITTEE_DYNAMICS",
@@ -325,6 +389,7 @@
         "EDP_COCM_REVENUE_REALIZATION"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "BUYING_COMMITTEE_DYNAMICS",
@@ -458,6 +523,7 @@
         "CLINICAL_INSTRUMENTS_SURFACE"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "FUNDING_AND_BACKING_SIGNALS",
         "MARKET_ADOPTION_STAGE_2026",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
@@ -473,8 +539,8 @@
       "rel_path": "knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md",
       "domain": "business",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "ROI framework for immediate fee-for-service revenue via automated BHI billing codes",
       "tags": [
         "business",
@@ -503,6 +569,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "EDP_COCM_REVENUE_REALIZATION",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
@@ -798,6 +865,7 @@
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "HCC_V28_CODING_OPPORTUNITY",
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "B2B_CLINIC_BUYER_MODEL",
         "DIRECT_BILLING_MODEL_FFS",
         "FUNDING_AND_BACKING_SIGNALS",
@@ -856,6 +924,7 @@
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
         "FUNDING_AND_BACKING_SIGNALS",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -872,8 +941,8 @@
       "rel_path": "knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md",
       "domain": "business",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "ROI framework targeting Medicare Advantage plans via accurate HCC coding for behavioral health diagnoses",
       "tags": [
         "business",
@@ -904,6 +973,7 @@
       ],
       "inbound": [
         "HCC_V28_CODING_OPPORTUNITY",
+        "HEAT_2026_05_11",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
@@ -1123,6 +1193,7 @@
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "LIFE_SCIENCES_VALUE_PROP",
+        "HEAT_2026_05_11",
         "DIRECT_BILLING_MODEL_FFS",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "PAIN_SEGMENT_MATRIX",
@@ -1151,9 +1222,8 @@
       "last_updated": "",
       "description": "Linear issue throughput snapshot for week ending 2026-05-04 (LEC team)",
       "tags": [
-        "linear",
         "weekly-evidence",
-        "shipped"
+        "gtm-tooling"
       ],
       "topics": [
         "execution"
@@ -1201,7 +1271,8 @@
         "heyreach",
         "weekly-evidence",
         "outbound",
-        "wave1"
+        "wave1",
+        "gtm-tooling"
       ],
       "topics": [
         "gtm-motion"
@@ -1251,7 +1322,8 @@
         "heyreach",
         "weekly-evidence",
         "outbound",
-        "wave1"
+        "wave1",
+        "gtm-tooling"
       ],
       "topics": [
         "gtm-motion"
@@ -1282,6 +1354,7 @@
         "BUYER_PERSONA_CLINICAL_CHAMPION"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "WEEKLY_MOC_2026_05_10"
       ]
     },
@@ -1294,9 +1367,8 @@
       "last_updated": "",
       "description": "InboxKit mailbox and warmup status for 2026-05-04 (product UI screenshots + MCP config note; REST API appendix)",
       "tags": [
-        "inboxkit",
         "weekly-evidence",
-        "email-deliverability"
+        "gtm-tooling"
       ],
       "topics": [
         "outbound"
@@ -1612,6 +1684,7 @@
         "PATIENT_APP_SAFETY_ALERTS"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "B2B_CLINIC_BUYER_MODEL",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "GTM_MOTION_HYPOTHESIS",
@@ -1655,6 +1728,7 @@
         "WEEKLY_MOC_GRAPH_RITUAL"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "WEEKLY_MOC_GRAPH_RITUAL",
@@ -1760,6 +1834,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "DIRECT_BILLING_MODEL_FFS",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
@@ -1813,6 +1888,7 @@
         "CDS_NOT_DIAGNOSIS_FRAMING"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "BUYING_COMMITTEE_DYNAMICS",
         "MARKET_ADOPTION_STAGE_2026",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -1871,6 +1947,7 @@
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "ACCOUNT_SCHEMA_EXTENDED",
@@ -1900,8 +1977,8 @@
       "tags": [
         "methodology",
         "gtm-motion",
-        "outbound-infrastructure",
-        "source-public-web"
+        "source-public-web",
+        "gtm-tooling"
       ],
       "topics": [
         "outbound-infrastructure",
@@ -2044,6 +2121,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -2098,6 +2176,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "TAM_TIER_2_ACO_VBC_73M",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
@@ -2375,6 +2454,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
@@ -2513,6 +2593,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
@@ -2555,6 +2636,7 @@
       ],
       "inbound": [
         "HCC_V28_CODING_OPPORTUNITY",
+        "HEAT_2026_05_11",
         "B2B_CLINIC_BUYER_MODEL",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -2604,6 +2686,7 @@
       "inbound": [
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
         "LIFE_SCIENCES_VALUE_PROP",
+        "HEAT_2026_05_11",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "COMPETITIVE_EVIDENCE_GAP",
         "PUBLIC_VALUE_PROPOSITION_HOME",
@@ -2658,8 +2741,8 @@
       "rel_path": "knowledge_base/technical/CPT_BILLING_CODES_BHI.md",
       "domain": "technical",
       "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Key CPT codes for behavioral health integration billing that Kivira documentation supports",
       "tags": [
         "technical",
@@ -2686,6 +2769,7 @@
       ],
       "inbound": [
         "HCC_V28_CODING_OPPORTUNITY",
+        "HEAT_2026_05_11",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "DIRECT_BILLING_MODEL_FFS",
         "EDP_COCM_REVENUE_REALIZATION",
@@ -2703,7 +2787,6 @@
       "tags": [
         "technical",
         "ehr-integration",
-        "smart-on-fhir",
         "source-public-web"
       ],
       "topics": [
@@ -2724,6 +2807,7 @@
         "CLINICAL_INSTRUMENTS_SURFACE"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "B2B_CLINIC_BUYER_MODEL",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
@@ -2745,8 +2829,8 @@
         "technical",
         "outbound",
         "data-enrichment",
-        "tooling",
-        "source-research-synthesis"
+        "source-research-synthesis",
+        "gtm-tooling"
       ],
       "topics": [],
       "related_concepts": [
@@ -2803,6 +2887,7 @@
         "PRIMARY_CARE_WEDGE_ICP"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
         "CDS_NOT_DIAGNOSIS_FRAMING",
@@ -2843,6 +2928,7 @@
         "CDS_NOT_DIAGNOSIS_FRAMING"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "CDS_NOT_DIAGNOSIS_FRAMING",
         "EHR_INTEGRATION_SMART_ON_FHIR",
@@ -3056,6 +3142,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "HEAT_2026_05_11",
         "PRIMARY_CARE_WEDGE_ICP",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
@@ -3081,9 +3168,10 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 113,
+      "body_lines": 114,
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "HEAT_2026_05_11",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
@@ -3098,6 +3186,7 @@
         "PRIMARY_CARE_WEDGE_ICP"
       ],
       "inbound": [
+        "HEAT_2026_05_11",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10"
       ]
     },

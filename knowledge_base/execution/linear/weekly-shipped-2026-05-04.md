@@ -7,9 +7,8 @@ status: emergent
 date: "2026-05-04"
 evidence_date: 2026-05-04
 tags:
-  - linear
   - weekly-evidence
-  - shipped
+  - gtm-tooling
 topics:
   - execution
 related_concepts:

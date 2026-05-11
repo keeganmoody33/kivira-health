@@ -3,8 +3,8 @@ name: REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT
 description: ROI framework targeting Medicare Advantage plans via accurate HCC coding for behavioral health diagnoses
 domain: business
 node_type: framework
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - risk-adjustment-raf

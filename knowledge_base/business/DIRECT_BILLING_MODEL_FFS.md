@@ -3,8 +3,8 @@ name: DIRECT_BILLING_MODEL_FFS
 description: ROI framework for immediate fee-for-service revenue via automated BHI billing codes
 domain: business
 node_type: framework
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - fee-for-service-ffs

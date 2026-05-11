@@ -8,8 +8,8 @@ tags:
   - technical
   - outbound
   - data-enrichment
-  - tooling
   - source-research-synthesis
+  - gtm-tooling
 related_concepts:
   - "[[COCM_ACCOUNT_PROFILE_SCHEMA]]"
   - "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"

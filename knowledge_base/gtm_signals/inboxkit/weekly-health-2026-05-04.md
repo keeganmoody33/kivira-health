@@ -7,9 +7,8 @@ status: emergent
 date: "2026-05-04"
 evidence_date: 2026-05-04
 tags:
-  - inboxkit
   - weekly-evidence
-  - email-deliverability
+  - gtm-tooling
 topics:
   - outbound
 related_concepts:

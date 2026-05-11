@@ -3,8 +3,8 @@ name: CPT_BILLING_CODES_BHI
 description: Key CPT codes for behavioral health integration billing that Kivira documentation supports
 domain: technical
 node_type: concept
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - technical
   - cpt-billing-codes
