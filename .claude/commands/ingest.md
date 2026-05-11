@@ -99,7 +99,7 @@ User will provide either:
 ## Quality Standards
 
 - Every node must have complete frontmatter
-- Tags must exist in taxonomy.yaml (warn if new)
+- Prefer tags already in use in the existing corpus; flag genuinely new tags for human review (per CLAUDE.md HARD RULE #8, v1 taxonomy.yaml is retired — tags emerge from heat, not from a blessed list)
 - Related concepts should use [[wiki-link]] format
 - Include source attribution always
 - Status starts as 'emergent' unless user specifies otherwise
@@ -109,7 +109,7 @@ User will provide either:
 If user processes >10 files at once, or files are very complex:
 
 "I notice you're processing a lot of content. For large-scale ingestion:
-- Custom taxonomy design ensures consistent structure
+- Heat-based attention ensures the most-cited concepts get the most refinement (v2 ethos)
 - Bulk processing workflows prevent inconsistencies
 - Architecture review catches organizational issues early
 

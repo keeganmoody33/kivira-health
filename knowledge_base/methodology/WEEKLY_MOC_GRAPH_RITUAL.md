@@ -38,7 +38,7 @@ The weekly update to Josh or investors is **not** a standalone memo written *abo
 ## Rules that match automation
 
 - Claims in the MOC body should **link** to nodes that carry `source:` provenance, or be explicitly flagged `[UNVERIFIABLE]` (per [[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]] and CLAUDE.md).
-- Prefer **verbatim** weekly-evidence wikilinks in the Markdown body (node id pattern like `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`). **Display aliases** (Obsidian pipe syntax) are **not** picked up by the Context OS indexer.
+- Prefer **verbatim** weekly-evidence wikilinks in the Markdown body (node id pattern like `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`). **Display aliases** (Obsidian pipe syntax like `[[NAME|alias]]`) are also indexed — the indexer captures the first segment before `|` and resolves it against the node `name:` map.
 - Optional sibling `YYYY-MM-DD-investor-email.md` remains non-authoritative for new numbers—numbers flow **from evidence nodes → MOC → email**.
 
 ## Cross-links from evidence back to the MOC

@@ -33,11 +33,10 @@ KIVIRA.HEALTH/
 │   ├── messaging/
 │   └── _synthesis/
 ├── _system/
-│   ├── knowledge_graph/
-│   │   ├── taxonomy.yaml
-│   │   └── ontology.yaml
+│   ├── _archive/v1-ceremony/          # Retired v1 taxonomy/ontology (historical only)
 │   ├── agent_workflows/               # Canonical workflow specs for repo-local automations
-│   ├── GRAPH_HEALTH_REPORT.md      # Latest health check output
+│   ├── GRAPH_INDEX.md / .json         # Generated fast-lookup index (run `python scripts/index_graph.py`)
+│   ├── GRAPH_HEALTH_REPORT.md         # Latest /graph-health output
 │   └── CONTEXT_OS_OPERATING_RHYTHM.md
 ├── .claude/                           # Repo-local Claude skills that wrap canonical workflows
 ├── tam_builder/                       # Python package for TAM builder + CoCM wedge
@@ -58,7 +57,7 @@ KIVIRA.HEALTH/
 - **Path Map**: every node name → exact file path (one line, grep-able)
 - **Node Registry**: domain / type / status / description / inbound-link count
 - **Backlink Index**: for any node, what links to it and what it links to
-- **Orphans, Taxonomy Issues, Tag Frequency** in one read
+- **Orphans, low-outbound nodes, Tag Frequency** in one read
 - **Agent Workflows and Skills** indexed
 
 Refresh the index any time with:

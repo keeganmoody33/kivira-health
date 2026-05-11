@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 03:58 UTC",
+  "generated_at": "2026-05-11 04:47 UTC",
   "nodes": [
     {
       "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -37,9 +37,6 @@
       ],
       "inbound": [
         "HEAT_2026_05_04"
-      ],
-      "issues": [
-        "unknown status 'archived'"
       ]
     },
     {
@@ -81,12 +78,12 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "PRIMARY_CARE_WEDGE_ICP",
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "wave1a_heyreach_copy",
         "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [
         "WEEKLY_MOC_2026_05_04"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "B2B_CLINIC_BUYER_MODEL",
@@ -129,8 +126,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "BUYER_PERSONA_CLINICAL_CHAMPION",
@@ -175,9 +171,10 @@
         "BUYING_COMMITTEE_DYNAMICS",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
-        "gtm-plan-v1"
-      ],
-      "issues": []
+        "gtm-plan-v1",
+        "WEEKLY_MOC_2026_05_10",
+        "weekly-moc-template"
+      ]
     },
     {
       "name": "BUYER_PERSONA_OPERATIONAL_BUYER",
@@ -223,9 +220,10 @@
         "EDP_COCM_REVENUE_REALIZATION",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
-        "gtm-plan-v1"
-      ],
-      "issues": []
+        "gtm-plan-v1",
+        "WEEKLY_MOC_2026_05_10",
+        "weekly-moc-template"
+      ]
     },
     {
       "name": "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
@@ -268,9 +266,9 @@
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "BUYING_COMMITTEE_DYNAMICS",
-        "gtm-plan-v1"
-      ],
-      "issues": []
+        "gtm-plan-v1",
+        "weekly-moc-template"
+      ]
     },
     {
       "name": "BUYING_COMMITTEE_DYNAMICS",
@@ -316,8 +314,7 @@
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "gtm-plan-v1",
         "wave1a_heyreach_copy"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -353,8 +350,7 @@
       ],
       "inbound": [
         "LIFE_SCIENCES_VALUE_PROP"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "COMPETITIVE_EVIDENCE_GAP",
@@ -395,8 +391,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "DIRECT_BILLING_MODEL_FFS",
@@ -438,8 +433,7 @@
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
         "CPT_BILLING_CODES_BHI"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "EDP_COCM_REVENUE_REALIZATION",
@@ -482,8 +476,7 @@
         "MARKET_ADOPTION_STAGE_2026",
         "PAIN_SEGMENT_MATRIX",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "FUNDING_AND_BACKING_SIGNALS",
@@ -521,8 +514,7 @@
       "inbound": [
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "LIFE_SCIENCES_VALUE_PROP",
@@ -559,8 +551,7 @@
       ],
       "inbound": [
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "MARKET_ADOPTION_STAGE_2026",
@@ -599,8 +590,7 @@
       "inbound": [
         "PAIN_SEGMENT_MATRIX",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
@@ -638,8 +628,7 @@
       "inbound": [
         "TAM_TIER_3_ENTERPRISE_92M",
         "THREE_SEGMENT_ICP_FRAMEWORK"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PAIN_SEGMENT_MATRIX",
@@ -684,8 +673,7 @@
         "OUTREACH_BASELINE_METRICS",
         "gtm-plan-v1",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -728,8 +716,7 @@
         "FUNDING_AND_BACKING_SIGNALS",
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "GTM_MOTION_HYPOTHESIS"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PRIMARY_CARE_WEDGE_ICP",
@@ -797,8 +784,7 @@
         "positioning-v1",
         "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PUBLIC_VALUE_PROPOSITION_HOME",
@@ -841,8 +827,7 @@
         "CLINICAL_INSTRUMENTS_SURFACE",
         "gtm-plan-v1",
         "messaging-pillars-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
@@ -885,8 +870,7 @@
         "TAM_TIER_3_ENTERPRISE_92M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "HCC_V28_CODING_OPPORTUNITY"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TAM_COMPLETE_698M_ALL_TIERS",
@@ -931,8 +915,7 @@
         "TAM_TIER_3_ENTERPRISE_92M",
         "OUTREACH_WAVE_STRUCTURE",
         "TAM_DEDUP_METHODOLOGY"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TAM_TIER_1_PROVIDER_534M",
@@ -976,8 +959,7 @@
         "OUTREACH_WAVE_STRUCTURE",
         "TAM_DEDUP_METHODOLOGY",
         "WAVE_1_SCORING_FRAMEWORK"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TAM_TIER_2_ACO_VBC_73M",
@@ -1017,8 +999,7 @@
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "TAM_COMPLETE_698M_ALL_TIERS",
         "OUTREACH_WAVE_STRUCTURE"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TAM_TIER_3_ENTERPRISE_92M",
@@ -1059,8 +1040,7 @@
       "inbound": [
         "TAM_COMPLETE_698M_ALL_TIERS",
         "TAM_DEDUP_METHODOLOGY"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "THREE_SEGMENT_ICP_FRAMEWORK",
@@ -1122,8 +1102,7 @@
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "TAM_DEDUP_METHODOLOGY",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "WEEKLY_LINEAR_SHIPPED_2026_05_04",
@@ -1170,9 +1149,6 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
-      ],
-      "issues": [
-        "unknown node_type 'execution_digest'"
       ]
     },
     {
@@ -1206,6 +1182,7 @@
       "outbound": [
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "wave1a_heyreach_copy",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -1222,9 +1199,6 @@
         "OUTREACH_WAVE_STRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
-      ],
-      "issues": [
-        "unknown node_type 'gtm_signal'"
       ]
     },
     {
@@ -1262,6 +1236,7 @@
         "WEEKLY_MOC_2026_05_10",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "wave1a_heyreach_copy",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -1270,9 +1245,6 @@
       ],
       "inbound": [
         "WEEKLY_MOC_2026_05_10"
-      ],
-      "issues": [
-        "unknown node_type 'gtm_signal'"
       ]
     },
     {
@@ -1318,9 +1290,6 @@
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_2026_05_10"
-      ],
-      "issues": [
-        "unknown node_type 'gtm_signal'"
       ]
     },
     {
@@ -1364,8 +1333,7 @@
         "SUBTIER_EXCLUSION_RULES",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
@@ -1406,8 +1374,7 @@
       ],
       "inbound": [
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "COCM_ACCOUNT_PROFILE_SCHEMA",
@@ -1449,8 +1416,7 @@
         "ORG_TYPE_BUYER_MAP_COCM",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "COCM_CONFIDENCE_GRADE_RULES",
@@ -1493,8 +1459,7 @@
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
         "wave1a_heyreach_copy"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "COCM_OUTREACH_SEQUENCING",
@@ -1537,8 +1502,7 @@
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "ORG_TYPE_BUYER_MAP_COCM",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "DEMO_FIRST_OUTBOUND_STRATEGY",
@@ -1575,10 +1539,6 @@
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
-      ],
-      "issues": [
-        "unknown node_type 'principle'",
-        "unknown status 'draft'"
       ]
     },
     {
@@ -1622,8 +1582,7 @@
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_2026_05_10"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
@@ -1665,8 +1624,7 @@
         "messaging-pillars-v1",
         "positioning-v1",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "FRESH_LIST_BUILD_RUNBOOK_1ABC",
@@ -1715,8 +1673,7 @@
         "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_MOC_2026_05_04"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "GTM_30_60_90_EXECUTION_CADENCE",
@@ -1780,8 +1737,7 @@
         "WEEKLY_MOC_GRAPH_RITUAL",
         "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "GTM_MOTION_HYPOTHESIS",
@@ -1827,8 +1783,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "ORG_TYPE_BUYER_MAP_COCM",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -1894,8 +1849,7 @@
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
@@ -1934,8 +1888,7 @@
       ],
       "inbound": [
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "MESSAGING_HYPOTHESIS_DISCIPLINE",
@@ -1978,8 +1931,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "ORG_TYPE_BUYER_MAP_COCM",
@@ -2019,8 +1971,7 @@
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "COCM_OUTREACH_SEQUENCING",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "OUTREACH_BASELINE_METRICS",
@@ -2064,9 +2015,6 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
-      ],
-      "issues": [
-        "unknown status 'draft'"
       ]
     },
     {
@@ -2124,8 +2072,7 @@
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
@@ -2177,8 +2124,7 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
         "wave1a_heyreach_copy"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PILOT_SITE_ACQUISITION_PRIORITY",
@@ -2221,8 +2167,7 @@
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "wave-1a-execution-schedule-2026-05-01",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PUBLIC_DATA_SOURCES_TAM",
@@ -2263,8 +2208,7 @@
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "SUBTIER_EXCLUSION_RULES",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "SUBTIER_EXCLUSION_RULES",
@@ -2305,8 +2249,7 @@
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "PUBLIC_DATA_SOURCES_TAM",
         "gtm-plan-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TAM_DEDUP_METHODOLOGY",
@@ -2347,8 +2290,7 @@
         "ACCOUNT_SCHEMA_EXTENDED",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "PUBLIC_DATA_SOURCES_TAM"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -2405,8 +2347,7 @@
         "WEEKLY_MOC_GRAPH_RITUAL",
         "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "THIRTY_DAY_OFFICE_MANAGER_TARGET",
@@ -2447,8 +2388,7 @@
         "GTM_30_60_90_EXECUTION_CADENCE",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "WAVE_1_SCORING_FRAMEWORK",
@@ -2497,8 +2437,7 @@
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "WEEKLY_MOC_GRAPH_RITUAL",
@@ -2531,7 +2470,8 @@
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "OUTREACH_BASELINE_METRICS",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
-        "GTM_30_60_90_EXECUTION_CADENCE"
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "NAME"
       ],
       "inbound": [
         "HEAT_2026_05_04",
@@ -2543,8 +2483,7 @@
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "CDS_NOT_DIAGNOSIS_FRAMING",
@@ -2592,8 +2531,7 @@
         "messaging-pillars-v1",
         "positioning-v1",
         "WEEKLY_MOC_2026_05_10"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "CLINICAL_INSTRUMENTS_SURFACE",
@@ -2636,8 +2574,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
@@ -2676,8 +2613,7 @@
       "inbound": [
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "COCM_CONFIDENCE_GRADE_RULES"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "CPT_BILLING_CODES_BHI",
@@ -2716,8 +2652,7 @@
         "EDP_COCM_REVENUE_REALIZATION",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
         "HCC_V28_CODING_OPPORTUNITY"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "EHR_INTEGRATION_SMART_ON_FHIR",
@@ -2758,8 +2693,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "HCC_V28_CODING_OPPORTUNITY",
@@ -2797,8 +2731,7 @@
       ],
       "inbound": [
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
@@ -2836,10 +2769,6 @@
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
-      ],
-      "issues": [
-        "unknown node_type 'workflow'",
-        "unknown status 'draft'"
       ]
     },
     {
@@ -2881,8 +2810,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "PRIVACY_AND_HIPAA_ROLE",
@@ -2922,8 +2850,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "gtm-plan-v1",
@@ -2940,6 +2867,7 @@
       "source_file": "",
       "body_lines": 94,
       "outbound": [
+        "wiki-links",
         "MARKET_ADOPTION_STAGE_2026",
         "EDP_COCM_REVENUE_REALIZATION",
         "PRIMARY_CARE_WEDGE_ICP",
@@ -2963,10 +2891,10 @@
         "SUBTIER_EXCLUSION_RULES",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "PUBLIC_DATA_SOURCES_TAM",
-        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "links"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "wave-1a-execution-schedule-2026-05-01",
@@ -2986,8 +2914,9 @@
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "WEEKLY_MOC_2026_05_04"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": [
+        "WEEKLY_MOC_2026_05_04"
+      ]
     },
     {
       "name": "messaging-pillars-v1",
@@ -3015,8 +2944,7 @@
         "COMPETITIVE_EVIDENCE_GAP",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "wave1a_heyreach_copy",
@@ -3037,8 +2965,14 @@
         "BUYING_COMMITTEE_DYNAMICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": [
+        "HEAT_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_2026_05_10",
+        "weekly-moc-template"
+      ]
     },
     {
       "name": "positioning-v1",
@@ -3066,8 +3000,7 @@
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "PRIVACY_AND_HIPAA_ROLE"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "2026-05-04-investor-email",
@@ -3090,8 +3023,7 @@
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "WEEKLY_MOC_2026_05_04",
@@ -3113,8 +3045,10 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "HEAT_2026_05_04",
+        "wave1a_heyreach_copy",
         "OUTREACH_WAVE_STRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
+        "wave-1a-execution-schedule-2026-05-01",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
@@ -3132,8 +3066,7 @@
         "OUTREACH_WAVE_STRUCTURE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "wave-1a-execution-schedule-2026-05-01"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "WEEKLY_MOC_2026_05_10",
@@ -3152,19 +3085,21 @@
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
         "GRAPH_HEALTH_REPORT",
         "CDS_NOT_DIAGNOSIS_FRAMING",
         "GTM_30_60_90_EXECUTION_CADENCE",
+        "wave1a_heyreach_copy",
         "OUTREACH_WAVE_STRUCTURE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "PRIMARY_CARE_WEDGE_ICP"
       ],
       "inbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10"
-      ],
-      "issues": []
+      ]
     },
     {
       "name": "weekly-moc-template",
@@ -3183,9 +3118,14 @@
       "outbound": [
         "NODE",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "wiki-links",
         "PAIN_SEGMENT_MATRIX",
         "OUTREACH_BASELINE_METRICS",
         "WAVE_1_SCORING_FRAMEWORK",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "wave1a_heyreach_copy",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "PILOT_SITE_ACQUISITION_PRIORITY",
@@ -3194,8 +3134,7 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "PRIMARY_CARE_WEDGE_ICP"
       ],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "context-sensitivity-model",
@@ -3212,8 +3151,7 @@
       "source_file": "",
       "body_lines": 253,
       "outbound": [],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     },
     {
       "name": "domain-query-patterns",
@@ -3229,9 +3167,15 @@
       "source_type": "",
       "source_file": "",
       "body_lines": 291,
-      "outbound": [],
-      "inbound": [],
-      "issues": []
+      "outbound": [
+        "wiki-links",
+        "data-model",
+        "context-engineering",
+        "node-name",
+        "spec-file-1",
+        "spec-file-2"
+      ],
+      "inbound": []
     },
     {
       "name": "falsifiability-spectrum",
@@ -3248,8 +3192,7 @@
       "source_file": "",
       "body_lines": 337,
       "outbound": [],
-      "inbound": [],
-      "issues": []
+      "inbound": []
     }
   ],
   "workflows": [

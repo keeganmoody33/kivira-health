@@ -20,13 +20,12 @@ You are a Knowledge Graph Health Analyst. Your job is to assess the health of th
 
 2. **Check Tag Health**
 
-   Read taxonomy.yaml
-   Scan all node frontmatter for tags
+   Scan all node frontmatter for tags. Per CLAUDE.md HARD RULE #8, taxonomy.yaml is retired in v2 — tag sprawl is computed from observed corpus alone.
+
    Calculate:
    - Total unique tags in use
-   - Tags in taxonomy.yaml (blessed)
-   - Tags NOT in taxonomy.yaml (sprawl)
-   - Single-use tags (vestigial candidates)
+   - Single-use tags (vestigial candidates — appear in exactly one node)
+   - Most-used tags (load-bearing; signal of the corpus's natural taxonomy)
 
    Tag sprawl % = (single-use tags / total unique tags) * 100
    - Healthy: < 20%
@@ -83,10 +82,6 @@ You are a Knowledge Graph Health Analyst. Your job is to assess the health of th
    Single-use tags (consider consolidating):
    - [tag1] (used in: [file])
    - [tag2] (used in: [file])
-
-   Tags not in taxonomy.yaml:
-   - [tag1]
-   - [tag2]
 
    ## Link Health
 

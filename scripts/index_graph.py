@@ -50,14 +50,16 @@ SCAN_DIRS = [
 SKIP_DIRS = {".venv", ".git", "__pycache__", ".pytest_cache", ".obsidian"}
 
 # ---------------------------------------------------------------------------
-# Taxonomy (mirrors _system/knowledge_graph/taxonomy.yaml)
+# Wikilink parser
 # ---------------------------------------------------------------------------
+#
+# Standard Obsidian wikilink syntax: [[name]] or [[name|display]]. Captures
+# the first segment; display alias after `|` is consumed and discarded.
+# Names that don't resolve against the node name_map are silently dropped.
+# Per CLAUDE.md HARD RULE #8, v1 taxonomy.yaml / ontology.yaml are retired —
+# v2 lets the corpus define its own categories via heat and inbound links.
 
-BLESSED_DOMAINS = {"technical", "business", "methodology", "emergent"}
-BLESSED_NODE_TYPES = {"concept", "pattern", "case-study", "framework"}
-BLESSED_STATUS = {"emergent", "validated", "canonical"}
-
-WIKILINK_RE = re.compile(r"\[\[([A-Z_0-9]+)\]\]")
+WIKILINK_RE = re.compile(r"\[\[([^\]\\|]+?)(?:\\?\|[^\]]*)?\]\]")
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
 
@@ -86,7 +88,6 @@ class Node:
     # populated after full scan:
     outbound: list[str] = field(default_factory=list)   # node names this links to
     inbound: list[str] = field(default_factory=list)    # node names that link here
-    issues: list[str] = field(default_factory=list)     # taxonomy problems
 
 
 @dataclass
@@ -281,41 +282,6 @@ def resolve_links(nodes: list[Node]) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Taxonomy check
-# ---------------------------------------------------------------------------
-
-def check_taxonomy(nodes: list[Node]) -> None:
-    for n in nodes:
-        # Only enforce taxonomy on proper knowledge_base nodes
-        if "knowledge_base" not in n.rel_path:
-            continue
-        if not n.domain:
-            n.issues.append("missing domain")
-        elif n.domain not in BLESSED_DOMAINS:
-            n.issues.append(f"unknown domain '{n.domain}'")
-
-        if not n.node_type:
-            n.issues.append("missing node_type")
-        elif n.node_type not in BLESSED_NODE_TYPES:
-            n.issues.append(f"unknown node_type '{n.node_type}'")
-
-        if not n.status:
-            n.issues.append("missing status")
-        elif n.status not in BLESSED_STATUS:
-            n.issues.append(f"unknown status '{n.status}'")
-
-        if not n.description:
-            n.issues.append("missing description")
-
-        rc_count = len(n.related_concepts)
-        if n.domain and rc_count < 3:
-            n.issues.append(f"only {rc_count} related_concepts (min 3)")
-
-        if not n.source_type and not n.source_file:
-            n.issues.append("missing source")
-
-
-# ---------------------------------------------------------------------------
 # Render markdown index
 # ---------------------------------------------------------------------------
 
@@ -343,7 +309,10 @@ def render_index(
 
     total_links = sum(len(n.outbound) for n in nodes)
     orphans = [n for n in nodes if not n.inbound and n.domain]  # only real nodes
-    issues_nodes = [n for n in nodes if n.issues]
+    low_outbound = [
+        n for n in nodes
+        if "knowledge_base" in n.rel_path and len(n.outbound) < 3
+    ]
 
     # Tag frequency
     tag_freq: dict[str, int] = defaultdict(int)
@@ -367,7 +336,7 @@ def render_index(
         f"| Skills | {len(skills)} |",
         f"| Total wiki-links mapped | {total_links} |",
         f"| Orphan nodes (0 inbound) | {len(orphans)} |",
-        f"| Taxonomy issues | {sum(len(n.issues) for n in nodes)} across {len(issues_nodes)} nodes |",
+        f"| knowledge_base nodes with <3 outbound | {len(low_outbound)} |",
         "",
         "**Domains:**",
     ]
@@ -444,20 +413,23 @@ def render_index(
         lines.append("_None. All nodes have at least one inbound link._ ✅")
     lines.append("")
 
-    # ── Taxonomy Issues ─────────────────────────────────────────────────────────
+    # ── Low Outbound (informational) ────────────────────────────────────────────
     lines += [
         "---",
-        "## Taxonomy Issues",
+        "## knowledge_base Nodes with <3 Outbound Links (informational)",
+        "",
+        "> Per Context OS v2, this is *not* an issue — atoms can have few outbound",
+        "> connections when newly created. Listed here as a signal for follow-up",
+        "> linking, not a blocker.",
         "",
     ]
-    if issues_nodes:
-        lines.append("| Node | Path | Issues |")
-        lines.append("|------|------|--------|")
-        for n in issues_nodes:
-            issues_str = "; ".join(n.issues)
-            lines.append(f"| `{n.name}` | `{n.rel_path}` | {issues_str} |")
+    if low_outbound:
+        for n in sorted(low_outbound, key=lambda x: (len(x.outbound), x.name)):
+            lines.append(
+                f"- `{n.name}` (`{n.rel_path}`) — {len(n.outbound)} outbound, {n.status}"
+            )
     else:
-        lines.append("_No taxonomy issues detected._ ✅")
+        lines.append("_All knowledge_base nodes have ≥3 outbound links._ ✅")
     lines.append("")
 
     # ── Tag Frequency ───────────────────────────────────────────────────────────
@@ -528,7 +500,6 @@ def render_json(
             "body_lines": n.body_lines,
             "outbound": n.outbound,
             "inbound": n.inbound,
-            "issues": n.issues,
         }
 
     data = {
@@ -560,12 +531,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  Found {len(nodes)} nodes, {len(workflows)} workflows, {len(skills)} skills", file=sys.stderr)
 
     resolve_links(nodes)
-    check_taxonomy(nodes)
 
     orphan_count = sum(1 for n in nodes if not n.inbound and n.domain)
-    issue_count = sum(len(n.issues) for n in nodes)
     total_links = sum(len(n.outbound) for n in nodes)
-    print(f"  {total_links} links resolved, {orphan_count} orphans, {issue_count} taxonomy issues", file=sys.stderr)
+    print(f"  {total_links} links resolved, {orphan_count} orphans", file=sys.stderr)
 
     md_path = root / args.out_md
     md_path.parent.mkdir(parents=True, exist_ok=True)
