@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 04:59 UTC",
+  "generated_at": "2026-05-11 05:11 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -292,6 +292,8 @@
       "inbound": [
         "HEAT_2026_05_11",
         "DIRECT_BILLING_MODEL_FFS",
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
         "THREE_SEGMENT_ICP_FRAMEWORK",
@@ -654,8 +656,97 @@
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026"
       ],
       "inbound": [
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "positioning-v1"
+      ]
+    },
+    {
+      "name": "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+      "rel_path": "knowledge_base/business/KIVIRA_BACKER_COPY_SHIFT_2026_05.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "emergent",
+      "last_updated": "2026-05-11",
+      "description": "Between 2026-04-06 and 2026-05-11, Kivira's public site footer changed from \"Backed by Y Combinator & Antler\" to \"Backed by Antler & major healthcare systems\" — flagged for context, mechanism unverified.",
+      "tags": [
+        "business",
+        "source-public-web",
+        "kivira-profile",
+        "publicity"
+      ],
+      "topics": [
+        "market-positioning",
+        "credibility"
+      ],
+      "related_concepts": [
+        "[[KIVIRA_COMPANY_PROFILE_2026_05_11]]",
+        "[[FUNDING_AND_BACKING_SIGNALS]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]"
+      ],
+      "source_type": "document",
+      "source_file": "",
+      "body_lines": 35,
+      "outbound": [
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "FUNDING_AND_BACKING_SIGNALS",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "B2B_CLINIC_BUYER_MODEL"
+      ],
+      "inbound": [
+        "KIVIRA_COMPANY_PROFILE_2026_05_11"
+      ]
+    },
+    {
+      "name": "KIVIRA_COMPANY_PROFILE_2026_05_11",
+      "rel_path": "knowledge_base/business/KIVIRA_COMPANY_PROFILE_2026_05_11.md",
+      "domain": "business",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-11",
+      "description": "Single-doc synthesis of what Kivira is, what they offer, who they target, and who backs them — composed from public website + legal copy as of 2026-05-11.",
+      "tags": [
+        "business",
+        "kivira-profile",
+        "source-public-web",
+        "gtm-motion"
+      ],
+      "topics": [
+        "market-positioning",
+        "team",
+        "credibility"
+      ],
+      "related_concepts": [
+        "[[PRIMARY_CARE_WEDGE_ICP]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
+        "[[PUBLIC_VALUE_PROPOSITION_HOME]]",
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]",
+        "[[PATIENT_APP_SAFETY_ALERTS]]",
+        "[[PRIVACY_AND_HIPAA_ROLE]]",
+        "[[KIVIRA_BACKER_COPY_SHIFT_2026_05]]"
+      ],
+      "source_type": "document",
+      "source_file": "",
+      "body_lines": 109,
+      "outbound": [
+        "PRIMARY_CARE_WEDGE_ICP",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "PUBLIC_VALUE_PROPOSITION_HOME",
+        "B2B_CLINIC_BUYER_MODEL",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "PATIENT_APP_SAFETY_ALERTS",
+        "PRIVACY_AND_HIPAA_ROLE",
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS"
+      ],
+      "inbound": [
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05"
       ]
     },
     {
@@ -785,8 +876,8 @@
       "rel_path": "knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md",
       "domain": "business",
       "node_type": "case-study",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story, primary-care discovery, GNVC win, product narrative, Wellstar-led pre-seed, and roadmap—use with CDS framing discipline; epidemiology in lede is article editorial.",
       "tags": [
         "business",
@@ -819,6 +910,8 @@
       ],
       "inbound": [
         "FUNDING_AND_BACKING_SIGNALS",
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "GTM_MOTION_HYPOTHESIS"
       ]
@@ -869,6 +962,7 @@
         "B2B_CLINIC_BUYER_MODEL",
         "DIRECT_BILLING_MODEL_FFS",
         "FUNDING_AND_BACKING_SIGNALS",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "PUBLIC_VALUE_PROPOSITION_HOME",
@@ -927,6 +1021,7 @@
         "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
         "FUNDING_AND_BACKING_SIGNALS",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "PRIMARY_CARE_WEDGE_ICP",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
@@ -1195,6 +1290,7 @@
         "LIFE_SCIENCES_VALUE_PROP",
         "HEAT_2026_05_11",
         "DIRECT_BILLING_MODEL_FFS",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "PAIN_SEGMENT_MATRIX",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
@@ -1730,6 +1826,7 @@
       "inbound": [
         "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "gtm-plan-v1",
@@ -1948,6 +2045,7 @@
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "HEAT_2026_05_04",
         "HEAT_2026_05_11",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "ACCOUNT_SCHEMA_EXTENDED",
@@ -2639,6 +2737,7 @@
         "HEAT_2026_05_11",
         "B2B_CLINIC_BUYER_MODEL",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "PRIMARY_CARE_WEDGE_ICP",
         "PUBLIC_VALUE_PROPOSITION_HOME",
@@ -2689,6 +2788,7 @@
         "HEAT_2026_05_11",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "COMPETITIVE_EVIDENCE_GAP",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "EHR_INTEGRATION_SMART_ON_FHIR",
@@ -2888,6 +2988,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_11",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
         "CDS_NOT_DIAGNOSIS_FRAMING",
@@ -2930,6 +3031,7 @@
       "inbound": [
         "HEAT_2026_05_11",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "CDS_NOT_DIAGNOSIS_FRAMING",
         "EHR_INTEGRATION_SMART_ON_FHIR",
         "PATIENT_APP_SAFETY_ALERTS",

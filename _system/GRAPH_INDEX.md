@@ -1,21 +1,21 @@
 # Context OS — Graph Index
-> Generated: 2026-05-11 04:59 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-11 05:11 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total nodes indexed | 77 |
-| knowledge_base nodes | 65 |
+| Total nodes indexed | 79 |
+| knowledge_base nodes | 67 |
 | foundation / synthesis docs | 9 |
 | Agent workflows | 10 |
 | Skills | 8 |
-| Total wiki-links mapped | 465 |
+| Total wiki-links mapped | 481 |
 | Orphan nodes (0 inbound) | 0 |
 | knowledge_base nodes with <3 outbound | 0 |
 
 **Domains:**
-- `business`: 27 nodes
+- `business`: 29 nodes
 - `methodology`: 29 nodes
 - `technical`: 9 nodes
 - `unknown`: 12 nodes
@@ -25,7 +25,7 @@
 
 > One line per node. `grep NODE_NAME _system/GRAPH_INDEX.md` finds path + status instantly.
 
-`B2B_CLINIC_BUYER_MODEL                ` → `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` ✅ [business/concept] ←10
+`B2B_CLINIC_BUYER_MODEL                ` → `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` ✅ [business/concept] ←12
 `BUYER_PERSONA_CLINICAL_CHAMPION       ` → `knowledge_base/business/BUYER_PERSONA_CLINICAL_CHAMPION.md` ✅ [business/concept] ←9
 `BUYER_PERSONA_OPERATIONAL_BUYER       ` → `knowledge_base/business/BUYER_PERSONA_OPERATIONAL_BUYER.md` ✅ [business/concept] ←10
 `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER   ` → `knowledge_base/business/BUYER_PERSONA_TECHNOLOGY_GATEKEEPER.md` ✅ [business/concept] ←5
@@ -33,27 +33,28 @@
 `COMPETITIVE_EVIDENCE_GAP              ` → `knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md` ✅ [business/pattern] ←9
 `DIRECT_BILLING_MODEL_FFS              ` → `knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md` ✅ [business/framework] ←6
 `EDP_COCM_REVENUE_REALIZATION          ` → `knowledge_base/business/EDP_COCM_REVENUE_REALIZATION.md` ✅ [business/framework] ←5
-`FUNDING_AND_BACKING_SIGNALS           ` → `knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md` ✅ [business/concept] ←2
+`FUNDING_AND_BACKING_SIGNALS           ` → `knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md` ✅ [business/concept] ←3
 `MARKET_ADOPTION_STAGE_2026            ` → `knowledge_base/business/MARKET_ADOPTION_STAGE_2026.md` ✅ [business/concept] ←2
 `PAIN_SEGMENT_MATRIX                   ` → `knowledge_base/business/PAIN_SEGMENT_MATRIX.md` ✅ [business/framework] ←7
-`PRIMARY_CARE_WEDGE_ICP                ` → `knowledge_base/business/PRIMARY_CARE_WEDGE_ICP.md` ✅ [business/concept] ←28
-`PUBLIC_VALUE_PROPOSITION_HOME         ` → `knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md` ✅ [business/concept] ←10
+`POLSKY_UCHICAGO_KIVIRA_PROFILE_2026   ` → `knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md` ✅ [business/case-study] ←5
+`PRIMARY_CARE_WEDGE_ICP                ` → `knowledge_base/business/PRIMARY_CARE_WEDGE_ICP.md` ✅ [business/concept] ←29
+`PUBLIC_VALUE_PROPOSITION_HOME         ` → `knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md` ✅ [business/concept] ←11
 `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT` → `knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md` ✅ [business/framework] ←6
 `TAM_COMPLETE_698M_ALL_TIERS           ` → `knowledge_base/business/TAM_COMPLETE_698M_ALL_TIERS.md` ✅ [business/framework] ←5
 `TAM_TIER_1_PROVIDER_534M              ` → `knowledge_base/business/TAM_TIER_1_PROVIDER_534M.md` ✅ [business/framework] ←4
 `TAM_TIER_2_ACO_VBC_73M                ` → `knowledge_base/business/TAM_TIER_2_ACO_VBC_73M.md` ✅ [business/framework] ←3
 `TAM_TIER_3_ENTERPRISE_92M             ` → `knowledge_base/business/TAM_TIER_3_ENTERPRISE_92M.md` ✅ [business/framework] ←2
-`THREE_SEGMENT_ICP_FRAMEWORK           ` → `knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md` ✅ [business/framework] ←21
+`THREE_SEGMENT_ICP_FRAMEWORK           ` → `knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md` ✅ [business/framework] ←22
 `ACCOUNT_SCHEMA_EXTENDED               ` → `knowledge_base/methodology/ACCOUNT_SCHEMA_EXTENDED.md` ✅ [methodology/framework] ←5
 `COCM_ACCOUNT_PROFILE_SCHEMA           ` → `knowledge_base/methodology/COCM_ACCOUNT_PROFILE_SCHEMA.md` ✅ [methodology/framework] ←5
 `COCM_CONFIDENCE_GRADE_RULES           ` → `knowledge_base/methodology/COCM_CONFIDENCE_GRADE_RULES.md` ✅ [methodology/framework] ←6
 `COCM_OUTREACH_SEQUENCING              ` → `knowledge_base/methodology/COCM_OUTREACH_SEQUENCING.md` ✅ [methodology/framework] ←5
 `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER` → `knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md` ✅ [methodology/pattern] ←9
-`EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` → `knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md` ✅ [methodology/framework] ←8
+`EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` → `knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md` ✅ [methodology/framework] ←9
 `FRESH_LIST_BUILD_RUNBOOK_1ABC         ` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md` ✅ [methodology/pattern] ←3
 `GTM_30_60_90_EXECUTION_CADENCE        ` → `knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md` ✅ [methodology/framework] ←17
 `GTM_MOTION_HYPOTHESIS                 ` → `knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md` ✅ [methodology/framework] ←9
-`GTM_TIER_ARCHITECTURE_9_SUBTIERS      ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←19
+`GTM_TIER_ARCHITECTURE_9_SUBTIERS      ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←20
 `MESSAGING_HYPOTHESIS_DISCIPLINE       ` → `knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md` ✅ [methodology/pattern] ←4
 `ORG_TYPE_BUYER_MAP_COCM               ` → `knowledge_base/methodology/ORG_TYPE_BUYER_MAP_COCM.md` ✅ [methodology/framework] ←3
 `OUTREACH_WAVE_STRUCTURE               ` → `knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md` ✅ [methodology/framework] ←14
@@ -65,15 +66,16 @@
 `TECH_STACK_OUTBOUND_INFRASTRUCTURE    ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←12
 `THIRTY_DAY_OFFICE_MANAGER_TARGET      ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←3
 `WAVE_1_SCORING_FRAMEWORK              ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←9
-`CDS_NOT_DIAGNOSIS_FRAMING             ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←16
-`CLINICAL_INSTRUMENTS_SURFACE          ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←11
+`CDS_NOT_DIAGNOSIS_FRAMING             ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←17
+`CLINICAL_INSTRUMENTS_SURFACE          ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←12
 `COCM_PUBLIC_ESTIMATE_ENGINE_V2        ` → `knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md` ✅ [technical/framework] ←2
 `CPT_BILLING_CODES_BHI                 ` → `knowledge_base/technical/CPT_BILLING_CODES_BHI.md` ✅ [technical/concept] ←6
 `EHR_INTEGRATION_SMART_ON_FHIR         ` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md` ✅ [technical/concept] ←8
-`PATIENT_APP_SAFETY_ALERTS             ` → `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md` ✅ [technical/pattern] ←8
-`PRIVACY_AND_HIPAA_ROLE                ` → `knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md` ✅ [technical/framework] ←8
+`PATIENT_APP_SAFETY_ALERTS             ` → `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md` ✅ [technical/pattern] ←9
+`PRIVACY_AND_HIPAA_ROLE                ` → `knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md` ✅ [technical/framework] ←9
+`KIVIRA_BACKER_COPY_SHIFT_2026_05      ` → `knowledge_base/business/KIVIRA_BACKER_COPY_SHIFT_2026_05.md` 🌱 [business/gtm_signal] ←1
+`KIVIRA_COMPANY_PROFILE_2026_05_11     ` → `knowledge_base/business/KIVIRA_COMPANY_PROFILE_2026_05_11.md` 🌱 [business/framework] ←1
 `MEDICAL_SPEND_MODEL_ER_AVOIDANCE      ` → `knowledge_base/business/MEDICAL_SPEND_MODEL_ER_AVOIDANCE.md` 🌱 [business/framework] ←2
-`POLSKY_UCHICAGO_KIVIRA_PROFILE_2026   ` → `knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md` 🌱 [business/case-study] ←3
 `WEEKLY_HEYREACH_EVIDENCE_2026_05_04   ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md` 🌱 [business/gtm_signal] ←7
 `WEEKLY_HEYREACH_EVIDENCE_2026_05_10   ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-10.md` 🌱 [business/gtm_signal] ←2
 `WEEKLY_INBOXKIT_HEALTH_2026_05_04     ` → `knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md` 🌱 [business/gtm_signal] ←5
@@ -108,7 +110,7 @@
 
 | Node | Domain | Type | Status | ←Links | Lines | Description |
 |------|--------|------|--------|--------|-------|-------------|
-| `B2B_CLINIC_BUYER_MODEL` | business | concept | ✅ validated | 10 | 21 | Kivira sells to clinics/health systems; the patient-facing app is free… |
+| `B2B_CLINIC_BUYER_MODEL` | business | concept | ✅ validated | 12 | 21 | Kivira sells to clinics/health systems; the patient-facing app is free… |
 | `BUYER_PERSONA_CLINICAL_CHAMPION` | business | concept | ✅ validated | 9 | 93 | Dr. Jennifer R. archetype - Medical Director of Integrated Behavioral … |
 | `BUYER_PERSONA_OPERATIONAL_BUYER` | business | concept | ✅ validated | 10 | 97 | Alex M. archetype - Director of Behavioral Health Services who validat… |
 | `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER` | business | concept | ✅ validated | 5 | 93 | Dr. Marcus A. archetype - CMIO/VP Clinical Informatics who approves or… |
@@ -116,27 +118,28 @@
 | `COMPETITIVE_EVIDENCE_GAP` | business | pattern | ✅ validated | 9 | 19 | Public materials lack peer-reviewed Kivira-specific clinical validatio… |
 | `DIRECT_BILLING_MODEL_FFS` | business | framework | ✅ validated | 6 | 43 | ROI framework for immediate fee-for-service revenue via automated BHI … |
 | `EDP_COCM_REVENUE_REALIZATION` | business | framework | ✅ validated | 5 | 92 | The Existential Data Point for Kivira GTM - CoCM Revenue Realization R… |
-| `FUNDING_AND_BACKING_SIGNALS` | business | concept | ✅ validated | 2 | 22 | Public signals include YC/Antler callouts on the website; third-party … |
+| `FUNDING_AND_BACKING_SIGNALS` | business | concept | ✅ validated | 3 | 22 | Public signals include YC/Antler callouts on the website; third-party … |
 | `MARKET_ADOPTION_STAGE_2026` | business | concept | ✅ validated | 2 | 100 | Market maturity analysis - AI-powered mental health CDS in primary car… |
 | `PAIN_SEGMENT_MATRIX` | business | framework | ✅ validated | 7 | 196 | Five pain-based segments for Kivira GTM ranked by EDP intensity, conve… |
-| `PRIMARY_CARE_WEDGE_ICP` | business | concept | ✅ validated | 28 | 31 | Kivira’s public GTM wedge is mental health workload in primary care—PC… |
-| `PUBLIC_VALUE_PROPOSITION_HOME` | business | concept | ✅ validated | 10 | 22 | Public marketing claims emphasize screening + digital phenotyping + AI… |
+| `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026` | business | case-study | ✅ validated | 5 | 35 | Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story,… |
+| `PRIMARY_CARE_WEDGE_ICP` | business | concept | ✅ validated | 29 | 31 | Kivira’s public GTM wedge is mental health workload in primary care—PC… |
+| `PUBLIC_VALUE_PROPOSITION_HOME` | business | concept | ✅ validated | 11 | 22 | Public marketing claims emphasize screening + digital phenotyping + AI… |
 | `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT` | business | framework | ✅ validated | 6 | 28 | ROI framework targeting Medicare Advantage plans via accurate HCC codi… |
 | `TAM_COMPLETE_698M_ALL_TIERS` | business | framework | ✅ validated | 5 | 66 | Master TAM summary - $698.9M across 8,435 unique logos, deduplicated a… |
 | `TAM_TIER_1_PROVIDER_534M` | business | framework | ✅ validated | 4 | 81 | Tier 1 TAM - Provider Groups ($533.9M, 7,290 logos) - Day 1 focus segm… |
 | `TAM_TIER_2_ACO_VBC_73M` | business | framework | ✅ validated | 3 | 103 | Tier 2 TAM - ACOs, VBC Enablement, and Care Management ($73.2M, 675 lo… |
 | `TAM_TIER_3_ENTERPRISE_92M` | business | framework | ✅ validated | 2 | 99 | Tier 3 TAM - Health Systems, IDNs, and Regional Payers ($91.8M, 470 lo… |
-| `THREE_SEGMENT_ICP_FRAMEWORK` | business | framework | ✅ validated | 21 | 67 | Three-segment ICP framework for Kivira GTM - Provider/PCP, Health Syst… |
+| `THREE_SEGMENT_ICP_FRAMEWORK` | business | framework | ✅ validated | 22 | 67 | Three-segment ICP framework for Kivira GTM - Provider/PCP, Health Syst… |
 | `ACCOUNT_SCHEMA_EXTENDED` | methodology | framework | ✅ validated | 5 | 121 | Extended 40+ field account schema for Kivira TAM building - core ID, t… |
 | `COCM_ACCOUNT_PROFILE_SCHEMA` | methodology | framework | ✅ validated | 5 | 30 | Internal schema for account-level inputs to the CoCM opportunity workf… |
 | `COCM_CONFIDENCE_GRADE_RULES` | methodology | framework | ✅ validated | 6 | 30 | Internal confidence-grade model for deciding how hard Kivira can lean … |
 | `COCM_OUTREACH_SEQUENCING` | methodology | framework | ✅ validated | 5 | 27 | Internal tier-based outreach sequencing for the CoCM wedge, including … |
 | `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER` | methodology | pattern | ✅ validated | 9 | 30 | Starter discovery checklist for PCP-centric behavioral health + EHR-in… |
-| `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` | methodology | framework | ✅ validated | 8 | 23 | Operating rule from research synthesis—separate public marketing claim… |
+| `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` | methodology | framework | ✅ validated | 9 | 23 | Operating rule from research synthesis—separate public marketing claim… |
 | `FRESH_LIST_BUILD_RUNBOOK_1ABC` | methodology | pattern | ✅ validated | 3 | 35 | Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap fi… |
 | `GTM_30_60_90_EXECUTION_CADENCE` | methodology | framework | ✅ validated | 17 | 79 | 30-60-90 day execution cadence for Kivira GTM motion |
 | `GTM_MOTION_HYPOTHESIS` | methodology | framework | ✅ validated | 9 | 22 | Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS f… |
-| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 19 | 298 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
+| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 20 | 298 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
 | `MESSAGING_HYPOTHESIS_DISCIPLINE` | methodology | pattern | ✅ validated | 4 | 54 | Treat all messaging as hypothesis to be validated/disproved by outreac… |
 | `ORG_TYPE_BUYER_MAP_COCM` | methodology | framework | ✅ validated | 3 | 31 | Internal buyer-routing map that changes champion order, title matching… |
 | `OUTREACH_WAVE_STRUCTURE` | methodology | framework | ✅ validated | 14 | 129 | Wave 1-3 outreach execution structure with contact volumes and timing |
@@ -148,15 +151,16 @@
 | `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 12 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
 | `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 3 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
 | `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 9 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
-| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 16 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
-| `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | ✅ validated | 11 | 19 | Public instrument overview lists scale names, constructs, and primary … |
+| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 17 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
+| `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | ✅ validated | 12 | 19 | Public instrument overview lists scale names, constructs, and primary … |
 | `COCM_PUBLIC_ESTIMATE_ENGINE_V2` | technical | framework | ✅ validated | 2 | 32 | Internal reference engine for modeled CoCM opportunity estimation usin… |
 | `CPT_BILLING_CODES_BHI` | technical | concept | ✅ validated | 6 | 46 | Key CPT codes for behavioral health integration billing that Kivira do… |
 | `EHR_INTEGRATION_SMART_ON_FHIR` | technical | concept | ✅ validated | 8 | 19 | Public documentation highlights SMART on FHIR / HL7-class integration,… |
-| `PATIENT_APP_SAFETY_ALERTS` | technical | pattern | ✅ validated | 8 | 19 | Self-harm risk may trigger provider notification (clinic-configured) a… |
-| `PRIVACY_AND_HIPAA_ROLE` | technical | framework | ✅ validated | 8 | 21 | Privacy policy states HIPAA Business Associate role for EHR-integrated… |
+| `PATIENT_APP_SAFETY_ALERTS` | technical | pattern | ✅ validated | 9 | 19 | Self-harm risk may trigger provider notification (clinic-configured) a… |
+| `PRIVACY_AND_HIPAA_ROLE` | technical | framework | ✅ validated | 9 | 21 | Privacy policy states HIPAA Business Associate role for EHR-integrated… |
+| `KIVIRA_BACKER_COPY_SHIFT_2026_05` | business | gtm_signal | 🌱 emergent | 1 | 35 | Between 2026-04-06 and 2026-05-11, Kivira's public site footer changed… |
+| `KIVIRA_COMPANY_PROFILE_2026_05_11` | business | framework | 🌱 emergent | 1 | 109 | Single-doc synthesis of what Kivira is, what they offer, who they targ… |
 | `MEDICAL_SPEND_MODEL_ER_AVOIDANCE` | business | framework | 🌱 emergent | 2 | 33 | ROI framework targeting VBC groups via reduction in psychiatric ER vis… |
-| `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026` | business | case-study | 🌱 emergent | 3 | 35 | Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story,… |
 | `WEEKLY_HEYREACH_EVIDENCE_2026_05_04` | business | gtm_signal | 🌱 emergent | 7 | 43 | HeyReach outbound metrics snapshot for Wave 1 launch week ending 2026-… |
 | `WEEKLY_HEYREACH_EVIDENCE_2026_05_10` | business | gtm_signal | 🌱 emergent | 2 | 92 | HeyReach outbound metrics snapshot for Wave 1 week ending 2026-05-10 —… |
 | `WEEKLY_INBOXKIT_HEALTH_2026_05_04` | business | gtm_signal | 🌱 emergent | 5 | 133 | InboxKit mailbox and warmup status for 2026-05-04 (product UI screensh… |
@@ -192,7 +196,7 @@
 > For each node: what links TO it (inbound) and what it links TO (outbound).
 
 ### `B2B_CLINIC_BUYER_MODEL`
-**←** `DIRECT_BILLING_MODEL_FFS`, `EHR_INTEGRATION_SMART_ON_FHIR`, `GTM_MOTION_HYPOTHESIS`, `HEAT_2026_05_11`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `THREE_SEGMENT_ICP_FRAMEWORK`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**←** `DIRECT_BILLING_MODEL_FFS`, `EHR_INTEGRATION_SMART_ON_FHIR`, `GTM_MOTION_HYPOTHESIS`, `HEAT_2026_05_11`, `KIVIRA_BACKER_COPY_SHIFT_2026_05`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `THREE_SEGMENT_ICP_FRAMEWORK`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `EHR_INTEGRATION_SMART_ON_FHIR`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `BUYER_PERSONA_CLINICAL_CHAMPION`
@@ -224,7 +228,7 @@
 **→** `BUYER_PERSONA_OPERATIONAL_BUYER`, `CPT_BILLING_CODES_BHI`, `DIRECT_BILLING_MODEL_FFS`, `PAIN_SEGMENT_MATRIX`
 
 ### `FUNDING_AND_BACKING_SIGNALS`
-**←** `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `positioning-v1`
+**←** `KIVIRA_BACKER_COPY_SHIFT_2026_05`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `positioning-v1`
 **→** `COMPETITIVE_EVIDENCE_GAP`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PUBLIC_VALUE_PROPOSITION_HOME`
 
 ### `MARKET_ADOPTION_STAGE_2026`
@@ -235,12 +239,16 @@
 **←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `EDP_COCM_REVENUE_REALIZATION`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MARKET_ADOPTION_STAGE_2026`, `OUTREACH_BASELINE_METRICS`, `gtm-plan-v1`, `weekly-moc-template`
 **→** `EDP_COCM_REVENUE_REALIZATION`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MARKET_ADOPTION_STAGE_2026`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
+### `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`
+**←** `FUNDING_AND_BACKING_SIGNALS`, `GTM_MOTION_HYPOTHESIS`, `KIVIRA_BACKER_COPY_SHIFT_2026_05`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `PUBLIC_VALUE_PROPOSITION_HOME`
+**→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `FUNDING_AND_BACKING_SIGNALS`, `GTM_MOTION_HYPOTHESIS`, `PRIMARY_CARE_WEDGE_ICP`, `PUBLIC_VALUE_PROPOSITION_HOME`
+
 ### `PRIMARY_CARE_WEDGE_ICP`
-**←** `B2B_CLINIC_BUYER_MODEL`, `CPT_BILLING_CODES_BHI`, `DIRECT_BILLING_MODEL_FFS`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FUNDING_AND_BACKING_SIGNALS`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PATIENT_APP_SAFETY_ALERTS`, `PILOT_SITE_ACQUISITION_PRIORITY`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PUBLIC_VALUE_PROPOSITION_HOME`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_TIER_1_PROVIDER_534M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `weekly-moc-template`
+**←** `B2B_CLINIC_BUYER_MODEL`, `CPT_BILLING_CODES_BHI`, `DIRECT_BILLING_MODEL_FFS`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FUNDING_AND_BACKING_SIGNALS`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PATIENT_APP_SAFETY_ALERTS`, `PILOT_SITE_ACQUISITION_PRIORITY`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PUBLIC_VALUE_PROPOSITION_HOME`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_TIER_1_PROVIDER_534M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `weekly-moc-template`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `GTM_MOTION_HYPOTHESIS`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `PUBLIC_VALUE_PROPOSITION_HOME`
-**←** `CDS_NOT_DIAGNOSIS_FRAMING`, `CLINICAL_INSTRUMENTS_SURFACE`, `COMPETITIVE_EVIDENCE_GAP`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `FUNDING_AND_BACKING_SIGNALS`, `HEAT_2026_05_11`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `gtm-plan-v1`, `messaging-pillars-v1`
+**←** `CDS_NOT_DIAGNOSIS_FRAMING`, `CLINICAL_INSTRUMENTS_SURFACE`, `COMPETITIVE_EVIDENCE_GAP`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `FUNDING_AND_BACKING_SIGNALS`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `gtm-plan-v1`, `messaging-pillars-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `CLINICAL_INSTRUMENTS_SURFACE`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`
@@ -264,7 +272,7 @@
 **→** `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `THREE_SEGMENT_ICP_FRAMEWORK`
-**←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `CLINICAL_TRIALS_DIGITAL_ENDPOINTS`, `COCM_ACCOUNT_PROFILE_SCHEMA`, `DIRECT_BILLING_MODEL_FFS`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_11`, `LIFE_SCIENCES_VALUE_PROP`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `ORG_TYPE_BUYER_MAP_COCM`, `OUTREACH_WAVE_STRUCTURE`, `PAIN_SEGMENT_MATRIX`, `PILOT_SITE_ACQUISITION_PRIORITY`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`, `gtm-plan-v1`
+**←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `CLINICAL_TRIALS_DIGITAL_ENDPOINTS`, `COCM_ACCOUNT_PROFILE_SCHEMA`, `DIRECT_BILLING_MODEL_FFS`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `LIFE_SCIENCES_VALUE_PROP`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `ORG_TYPE_BUYER_MAP_COCM`, `OUTREACH_WAVE_STRUCTURE`, `PAIN_SEGMENT_MATRIX`, `PILOT_SITE_ACQUISITION_PRIORITY`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`, `gtm-plan-v1`
 **→** `B2B_CLINIC_BUYER_MODEL`, `DIRECT_BILLING_MODEL_FFS`, `GTM_30_60_90_EXECUTION_CADENCE`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `PRIMARY_CARE_WEDGE_ICP`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`
 
 ### `ACCOUNT_SCHEMA_EXTENDED`
@@ -288,7 +296,7 @@
 **→** `EHR_INTEGRATION_SMART_ON_FHIR`, `GTM_MOTION_HYPOTHESIS`, `PATIENT_APP_SAFETY_ALERTS`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`
-**←** `COMPETITIVE_EVIDENCE_GAP`, `HEAT_2026_05_11`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `WEEKLY_MOC_GRAPH_RITUAL`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `weekly-moc-template`
+**←** `COMPETITIVE_EVIDENCE_GAP`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `WEEKLY_MOC_GRAPH_RITUAL`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `weekly-moc-template`
 **→** `CLINICAL_INSTRUMENTS_SURFACE`, `COMPETITIVE_EVIDENCE_GAP`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_MOC_GRAPH_RITUAL`
 
 ### `FRESH_LIST_BUILD_RUNBOOK_1ABC`
@@ -304,7 +312,7 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `COMPETITIVE_EVIDENCE_GAP`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `GTM_TIER_ARCHITECTURE_9_SUBTIERS`
-**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `weekly-moc-template`
+**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `weekly-moc-template`
 **→** `COCM_ACCOUNT_PROFILE_SCHEMA`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `SUBTIER_EXCLUSION_RULES`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `MESSAGING_HYPOTHESIS_DISCIPLINE`
@@ -352,11 +360,11 @@
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_TIER_1_PROVIDER_534M`
 
 ### `CDS_NOT_DIAGNOSIS_FRAMING`
-**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `PATIENT_APP_SAFETY_ALERTS`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`
 
 ### `CLINICAL_INSTRUMENTS_SURFACE`
-**←** `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_TRIALS_DIGITAL_ENDPOINTS`, `COMPETITIVE_EVIDENCE_GAP`, `EHR_INTEGRATION_SMART_ON_FHIR`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `HEAT_2026_05_11`, `LIFE_SCIENCES_VALUE_PROP`, `PUBLIC_VALUE_PROPOSITION_HOME`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**←** `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_TRIALS_DIGITAL_ENDPOINTS`, `COMPETITIVE_EVIDENCE_GAP`, `EHR_INTEGRATION_SMART_ON_FHIR`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `LIFE_SCIENCES_VALUE_PROP`, `PUBLIC_VALUE_PROPOSITION_HOME`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `COMPETITIVE_EVIDENCE_GAP`, `PUBLIC_VALUE_PROPOSITION_HOME`
 
 ### `COCM_PUBLIC_ESTIMATE_ENGINE_V2`
@@ -372,20 +380,24 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `CLINICAL_INSTRUMENTS_SURFACE`, `PRIVACY_AND_HIPAA_ROLE`
 
 ### `PATIENT_APP_SAFETY_ALERTS`
-**←** `CDS_NOT_DIAGNOSIS_FRAMING`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `HEAT_2026_05_11`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `PRIVACY_AND_HIPAA_ROLE`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**←** `CDS_NOT_DIAGNOSIS_FRAMING`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `PRIVACY_AND_HIPAA_ROLE`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`
 
 ### `PRIVACY_AND_HIPAA_ROLE`
-**←** `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER`, `CDS_NOT_DIAGNOSIS_FRAMING`, `EHR_INTEGRATION_SMART_ON_FHIR`, `HEAT_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
+**←** `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER`, `CDS_NOT_DIAGNOSIS_FRAMING`, `EHR_INTEGRATION_SMART_ON_FHIR`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `EHR_INTEGRATION_SMART_ON_FHIR`, `PATIENT_APP_SAFETY_ALERTS`
+
+### `KIVIRA_BACKER_COPY_SHIFT_2026_05`
+**←** `KIVIRA_COMPANY_PROFILE_2026_05_11`
+**→** `B2B_CLINIC_BUYER_MODEL`, `FUNDING_AND_BACKING_SIGNALS`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`
+
+### `KIVIRA_COMPANY_PROFILE_2026_05_11`
+**←** `KIVIRA_BACKER_COPY_SHIFT_2026_05`
+**→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `CLINICAL_INSTRUMENTS_SURFACE`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_BACKER_COPY_SHIFT_2026_05`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`
 **←** `TAM_TIER_3_ENTERPRISE_92M`, `THREE_SEGMENT_ICP_FRAMEWORK`
 **→** `PATIENT_APP_SAFETY_ALERTS`, `PRIMARY_CARE_WEDGE_ICP`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `THREE_SEGMENT_ICP_FRAMEWORK`
-
-### `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`
-**←** `FUNDING_AND_BACKING_SIGNALS`, `GTM_MOTION_HYPOTHESIS`, `PUBLIC_VALUE_PROPOSITION_HOME`
-**→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `FUNDING_AND_BACKING_SIGNALS`, `GTM_MOTION_HYPOTHESIS`, `PRIMARY_CARE_WEDGE_ICP`, `PUBLIC_VALUE_PROPOSITION_HOME`
 
 ### `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`
 **←** `2026-05-04-investor-email`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_MOC_2026_05_04`
@@ -511,10 +523,10 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | Tag | Count |
 |-----|-------|
 | `source-research-synthesis` | 29 |
+| `business` | 26 |
 | `methodology` | 26 |
-| `business` | 24 |
-| `gtm-motion` | 20 |
-| `source-public-web` | 12 |
+| `gtm-motion` | 21 |
+| `source-public-web` | 14 |
 | `source-internal-doc` | 10 |
 | `market-segmentation` | 10 |
 | `tam-total-addressable-market` | 10 |
@@ -536,6 +548,7 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `digital-biomarkers` | 2 |
 | `graph-health` | 2 |
 | `collaborative-care-cocm` | 2 |
+| `kivira-profile` | 2 |
 | `heyreach` | 2 |
 | `wave1` | 2 |
 | `cds-clinical-decision-support` | 2 |
@@ -545,6 +558,7 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `v28-model-cms` | 1 |
 | `fee-for-service-ffs` | 1 |
 | `funding-signals` | 1 |
+| `publicity` | 1 |
 | `third-party-press` | 1 |
 | `risk-adjustment-raf` | 1 |
 | `discovery-calls` | 1 |

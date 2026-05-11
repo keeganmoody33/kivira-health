@@ -25,3 +25,12 @@
 ## Re-scrape cadence
 
 After site launches or legal updates, re-map `https://www.kivira.health` and diff against this manifest.
+
+## Refresh log
+
+| Date | Tool | Scope | Notable delta |
+|---|---|---|---|
+| 2026-04-03 | Firecrawl map + Jina reader | All 9 URLs | Initial canonical capture |
+| 2026-04-06 | Firecrawl scrape (refresh) | contact, team, legal-patient-app-terms, press | Press page still placeholder |
+| 2026-05-11 | Spider Cloud `/crawl` (HTTP-only) | home, team, press | **Backer copy shift:** "Y Combinator & Antler" → "Antler & major healthcare systems" — see [[KIVIRA_BACKER_COPY_SHIFT_2026_05]] |
+

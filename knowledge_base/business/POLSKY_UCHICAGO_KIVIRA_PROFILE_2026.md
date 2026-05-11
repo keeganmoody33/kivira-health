@@ -3,8 +3,8 @@ name: POLSKY_UCHICAGO_KIVIRA_PROFILE_2026
 description: Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story, primary-care discovery, GNVC win, product narrative, Wellstar-led pre-seed, and roadmap—use with CDS framing discipline; epidemiology in lede is article editorial.
 domain: business
 node_type: case-study
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - source-public-web
