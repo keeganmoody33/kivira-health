@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04 22:47 UTC",
+  "generated_at": "2026-05-11 03:58 UTC",
   "nodes": [
     {
       "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -174,6 +174,7 @@
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "BUYING_COMMITTEE_DYNAMICS",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "gtm-plan-v1"
       ],
       "issues": []
@@ -221,6 +222,7 @@
         "BUYING_COMMITTEE_DYNAMICS",
         "EDP_COCM_REVENUE_REALIZATION",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "gtm-plan-v1"
       ],
       "issues": []
@@ -793,6 +795,7 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1",
+        "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
       ],
       "issues": []
@@ -1214,10 +1217,59 @@
       "inbound": [
         "HEAT_2026_05_04",
         "PRIMARY_CARE_WEDGE_ICP",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_WAVE_STRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
+      ],
+      "issues": [
+        "unknown node_type 'gtm_signal'"
+      ]
+    },
+    {
+      "name": "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+      "rel_path": "knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-10.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "HeyReach outbound metrics snapshot for Wave 1 week ending 2026-05-10 — surfaced a configuration stall blocking the two persona campaigns",
+      "tags": [
+        "heyreach",
+        "weekly-evidence",
+        "outbound",
+        "wave1"
+      ],
+      "topics": [
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_10]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]]",
+        "[[wave1a_heyreach_copy]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[BUYER_PERSONA_OPERATIONAL_BUYER]]",
+        "[[BUYER_PERSONA_CLINICAL_CHAMPION]]"
+      ],
+      "source_type": "tool_export",
+      "source_file": "scripts/heyreach_weekly_pull.py",
+      "body_lines": 92,
+      "outbound": [
+        "WEEKLY_MOC_2026_05_10",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "OUTREACH_WAVE_STRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "BUYER_PERSONA_OPERATIONAL_BUYER",
+        "BUYER_PERSONA_CLINICAL_CHAMPION"
+      ],
+      "inbound": [
+        "WEEKLY_MOC_2026_05_10"
       ],
       "issues": [
         "unknown node_type 'gtm_signal'"
@@ -1264,7 +1316,8 @@
         "HEAT_2026_05_04",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
-        "WEEKLY_MOC_2026_05_04"
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_2026_05_10"
       ],
       "issues": [
         "unknown node_type 'gtm_signal'"
@@ -1567,7 +1620,8 @@
         "WAVE_1_SCORING_FRAMEWORK",
         "gtm-plan-v1",
         "2026-05-04-investor-email",
-        "WEEKLY_MOC_2026_05_04"
+        "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_2026_05_10"
       ],
       "issues": []
     },
@@ -1724,6 +1778,7 @@
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "WAVE_1_SCORING_FRAMEWORK",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2060,12 +2115,14 @@
         "TAM_TIER_2_ACO_VBC_73M",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2340,11 +2397,13 @@
         "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "OUTREACH_WAVE_STRUCTURE",
         "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2431,6 +2490,7 @@
       "inbound": [
         "TAM_TIER_1_PROVIDER_534M",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_CONFIDENCE_GRADE_RULES",
         "OUTREACH_WAVE_STRUCTURE",
@@ -2477,9 +2537,11 @@
         "HEAT_2026_05_04",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "WEEKLY_MOC_2026_05_04",
+        "WEEKLY_MOC_2026_05_10",
         "weekly-moc-template"
       ],
       "issues": []
@@ -2528,7 +2590,8 @@
         "PRIVACY_AND_HIPAA_ROLE",
         "gtm-plan-v1",
         "messaging-pillars-v1",
-        "positioning-v1"
+        "positioning-v1",
+        "WEEKLY_MOC_2026_05_10"
       ],
       "issues": []
     },
@@ -3069,6 +3132,37 @@
         "OUTREACH_WAVE_STRUCTURE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "wave-1a-execution-schedule-2026-05-01"
+      ],
+      "issues": []
+    },
+    {
+      "name": "WEEKLY_MOC_2026_05_10",
+      "rel_path": "00_foundation/weekly_updates/2026-05-10.md",
+      "domain": "",
+      "node_type": "",
+      "status": "draft",
+      "last_updated": "",
+      "description": "",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 113,
+      "outbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "GRAPH_HEALTH_REPORT",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "PRIMARY_CARE_WEDGE_ICP"
+      ],
+      "inbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10"
       ],
       "issues": []
     },
