@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 05:11 UTC",
+  "generated_at": "2026-05-11 05:48 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -658,6 +658,7 @@
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
         "positioning-v1"
       ]
     },
@@ -683,7 +684,8 @@
         "[[KIVIRA_COMPANY_PROFILE_2026_05_11]]",
         "[[FUNDING_AND_BACKING_SIGNALS]]",
         "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]",
-        "[[B2B_CLINIC_BUYER_MODEL]]"
+        "[[B2B_CLINIC_BUYER_MODEL]]",
+        "[[HEAT_EXCEPTION_EXTERNAL_VALIDATION]]"
       ],
       "source_type": "document",
       "source_file": "",
@@ -692,10 +694,12 @@
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "FUNDING_AND_BACKING_SIGNALS",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
-        "B2B_CLINIC_BUYER_MODEL"
+        "B2B_CLINIC_BUYER_MODEL",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
       ],
       "inbound": [
-        "KIVIRA_COMPANY_PROFILE_2026_05_11"
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
       ]
     },
     {
@@ -726,7 +730,8 @@
         "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]",
         "[[PATIENT_APP_SAFETY_ALERTS]]",
         "[[PRIVACY_AND_HIPAA_ROLE]]",
-        "[[KIVIRA_BACKER_COPY_SHIFT_2026_05]]"
+        "[[KIVIRA_BACKER_COPY_SHIFT_2026_05]]",
+        "[[HEAT_EXCEPTION_EXTERNAL_VALIDATION]]"
       ],
       "source_type": "document",
       "source_file": "",
@@ -741,6 +746,7 @@
         "PATIENT_APP_SAFETY_ALERTS",
         "PRIVACY_AND_HIPAA_ROLE",
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS"
@@ -913,7 +919,8 @@
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PUBLIC_VALUE_PROPOSITION_HOME",
-        "GTM_MOTION_HYPOTHESIS"
+        "GTM_MOTION_HYPOTHESIS",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
       ]
     },
     {
@@ -1827,6 +1834,7 @@
         "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "gtm-plan-v1",
@@ -2062,6 +2070,43 @@
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
+      ]
+    },
+    {
+      "name": "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
+      "rel_path": "knowledge_base/methodology/HEAT_EXCEPTION_EXTERNAL_VALIDATION.md",
+      "domain": "methodology",
+      "node_type": "principle",
+      "status": "validated",
+      "last_updated": "2026-05-11",
+      "description": "Heat (inbound link count) is the default v2 lifecycle signal, but it undercounts importance for nodes representing external press, third-party validation, publicity, or strategic positioning. These node types require manual review before any heat-based archive decision.",
+      "tags": [
+        "methodology",
+        "context-os",
+        "graph-health",
+        "evidence-discipline"
+      ],
+      "topics": [
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS]]",
+        "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]",
+        "[[KIVIRA_BACKER_COPY_SHIFT_2026_05]]",
+        "[[FUNDING_AND_BACKING_SIGNALS]]"
+      ],
+      "source_type": "principle",
+      "source_file": "",
+      "body_lines": 59,
+      "outbound": [
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "FUNDING_AND_BACKING_SIGNALS"
+      ],
+      "inbound": [
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11"
       ]
     },
     {

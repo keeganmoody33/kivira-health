@@ -19,6 +19,7 @@ related_concepts:
   - "[[FUNDING_AND_BACKING_SIGNALS]]"
   - "[[POLSKY_UCHICAGO_KIVIRA_PROFILE_2026]]"
   - "[[B2B_CLINIC_BUYER_MODEL]]"
+  - "[[HEAT_EXCEPTION_EXTERNAL_VALIDATION]]"
 source:
   type: document
   files:

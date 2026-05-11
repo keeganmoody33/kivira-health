@@ -25,6 +25,7 @@ related_concepts:
   - "[[PATIENT_APP_SAFETY_ALERTS]]"
   - "[[PRIVACY_AND_HIPAA_ROLE]]"
   - "[[KIVIRA_BACKER_COPY_SHIFT_2026_05]]"
+  - "[[HEAT_EXCEPTION_EXTERNAL_VALIDATION]]"
 source:
   type: document
   files:

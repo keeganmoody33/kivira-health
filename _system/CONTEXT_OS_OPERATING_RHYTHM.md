@@ -59,7 +59,7 @@
 ## Monthly (15 min) — Graph Maintenance, Not Governance
 
 1. `context-os graph-exec` — find orphans, check hub health.
-2. Archive nodes with `heat: 0` and `status: emergent` for 30+ days.
+2. Archive nodes with `heat: 0` (or ≤1 inbound) and `status: emergent` for 30+ days — **except external-validation nodes** (third-party press, publicity, regulatory citations, partner / backer snapshots). For those, importance moderates heat and the decision is manual, default keep. See [[HEAT_EXCEPTION_EXTERNAL_VALIDATION]].
 3. Review `weekly_updates/` folder — older MOCs become canonical citations.
 4. **Do NOT:** prune taxonomy, edit ontology, or rewrite governance files. v2 has none.
 
