@@ -3,8 +3,8 @@ name: DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER
 description: Starter discovery checklist for PCP-centric behavioral health + EHR-integrated CDS deals—maps to public integration and safety surfaces.
 domain: methodology
 node_type: pattern
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - methodology
   - discovery-calls

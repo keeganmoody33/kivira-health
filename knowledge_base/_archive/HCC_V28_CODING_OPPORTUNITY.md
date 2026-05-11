@@ -3,8 +3,8 @@ name: HCC_V28_CODING_OPPORTUNITY
 description: Technical explanation of CMS V28 HCC model and behavioral health coding opportunity
 domain: technical
 node_type: concept
-status: emergent
-last_updated: 2026-04-05
+status: archived
+last_updated: 2026-05-11
 tags:
   - technical
   - hcc-hierarchical-condition-categories

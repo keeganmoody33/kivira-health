@@ -3,8 +3,8 @@ name: LIFE_SCIENCES_VALUE_PROP
 description: Value proposition for life sciences and clinical trials market - high-margin expansion play
 domain: business
 node_type: concept
-status: emergent
-last_updated: 2026-04-05
+status: archived
+last_updated: 2026-05-11
 tags:
   - business
   - clinical-trials

@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-05-11 04:47 UTC",
+  "generated_at": "2026-05-11 04:50 UTC",
   "nodes": [
+    {
+      "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+      "rel_path": "knowledge_base/_archive/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "archived",
+      "last_updated": "2026-05-11",
+      "description": "Digital phenotyping as secondary endpoints in CNS clinical trials",
+      "tags": [
+        "business",
+        "clinical-trials",
+        "digital-biomarkers",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "clinical-trials",
+        "digital-biomarkers",
+        "cns-pharma"
+      ],
+      "related_concepts": [
+        "[[LIFE_SCIENCES_VALUE_PROP]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 44,
+      "outbound": [
+        "LIFE_SCIENCES_VALUE_PROP",
+        "CLINICAL_INSTRUMENTS_SURFACE",
+        "THREE_SEGMENT_ICP_FRAMEWORK"
+      ],
+      "inbound": [
+        "LIFE_SCIENCES_VALUE_PROP"
+      ]
+    },
     {
       "name": "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
       "rel_path": "knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md",
@@ -37,6 +73,81 @@
       ],
       "inbound": [
         "HEAT_2026_05_04"
+      ]
+    },
+    {
+      "name": "HCC_V28_CODING_OPPORTUNITY",
+      "rel_path": "knowledge_base/_archive/HCC_V28_CODING_OPPORTUNITY.md",
+      "domain": "technical",
+      "node_type": "concept",
+      "status": "archived",
+      "last_updated": "2026-05-11",
+      "description": "Technical explanation of CMS V28 HCC model and behavioral health coding opportunity",
+      "tags": [
+        "technical",
+        "hcc-hierarchical-condition-categories",
+        "v28-model-cms",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "hcc-hierarchical-condition-categories",
+        "v28-model-cms",
+        "risk-adjustment-raf",
+        "compliance"
+      ],
+      "related_concepts": [
+        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[PRIMARY_CARE_WEDGE_ICP]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 40,
+      "outbound": [
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PRIMARY_CARE_WEDGE_ICP",
+        "CPT_BILLING_CODES_BHI"
+      ],
+      "inbound": [
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT"
+      ]
+    },
+    {
+      "name": "LIFE_SCIENCES_VALUE_PROP",
+      "rel_path": "knowledge_base/_archive/LIFE_SCIENCES_VALUE_PROP.md",
+      "domain": "business",
+      "node_type": "concept",
+      "status": "archived",
+      "last_updated": "2026-05-11",
+      "description": "Value proposition for life sciences and clinical trials market - high-margin expansion play",
+      "tags": [
+        "business",
+        "clinical-trials",
+        "digital-biomarkers",
+        "source-research-synthesis"
+      ],
+      "topics": [
+        "clinical-trials",
+        "digital-biomarkers",
+        "cns-pharma",
+        "tam-total-addressable-market"
+      ],
+      "related_concepts": [
+        "[[CLINICAL_TRIALS_DIGITAL_ENDPOINTS]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
+      ],
+      "source_type": "email",
+      "source_file": "Josh Pappas email thread 2026-04-03",
+      "body_lines": 46,
+      "outbound": [
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "CLINICAL_INSTRUMENTS_SURFACE"
+      ],
+      "inbound": [
+        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS"
       ]
     },
     {
@@ -90,8 +201,8 @@
       "rel_path": "knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md",
       "domain": "business",
       "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Kivira sells to clinics/health systems; the patient-facing app is free to patients and the customer (clinic) pays.",
       "tags": [
         "business",
@@ -317,48 +428,12 @@
       ]
     },
     {
-      "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
-      "rel_path": "knowledge_base/business/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md",
-      "domain": "business",
-      "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
-      "description": "Digital phenotyping as secondary endpoints in CNS clinical trials",
-      "tags": [
-        "business",
-        "clinical-trials",
-        "digital-biomarkers",
-        "source-research-synthesis"
-      ],
-      "topics": [
-        "clinical-trials",
-        "digital-biomarkers",
-        "cns-pharma"
-      ],
-      "related_concepts": [
-        "[[LIFE_SCIENCES_VALUE_PROP]]",
-        "[[CLINICAL_INSTRUMENTS_SURFACE]]",
-        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
-      ],
-      "source_type": "email",
-      "source_file": "Josh Pappas email thread 2026-04-03",
-      "body_lines": 44,
-      "outbound": [
-        "LIFE_SCIENCES_VALUE_PROP",
-        "CLINICAL_INSTRUMENTS_SURFACE",
-        "THREE_SEGMENT_ICP_FRAMEWORK"
-      ],
-      "inbound": [
-        "LIFE_SCIENCES_VALUE_PROP"
-      ]
-    },
-    {
       "name": "COMPETITIVE_EVIDENCE_GAP",
       "rel_path": "knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md",
       "domain": "business",
       "node_type": "pattern",
-      "status": "emergent",
-      "last_updated": "2026-04-06",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Public materials lack peer-reviewed Kivira-specific clinical validation; quantitative performance on the website should be treated as unverified until backed by transparent methods and results.",
       "tags": [
         "business",
@@ -514,43 +589,6 @@
       "inbound": [
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "positioning-v1"
-      ]
-    },
-    {
-      "name": "LIFE_SCIENCES_VALUE_PROP",
-      "rel_path": "knowledge_base/business/LIFE_SCIENCES_VALUE_PROP.md",
-      "domain": "business",
-      "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
-      "description": "Value proposition for life sciences and clinical trials market - high-margin expansion play",
-      "tags": [
-        "business",
-        "clinical-trials",
-        "digital-biomarkers",
-        "source-research-synthesis"
-      ],
-      "topics": [
-        "clinical-trials",
-        "digital-biomarkers",
-        "cns-pharma",
-        "tam-total-addressable-market"
-      ],
-      "related_concepts": [
-        "[[CLINICAL_TRIALS_DIGITAL_ENDPOINTS]]",
-        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
-        "[[CLINICAL_INSTRUMENTS_SURFACE]]"
-      ],
-      "source_type": "email",
-      "source_file": "Josh Pappas email thread 2026-04-03",
-      "body_lines": 46,
-      "outbound": [
-        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
-        "THREE_SEGMENT_ICP_FRAMEWORK",
-        "CLINICAL_INSTRUMENTS_SURFACE"
-      ],
-      "inbound": [
-        "CLINICAL_TRIALS_DIGITAL_ENDPOINTS"
       ]
     },
     {
@@ -758,6 +796,7 @@
       ],
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
+        "HCC_V28_CODING_OPPORTUNITY",
         "HEAT_2026_05_04",
         "B2B_CLINIC_BUYER_MODEL",
         "DIRECT_BILLING_MODEL_FFS",
@@ -777,7 +816,6 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "CPT_BILLING_CODES_BHI",
-        "HCC_V28_CODING_OPPORTUNITY",
         "PATIENT_APP_SAFETY_ALERTS",
         "gtm-plan-v1",
         "messaging-pillars-v1",
@@ -791,8 +829,8 @@
       "rel_path": "knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md",
       "domain": "business",
       "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Public marketing claims emphasize screening + digital phenotyping + AI/DSM-5-aligned analytics, EHR integration, and accuracy/diagnostic language—must be tempered with CDS framing.",
       "tags": [
         "business",
@@ -865,11 +903,11 @@
         "B2B_CLINIC_BUYER_MODEL"
       ],
       "inbound": [
+        "HCC_V28_CODING_OPPORTUNITY",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
-        "THREE_SEGMENT_ICP_FRAMEWORK",
-        "HCC_V28_CODING_OPPORTUNITY"
+        "THREE_SEGMENT_ICP_FRAMEWORK"
       ]
     },
     {
@@ -1047,8 +1085,8 @@
       "rel_path": "knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md",
       "domain": "business",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Three-segment ICP framework for Kivira GTM - Provider/PCP, Health System/ACO, Payor/Health Plans",
       "tags": [
         "business",
@@ -1082,10 +1120,10 @@
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE"
       ],
       "inbound": [
-        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
-        "DIRECT_BILLING_MODEL_FFS",
+        "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "LIFE_SCIENCES_VALUE_PROP",
+        "DIRECT_BILLING_MODEL_FFS",
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "PAIN_SEGMENT_MATRIX",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
@@ -1546,8 +1584,8 @@
       "rel_path": "knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md",
       "domain": "methodology",
       "node_type": "pattern",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Starter discovery checklist for PCP-centric behavioral health + EHR-integrated CDS deals—maps to public integration and safety surfaces.",
       "tags": [
         "methodology",
@@ -1589,8 +1627,8 @@
       "rel_path": "knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md",
       "domain": "methodology",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Operating rule from research synthesis—separate public marketing claims, third-party instrument validity, and Kivira-specific outcomes; avoid conflating them in sales conversations.",
       "tags": [
         "methodology",
@@ -1744,8 +1782,8 @@
       "rel_path": "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md",
       "domain": "methodology",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS for primary care behavioral health, supported by security + clinical diligence and pilot expansion.",
       "tags": [
         "methodology",
@@ -2516,6 +2554,7 @@
         "PATIENT_APP_SAFETY_ALERTS"
       ],
       "inbound": [
+        "HCC_V28_CODING_OPPORTUNITY",
         "B2B_CLINIC_BUYER_MODEL",
         "BUYER_PERSONA_CLINICAL_CHAMPION",
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
@@ -2524,7 +2563,6 @@
         "GTM_MOTION_HYPOTHESIS",
         "CLINICAL_INSTRUMENTS_SURFACE",
         "CPT_BILLING_CODES_BHI",
-        "HCC_V28_CODING_OPPORTUNITY",
         "PATIENT_APP_SAFETY_ALERTS",
         "PRIVACY_AND_HIPAA_ROLE",
         "gtm-plan-v1",
@@ -2538,8 +2576,8 @@
       "rel_path": "knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md",
       "domain": "technical",
       "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Public instrument overview lists scale names, constructs, and primary literature references—does not reproduce items; supports evidence-grounded GTM talk tracks.",
       "tags": [
         "technical",
@@ -2564,10 +2602,10 @@
         "PUBLIC_VALUE_PROPOSITION_HOME"
       ],
       "inbound": [
-        "BUYER_PERSONA_CLINICAL_CHAMPION",
         "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
-        "COMPETITIVE_EVIDENCE_GAP",
         "LIFE_SCIENCES_VALUE_PROP",
+        "BUYER_PERSONA_CLINICAL_CHAMPION",
+        "COMPETITIVE_EVIDENCE_GAP",
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "EHR_INTEGRATION_SMART_ON_FHIR",
@@ -2647,11 +2685,11 @@
         "CDS_NOT_DIAGNOSIS_FRAMING"
       ],
       "inbound": [
+        "HCC_V28_CODING_OPPORTUNITY",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "DIRECT_BILLING_MODEL_FFS",
         "EDP_COCM_REVENUE_REALIZATION",
-        "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
-        "HCC_V28_CODING_OPPORTUNITY"
+        "COCM_PUBLIC_ESTIMATE_ENGINE_V2"
       ]
     },
     {
@@ -2659,8 +2697,8 @@
       "rel_path": "knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md",
       "domain": "technical",
       "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Public documentation highlights SMART on FHIR / HL7-class integration, Epic MyChart invitation OAuth (PKCE), and clinic-configured data flows.",
       "tags": [
         "technical",
@@ -2693,44 +2731,6 @@
         "gtm-plan-v1",
         "messaging-pillars-v1",
         "positioning-v1"
-      ]
-    },
-    {
-      "name": "HCC_V28_CODING_OPPORTUNITY",
-      "rel_path": "knowledge_base/technical/HCC_V28_CODING_OPPORTUNITY.md",
-      "domain": "technical",
-      "node_type": "concept",
-      "status": "emergent",
-      "last_updated": "2026-04-05",
-      "description": "Technical explanation of CMS V28 HCC model and behavioral health coding opportunity",
-      "tags": [
-        "technical",
-        "hcc-hierarchical-condition-categories",
-        "v28-model-cms",
-        "source-research-synthesis"
-      ],
-      "topics": [
-        "hcc-hierarchical-condition-categories",
-        "v28-model-cms",
-        "risk-adjustment-raf",
-        "compliance"
-      ],
-      "related_concepts": [
-        "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
-        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
-        "[[PRIMARY_CARE_WEDGE_ICP]]"
-      ],
-      "source_type": "email",
-      "source_file": "Josh Pappas email thread 2026-04-03",
-      "body_lines": 40,
-      "outbound": [
-        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
-        "CDS_NOT_DIAGNOSIS_FRAMING",
-        "PRIMARY_CARE_WEDGE_ICP",
-        "CPT_BILLING_CODES_BHI"
-      ],
-      "inbound": [
-        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT"
       ]
     },
     {
@@ -2776,8 +2776,8 @@
       "rel_path": "knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md",
       "domain": "technical",
       "node_type": "pattern",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Self-harm risk may trigger provider notification (clinic-configured) and optional crisis resource emails; explicitly not real-time monitoring or emergency care.",
       "tags": [
         "technical",
@@ -2817,8 +2817,8 @@
       "rel_path": "knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md",
       "domain": "technical",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-04-03",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Privacy policy states HIPAA Business Associate role for EHR-integrated processing; limits on advertising, sale, and broker sharing; AI-assisted features with human review emphasis.",
       "tags": [
         "technical",

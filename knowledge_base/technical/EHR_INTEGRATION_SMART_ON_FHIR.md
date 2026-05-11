@@ -3,8 +3,8 @@ name: EHR_INTEGRATION_SMART_ON_FHIR
 description: Public documentation highlights SMART on FHIR / HL7-class integration, Epic MyChart invitation OAuth (PKCE), and clinic-configured data flows.
 domain: technical
 node_type: concept
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - technical
   - ehr-integration

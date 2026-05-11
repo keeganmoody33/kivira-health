@@ -3,8 +3,8 @@ name: GTM_MOTION_HYPOTHESIS
 description: Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS for primary care behavioral health, supported by security + clinical diligence and pilot expansion.
 domain: methodology
 node_type: framework
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - methodology
   - gtm-motion

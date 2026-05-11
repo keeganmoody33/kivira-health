@@ -3,8 +3,8 @@ name: CLINICAL_INSTRUMENTS_SURFACE
 description: Public instrument overview lists scale names, constructs, and primary literature references—does not reproduce items; supports evidence-grounded GTM talk tracks.
 domain: technical
 node_type: concept
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - technical
   - cds-clinical-decision-support

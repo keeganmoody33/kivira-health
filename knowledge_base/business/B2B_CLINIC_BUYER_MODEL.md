@@ -3,8 +3,8 @@ name: B2B_CLINIC_BUYER_MODEL
 description: Kivira sells to clinics/health systems; the patient-facing app is free to patients and the customer (clinic) pays.
 domain: business
 node_type: concept
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - b2b-health-system

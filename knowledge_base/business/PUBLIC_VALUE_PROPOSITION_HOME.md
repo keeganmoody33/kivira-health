@@ -3,8 +3,8 @@ name: PUBLIC_VALUE_PROPOSITION_HOME
 description: Public marketing claims emphasize screening + digital phenotyping + AI/DSM-5-aligned analytics, EHR integration, and accuracy/diagnostic language—must be tempered with CDS framing.
 domain: business
 node_type: concept
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - source-public-web

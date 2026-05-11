@@ -3,8 +3,8 @@ name: CLINICAL_TRIALS_DIGITAL_ENDPOINTS
 description: Digital phenotyping as secondary endpoints in CNS clinical trials
 domain: business
 node_type: concept
-status: emergent
-last_updated: 2026-04-05
+status: archived
+last_updated: 2026-05-11
 tags:
   - business
   - clinical-trials

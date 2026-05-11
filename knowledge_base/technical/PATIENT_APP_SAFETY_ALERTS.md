@@ -3,8 +3,8 @@ name: PATIENT_APP_SAFETY_ALERTS
 description: Self-harm risk may trigger provider notification (clinic-configured) and optional crisis resource emails; explicitly not real-time monitoring or emergency care.
 domain: technical
 node_type: pattern
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - technical
   - safety-risk-notification

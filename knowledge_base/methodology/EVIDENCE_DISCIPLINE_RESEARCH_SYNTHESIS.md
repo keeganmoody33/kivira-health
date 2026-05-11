@@ -3,8 +3,8 @@ name: EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS
 description: Operating rule from research synthesis—separate public marketing claims, third-party instrument validity, and Kivira-specific outcomes; avoid conflating them in sales conversations.
 domain: methodology
 node_type: framework
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - methodology
   - evidence-discipline

@@ -3,8 +3,8 @@ name: PRIVACY_AND_HIPAA_ROLE
 description: Privacy policy states HIPAA Business Associate role for EHR-integrated processing; limits on advertising, sale, and broker sharing; AI-assisted features with human review emphasis.
 domain: technical
 node_type: framework
-status: emergent
-last_updated: 2026-04-03
+status: validated
+last_updated: 2026-05-11
 tags:
   - technical
   - patient-app

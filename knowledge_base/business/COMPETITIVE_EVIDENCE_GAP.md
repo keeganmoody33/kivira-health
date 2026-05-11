@@ -3,8 +3,8 @@ name: COMPETITIVE_EVIDENCE_GAP
 description: Public materials lack peer-reviewed Kivira-specific clinical validation; quantitative performance on the website should be treated as unverified until backed by transparent methods and results.
 domain: business
 node_type: pattern
-status: emergent
-last_updated: 2026-04-06
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - evidence-discipline

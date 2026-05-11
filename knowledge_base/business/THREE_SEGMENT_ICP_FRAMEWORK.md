@@ -3,8 +3,8 @@ name: THREE_SEGMENT_ICP_FRAMEWORK
 description: Three-segment ICP framework for Kivira GTM - Provider/PCP, Health System/ACO, Payor/Health Plans
 domain: business
 node_type: framework
-status: emergent
-last_updated: 2026-04-05
+status: validated
+last_updated: 2026-05-11
 tags:
   - business
   - icp-primary-care
