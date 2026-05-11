@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 05:48 UTC",
+  "generated_at": "2026-05-11 06:11 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -1355,11 +1355,52 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04"
+      ]
+    },
+    {
+      "name": "WEEKLY_LINEAR_SHIPPED_2026_05_10",
+      "rel_path": "knowledge_base/execution/linear/weekly-shipped-2026-05-10.md",
+      "domain": "methodology",
+      "node_type": "execution_digest",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "Linear issue throughput snapshot for week ending 2026-05-10 (LEC team) — zero issues shipped or created this week; all material progress happened in the graph itself (HeyReach diagnosis, maintenance pass, Kivira profile work).",
+      "tags": [
+        "weekly-evidence",
+        "gtm-tooling"
+      ],
+      "topics": [
+        "execution"
+      ],
+      "related_concepts": [
+        "[[WEEKLY_MOC_2026_05_10]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
+        "[[WEEKLY_LINEAR_SHIPPED_2026_05_04]]",
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_10]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
+      ],
+      "source_type": "tool_export",
+      "source_file": "scripts/linear_weekly_pull.py",
+      "body_lines": 61,
+      "outbound": [
+        "WEEKLY_MOC_2026_05_10",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
+      ],
+      "inbound": [
+        "WEEKLY_MOC_2026_05_10"
       ]
     },
     {
@@ -1458,6 +1499,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_11",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_MOC_2026_05_10"
       ]
     },
@@ -1834,6 +1876,7 @@
         "HEAT_2026_05_11",
         "COMPETITIVE_EVIDENCE_GAP",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "WEEKLY_MOC_GRAPH_RITUAL",
@@ -1944,6 +1987,7 @@
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_OUTREACH_SEQUENCING",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
@@ -2106,7 +2150,8 @@
       ],
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
-        "KIVIRA_COMPANY_PROFILE_2026_05_11"
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10"
       ]
     },
     {
@@ -2599,6 +2644,7 @@
         "HEAT_2026_05_04",
         "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
@@ -2738,6 +2784,7 @@
         "HEAT_2026_05_04",
         "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
@@ -3318,6 +3365,7 @@
       "body_lines": 114,
       "outbound": [
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "HEAT_2026_05_11",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "BUYER_PERSONA_OPERATIONAL_BUYER",
@@ -3334,6 +3382,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_11",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10"
       ]
     },
