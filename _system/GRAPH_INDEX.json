@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 06:11 UTC",
+  "generated_at": "2026-05-11 06:13 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -699,7 +699,8 @@
       ],
       "inbound": [
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
-        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
+        "2026-05-11-investor-email"
       ]
     },
     {
@@ -1400,7 +1401,8 @@
         "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
       ],
       "inbound": [
-        "WEEKLY_MOC_2026_05_10"
+        "WEEKLY_MOC_2026_05_10",
+        "2026-05-11-investor-email"
       ]
     },
     {
@@ -1500,7 +1502,8 @@
       "inbound": [
         "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
-        "WEEKLY_MOC_2026_05_10"
+        "WEEKLY_MOC_2026_05_10",
+        "2026-05-11-investor-email"
       ]
     },
     {
@@ -1837,7 +1840,8 @@
         "gtm-plan-v1",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
-        "WEEKLY_MOC_2026_05_10"
+        "WEEKLY_MOC_2026_05_10",
+        "2026-05-11-investor-email"
       ]
     },
     {
@@ -2151,7 +2155,8 @@
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
-        "WEEKLY_LINEAR_SHIPPED_2026_05_10"
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
+        "2026-05-11-investor-email"
       ]
     },
     {
@@ -3383,8 +3388,33 @@
       "inbound": [
         "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
-        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10"
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "2026-05-11-investor-email"
       ]
+    },
+    {
+      "name": "2026-05-11-investor-email",
+      "rel_path": "00_foundation/weekly_updates/2026-05-11-investor-email.md",
+      "domain": "",
+      "node_type": "",
+      "status": "draft",
+      "last_updated": "",
+      "description": "",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 110,
+      "outbound": [
+        "WEEKLY_MOC_2026_05_10",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
+        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05"
+      ],
+      "inbound": []
     },
     {
       "name": "weekly-moc-template",
