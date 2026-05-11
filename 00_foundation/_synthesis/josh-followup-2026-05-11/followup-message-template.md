@@ -1,6 +1,8 @@
 # Follow-up messages — 10 individualized drafts (2026-05-11)
 
-One personalized message per in-scope accept. The shape is consistent so it scales, but each draft is tailored to the person's role, company, sub-tier, and day-to-day mission. Send manually from your LinkedIn.
+One personalized message per in-scope accept. The shape is consistent so it scales, but each draft is tailored to the person's role, company, sub-tier, and day-to-day mission.
+
+**Sender:** Keegan. These 58 accepts all connected via Keegan's LinkedIn (keeganmoody33@gmail.com is the only sender attached to the campaigns), so follow-ups need to come from that same account. The package is shared with Josh for transparency / brief context.
 
 ## Common structure (so you can rewrite quickly if needed)
 
@@ -25,7 +27,7 @@ If your week is too packed, no problem — happy if you can just point us
 to the right person at {companyName} this might pertain to, or anyone
 in your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 **Optional inserts before sending** (Josh's call to use only if accurate / public):
@@ -69,7 +71,7 @@ If your week is too packed, no problem — happy if you can just point
 us to the right person at WellMed this might pertain to, or anyone in
 your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -110,7 +112,7 @@ If your week is too packed, no problem — happy if you can just point
 us to the right person at ACP this might pertain to, or anyone in your
 network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -150,7 +152,7 @@ If your week is too packed, no problem — happy if you can just point
 us to the right person at NxtCare this might pertain to, or anyone in
 your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -192,7 +194,7 @@ us to the right person at the plan this might pertain to (Stars,
 medical management, risk adjustment, or behavioral health programs),
 or anyone in your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -235,7 +237,7 @@ ambulatory, Optum Rx behavioral, or one of the network compliance
 threads), or anyone in your network who'd be passionate about this
 kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -274,7 +276,7 @@ platform / partnerships team, or the clinical side that owns BH
 across the member groups), or anyone in your network who'd be
 passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -310,7 +312,7 @@ If your week is too packed, no problem — happy if you can just point
 us to the right person at Privia this might pertain to, or anyone in
 your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -347,7 +349,7 @@ If your week is too packed, no problem — happy if you can just point
 us to anyone in your network who'd be passionate about this kind of
 work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -384,7 +386,7 @@ If your week is too packed, no problem — happy if you can just point
 us to the right person at Optimum this might pertain to, or anyone
 in your network who'd be passionate about this kind of work.
 
-— Josh
+— Keegan
 ```
 
 ---
@@ -420,7 +422,7 @@ If your week is too packed, no problem — happy if you can just point
 us to anyone in your network who'd be passionate about this kind of
 work.
 
-— Josh
+— Keegan
 ```
 
 ---
