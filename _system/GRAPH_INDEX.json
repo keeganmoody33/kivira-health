@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 17:44 UTC",
+  "generated_at": "2026-05-11 17:50 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -2756,8 +2756,8 @@
       "rel_path": "knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md",
       "domain": "methodology",
       "node_type": "framework",
-      "status": "emergent",
-      "last_updated": "2026-05-04",
+      "status": "validated",
+      "last_updated": "2026-05-11",
       "description": "Weekly email as graph operation—the MOC is a citation hub that heats evidence nodes via explicit wikilinks; investor email is the side effect of tightening backlinks.",
       "tags": [
         "methodology",

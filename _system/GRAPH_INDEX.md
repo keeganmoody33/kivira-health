@@ -1,5 +1,5 @@
 # Context OS — Graph Index
-> Generated: 2026-05-11 17:44 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-11 17:50 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
@@ -67,6 +67,7 @@
 `TECH_STACK_OUTBOUND_INFRASTRUCTURE    ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←13
 `THIRTY_DAY_OFFICE_MANAGER_TARGET      ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←3
 `WAVE_1_SCORING_FRAMEWORK              ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←9
+`WEEKLY_MOC_GRAPH_RITUAL               ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` ✅ [methodology/framework] ←11
 `CDS_NOT_DIAGNOSIS_FRAMING             ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←17
 `CLINICAL_INSTRUMENTS_SURFACE          ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←12
 `COCM_PUBLIC_ESTIMATE_ENGINE_V2        ` → `knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md` ✅ [technical/framework] ←2
@@ -86,7 +87,6 @@
 `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP    ` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md` 🌱 [methodology/framework] ←1
 `WEEKLY_LINEAR_SHIPPED_2026_05_04      ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md` 🌱 [methodology/execution_digest] ←7
 `WEEKLY_LINEAR_SHIPPED_2026_05_10      ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-10.md` 🌱 [methodology/execution_digest] ←2
-`WEEKLY_MOC_GRAPH_RITUAL               ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` 🌱 [methodology/framework] ←11
 `context-sensitivity-model             ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/context-sensitivity-model.md` ❓ [/] ←0
 `domain-query-patterns                 ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/domain-query-patterns.md` ❓ [/] ←0
 `falsifiability-spectrum               ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/falsifiability-spectrum.md` ❓ [/] ←0
@@ -155,6 +155,7 @@
 | `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 13 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
 | `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 3 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
 | `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 9 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
+| `WEEKLY_MOC_GRAPH_RITUAL` | methodology | framework | ✅ validated | 11 | 25 | Weekly email as graph operation—the MOC is a citation hub that heats e… |
 | `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 17 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
 | `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | ✅ validated | 12 | 19 | Public instrument overview lists scale names, constructs, and primary … |
 | `COCM_PUBLIC_ESTIMATE_ENGINE_V2` | technical | framework | ✅ validated | 2 | 32 | Internal reference engine for modeled CoCM opportunity estimation usin… |
@@ -174,7 +175,6 @@
 | `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP` | methodology | framework | 🌱 emergent | 1 | 34 | Target operating model for outbound—InboxKit fully configured for doma… |
 | `WEEKLY_LINEAR_SHIPPED_2026_05_04` | methodology | execution_digest | 🌱 emergent | 7 | 49 | Linear issue throughput snapshot for week ending 2026-05-04 (LEC team) |
 | `WEEKLY_LINEAR_SHIPPED_2026_05_10` | methodology | execution_digest | 🌱 emergent | 2 | 61 | Linear issue throughput snapshot for week ending 2026-05-10 (LEC team)… |
-| `WEEKLY_MOC_GRAPH_RITUAL` | methodology | framework | 🌱 emergent | 11 | 25 | Weekly email as graph operation—the MOC is a citation hub that heats e… |
 | `context-sensitivity-model` |  |  | ❓  | 0 | 253 | Deep dive on context sensitivity assessment - determining when domain … |
 | `domain-query-patterns` |  |  | ❓  | 0 | 291 | Search patterns for traversing your context OS to discover domain docu… |
 | `falsifiability-spectrum` |  |  | ❓  | 0 | 337 | Framework for grading the verifiability of assumptions and design deci… |
@@ -369,6 +369,10 @@
 **←** `COCM_CONFIDENCE_GRADE_RULES`, `OUTREACH_WAVE_STRUCTURE`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_TIER_1_PROVIDER_534M`
 
+### `WEEKLY_MOC_GRAPH_RITUAL`
+**←** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
+**→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `NAME`, `OUTREACH_BASELINE_METRICS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+
 ### `CDS_NOT_DIAGNOSIS_FRAMING`
 **←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`
 **→** `PATIENT_APP_SAFETY_ALERTS`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`
@@ -444,10 +448,6 @@
 ### `WEEKLY_LINEAR_SHIPPED_2026_05_10`
 **←** `2026-05-11-investor-email`, `WEEKLY_MOC_2026_05_10`
 **→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `HEAT_EXCEPTION_EXTERNAL_VALIDATION`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`
-
-### `WEEKLY_MOC_GRAPH_RITUAL`
-**←** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
-**→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `NAME`, `OUTREACH_BASELINE_METRICS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
 
 ### `domain-query-patterns`
 **←** _(no inbound links — orphan)_

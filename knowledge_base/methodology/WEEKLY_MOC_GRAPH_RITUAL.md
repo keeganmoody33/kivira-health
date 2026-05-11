@@ -3,8 +3,8 @@ name: WEEKLY_MOC_GRAPH_RITUAL
 description: Weekly email as graph operation—the MOC is a citation hub that heats evidence nodes via explicit wikilinks; investor email is the side effect of tightening backlinks.
 domain: methodology
 node_type: framework
-status: emergent
-last_updated: 2026-05-04
+status: validated
+last_updated: 2026-05-11
 tags:
   - methodology
   - weekly-moc
