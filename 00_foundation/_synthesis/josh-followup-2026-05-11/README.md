@@ -6,7 +6,7 @@
 ## What's in this folder
 
 1. **`accepts-subtier-mapped.md`** — All 58 LinkedIn connection accepts from our Wave 1 outreach (Baseline + OperationalOwner + ClinicalChampion campaigns), with each person's account classified into our sub-tier structure. The honest signal: **10 are in-scope buyer targets**, the other 48 are mostly GTM-tool vendors / recruiters / off-industry connectors that came through despite our list filters.
-2. **`followup-message-template.md`** — A curious-tone follow-up message you can send manually from LinkedIn to the 10 in-scope folks. Includes per-sub-tier value-prop variants and four worked examples so the personalization is paint-by-number.
+2. **`followup-message-template.md`** — **Ten individualized messages**, one per in-scope accept. Each is tailored to the person's role, company, sub-tier, and how Kivira would land on their day-to-day. Uses real social proof (Antler + major healthcare systems + named medical-board members like Charles Nemeroff and Teddy Akiki). Offers two paths in every message: a call with them, OR a warm intro to the right person at their org if their week is packed.
 3. **`accepts-subtier-mapped.csv`** — The same accept list as raw spreadsheet data (one row per person, with sub-tier + confidence + notes columns).
 
 ## How to use this
