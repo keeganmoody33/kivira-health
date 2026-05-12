@@ -326,5 +326,38 @@ Apply across every subtier:
 
 ## Production Validation
 
+### Wave 1 launch (2026-05-04)
 - [[WEEKLY_MOC_2026_05_04]] — 9×5 structure exercised: 3 campaigns (1C Provider, 2A ACO, Baseline) with 1,219 leads loaded across the Wave 1 cohort
 - [[WEEKLY_HEYREACH_EVIDENCE_2026_05_04]] — HeyReach campaign breakdown proving subtier / persona routing (Operational Owner 2A ACO, Clinical Champion 1C Provider, Baseline 9-subtier)
+
+### Wave 1 production read (2026-05-11, after 7 days of send)
+
+- **58 lifetime accepts across the 3 campaigns** (Baseline + OperationalOwner-2A + ClinicalChampion-1C).
+- **10 in-scope to the 9-sub-tier structure (17%).** 48 noise (vendor / recruiter / off-industry — see [[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]] §Anti-Persona Patterns).
+- **Sub-tier hit map** (in-scope accepts by sub-tier classification):
+
+  | Sub-tier | In-scope accepts | Notes |
+  |---|---:|---|
+  | 1A — Mid-market provider groups | 1 | Robert Lystrup, MD @ Arizona Community Physicians |
+  | 1B — PCP groups | 0 | Wave 1 didn't target; list build needed |
+  | 1C — VBC provider groups | 3 | Yarly @ WellMed, Jason + Lynn @ Privia Health |
+  | 2A — ACOs | 0 | OperationalOwner campaign produced *zero* direct 2A in-scope hits — investigate list quality |
+  | 2B — VBC enablement | 2 | Kumar @ Optimum Healthcare IT, Scott Quinn @ EVOS Health (both borderline) |
+  | 2C — Care management | 2 | Chris Oltmans @ NxtCare, Chris MacInnis @ Old Mission Wound Care |
+  | 3A — Health systems standalone | 0 | Not on Wave 1 list |
+  | 3B — IDNs | 0 | Not on Wave 1 list |
+  | 3C — Regional payers / hybrids | 2 | Jeremy Wigginton @ Capital BCBS, Christa Thomas @ Optum (3C primary / 3A secondary) |
+
+- **Persona-targeted lists beat baseline lists 4 to 1.** The Clinical Champion (1C) and OperationalOwner (2A) campaigns produced the cleaner accepts; the Baseline-9Subtier campaign produced most of the 48-noise noise. The "generic healthcare growth" LinkedIn slice is the main source of vendor / GTM-tool / recruiter accepts.
+- **2A ACO campaign produced zero in-scope.** The list itself loaded 359 ACO-tagged leads but no Wave 1 accept-quality fit fell out. Either the title patterns from PERSONA_TITLE_DICTIONARY for 2A need tightening (the patterns may be capturing administrative shell roles instead of operating Population Health / Care Coordination leads), or the 7-day send window is too short for the ACO buying motion to surface. Both worth testing in Wave 2.
+- **Operating wisdom:** HeyReach's `excludeInOtherCampaigns` flag is sticky across campaign-state changes. Pausing the holding campaign does not release leads from the exclusion check on dependent campaigns; the persistent fix is to toggle the flag off via UpdateSettings (which requires PAUSED status — Pause → UpdateSettings → Resume sequence). See `_system/agent_workflows/heyreach-cli-load-runbook.md` for the runbook.
+- **Wave 1 follow-up artifact:** `00_foundation/_synthesis/josh-followup-2026-05-11/` — sub-tier-mapped accept list + 10 individualized v5 messages going out from Keegan's LinkedIn for the in-scope cohort.
+
+### Wave 2 planning constraints (forward-looking)
+
+Based on the above:
+
+1. **List filters tighten BEFORE sub-tier match.** Apply [[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]] §Anti-Persona Patterns at list-build, not at outreach time.
+2. **Sub-tiers with zero Wave 1 hits (1B / 2A / 3A / 3B) need targeted re-tests** with higher-intent persona matching, not just title pattern.
+3. **Drop "generic healthcare growth" LinkedIn slices** from Baseline-equivalent campaigns. The signal-to-noise on that approach is below 20%.
+4. **Ramp send volume in parallel** with list refinement — adding 2nd / 3rd LinkedIn senders to break the ~25/day cap. Volume increase × sharper list = compounding Wave 2 read.

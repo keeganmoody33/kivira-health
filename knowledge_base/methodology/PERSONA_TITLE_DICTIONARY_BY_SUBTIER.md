@@ -338,6 +338,94 @@ BH / Quality Influencer:
 
 ---
 
+## Anti-Persona Patterns — exclude from list-build before any sub-tier match
+
+Calibrated from Wave 1's 58 LinkedIn accepts (5/3 launch through 5/11 triage), where 48 of 58 accepts (83%) were noise. Title patterns below auto-disqualify regardless of which sub-tier the company nominally maps to. Apply at list-build time, not at outreach time.
+
+[VERIFIED: Patterns derived from the 48 OUT_OF_SCOPE rows in `00_foundation/_synthesis/josh-followup-2026-05-11/accepts-subtier-mapped.csv`.]
+
+### GTM tooling / sales tech (single largest noise bucket, ~26 of 48)
+
+Any of the following title + company combinations auto-excludes the lead:
+
+- **"Founder" / "CEO" / "Co-Founder" + small AI / SaaS / data startup** (e.g., AirOps, Brandjet AI, Tail, Rocketeer YC S23, Tandeh, Deepline, PhrasIQ, MindInventory, Morph Data Strategies)
+- **"GTM Engineer" / "Brand-Led GTM Engineer" / "GTM Engineering"** at any company
+- **"Customer Success" + sales-outreach / inbox / lead-gen platform** (Salesforge, HeyReach, Premium Inboxes, WarmLeads, LeadsFriday, Hotglue, Quiklynx)
+- **"Head of Partnerships" / "VP Growth" + AI / SaaS / data tooling company** (Hotglue, AirOps, Teleport, Unstructured)
+- **"Outreach" / "Sales Development" / "Sales Rep" + non-healthcare company**
+
+### Recruiting / staffing / agencies (~5 of 48)
+
+- **"Recruiter" / "Corporate Recruiter" / "Member-Owner" at any recruiting org** (2X, NPAworldwide, Clay Headhunter)
+- **"VP Credentialing" / "VP Operations" at nurse-staffing co** (Medical Solutions, etc.)
+- **"Learner Success" / "People Coach" at sales-training co** (Cardone Ventures, etc.)
+
+### Off-industry sales / individuals (~9 of 48)
+
+- **"Outside Sales Representative" / "Sales Rep" + electrical / distribution / industrial** (Graybar, etc.)
+- **"Financial Advisor" / "Wealth Advisor"** (Edward Jones, etc.)
+- **"Division President" / "President" + home builder / real-estate / construction** (Dream Finders Homes, etc.)
+- **"Publisher" / "Senior Market Leader" + local media** (Best Version Media, etc.)
+- **"Youth coach" / any youth-sports / fitness role**
+- **"Highly Skilled Virtual Assistant" / Upwork freelancers**
+- **"Web Research" / "Lead Generation Specialist"** at freelance platforms (PeoplePerHour)
+- **"Venture Scout" / "Associate" at VC firms** (M Venture Partners) — flag for investor-side convo, not buyer
+
+### Healthcare-adjacent but wrong wedge (~8 of 48)
+
+- **"Business Analyst" / "RPA Solution Engineer" / "Data Science"** at healthcare IT consultancy (HCLTech, MindInventory)
+- **"Pharmacy Operations" + personal-brand bio**
+- **CMO / VP at pharma-trials / life-sciences org** (Pharma Trial Connect)
+- **"Business Partner" at wellness / supplement retail** (Get Healthy USA)
+
+### Application
+
+In Clay enrichment, add these as exclusion filters BEFORE any sub-tier-match step. The cleanest Boolean form:
+
+```
+EXCLUDE IF (
+  title CONTAINS ("GTM Engineer" OR "Recruiter" OR "Outside Sales"
+                  OR "Virtual Assistant" OR "Wealth Advisor"
+                  OR "Financial Advisor" OR "Sales Development"
+                  OR "Lead Generation" OR "Venture Scout"
+                  OR "Pharmacy Operations" OR "Publisher")
+) OR (
+  company IS_IN [Salesforge, HeyReach, Premium Inboxes, WarmLeads,
+                 LeadsFriday, Hotglue, Quiklynx, AirOps, Teleport,
+                 Unstructured, 2X, NPAworldwide, Clay Headhunter,
+                 Edward Jones, Dream Finders Homes, Best Version Media,
+                 PeoplePerHour, Upwork, HCLTech, Cardone Ventures,
+                 Tovuti LMS, Pharma Trial Connect, Get Healthy USA]
+) OR (
+  company industry NOT IN (
+    "Healthcare", "Hospitals & Health Systems", "Health Plans",
+    "Pharmaceuticals", "Medical Devices", "Health Tech",
+    "Mental Health Care", "Primary Care", "Care Management"
+  )
+)
+```
+
+The third clause is the load-bearing one — most Wave 1 noise had company-industry classifications that already would have been filtered if the list-build had hit LinkedIn industry filters before sub-tier match.
+
+## Wave 1 in-scope persona calibration (2026-05-11)
+
+The 10 in-scope accepts mapped to these personas — useful as ground-truth for which titles in the dictionary above actually convert at Wave 1 send volume:
+
+| Person | Sub-tier | Persona role | Title as it appears on LinkedIn |
+|---|---|---|---|
+| Yarly Fassih-Nia | 1C | Operational Owner | Sr Director of Quality & Risk Adjustment |
+| Robert Lystrup, MD | 1A | Clinical Champion | Medical Director |
+| Chris Oltmans | 2C | Operational Owner + Clinical Champion (hybrid) | Chief Population Health Officer |
+| Jeremy Wigginton, MD | 3C | Clinical Champion | Chief Medical Officer |
+| Christa Thomas | 3C / 3A | Operational Owner | VP Clinical Compliance Operations |
+| Jason Johnson | 1C | Partnership Lead | Director, Growth |
+| Lynn LeCluyse | 1C | Patient Marketing influencer | Patient Marketing |
+| Chris MacInnis | 2C | Operational Owner (borderline) | Chief VBC Strategy & Growth Officer |
+| Kumar Murukurthy, MD | 2B | Clinical Champion / Channel | Chief Clinical Officer |
+| Scott Quinn | 2B | Founder (peer / partner) | Founder |
+
+**Sub-tiers with zero Wave 1 in-scope accepts:** 1B (PCP groups), 2A (ACOs — despite OperationalOwner campaign targeting them), 3A (Health Systems standalone), 3B (IDNs). Wave 2 list build needs higher-intent persona matching for these tiers; the bar is "named operator or clinical champion with public quality / VBC / ambulatory-strategy signal," not just title pattern.
+
 ## Quick-Reference: Fifth Persona by Subtier
 
 | Subtier | 5th Role Label | What They Own |

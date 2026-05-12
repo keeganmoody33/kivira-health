@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 17:50 UTC",
+  "generated_at": "2026-05-12 13:05 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -667,7 +667,7 @@
       "rel_path": "knowledge_base/business/KIVIRA_BACKER_COPY_SHIFT_2026_05.md",
       "domain": "business",
       "node_type": "gtm_signal",
-      "status": "emergent",
+      "status": "validated",
       "last_updated": "2026-05-11",
       "description": "Between 2026-04-06 and 2026-05-11, Kivira's public site footer changed from \"Backed by Y Combinator & Antler\" to \"Backed by Antler & major healthcare systems\" — flagged for context, mechanism unverified.",
       "tags": [
@@ -689,7 +689,7 @@
       ],
       "source_type": "document",
       "source_file": "",
-      "body_lines": 35,
+      "body_lines": 43,
       "outbound": [
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "FUNDING_AND_BACKING_SIGNALS",
@@ -699,8 +699,7 @@
       ],
       "inbound": [
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
-        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
-        "2026-05-11-investor-email"
+        "HEAT_EXCEPTION_EXTERNAL_VALIDATION"
       ]
     },
     {
@@ -736,7 +735,7 @@
       ],
       "source_type": "document",
       "source_file": "",
-      "body_lines": 109,
+      "body_lines": 111,
       "outbound": [
         "PRIMARY_CARE_WEDGE_ICP",
         "CDS_NOT_DIAGNOSIS_FRAMING",
@@ -753,7 +752,8 @@
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS"
       ],
       "inbound": [
-        "KIVIRA_BACKER_COPY_SHIFT_2026_05"
+        "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12"
       ]
     },
     {
@@ -1406,6 +1406,47 @@
       ]
     },
     {
+      "name": "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+      "rel_path": "knowledge_base/gtm_signals/WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "validated",
+      "last_updated": "2026-05-12",
+      "description": "Distilled learnings from triaging the 58 LinkedIn accepts produced by Wave 1 (5/3-5/11) against the 9-sub-tier structure — what fit, what was noise, and what the noise composition tells us about Wave 2 list filters.",
+      "tags": [
+        "business",
+        "gtm-motion",
+        "outbound",
+        "accept-triage",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "",
+      "body_lines": 81,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OUTREACH_BASELINE_METRICS",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "OUTREACH_WAVE_STRUCTURE"
+      ],
+      "inbound": [
+        "OUTREACH_BASELINE_METRICS"
+      ]
+    },
+    {
       "name": "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
       "rel_path": "knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md",
       "domain": "business",
@@ -1795,6 +1836,7 @@
       "inbound": [
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
       ]
@@ -1840,8 +1882,7 @@
         "gtm-plan-v1",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
-        "WEEKLY_MOC_2026_05_10",
-        "2026-05-11-investor-email"
+        "WEEKLY_MOC_2026_05_10"
       ]
     },
     {
@@ -2084,7 +2125,7 @@
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/MARKETANALYSIS.md",
-      "body_lines": 298,
+      "body_lines": 331,
       "outbound": [
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "PAIN_SEGMENT_MATRIX",
@@ -2104,10 +2145,12 @@
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "ACCOUNT_SCHEMA_EXTENDED",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "PUBLIC_DATA_SOURCES_TAM",
@@ -2155,8 +2198,7 @@
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
-        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
-        "2026-05-11-investor-email"
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10"
       ]
     },
     {
@@ -2196,6 +2238,48 @@
       ],
       "inbound": [
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
+      ]
+    },
+    {
+      "name": "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+      "rel_path": "knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "validated",
+      "last_updated": "2026-05-12",
+      "description": "Canonical 5-paragraph LinkedIn DM pattern for warm follow-up to accepted connections — domain-led, named-funder social proof, role-specific value-prop, demo-with-founder beat, two-path ask close.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "linkedin-outreach",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[KIVIRA_COMPANY_PROFILE_2026_05_11]]",
+        "[[DEMO_FIRST_OUTBOUND_STRATEGY]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "00_foundation/_synthesis/josh-followup-2026-05-11/messages-josh-preview.md",
+      "body_lines": 101,
+      "outbound": [
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "DEMO_FIRST_OUTBOUND_STRATEGY"
+      ],
+      "inbound": [
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "OUTREACH_BASELINE_METRICS"
       ]
     },
     {
@@ -2286,8 +2370,8 @@
       "rel_path": "knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md",
       "domain": "methodology",
       "node_type": "framework",
-      "status": "draft",
-      "last_updated": "",
+      "status": "validated",
+      "last_updated": "2026-05-12",
       "description": "Minimal measurement spec for outbound so we can learn which subtiers/personas/messages generate signals and booked demos.",
       "tags": [
         "methodology",
@@ -2301,24 +2385,30 @@
         "[[DEMO_FIRST_OUTBOUND_STRATEGY]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
         "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
-        "[[PAIN_SEGMENT_MATRIX]]"
+        "[[PAIN_SEGMENT_MATRIX]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]"
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/kivira-internal/jp-km-outbound-strategy-meeting-notes-2026-04-07.md",
-      "body_lines": 40,
+      "body_lines": 92,
       "outbound": [
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
-        "PAIN_SEGMENT_MATRIX"
+        "PAIN_SEGMENT_MATRIX",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12"
       ],
       "inbound": [
         "HEAT_2026_05_04",
         "HEAT_2026_05_11",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
@@ -2372,6 +2462,7 @@
         "HEAT_2026_05_11",
         "TAM_TIER_2_ACO_VBC_73M",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
@@ -2415,7 +2506,7 @@
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/MARKETANALYSIS.md",
-      "body_lines": 329,
+      "body_lines": 417,
       "outbound": [
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "BUYING_COMMITTEE_DYNAMICS",
@@ -2426,10 +2517,12 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ],
       "inbound": [
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
@@ -3182,6 +3275,74 @@
       "inbound": []
     },
     {
+      "name": "README",
+      "rel_path": "00_foundation/_synthesis/josh-followup-2026-05-11/README.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Date:** 2026-05-11",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 34,
+      "outbound": [],
+      "inbound": []
+    },
+    {
+      "name": "accepts-subtier-mapped",
+      "rel_path": "00_foundation/_synthesis/josh-followup-2026-05-11/accepts-subtier-mapped.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Universe:** 58 LinkedIn connection accepts across the three Wave 1 campaigns (Baseline / OperationalOwner / ClinicalCh",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 100,
+      "outbound": [],
+      "inbound": []
+    },
+    {
+      "name": "followup-message-template",
+      "rel_path": "00_foundation/_synthesis/josh-followup-2026-05-11/followup-message-template.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "Internal version with per-person research notes. Messages match `messages-josh-preview.md` exactly.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 240,
+      "outbound": [],
+      "inbound": []
+    },
+    {
+      "name": "messages-josh-preview",
+      "rel_path": "00_foundation/_synthesis/josh-followup-2026-05-11/messages-josh-preview.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "10 individualized LinkedIn DMs going out from Keegan's account. ~45-55 words each.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 244,
+      "outbound": [],
+      "inbound": []
+    },
+    {
       "name": "wave-1a-execution-schedule-2026-05-01",
       "rel_path": "00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md",
       "domain": "",
@@ -3405,14 +3566,11 @@
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 110,
+      "body_lines": 59,
       "outbound": [
         "WEEKLY_MOC_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
-        "WEEKLY_LINEAR_SHIPPED_2026_05_10",
-        "DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER",
-        "HEAT_EXCEPTION_EXTERNAL_VALIDATION",
-        "KIVIRA_BACKER_COPY_SHIFT_2026_05"
+        "WEEKLY_LINEAR_SHIPPED_2026_05_10"
       ],
       "inbound": []
     },

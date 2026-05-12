@@ -108,11 +108,13 @@ The subdomain explicitly states: *"These tools are intended to support care, not
 
 ## Backers
 
-**Current (2026-05-11):** *"Backed by Antler & major healthcare systems"* (per `raw-context/kivira-public/spider-www-home-2026-05-11.md`).
+**Current (2026-05-12):** Backed by Antler; **funded by Wellstar Catalyst** (Wellstar Health System's venture / innovation arm). The public footer phrases this as *"Backed by Antler & major healthcare systems"* — the plural is a single named relationship with Wellstar Catalyst.
 
-**Prior (2026-04-06):** *"Backed by Y Combinator & Antler"* (per `raw-context/kivira-public/www-home.md`).
+[VERIFIED via direct attestation 2026-05-11 (user, Kivira GTM lead). Public footer copy resolves to the same source; see [[KIVIRA_BACKER_COPY_SHIFT_2026_05]] for the resolution trail.]
 
-[INFERRED: Backer copy shift between April and May. "Y Combinator" framing dropped from public marketing; "major healthcare systems" added — see [[KIVIRA_BACKER_COPY_SHIFT_2026_05]] for the signal node tracking this delta. Whether this represents new health-system investment, a partnership/pilot framing, or a marketing-only tweak is unverified.]
+**Prior (2026-04-06):** *"Backed by Y Combinator & Antler"* (per `raw-context/kivira-public/www-home.md`). Y Combinator framing dropped between April and May; Wellstar Catalyst added as named funder.
+
+**Canonical outbound social-proof line:** *"Backed by Antler and funded by Wellstar Catalyst."* Use in all GTM outbound, investor decks, and partnership conversations. Naming Wellstar in *public-facing* copy is a marketing decision separate from internal/outbound use; the public site retains the generic plural phrasing as of 2026-05-12.
 
 ## Press / External Validation
 
