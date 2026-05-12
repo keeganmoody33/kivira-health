@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12 13:05 UTC",
+  "generated_at": "2026-05-12 13:40 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -753,7 +753,8 @@
       ],
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
-        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12"
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12"
       ]
     },
     {
@@ -1443,6 +1444,10 @@
         "OUTREACH_WAVE_STRUCTURE"
       ],
       "inbound": [
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "OUTREACH_BASELINE_METRICS"
       ]
     },
@@ -1632,6 +1637,48 @@
         "SUBTIER_EXCLUSION_RULES",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "gtm-plan-v1"
+      ]
+    },
+    {
+      "name": "ACO_BLITZ_2026_05_W2_PLAN",
+      "rel_path": "knowledge_base/methodology/ACO_BLITZ_2026_05_W2_PLAN.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-12",
+      "description": "Manual email + phone blitz on a focused ACO target list — 2-hour synchronous blocks with Josh, intended to test whether the 2A buying motion is reachable on a sync cadence that Wave 1's LinkedIn warm-async motion did not surface.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "execution-cadence",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OUTREACH_BASELINE_METRICS]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Session conversation 2026-05-12 (Josh text msg + Keegan + Claude planning)",
+      "body_lines": 66,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OUTREACH_BASELINE_METRICS"
+      ],
+      "inbound": [
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12"
       ]
     },
     {
@@ -2147,10 +2194,13 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "ACCOUNT_SCHEMA_EXTENDED",
+        "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "PUBLIC_DATA_SOURCES_TAM",
@@ -2279,7 +2329,50 @@
       ],
       "inbound": [
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "OUTREACH_BASELINE_METRICS"
+      ]
+    },
+    {
+      "name": "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+      "rel_path": "knowledge_base/methodology/LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-05-12",
+      "description": "GTM tactic of asking Kivira team / advisors / board / tightly-affiliated to export their LinkedIn connections (Settings → Data Privacy → Get a copy of your data → Connections) so we can triage for in-scope prospects hiding in plain sight.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[KIVIRA_COMPANY_PROFILE_2026_05_11]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Session conversation 2026-05-12 (investor email §6 — 'one small assist')",
+      "body_lines": 72,
+      "outbound": [
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_BASELINE_METRICS",
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
+      ],
+      "inbound": [
+        "OUTBOUND_SENDER_RAMP_2026_05_W2"
       ]
     },
     {
@@ -2366,6 +2459,93 @@
       ]
     },
     {
+      "name": "OUTBOUND_SENDER_RAMP_2026_05_W2",
+      "rel_path": "knowledge_base/methodology/OUTBOUND_SENDER_RAMP_2026_05_W2.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-12",
+      "description": "Plan to add 2-3 LinkedIn senders to the HeyReach stack this week, breaking the ~25/day single-sender cap and roughly tripling outbound capacity — only after Wave 2 list filters tighten, never as a way to scale a noisy list.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "gtm-tooling",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "execution-cadence"
+      ],
+      "related_concepts": [
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Session conversation 2026-05-12 (Wave 2 next-steps thread)",
+      "body_lines": 83,
+      "outbound": [
+        "OUTREACH_BASELINE_METRICS",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12"
+      ],
+      "inbound": [
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12"
+      ]
+    },
+    {
+      "name": "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+      "rel_path": "knowledge_base/methodology/OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-12",
+      "description": "Strategic framing for running LinkedIn (warm/async) and ACO blitz (manual/sync) as parallel outbound motions — complementary, not redundant, deliberately testing two buying cadences in parallel.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "workflow",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "execution-cadence"
+      ],
+      "related_concepts": [
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[ACO_BLITZ_2026_05_W2_PLAN]]",
+        "[[OUTBOUND_SENDER_RAMP_2026_05_W2]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Session conversation 2026-05-11 → 2026-05-12 (Keegan + Claude)",
+      "body_lines": 41,
+      "outbound": [
+        "OUTREACH_BASELINE_METRICS",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
+      ],
+      "inbound": [
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2"
+      ]
+    },
+    {
       "name": "OUTREACH_BASELINE_METRICS",
       "rel_path": "knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md",
       "domain": "methodology",
@@ -2405,10 +2585,14 @@
         "HEAT_2026_05_11",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "ACO_BLITZ_2026_05_W2_PLAN",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
@@ -2519,10 +2703,13 @@
       "inbound": [
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTREACH_BASELINE_METRICS",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
@@ -2748,6 +2935,7 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTREACH_WAVE_STRUCTURE",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "WEEKLY_MOC_2026_05_10",
