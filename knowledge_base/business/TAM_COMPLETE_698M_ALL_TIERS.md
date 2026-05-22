@@ -21,6 +21,8 @@ related_concepts:
   - "[[TAM_TIER_3_ENTERPRISE_92M]]"
   - "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
   - "[[TAM_DEDUP_METHODOLOGY]]"
+  - "[[TAM_INBOX_CAPACITY_THREE_PERSONAS]]"
+  - "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
 source:
   type: document
   file: "Kivira TAM Document Suite"

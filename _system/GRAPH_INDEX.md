@@ -1,22 +1,22 @@
 # Context OS — Graph Index
-> Generated: 2026-05-22 13:04 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-22 13:51 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total nodes indexed | 97 |
-| knowledge_base nodes | 78 |
+| Total nodes indexed | 107 |
+| knowledge_base nodes | 88 |
 | foundation / synthesis docs | 16 |
 | Agent workflows | 11 |
 | Skills | 8 |
-| Total wiki-links mapped | 569 |
-| Orphan nodes (0 inbound) | 0 |
+| Total wiki-links mapped | 658 |
+| Orphan nodes (0 inbound) | 1 |
 | knowledge_base nodes with <3 outbound | 0 |
 
 **Domains:**
 - `business`: 31 nodes
-- `methodology`: 38 nodes
+- `methodology`: 48 nodes
 - `technical`: 9 nodes
 - `unknown`: 19 nodes
 
@@ -25,103 +25,113 @@
 
 > One line per node. `grep NODE_NAME _system/GRAPH_INDEX.md` finds path + status instantly.
 
-`B2B_CLINIC_BUYER_MODEL                      ` → `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` ✅ [business/concept] ←12
-`BUYER_PERSONA_CLINICAL_CHAMPION             ` → `knowledge_base/business/BUYER_PERSONA_CLINICAL_CHAMPION.md` ✅ [business/concept] ←9
-`BUYER_PERSONA_OPERATIONAL_BUYER             ` → `knowledge_base/business/BUYER_PERSONA_OPERATIONAL_BUYER.md` ✅ [business/concept] ←10
-`BUYER_PERSONA_TECHNOLOGY_GATEKEEPER         ` → `knowledge_base/business/BUYER_PERSONA_TECHNOLOGY_GATEKEEPER.md` ✅ [business/concept] ←5
-`BUYING_COMMITTEE_DYNAMICS                   ` → `knowledge_base/business/BUYING_COMMITTEE_DYNAMICS.md` ✅ [business/pattern] ←6
-`COMPETITIVE_EVIDENCE_GAP                    ` → `knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md` ✅ [business/pattern] ←9
-`DIRECT_BILLING_MODEL_FFS                    ` → `knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md` ✅ [business/framework] ←7
-`EDP_COCM_REVENUE_REALIZATION                ` → `knowledge_base/business/EDP_COCM_REVENUE_REALIZATION.md` ✅ [business/framework] ←5
-`FUNDING_AND_BACKING_SIGNALS                 ` → `knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md` ✅ [business/concept] ←4
-`KIVIRA_BACKER_COPY_SHIFT_2026_05            ` → `knowledge_base/business/KIVIRA_BACKER_COPY_SHIFT_2026_05.md` ✅ [business/gtm_signal] ←2
-`MARKET_ADOPTION_STAGE_2026                  ` → `knowledge_base/business/MARKET_ADOPTION_STAGE_2026.md` ✅ [business/concept] ←2
-`PAIN_SEGMENT_MATRIX                         ` → `knowledge_base/business/PAIN_SEGMENT_MATRIX.md` ✅ [business/framework] ←7
-`POLSKY_UCHICAGO_KIVIRA_PROFILE_2026         ` → `knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md` ✅ [business/case-study] ←6
-`PRIMARY_CARE_WEDGE_ICP                      ` → `knowledge_base/business/PRIMARY_CARE_WEDGE_ICP.md` ✅ [business/concept] ←29
-`PUBLIC_VALUE_PROPOSITION_HOME               ` → `knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md` ✅ [business/concept] ←11
-`REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT      ` → `knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md` ✅ [business/framework] ←7
-`TAM_COMPLETE_698M_ALL_TIERS                 ` → `knowledge_base/business/TAM_COMPLETE_698M_ALL_TIERS.md` ✅ [business/framework] ←5
-`TAM_TIER_1_PROVIDER_534M                    ` → `knowledge_base/business/TAM_TIER_1_PROVIDER_534M.md` ✅ [business/framework] ←4
-`TAM_TIER_2_ACO_VBC_73M                      ` → `knowledge_base/business/TAM_TIER_2_ACO_VBC_73M.md` ✅ [business/framework] ←5
-`TAM_TIER_3_ENTERPRISE_92M                   ` → `knowledge_base/business/TAM_TIER_3_ENTERPRISE_92M.md` ✅ [business/framework] ←2
-`THREE_SEGMENT_ICP_FRAMEWORK                 ` → `knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md` ✅ [business/framework] ←23
-`WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12   ` → `knowledge_base/gtm_signals/WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12.md` ✅ [business/gtm_signal] ←5
-`ACCOUNT_SCHEMA_EXTENDED                     ` → `knowledge_base/methodology/ACCOUNT_SCHEMA_EXTENDED.md` ✅ [methodology/framework] ←5
-`COCM_ACCOUNT_PROFILE_SCHEMA                 ` → `knowledge_base/methodology/COCM_ACCOUNT_PROFILE_SCHEMA.md` ✅ [methodology/framework] ←5
-`COCM_CONFIDENCE_GRADE_RULES                 ` → `knowledge_base/methodology/COCM_CONFIDENCE_GRADE_RULES.md` ✅ [methodology/framework] ←6
-`COCM_OUTREACH_SEQUENCING                    ` → `knowledge_base/methodology/COCM_OUTREACH_SEQUENCING.md` ✅ [methodology/framework] ←5
-`DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER      ` → `knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md` ✅ [methodology/pattern] ←9
-`EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS      ` → `knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md` ✅ [methodology/framework] ←11
-`FRESH_LIST_BUILD_RUNBOOK_1ABC               ` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md` ✅ [methodology/pattern] ←3
-`GTM_30_60_90_EXECUTION_CADENCE              ` → `knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md` ✅ [methodology/framework] ←19
-`GTM_MOTION_HYPOTHESIS                       ` → `knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md` ✅ [methodology/framework] ←9
-`GTM_TIER_ARCHITECTURE_9_SUBTIERS            ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←28
-`HEAT_EXCEPTION_EXTERNAL_VALIDATION          ` → `knowledge_base/methodology/HEAT_EXCEPTION_EXTERNAL_VALIDATION.md` ✅ [methodology/principle] ←3
-`KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12  ` → `knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12.md` ✅ [methodology/pattern] ←4
-`MESSAGING_HYPOTHESIS_DISCIPLINE             ` → `knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md` ✅ [methodology/pattern] ←4
-`ORG_TYPE_BUYER_MAP_COCM                     ` → `knowledge_base/methodology/ORG_TYPE_BUYER_MAP_COCM.md` ✅ [methodology/framework] ←4
-`OUTREACH_BASELINE_METRICS                   ` → `knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md` ✅ [methodology/framework] ←17
-`OUTREACH_WAVE_STRUCTURE                     ` → `knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md` ✅ [methodology/framework] ←17
-`PERSONA_TITLE_DICTIONARY_BY_SUBTIER         ` → `knowledge_base/methodology/PERSONA_TITLE_DICTIONARY_BY_SUBTIER.md` ✅ [methodology/framework] ←15
-`PILOT_SITE_ACQUISITION_PRIORITY             ` → `knowledge_base/methodology/PILOT_SITE_ACQUISITION_PRIORITY.md` ✅ [methodology/framework] ←6
-`PUBLIC_DATA_SOURCES_TAM                     ` → `knowledge_base/methodology/PUBLIC_DATA_SOURCES_TAM.md` ✅ [methodology/framework] ←5
-`SUBTIER_EXCLUSION_RULES                     ` → `knowledge_base/methodology/SUBTIER_EXCLUSION_RULES.md` ✅ [methodology/framework] ←5
-`TAM_DEDUP_METHODOLOGY                       ` → `knowledge_base/methodology/TAM_DEDUP_METHODOLOGY.md` ✅ [methodology/framework] ←6
-`TECH_STACK_OUTBOUND_INFRASTRUCTURE          ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←16
-`THIRTY_DAY_OFFICE_MANAGER_TARGET            ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←3
-`WAVE_1_SCORING_FRAMEWORK                    ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←9
-`WEEKLY_MOC_GRAPH_RITUAL                     ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` ✅ [methodology/framework] ←12
-`CDS_NOT_DIAGNOSIS_FRAMING                   ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←19
-`CLINICAL_INSTRUMENTS_SURFACE                ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←12
-`COCM_PUBLIC_ESTIMATE_ENGINE_V2              ` → `knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md` ✅ [technical/framework] ←2
-`CPT_BILLING_CODES_BHI                       ` → `knowledge_base/technical/CPT_BILLING_CODES_BHI.md` ✅ [technical/concept] ←6
-`EHR_INTEGRATION_SMART_ON_FHIR               ` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md` ✅ [technical/concept] ←8
-`PATIENT_APP_SAFETY_ALERTS                   ` → `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md` ✅ [technical/pattern] ←9
-`PRIVACY_AND_HIPAA_ROLE                      ` → `knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md` ✅ [technical/framework] ←9
-`KIVIRA_COMPANY_PROFILE_2026_05_11           ` → `knowledge_base/business/KIVIRA_COMPANY_PROFILE_2026_05_11.md` 🌱 [business/framework] ←4
-`MEDICAL_SPEND_MODEL_ER_AVOIDANCE            ` → `knowledge_base/business/MEDICAL_SPEND_MODEL_ER_AVOIDANCE.md` 🌱 [business/framework] ←2
-`WEEKLY_HEYREACH_EVIDENCE_2026_05_04         ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md` 🌱 [business/gtm_signal] ←7
-`WEEKLY_HEYREACH_EVIDENCE_2026_05_10         ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-10.md` 🌱 [business/gtm_signal] ←5
-`WEEKLY_HEYREACH_EVIDENCE_2026_05_20         ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-20.md` 🌱 [business/gtm_signal] ←2
-`WEEKLY_INBOXKIT_HEALTH_2026_05_04           ` → `knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md` 🌱 [business/gtm_signal] ←5
-`ACO_ATTACK_MOTION_2A_PRIMARY                ` → `knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md` 🌱 [methodology/framework] ←5
-`ACO_BLITZ_2026_05_W2_PLAN                   ` → `knowledge_base/methodology/ACO_BLITZ_2026_05_W2_PLAN.md` 🌱 [methodology/framework] ←3
-`CANONICAL_GTM_SEGMENTATION_MIRO_BOARD       ` → `knowledge_base/methodology/CANONICAL_GTM_SEGMENTATION_MIRO_BOARD.md` 🌱 [methodology/framework] ←1
-`HEAT_2026_05_04                             ` → `knowledge_base/_index/heat-2026-05-04.md` 🌱 [methodology/framework] ←2
-`HEAT_2026_05_11                             ` → `knowledge_base/_index/heat-2026-05-11.md` 🌱 [methodology/framework] ←1
-`INBOXKIT_SENDKIT_SEQUENCER_ROADMAP          ` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md` 🌱 [methodology/framework] ←1
-`KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY ` → `knowledge_base/methodology/KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY.md` 🌱 [methodology/framework] ←1
-`LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12` → `knowledge_base/methodology/LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12.md` 🌱 [methodology/pattern] ←1
-`OUTBOUND_SENDER_RAMP_2026_05_W2             ` → `knowledge_base/methodology/OUTBOUND_SENDER_RAMP_2026_05_W2.md` 🌱 [methodology/framework] ←1
-`OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12     ` → `knowledge_base/methodology/OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12.md` 🌱 [methodology/framework] ←3
-`WEEKLY_LINEAR_SHIPPED_2026_05_04            ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md` 🌱 [methodology/execution_digest] ←7
-`WEEKLY_LINEAR_SHIPPED_2026_05_10            ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-10.md` 🌱 [methodology/execution_digest] ←2
-`README                                      ` → `00_foundation/_synthesis/josh-followup-2026-05-11/README.md` ❓ [/] ←0
-`accepts-subtier-mapped                      ` → `00_foundation/_synthesis/josh-followup-2026-05-11/accepts-subtier-mapped.md` ❓ [/] ←0
-`context-sensitivity-model                   ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/context-sensitivity-model.md` ❓ [/] ←0
-`domain-query-patterns                       ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/domain-query-patterns.md` ❓ [/] ←0
-`falsifiability-spectrum                     ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/falsifiability-spectrum.md` ❓ [/] ←0
-`followup-message-template                   ` → `00_foundation/_synthesis/josh-followup-2026-05-11/followup-message-template.md` ❓ [/] ←0
-`gtm-plan-v1                                 ` → `00_foundation/_synthesis/gtm-plan-v1.md` ❓ [/] ←0
-`messages-josh-preview                       ` → `00_foundation/_synthesis/josh-followup-2026-05-11/messages-josh-preview.md` ❓ [/] ←0
-`messages-v6-2026-05-12                      ` → `00_foundation/_synthesis/josh-followup-2026-05-11/messages-v6-2026-05-12.md` ❓ [/] ←0
-`messaging-pillars-v1                        ` → `00_foundation/messaging/messaging-pillars-v1.md` ❓ [/] ←0
-`positioning-v1                              ` → `00_foundation/positioning/positioning-v1.md` ❓ [/] ←0
-`wave-1a-execution-schedule-2026-05-01       ` → `00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md` ❓ [/] ←1
-`wave1a_heyreach_copy                        ` → `00_foundation/messaging/wave1a_heyreach_copy.md` ❓ [/] ←6
-`wave2a_aco_heyreach_copy                    ` → `00_foundation/_synthesis/wave2a-aco-heyreach-copy-2026-05-21/wave2a_aco_heyreach_copy.md` ❓ [/] ←0
-`2026-05-04-investor-email                   ` → `00_foundation/weekly_updates/2026-05-04-investor-email.md` ❓ [/] ←0
-`2026-05-11-investor-email                   ` → `00_foundation/weekly_updates/2026-05-11-investor-email.md` ❓ [/] ←0
-`WEEKLY_MOC_2026_05_04                       ` → `00_foundation/weekly_updates/2026-05-04.md` ❓ [/] ←12
-`WEEKLY_MOC_2026_05_10                       ` → `00_foundation/weekly_updates/2026-05-10.md` ❓ [/] ←4
-`weekly-moc-template                         ` → `00_foundation/weekly_updates/weekly-moc-template.md` ❓ [/] ←0
-`CLINICAL_TRIALS_DIGITAL_ENDPOINTS           ` → `knowledge_base/_archive/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md` ❓ [business/concept] ←1
-`EMBEDDED_DISTRIBUTION_VBC_ENABLERS          ` → `knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md` ❓ [business/pattern] ←1
-`LIFE_SCIENCES_VALUE_PROP                    ` → `knowledge_base/_archive/LIFE_SCIENCES_VALUE_PROP.md` ❓ [business/concept] ←1
-`DEMO_FIRST_OUTBOUND_STRATEGY                ` → `knowledge_base/methodology/DEMO_FIRST_OUTBOUND_STRATEGY.md` ❓ [methodology/principle] ←6
-`HCC_V28_CODING_OPPORTUNITY                  ` → `knowledge_base/_archive/HCC_V28_CODING_OPPORTUNITY.md` ❓ [technical/concept] ←1
-`LIST_BUILDING_STACK_CLAY_ENRICHMENT         ` → `knowledge_base/technical/LIST_BUILDING_STACK_CLAY_ENRICHMENT.md` ❓ [technical/workflow] ←4
+`B2B_CLINIC_BUYER_MODEL                       ` → `knowledge_base/business/B2B_CLINIC_BUYER_MODEL.md` ✅ [business/concept] ←12
+`BUYER_PERSONA_CLINICAL_CHAMPION              ` → `knowledge_base/business/BUYER_PERSONA_CLINICAL_CHAMPION.md` ✅ [business/concept] ←9
+`BUYER_PERSONA_OPERATIONAL_BUYER              ` → `knowledge_base/business/BUYER_PERSONA_OPERATIONAL_BUYER.md` ✅ [business/concept] ←10
+`BUYER_PERSONA_TECHNOLOGY_GATEKEEPER          ` → `knowledge_base/business/BUYER_PERSONA_TECHNOLOGY_GATEKEEPER.md` ✅ [business/concept] ←5
+`BUYING_COMMITTEE_DYNAMICS                    ` → `knowledge_base/business/BUYING_COMMITTEE_DYNAMICS.md` ✅ [business/pattern] ←7
+`COMPETITIVE_EVIDENCE_GAP                     ` → `knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md` ✅ [business/pattern] ←9
+`DIRECT_BILLING_MODEL_FFS                     ` → `knowledge_base/business/DIRECT_BILLING_MODEL_FFS.md` ✅ [business/framework] ←7
+`EDP_COCM_REVENUE_REALIZATION                 ` → `knowledge_base/business/EDP_COCM_REVENUE_REALIZATION.md` ✅ [business/framework] ←5
+`FUNDING_AND_BACKING_SIGNALS                  ` → `knowledge_base/business/FUNDING_AND_BACKING_SIGNALS.md` ✅ [business/concept] ←4
+`KIVIRA_BACKER_COPY_SHIFT_2026_05             ` → `knowledge_base/business/KIVIRA_BACKER_COPY_SHIFT_2026_05.md` ✅ [business/gtm_signal] ←2
+`MARKET_ADOPTION_STAGE_2026                   ` → `knowledge_base/business/MARKET_ADOPTION_STAGE_2026.md` ✅ [business/concept] ←2
+`PAIN_SEGMENT_MATRIX                          ` → `knowledge_base/business/PAIN_SEGMENT_MATRIX.md` ✅ [business/framework] ←8
+`POLSKY_UCHICAGO_KIVIRA_PROFILE_2026          ` → `knowledge_base/business/POLSKY_UCHICAGO_KIVIRA_PROFILE_2026.md` ✅ [business/case-study] ←6
+`PRIMARY_CARE_WEDGE_ICP                       ` → `knowledge_base/business/PRIMARY_CARE_WEDGE_ICP.md` ✅ [business/concept] ←29
+`PUBLIC_VALUE_PROPOSITION_HOME                ` → `knowledge_base/business/PUBLIC_VALUE_PROPOSITION_HOME.md` ✅ [business/concept] ←11
+`REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT       ` → `knowledge_base/business/REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT.md` ✅ [business/framework] ←7
+`TAM_COMPLETE_698M_ALL_TIERS                  ` → `knowledge_base/business/TAM_COMPLETE_698M_ALL_TIERS.md` ✅ [business/framework] ←8
+`TAM_TIER_1_PROVIDER_534M                     ` → `knowledge_base/business/TAM_TIER_1_PROVIDER_534M.md` ✅ [business/framework] ←4
+`TAM_TIER_2_ACO_VBC_73M                       ` → `knowledge_base/business/TAM_TIER_2_ACO_VBC_73M.md` ✅ [business/framework] ←6
+`TAM_TIER_3_ENTERPRISE_92M                    ` → `knowledge_base/business/TAM_TIER_3_ENTERPRISE_92M.md` ✅ [business/framework] ←2
+`THREE_SEGMENT_ICP_FRAMEWORK                  ` → `knowledge_base/business/THREE_SEGMENT_ICP_FRAMEWORK.md` ✅ [business/framework] ←23
+`WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12    ` → `knowledge_base/gtm_signals/WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12.md` ✅ [business/gtm_signal] ←12
+`ACCOUNT_SCHEMA_EXTENDED                      ` → `knowledge_base/methodology/ACCOUNT_SCHEMA_EXTENDED.md` ✅ [methodology/framework] ←5
+`COCM_ACCOUNT_PROFILE_SCHEMA                  ` → `knowledge_base/methodology/COCM_ACCOUNT_PROFILE_SCHEMA.md` ✅ [methodology/framework] ←5
+`COCM_CONFIDENCE_GRADE_RULES                  ` → `knowledge_base/methodology/COCM_CONFIDENCE_GRADE_RULES.md` ✅ [methodology/framework] ←6
+`COCM_OUTREACH_SEQUENCING                     ` → `knowledge_base/methodology/COCM_OUTREACH_SEQUENCING.md` ✅ [methodology/framework] ←5
+`DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER       ` → `knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md` ✅ [methodology/pattern] ←9
+`EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS       ` → `knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md` ✅ [methodology/framework] ←11
+`FRESH_LIST_BUILD_RUNBOOK_1ABC                ` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md` ✅ [methodology/pattern] ←3
+`GTM_30_60_90_EXECUTION_CADENCE               ` → `knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md` ✅ [methodology/framework] ←20
+`GTM_MOTION_HYPOTHESIS                        ` → `knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md` ✅ [methodology/framework] ←9
+`GTM_TIER_ARCHITECTURE_9_SUBTIERS             ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←34
+`HEAT_EXCEPTION_EXTERNAL_VALIDATION           ` → `knowledge_base/methodology/HEAT_EXCEPTION_EXTERNAL_VALIDATION.md` ✅ [methodology/principle] ←3
+`KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12   ` → `knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12.md` ✅ [methodology/pattern] ←6
+`MESSAGING_HYPOTHESIS_DISCIPLINE              ` → `knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md` ✅ [methodology/pattern] ←5
+`ORG_TYPE_BUYER_MAP_COCM                      ` → `knowledge_base/methodology/ORG_TYPE_BUYER_MAP_COCM.md` ✅ [methodology/framework] ←4
+`OUTREACH_BASELINE_METRICS                    ` → `knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md` ✅ [methodology/framework] ←20
+`OUTREACH_WAVE_STRUCTURE                      ` → `knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md` ✅ [methodology/framework] ←20
+`PERSONA_TITLE_DICTIONARY_BY_SUBTIER          ` → `knowledge_base/methodology/PERSONA_TITLE_DICTIONARY_BY_SUBTIER.md` ✅ [methodology/framework] ←21
+`PILOT_SITE_ACQUISITION_PRIORITY              ` → `knowledge_base/methodology/PILOT_SITE_ACQUISITION_PRIORITY.md` ✅ [methodology/framework] ←6
+`PUBLIC_DATA_SOURCES_TAM                      ` → `knowledge_base/methodology/PUBLIC_DATA_SOURCES_TAM.md` ✅ [methodology/framework] ←8
+`SUBTIER_EXCLUSION_RULES                      ` → `knowledge_base/methodology/SUBTIER_EXCLUSION_RULES.md` ✅ [methodology/framework] ←5
+`TAM_DEDUP_METHODOLOGY                        ` → `knowledge_base/methodology/TAM_DEDUP_METHODOLOGY.md` ✅ [methodology/framework] ←8
+`TECH_STACK_OUTBOUND_INFRASTRUCTURE           ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←19
+`THIRTY_DAY_OFFICE_MANAGER_TARGET             ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←4
+`WAVE_1_SCORING_FRAMEWORK                     ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←12
+`WEEKLY_MOC_GRAPH_RITUAL                      ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` ✅ [methodology/framework] ←12
+`CDS_NOT_DIAGNOSIS_FRAMING                    ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←20
+`CLINICAL_INSTRUMENTS_SURFACE                 ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←12
+`COCM_PUBLIC_ESTIMATE_ENGINE_V2               ` → `knowledge_base/technical/COCM_PUBLIC_ESTIMATE_ENGINE_V2.md` ✅ [technical/framework] ←2
+`CPT_BILLING_CODES_BHI                        ` → `knowledge_base/technical/CPT_BILLING_CODES_BHI.md` ✅ [technical/concept] ←6
+`EHR_INTEGRATION_SMART_ON_FHIR                ` → `knowledge_base/technical/EHR_INTEGRATION_SMART_ON_FHIR.md` ✅ [technical/concept] ←8
+`PATIENT_APP_SAFETY_ALERTS                    ` → `knowledge_base/technical/PATIENT_APP_SAFETY_ALERTS.md` ✅ [technical/pattern] ←9
+`PRIVACY_AND_HIPAA_ROLE                       ` → `knowledge_base/technical/PRIVACY_AND_HIPAA_ROLE.md` ✅ [technical/framework] ←9
+`KIVIRA_COMPANY_PROFILE_2026_05_11            ` → `knowledge_base/business/KIVIRA_COMPANY_PROFILE_2026_05_11.md` 🌱 [business/framework] ←4
+`MEDICAL_SPEND_MODEL_ER_AVOIDANCE             ` → `knowledge_base/business/MEDICAL_SPEND_MODEL_ER_AVOIDANCE.md` 🌱 [business/framework] ←2
+`WEEKLY_HEYREACH_EVIDENCE_2026_05_04          ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-04.md` 🌱 [business/gtm_signal] ←7
+`WEEKLY_HEYREACH_EVIDENCE_2026_05_10          ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-10.md` 🌱 [business/gtm_signal] ←5
+`WEEKLY_HEYREACH_EVIDENCE_2026_05_20          ` → `knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-20.md` 🌱 [business/gtm_signal] ←4
+`WEEKLY_INBOXKIT_HEALTH_2026_05_04            ` → `knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md` 🌱 [business/gtm_signal] ←6
+`ACO_2A_HEYREACH_PERSONA_FILTER               ` → `knowledge_base/methodology/ACO_2A_HEYREACH_PERSONA_FILTER.md` 🌱 [methodology/pattern] ←1
+`ACO_ATTACK_MOTION_2A_PRIMARY                 ` → `knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md` 🌱 [methodology/framework] ←7
+`ACO_BLITZ_2026_05_W2_PLAN                    ` → `knowledge_base/methodology/ACO_BLITZ_2026_05_W2_PLAN.md` 🌱 [methodology/framework] ←5
+`CANONICAL_GTM_SEGMENTATION_MIRO_BOARD        ` → `knowledge_base/methodology/CANONICAL_GTM_SEGMENTATION_MIRO_BOARD.md` 🌱 [methodology/framework] ←1
+`CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE  ` → `knowledge_base/methodology/CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE.md` 🌱 [methodology/framework] ←2
+`HEAT_2026_05_04                              ` → `knowledge_base/_index/heat-2026-05-04.md` 🌱 [methodology/framework] ←2
+`HEAT_2026_05_11                              ` → `knowledge_base/_index/heat-2026-05-11.md` 🌱 [methodology/framework] ←1
+`INBOXKIT_DOMAIN_ESP_MAPPING_2026_04          ` → `knowledge_base/methodology/INBOXKIT_DOMAIN_ESP_MAPPING_2026_04.md` 🌱 [methodology/framework] ←1
+`INBOXKIT_SENDKIT_SEQUENCER_ROADMAP           ` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md` 🌱 [methodology/framework] ←4
+`JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11       ` → `knowledge_base/execution/JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11.md` 🌱 [methodology/case-study] ←3
+`KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY  ` → `knowledge_base/methodology/KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY.md` 🌱 [methodology/framework] ←0
+`KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20` → `knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20.md` 🌱 [methodology/pattern] ←3
+`LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12 ` → `knowledge_base/methodology/LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12.md` 🌱 [methodology/pattern] ←1
+`LIST_BUILD_ACCESSIBILITY_FIRST               ` → `knowledge_base/methodology/LIST_BUILD_ACCESSIBILITY_FIRST.md` 🌱 [methodology/framework] ←4
+`OPERATIONAL_LIST_VS_STRATEGIC_TAM            ` → `knowledge_base/methodology/OPERATIONAL_LIST_VS_STRATEGIC_TAM.md` 🌱 [methodology/framework] ←6
+`OUTBOUND_INBOX_SEND_VOLUME_MATH              ` → `knowledge_base/methodology/OUTBOUND_INBOX_SEND_VOLUME_MATH.md` 🌱 [methodology/framework] ←4
+`OUTBOUND_SENDER_RAMP_2026_05_W2              ` → `knowledge_base/methodology/OUTBOUND_SENDER_RAMP_2026_05_W2.md` 🌱 [methodology/framework] ←1
+`OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12      ` → `knowledge_base/methodology/OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12.md` 🌱 [methodology/framework] ←5
+`TAM_BREADTH_DEPTH_TESTING_FRAMEWORK          ` → `knowledge_base/methodology/TAM_BREADTH_DEPTH_TESTING_FRAMEWORK.md` 🌱 [methodology/framework] ←2
+`TAM_INBOX_CAPACITY_THREE_PERSONAS            ` → `knowledge_base/methodology/TAM_INBOX_CAPACITY_THREE_PERSONAS.md` 🌱 [methodology/framework] ←3
+`WEEKLY_LINEAR_SHIPPED_2026_05_04             ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-04.md` 🌱 [methodology/execution_digest] ←7
+`WEEKLY_LINEAR_SHIPPED_2026_05_10             ` → `knowledge_base/execution/linear/weekly-shipped-2026-05-10.md` 🌱 [methodology/execution_digest] ←2
+`README                                       ` → `00_foundation/_synthesis/josh-followup-2026-05-11/README.md` ❓ [/] ←0
+`accepts-subtier-mapped                       ` → `00_foundation/_synthesis/josh-followup-2026-05-11/accepts-subtier-mapped.md` ❓ [/] ←0
+`context-sensitivity-model                    ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/context-sensitivity-model.md` ❓ [/] ←0
+`domain-query-patterns                        ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/domain-query-patterns.md` ❓ [/] ←0
+`falsifiability-spectrum                      ` → `gtm-context-os-quickstart/.claude/skills/epistemic-context-grounding/references/falsifiability-spectrum.md` ❓ [/] ←0
+`followup-message-template                    ` → `00_foundation/_synthesis/josh-followup-2026-05-11/followup-message-template.md` ❓ [/] ←0
+`gtm-plan-v1                                  ` → `00_foundation/_synthesis/gtm-plan-v1.md` ❓ [/] ←0
+`messages-josh-preview                        ` → `00_foundation/_synthesis/josh-followup-2026-05-11/messages-josh-preview.md` ❓ [/] ←0
+`messages-v6-2026-05-12                       ` → `00_foundation/_synthesis/josh-followup-2026-05-11/messages-v6-2026-05-12.md` ❓ [/] ←0
+`messaging-pillars-v1                         ` → `00_foundation/messaging/messaging-pillars-v1.md` ❓ [/] ←0
+`positioning-v1                               ` → `00_foundation/positioning/positioning-v1.md` ❓ [/] ←0
+`wave-1a-execution-schedule-2026-05-01        ` → `00_foundation/_synthesis/wave-1a-execution-schedule-2026-05-01.md` ❓ [/] ←1
+`wave1a_heyreach_copy                         ` → `00_foundation/messaging/wave1a_heyreach_copy.md` ❓ [/] ←6
+`wave2a_aco_heyreach_copy                     ` → `00_foundation/_synthesis/wave2a-aco-heyreach-copy-2026-05-21/wave2a_aco_heyreach_copy.md` ❓ [/] ←0
+`2026-05-04-investor-email                    ` → `00_foundation/weekly_updates/2026-05-04-investor-email.md` ❓ [/] ←0
+`2026-05-11-investor-email                    ` → `00_foundation/weekly_updates/2026-05-11-investor-email.md` ❓ [/] ←0
+`WEEKLY_MOC_2026_05_04                        ` → `00_foundation/weekly_updates/2026-05-04.md` ❓ [/] ←12
+`WEEKLY_MOC_2026_05_10                        ` → `00_foundation/weekly_updates/2026-05-10.md` ❓ [/] ←4
+`weekly-moc-template                          ` → `00_foundation/weekly_updates/weekly-moc-template.md` ❓ [/] ←0
+`CLINICAL_TRIALS_DIGITAL_ENDPOINTS            ` → `knowledge_base/_archive/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md` ❓ [business/concept] ←1
+`EMBEDDED_DISTRIBUTION_VBC_ENABLERS           ` → `knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md` ❓ [business/pattern] ←1
+`LIFE_SCIENCES_VALUE_PROP                     ` → `knowledge_base/_archive/LIFE_SCIENCES_VALUE_PROP.md` ❓ [business/concept] ←1
+`DEMO_FIRST_OUTBOUND_STRATEGY                 ` → `knowledge_base/methodology/DEMO_FIRST_OUTBOUND_STRATEGY.md` ❓ [methodology/principle] ←6
+`HCC_V28_CODING_OPPORTUNITY                   ` → `knowledge_base/_archive/HCC_V28_CODING_OPPORTUNITY.md` ❓ [technical/concept] ←1
+`LIST_BUILDING_STACK_CLAY_ENRICHMENT          ` → `knowledge_base/technical/LIST_BUILDING_STACK_CLAY_ENRICHMENT.md` ❓ [technical/workflow] ←5
 
 ---
 ## Node Registry
@@ -132,24 +142,24 @@
 | `BUYER_PERSONA_CLINICAL_CHAMPION` | business | concept | ✅ validated | 9 | 93 | Dr. Jennifer R. archetype - Medical Director of Integrated Behavioral … |
 | `BUYER_PERSONA_OPERATIONAL_BUYER` | business | concept | ✅ validated | 10 | 97 | Alex M. archetype - Director of Behavioral Health Services who validat… |
 | `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER` | business | concept | ✅ validated | 5 | 93 | Dr. Marcus A. archetype - CMIO/VP Clinical Informatics who approves or… |
-| `BUYING_COMMITTEE_DYNAMICS` | business | pattern | ✅ validated | 6 | 81 | How the Clinical Champion, Technology Gatekeeper, and Operational Buye… |
+| `BUYING_COMMITTEE_DYNAMICS` | business | pattern | ✅ validated | 7 | 81 | How the Clinical Champion, Technology Gatekeeper, and Operational Buye… |
 | `COMPETITIVE_EVIDENCE_GAP` | business | pattern | ✅ validated | 9 | 19 | Public materials lack peer-reviewed Kivira-specific clinical validatio… |
 | `DIRECT_BILLING_MODEL_FFS` | business | framework | ✅ validated | 7 | 43 | ROI framework for immediate fee-for-service revenue via automated BHI … |
 | `EDP_COCM_REVENUE_REALIZATION` | business | framework | ✅ validated | 5 | 92 | The Existential Data Point for Kivira GTM - CoCM Revenue Realization R… |
 | `FUNDING_AND_BACKING_SIGNALS` | business | concept | ✅ validated | 4 | 22 | Public signals include YC/Antler callouts on the website; third-party … |
 | `KIVIRA_BACKER_COPY_SHIFT_2026_05` | business | gtm_signal | ✅ validated | 2 | 43 | Between 2026-04-06 and 2026-05-11, Kivira's public site footer changed… |
 | `MARKET_ADOPTION_STAGE_2026` | business | concept | ✅ validated | 2 | 100 | Market maturity analysis - AI-powered mental health CDS in primary car… |
-| `PAIN_SEGMENT_MATRIX` | business | framework | ✅ validated | 7 | 196 | Five pain-based segments for Kivira GTM ranked by EDP intensity, conve… |
+| `PAIN_SEGMENT_MATRIX` | business | framework | ✅ validated | 8 | 196 | Five pain-based segments for Kivira GTM ranked by EDP intensity, conve… |
 | `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026` | business | case-study | ✅ validated | 6 | 35 | Third-party Polsky/Booth profile (Mar 2026) of Kivira’s founder story,… |
 | `PRIMARY_CARE_WEDGE_ICP` | business | concept | ✅ validated | 29 | 31 | Kivira’s public GTM wedge is mental health workload in primary care—PC… |
 | `PUBLIC_VALUE_PROPOSITION_HOME` | business | concept | ✅ validated | 11 | 22 | Public marketing claims emphasize screening + digital phenotyping + AI… |
 | `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT` | business | framework | ✅ validated | 7 | 28 | ROI framework targeting Medicare Advantage plans via accurate HCC codi… |
-| `TAM_COMPLETE_698M_ALL_TIERS` | business | framework | ✅ validated | 5 | 66 | Master TAM summary - $698.9M across 8,435 unique logos, deduplicated a… |
+| `TAM_COMPLETE_698M_ALL_TIERS` | business | framework | ✅ validated | 8 | 66 | Master TAM summary - $698.9M across 8,435 unique logos, deduplicated a… |
 | `TAM_TIER_1_PROVIDER_534M` | business | framework | ✅ validated | 4 | 81 | Tier 1 TAM - Provider Groups ($533.9M, 7,290 logos) - Day 1 focus segm… |
-| `TAM_TIER_2_ACO_VBC_73M` | business | framework | ✅ validated | 5 | 103 | Tier 2 TAM - ACOs, VBC Enablement, and Care Management ($73.2M, 675 lo… |
+| `TAM_TIER_2_ACO_VBC_73M` | business | framework | ✅ validated | 6 | 103 | Tier 2 TAM - ACOs, VBC Enablement, and Care Management ($73.2M, 675 lo… |
 | `TAM_TIER_3_ENTERPRISE_92M` | business | framework | ✅ validated | 2 | 99 | Tier 3 TAM - Health Systems, IDNs, and Regional Payers ($91.8M, 470 lo… |
 | `THREE_SEGMENT_ICP_FRAMEWORK` | business | framework | ✅ validated | 23 | 67 | Three-segment ICP framework for Kivira GTM - Provider/PCP, Health Syst… |
-| `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12` | business | gtm_signal | ✅ validated | 5 | 81 | Distilled learnings from triaging the 58 LinkedIn accepts produced by … |
+| `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12` | business | gtm_signal | ✅ validated | 12 | 81 | Distilled learnings from triaging the 58 LinkedIn accepts produced by … |
 | `ACCOUNT_SCHEMA_EXTENDED` | methodology | framework | ✅ validated | 5 | 121 | Extended 40+ field account schema for Kivira TAM building - core ID, t… |
 | `COCM_ACCOUNT_PROFILE_SCHEMA` | methodology | framework | ✅ validated | 5 | 30 | Internal schema for account-level inputs to the CoCM opportunity workf… |
 | `COCM_CONFIDENCE_GRADE_RULES` | methodology | framework | ✅ validated | 6 | 30 | Internal confidence-grade model for deciding how hard Kivira can lean … |
@@ -157,25 +167,25 @@
 | `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER` | methodology | pattern | ✅ validated | 9 | 30 | Starter discovery checklist for PCP-centric behavioral health + EHR-in… |
 | `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS` | methodology | framework | ✅ validated | 11 | 23 | Operating rule from research synthesis—separate public marketing claim… |
 | `FRESH_LIST_BUILD_RUNBOOK_1ABC` | methodology | pattern | ✅ validated | 3 | 35 | Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap fi… |
-| `GTM_30_60_90_EXECUTION_CADENCE` | methodology | framework | ✅ validated | 19 | 79 | 30-60-90 day execution cadence for Kivira GTM motion |
+| `GTM_30_60_90_EXECUTION_CADENCE` | methodology | framework | ✅ validated | 20 | 79 | 30-60-90 day execution cadence for Kivira GTM motion |
 | `GTM_MOTION_HYPOTHESIS` | methodology | framework | ✅ validated | 9 | 22 | Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS f… |
-| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 28 | 332 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
+| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 34 | 332 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
 | `HEAT_EXCEPTION_EXTERNAL_VALIDATION` | methodology | principle | ✅ validated | 3 | 59 | Heat (inbound link count) is the default v2 lifecycle signal, but it u… |
-| `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12` | methodology | pattern | ✅ validated | 4 | 101 | Canonical 5-paragraph LinkedIn DM pattern for warm follow-up to accept… |
-| `MESSAGING_HYPOTHESIS_DISCIPLINE` | methodology | pattern | ✅ validated | 4 | 54 | Treat all messaging as hypothesis to be validated/disproved by outreac… |
+| `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12` | methodology | pattern | ✅ validated | 6 | 101 | Canonical 5-paragraph LinkedIn DM pattern for warm follow-up to accept… |
+| `MESSAGING_HYPOTHESIS_DISCIPLINE` | methodology | pattern | ✅ validated | 5 | 54 | Treat all messaging as hypothesis to be validated/disproved by outreac… |
 | `ORG_TYPE_BUYER_MAP_COCM` | methodology | framework | ✅ validated | 4 | 31 | Internal buyer-routing map that changes champion order, title matching… |
-| `OUTREACH_BASELINE_METRICS` | methodology | framework | ✅ validated | 17 | 92 | Minimal measurement spec for outbound so we can learn which subtiers/p… |
-| `OUTREACH_WAVE_STRUCTURE` | methodology | framework | ✅ validated | 17 | 129 | Wave 1-3 outreach execution structure with contact volumes and timing |
-| `PERSONA_TITLE_DICTIONARY_BY_SUBTIER` | methodology | framework | ✅ validated | 15 | 417 | Clay/LinkedIn-searchable title dictionary for five demo-bookable buyin… |
+| `OUTREACH_BASELINE_METRICS` | methodology | framework | ✅ validated | 20 | 92 | Minimal measurement spec for outbound so we can learn which subtiers/p… |
+| `OUTREACH_WAVE_STRUCTURE` | methodology | framework | ✅ validated | 20 | 129 | Wave 1-3 outreach execution structure with contact volumes and timing |
+| `PERSONA_TITLE_DICTIONARY_BY_SUBTIER` | methodology | framework | ✅ validated | 21 | 417 | Clay/LinkedIn-searchable title dictionary for five demo-bookable buyin… |
 | `PILOT_SITE_ACQUISITION_PRIORITY` | methodology | framework | ✅ validated | 6 | 36 | Pre-seed stage priority - secure pilot sites to prove value before sca… |
-| `PUBLIC_DATA_SOURCES_TAM` | methodology | framework | ✅ validated | 5 | 193 | Free public data sources for Kivira TAM building - NPPES, CMS, HRSA, N… |
+| `PUBLIC_DATA_SOURCES_TAM` | methodology | framework | ✅ validated | 8 | 193 | Free public data sources for Kivira TAM building - NPPES, CMS, HRSA, N… |
 | `SUBTIER_EXCLUSION_RULES` | methodology | framework | ✅ validated | 5 | 157 | Exclusion rules by subtier for Kivira TAM building - what to exclude b… |
-| `TAM_DEDUP_METHODOLOGY` | methodology | framework | ✅ validated | 6 | 133 | CMS-based deduplication methodology for Kivira TAM - ensures no logo i… |
-| `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 16 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
-| `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 3 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
-| `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 9 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
+| `TAM_DEDUP_METHODOLOGY` | methodology | framework | ✅ validated | 8 | 133 | CMS-based deduplication methodology for Kivira TAM - ensures no logo i… |
+| `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 19 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
+| `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 4 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
+| `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 12 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
 | `WEEKLY_MOC_GRAPH_RITUAL` | methodology | framework | ✅ validated | 12 | 25 | Weekly email as graph operation—the MOC is a citation hub that heats e… |
-| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 19 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
+| `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 20 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
 | `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | ✅ validated | 12 | 19 | Public instrument overview lists scale names, constructs, and primary … |
 | `COCM_PUBLIC_ESTIMATE_ENGINE_V2` | technical | framework | ✅ validated | 2 | 32 | Internal reference engine for modeled CoCM opportunity estimation usin… |
 | `CPT_BILLING_CODES_BHI` | technical | concept | ✅ validated | 6 | 46 | Key CPT codes for behavioral health integration billing that Kivira do… |
@@ -186,18 +196,28 @@
 | `MEDICAL_SPEND_MODEL_ER_AVOIDANCE` | business | framework | 🌱 emergent | 2 | 33 | ROI framework targeting VBC groups via reduction in psychiatric ER vis… |
 | `WEEKLY_HEYREACH_EVIDENCE_2026_05_04` | business | gtm_signal | 🌱 emergent | 7 | 43 | HeyReach outbound metrics snapshot for Wave 1 launch week ending 2026-… |
 | `WEEKLY_HEYREACH_EVIDENCE_2026_05_10` | business | gtm_signal | 🌱 emergent | 5 | 92 | HeyReach outbound metrics snapshot for Wave 1 week ending 2026-05-10 —… |
-| `WEEKLY_HEYREACH_EVIDENCE_2026_05_20` | business | gtm_signal | 🌱 emergent | 2 | 46 | HeyReach Wave 1 follow-up execution snapshot — 4 of 10 touched, Oltman… |
-| `WEEKLY_INBOXKIT_HEALTH_2026_05_04` | business | gtm_signal | 🌱 emergent | 5 | 133 | InboxKit mailbox and warmup status for 2026-05-04 (product UI screensh… |
-| `ACO_ATTACK_MOTION_2A_PRIMARY` | methodology | framework | 🌱 emergent | 5 | 66 | Canonical decision — attack ACOs as Tier 2A entities (sync blitz + Wav… |
-| `ACO_BLITZ_2026_05_W2_PLAN` | methodology | framework | 🌱 emergent | 3 | 84 | Manual email + phone blitz on a focused ACO target list — 2-hour synch… |
+| `WEEKLY_HEYREACH_EVIDENCE_2026_05_20` | business | gtm_signal | 🌱 emergent | 4 | 46 | HeyReach Wave 1 follow-up execution snapshot — 4 of 10 touched, Oltman… |
+| `WEEKLY_INBOXKIT_HEALTH_2026_05_04` | business | gtm_signal | 🌱 emergent | 6 | 133 | InboxKit mailbox and warmup status for 2026-05-04 (product UI screensh… |
+| `ACO_2A_HEYREACH_PERSONA_FILTER` | methodology | pattern | 🌱 emergent | 1 | 64 | List-build rules for Tier 2A LinkedIn/HeyReach — anti-persona exclusio… |
+| `ACO_ATTACK_MOTION_2A_PRIMARY` | methodology | framework | 🌱 emergent | 7 | 66 | Canonical decision — attack ACOs as Tier 2A entities (sync blitz + Wav… |
+| `ACO_BLITZ_2026_05_W2_PLAN` | methodology | framework | 🌱 emergent | 5 | 84 | Manual email + phone blitz on a focused ACO target list — 2-hour synch… |
 | `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD` | methodology | framework | 🌱 emergent | 1 | 27 | High-level visual canonical for Kivira GTM segmentation—three vertical… |
+| `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE` | methodology | framework | 🌱 emergent | 2 | 75 | ACO-level CMS PY2026 MSSP Organizations CSV as the canonical spine for… |
 | `HEAT_2026_05_04` | methodology | framework | 🌱 emergent | 2 | 53 | Week-of heat snapshot for the Context OS graph — hot nodes, link veloc… |
 | `HEAT_2026_05_11` | methodology | framework | 🌱 emergent | 1 | 112 | Week-of heat snapshot for the Context OS graph — Sunday-night maintena… |
-| `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP` | methodology | framework | 🌱 emergent | 1 | 34 | Target operating model for outbound—InboxKit fully configured for doma… |
-| `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY` | methodology | framework | 🌱 emergent | 1 | 37 | The commercial structure of the Kivira GTM engagement — Josh Pappas as… |
+| `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04` | methodology | framework | 🌱 emergent | 1 | 57 | Six Namecheap sending domains imported to InboxKit with 4 Google + 2 M… |
+| `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP` | methodology | framework | 🌱 emergent | 4 | 34 | Target operating model for outbound—InboxKit fully configured for doma… |
+| `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11` | methodology | case-study | 🌱 emergent | 3 | 40 | Operational deposit for Wave 1 LinkedIn accept triage and 10-person fo… |
+| `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY` | methodology | framework | 🌱 emergent | 0 | 37 | The commercial structure of the Kivira GTM engagement — Josh Pappas as… |
+| `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20` | methodology | pattern | 🌱 emergent | 3 | 53 | v6 LinkedIn warm follow-up variant — first-name greeting, GTM lead-in … |
 | `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12` | methodology | pattern | 🌱 emergent | 1 | 72 | GTM tactic of asking Kivira team / advisors / board / tightly-affiliat… |
+| `LIST_BUILD_ACCESSIBILITY_FIRST` | methodology | framework | 🌱 emergent | 4 | 41 | List-build and scrape optimization prioritizes reachable channels (web… |
+| `OPERATIONAL_LIST_VS_STRATEGIC_TAM` | methodology | framework | 🌱 emergent | 6 | 36 | Distinguishes CMS-deduped strategic TAM logo counts from state NPPES o… |
+| `OUTBOUND_INBOX_SEND_VOLUME_MATH` | methodology | framework | 🌱 emergent | 4 | 79 | Monthly cold-email send capacity for Kivira's 6-domain × 3-inbox Inbox… |
 | `OUTBOUND_SENDER_RAMP_2026_05_W2` | methodology | framework | 🌱 emergent | 1 | 83 | Plan to add 2-3 LinkedIn senders to the HeyReach stack this week, brea… |
-| `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12` | methodology | framework | 🌱 emergent | 3 | 41 | Strategic framing for running LinkedIn (warm/async) and ACO blitz (man… |
+| `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12` | methodology | framework | 🌱 emergent | 5 | 41 | Strategic framing for running LinkedIn (warm/async) and ACO blitz (man… |
+| `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK` | methodology | framework | 🌱 emergent | 2 | 78 | Stratified breadth-first TAM testing — one persona × one message per s… |
+| `TAM_INBOX_CAPACITY_THREE_PERSONAS` | methodology | framework | 🌱 emergent | 3 | 56 | Operational inbox/domain capacity when planning three personas and thr… |
 | `WEEKLY_LINEAR_SHIPPED_2026_05_04` | methodology | execution_digest | 🌱 emergent | 7 | 49 | Linear issue throughput snapshot for week ending 2026-05-04 (LEC team) |
 | `WEEKLY_LINEAR_SHIPPED_2026_05_10` | methodology | execution_digest | 🌱 emergent | 2 | 61 | Linear issue throughput snapshot for week ending 2026-05-10 (LEC team)… |
 | `README` |  |  | ❓  | 0 | 34 | **Date:** 2026-05-11 |
@@ -224,7 +244,7 @@
 | `LIFE_SCIENCES_VALUE_PROP` | business | concept | ❓ archived | 1 | 46 | Value proposition for life sciences and clinical trials market - high-… |
 | `DEMO_FIRST_OUTBOUND_STRATEGY` | methodology | principle | ❓ draft | 6 | 22 | Prioritize booking demos via manual multi-channel outreach before inve… |
 | `HCC_V28_CODING_OPPORTUNITY` | technical | concept | ❓ archived | 1 | 40 | Technical explanation of CMS V28 HCC model and behavioral health codin… |
-| `LIST_BUILDING_STACK_CLAY_ENRICHMENT` | technical | workflow | ❓ draft | 4 | 27 | List-building approach using Clay as an orchestration/enrichment layer… |
+| `LIST_BUILDING_STACK_CLAY_ENRICHMENT` | technical | workflow | ❓ draft | 5 | 27 | List-building approach using Clay as an orchestration/enrichment layer… |
 
 ---
 ## Backlink Index
@@ -248,7 +268,7 @@
 **→** `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `BUYING_COMMITTEE_DYNAMICS`, `EHR_INTEGRATION_SMART_ON_FHIR`, `PRIVACY_AND_HIPAA_ROLE`
 
 ### `BUYING_COMMITTEE_DYNAMICS`
-**←** `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `gtm-plan-v1`, `wave1a_heyreach_copy`
+**←** `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `gtm-plan-v1`, `wave1a_heyreach_copy`
 **→** `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `BUYER_PERSONA_TECHNOLOGY_GATEKEEPER`, `EDP_COCM_REVENUE_REALIZATION`, `GTM_MOTION_HYPOTHESIS`
 
 ### `COMPETITIVE_EVIDENCE_GAP`
@@ -276,7 +296,7 @@
 **→** `COMPETITIVE_EVIDENCE_GAP`, `EDP_COCM_REVENUE_REALIZATION`, `GTM_MOTION_HYPOTHESIS`, `PAIN_SEGMENT_MATRIX`
 
 ### `PAIN_SEGMENT_MATRIX`
-**←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `EDP_COCM_REVENUE_REALIZATION`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MARKET_ADOPTION_STAGE_2026`, `OUTREACH_BASELINE_METRICS`, `gtm-plan-v1`, `weekly-moc-template`
+**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `EDP_COCM_REVENUE_REALIZATION`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MARKET_ADOPTION_STAGE_2026`, `OUTREACH_BASELINE_METRICS`, `gtm-plan-v1`, `weekly-moc-template`
 **→** `EDP_COCM_REVENUE_REALIZATION`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MARKET_ADOPTION_STAGE_2026`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`
@@ -296,15 +316,15 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `HCC_V28_CODING_OPPORTUNITY`, `PRIMARY_CARE_WEDGE_ICP`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `TAM_COMPLETE_698M_ALL_TIERS`
-**←** `OUTREACH_WAVE_STRUCTURE`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`
-**→** `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`, `THREE_SEGMENT_ICP_FRAMEWORK`
+**←** `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTREACH_WAVE_STRUCTURE`, `TAM_DEDUP_METHODOLOGY`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`
+**→** `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `TAM_DEDUP_METHODOLOGY`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TAM_TIER_3_ENTERPRISE_92M`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `TAM_TIER_1_PROVIDER_534M`
 **←** `OUTREACH_WAVE_STRUCTURE`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`, `WAVE_1_SCORING_FRAMEWORK`
 **→** `DIRECT_BILLING_MODEL_FFS`, `GTM_30_60_90_EXECUTION_CADENCE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_COMPLETE_698M_ALL_TIERS`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`
 
 ### `TAM_TIER_2_ACO_VBC_73M`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `OUTREACH_WAVE_STRUCTURE`, `TAM_COMPLETE_698M_ALL_TIERS`
+**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `OUTREACH_WAVE_STRUCTURE`, `TAM_COMPLETE_698M_ALL_TIERS`
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `OUTREACH_WAVE_STRUCTURE`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_COMPLETE_698M_ALL_TIERS`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `TAM_TIER_3_ENTERPRISE_92M`
@@ -316,8 +336,8 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `DIRECT_BILLING_MODEL_FFS`, `GTM_30_60_90_EXECUTION_CADENCE`, `MEDICAL_SPEND_MODEL_ER_AVOIDANCE`, `PRIMARY_CARE_WEDGE_ICP`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`
 
 ### `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
-**←** `ACO_BLITZ_2026_05_W2_PLAN`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`
-**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_BLITZ_2026_05_W2_PLAN`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
 
 ### `ACCOUNT_SCHEMA_EXTENDED`
 **←** `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `gtm-plan-v1`
@@ -348,7 +368,7 @@
 **→** `ACCOUNT_SCHEMA_EXTENDED`, `COCM_CONFIDENCE_GRADE_RULES`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TAM_DEDUP_METHODOLOGY`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `GTM_30_60_90_EXECUTION_CADENCE`
-**←** `COCM_OUTREACH_SEQUENCING`, `DIRECT_BILLING_MODEL_FFS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `OUTREACH_WAVE_STRUCTURE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `TAM_TIER_1_PROVIDER_534M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
+**←** `COCM_OUTREACH_SEQUENCING`, `DIRECT_BILLING_MODEL_FFS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `OUTREACH_WAVE_STRUCTURE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_1_PROVIDER_534M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_MOTION_HYPOTHESIS`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `PRIMARY_CARE_WEDGE_ICP`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `GTM_MOTION_HYPOTHESIS`
@@ -356,7 +376,7 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `COMPETITIVE_EVIDENCE_GAP`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `GTM_TIER_ARCHITECTURE_9_SUBTIERS`
-**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `wave2a_aco_heyreach_copy`, `weekly-moc-template`
+**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `wave2a_aco_heyreach_copy`, `weekly-moc-template`
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_ACCOUNT_PROFILE_SCHEMA`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `SUBTIER_EXCLUSION_RULES`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_MOC_2026_05_04`
 
 ### `HEAT_EXCEPTION_EXTERNAL_VALIDATION`
@@ -364,11 +384,11 @@
 **→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `FUNDING_AND_BACKING_SIGNALS`, `KIVIRA_BACKER_COPY_SHIFT_2026_05`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`
 
 ### `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`
-**←** `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
+**←** `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 **→** `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
 
 ### `MESSAGING_HYPOTHESIS_DISCIPLINE`
-**←** `GTM_30_60_90_EXECUTION_CADENCE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `PRIMARY_CARE_WEDGE_ICP`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`
+**←** `GTM_30_60_90_EXECUTION_CADENCE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`
 **→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `PRIMARY_CARE_WEDGE_ICP`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`
 
 ### `ORG_TYPE_BUYER_MAP_COCM`
@@ -376,15 +396,15 @@
 **→** `COCM_ACCOUNT_PROFILE_SCHEMA`, `COCM_OUTREACH_SEQUENCING`, `GTM_MOTION_HYPOTHESIS`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `OUTREACH_BASELINE_METRICS`
-**←** `ACO_BLITZ_2026_05_W2_PLAN`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
+**←** `ACO_BLITZ_2026_05_W2_PLAN`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
 **→** `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `OUTREACH_WAVE_STRUCTURE`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_CONFIDENCE_GRADE_RULES`, `COCM_OUTREACH_SEQUENCING`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
+**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_CONFIDENCE_GRADE_RULES`, `COCM_OUTREACH_SEQUENCING`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_BASELINE_METRICS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `gtm-plan-v1`, `wave1a_heyreach_copy`, `wave2a_aco_heyreach_copy`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `gtm-plan-v1`, `wave1a_heyreach_copy`, `wave2a_aco_heyreach_copy`
 **→** `BUYING_COMMITTEE_DYNAMICS`, `COCM_OUTREACH_SEQUENCING`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `ORG_TYPE_BUYER_MAP_COCM`, `OUTREACH_BASELINE_METRICS`
 
 ### `PILOT_SITE_ACQUISITION_PRIORITY`
@@ -392,27 +412,27 @@
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PRIMARY_CARE_WEDGE_ICP`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `PUBLIC_DATA_SOURCES_TAM`
-**←** `ACCOUNT_SCHEMA_EXTENDED`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `SUBTIER_EXCLUSION_RULES`, `gtm-plan-v1`
-**→** `ACCOUNT_SCHEMA_EXTENDED`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `SUBTIER_EXCLUSION_RULES`, `TAM_DEDUP_METHODOLOGY`
+**←** `ACCOUNT_SCHEMA_EXTENDED`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `SUBTIER_EXCLUSION_RULES`, `gtm-plan-v1`
+**→** `ACCOUNT_SCHEMA_EXTENDED`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `SUBTIER_EXCLUSION_RULES`, `TAM_DEDUP_METHODOLOGY`
 
 ### `SUBTIER_EXCLUSION_RULES`
 **←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `PUBLIC_DATA_SOURCES_TAM`, `gtm-plan-v1`
 **→** `ACCOUNT_SCHEMA_EXTENDED`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `PUBLIC_DATA_SOURCES_TAM`
 
 ### `TAM_DEDUP_METHODOLOGY`
-**←** `ACCOUNT_SCHEMA_EXTENDED`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_3_ENTERPRISE_92M`
-**→** `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_3_ENTERPRISE_92M`, `THREE_SEGMENT_ICP_FRAMEWORK`
+**←** `ACCOUNT_SCHEMA_EXTENDED`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_3_ENTERPRISE_92M`
+**→** `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_3_ENTERPRISE_92M`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
-**←** `GTM_30_60_90_EXECUTION_CADENCE`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_WAVE_STRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
+**←** `GTM_30_60_90_EXECUTION_CADENCE`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_WAVE_STRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`, `weekly-moc-template`
 **→** `ACCOUNT_SCHEMA_EXTENDED`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_MOTION_HYPOTHESIS`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `THIRTY_DAY_OFFICE_MANAGER_TARGET`
-**←** `GTM_30_60_90_EXECUTION_CADENCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+**←** `GTM_30_60_90_EXECUTION_CADENCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `WAVE_1_SCORING_FRAMEWORK`
 
 ### `WAVE_1_SCORING_FRAMEWORK`
-**←** `COCM_CONFIDENCE_GRADE_RULES`, `OUTREACH_WAVE_STRUCTURE`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
+**←** `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `COCM_CONFIDENCE_GRADE_RULES`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTREACH_WAVE_STRUCTURE`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_TIER_1_PROVIDER_534M`
 
 ### `WEEKLY_MOC_GRAPH_RITUAL`
@@ -420,7 +440,7 @@
 **→** `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GTM_30_60_90_EXECUTION_CADENCE`, `NAME`, `OUTREACH_BASELINE_METRICS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
 
 ### `CDS_NOT_DIAGNOSIS_FRAMING`
-**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `wave2a_aco_heyreach_copy`
+**←** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `CLINICAL_INSTRUMENTS_SURFACE`, `CPT_BILLING_CODES_BHI`, `GTM_MOTION_HYPOTHESIS`, `HCC_V28_CODING_OPPORTUNITY`, `HEAT_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `PATIENT_APP_SAFETY_ALERTS`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_MOC_2026_05_10`, `gtm-plan-v1`, `messaging-pillars-v1`, `positioning-v1`, `wave2a_aco_heyreach_copy`
 **→** `PATIENT_APP_SAFETY_ALERTS`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`
 
 ### `CLINICAL_INSTRUMENTS_SURFACE`
@@ -464,24 +484,32 @@
 **→** `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `OUTREACH_WAVE_STRUCTURE`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`, `wave1a_heyreach_copy`
 
 ### `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
-**←** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `messages-josh-preview`
-**→** `CDS_NOT_DIAGNOSIS_FRAMING`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTREACH_WAVE_STRUCTURE`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`
+**←** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `messages-josh-preview`
+**→** `CDS_NOT_DIAGNOSIS_FRAMING`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `OUTREACH_WAVE_STRUCTURE`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`
 
 ### `WEEKLY_INBOXKIT_HEALTH_2026_05_04`
-**←** `2026-05-04-investor-email`, `HEAT_2026_05_04`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`
+**←** `2026-05-04-investor-email`, `HEAT_2026_05_04`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_GRAPH_RITUAL`
 
+### `ACO_2A_HEYREACH_PERSONA_FILTER`
+**←** `ACO_ATTACK_MOTION_2A_PRIMARY`
+**→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
+
 ### `ACO_ATTACK_MOTION_2A_PRIMARY`
-**←** `ACO_BLITZ_2026_05_W2_PLAN`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `TAM_TIER_2_ACO_VBC_73M`
-**→** `ACO_BLITZ_2026_05_W2_PLAN`, `DIRECT_BILLING_MODEL_FFS`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_2_ACO_VBC_73M`, `THREE_SEGMENT_ICP_FRAMEWORK`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_BLITZ_2026_05_W2_PLAN`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `TAM_TIER_2_ACO_VBC_73M`
+**→** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_BLITZ_2026_05_W2_PLAN`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `DIRECT_BILLING_MODEL_FFS`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_WAVE_STRUCTURE`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_2_ACO_VBC_73M`, `THREE_SEGMENT_ICP_FRAMEWORK`
 
 ### `ACO_BLITZ_2026_05_W2_PLAN`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `wave2a_aco_heyreach_copy`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `wave2a_aco_heyreach_copy`
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `TAM_TIER_2_ACO_VBC_73M`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`
 **←** `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`
 **→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `SUBTIER_EXCLUSION_RULES`, `THREE_SEGMENT_ICP_FRAMEWORK`
+
+### `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`
+**→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_DEDUP_METHODOLOGY`, `TAM_TIER_2_ACO_VBC_73M`, `WAVE_1_SCORING_FRAMEWORK`
 
 ### `HEAT_2026_05_04`
 **←** `HEAT_2026_05_11`, `WEEKLY_MOC_2026_05_04`
@@ -491,25 +519,57 @@
 **←** `WEEKLY_MOC_2026_05_10`
 **→** `B2B_CLINIC_BUYER_MODEL`, `BUYER_PERSONA_CLINICAL_CHAMPION`, `BUYER_PERSONA_OPERATIONAL_BUYER`, `CDS_NOT_DIAGNOSIS_FRAMING`, `CLINICAL_INSTRUMENTS_SURFACE`, `COMPETITIVE_EVIDENCE_GAP`, `CPT_BILLING_CODES_BHI`, `DIRECT_BILLING_MODEL_FFS`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `EHR_INTEGRATION_SMART_ON_FHIR`, `EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS`, `GRAPH_HEALTH_REPORT`, `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_MOTION_HYPOTHESIS`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `HEAT_2026_05_04`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `PATIENT_APP_SAFETY_ALERTS`, `PRIMARY_CARE_WEDGE_ICP`, `PRIVACY_AND_HIPAA_ROLE`, `PUBLIC_VALUE_PROPOSITION_HOME`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `WEEKLY_MOC_GRAPH_RITUAL`
 
+### `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`
+**←** `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTREACH_WAVE_STRUCTURE`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`
+
 ### `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`
-**←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`
-**→** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `COCM_OUTREACH_SEQUENCING`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+**←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**→** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `COCM_OUTREACH_SEQUENCING`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+
+### `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`
+**←** `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
 
 ### `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`
+**←** _(no inbound links — orphan)_
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_30_60_90_EXECUTION_CADENCE`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+
+### `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`
+**←** `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
+**→** `CDS_NOT_DIAGNOSIS_FRAMING`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
 
 ### `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`
 **←** `OUTBOUND_SENDER_RAMP_2026_05_W2`
 **→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
+
+### `LIST_BUILD_ACCESSIBILITY_FIRST`
+**←** `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_SCORING_FRAMEWORK`
+
+### `OPERATIONAL_LIST_VS_STRATEGIC_TAM`
+**←** `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `PUBLIC_DATA_SOURCES_TAM`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_DEDUP_METHODOLOGY`
+
+### `OUTBOUND_INBOX_SEND_VOLUME_MATH`
+**←** `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**→** `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `OUTBOUND_SENDER_RAMP_2026_05_W2`
 **←** `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`
 **→** `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `OUTBOUND_SENDER_RAMP_2026_05_W2`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_BASELINE_METRICS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
+
+### `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`
+**←** `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**→** `GTM_30_60_90_EXECUTION_CADENCE`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WAVE_1_SCORING_FRAMEWORK`
+
+### `TAM_INBOX_CAPACITY_THREE_PERSONAS`
+**←** `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_COMPLETE_698M_ALL_TIERS`
+**→** `BUYING_COMMITTEE_DYNAMICS`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_COMPLETE_698M_ALL_TIERS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `WEEKLY_LINEAR_SHIPPED_2026_05_04`
 **←** `2026-05-04-investor-email`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `GTM_30_60_90_EXECUTION_CADENCE`, `HEAT_2026_05_04`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WEEKLY_LINEAR_SHIPPED_2026_05_10`, `WEEKLY_MOC_2026_05_04`
@@ -592,13 +652,15 @@
 **→** `CDS_NOT_DIAGNOSIS_FRAMING`, `CPT_BILLING_CODES_BHI`, `PRIMARY_CARE_WEDGE_ICP`, `REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT`
 
 ### `LIST_BUILDING_STACK_CLAY_ENRICHMENT`
-**←** `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
-**→** `COCM_ACCOUNT_PROFILE_SCHEMA`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
+**←** `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
+**→** `COCM_ACCOUNT_PROFILE_SCHEMA`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTREACH_BASELINE_METRICS`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
 
 ---
 ## Orphans (0 inbound links)
 
-_None. All nodes have at least one inbound link._ ✅
+These nodes are never referenced by any other node — integration risk.
+
+- `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY` (`knowledge_base/methodology/KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY.md`) — emergent / methodology
 
 ---
 ## knowledge_base Nodes with <3 Outbound Links (informational)
@@ -614,18 +676,18 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 
 | Tag | Count |
 |-----|-------|
-| `methodology` | 34 |
+| `methodology` | 44 |
+| `gtm-motion` | 38 |
 | `source-research-synthesis` | 29 |
-| `gtm-motion` | 29 |
 | `business` | 27 |
-| `source-internal-doc` | 16 |
-| `source-public-web` | 14 |
-| `outbound` | 13 |
-| `workflow` | 13 |
-| `market-segmentation` | 11 |
-| `tam-total-addressable-market` | 10 |
+| `source-internal-doc` | 18 |
+| `outbound` | 17 |
+| `workflow` | 17 |
+| `tam-total-addressable-market` | 16 |
+| `source-public-web` | 15 |
+| `market-segmentation` | 12 |
 | `technical` | 9 |
-| `gtm-tooling` | 8 |
+| `gtm-tooling` | 9 |
 | `execution-cadence` | 8 |
 | `b2b-health-system` | 7 |
 | `evidence-discipline` | 6 |
@@ -638,11 +700,14 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `weekly-moc` | 3 |
 | `heyreach` | 3 |
 | `wave1` | 3 |
+| `outbound-infrastructure` | 3 |
 | `buyer-diligence` | 3 |
 | `clinical-trials` | 2 |
 | `digital-biomarkers` | 2 |
 | `collaborative-care-cocm` | 2 |
 | `kivira-profile` | 2 |
+| `linkedin-outreach` | 2 |
+| `metrics` | 2 |
 | `cds-clinical-decision-support` | 2 |
 | `cpt-billing-codes` | 2 |
 | `patient-app` | 2 |
@@ -660,8 +725,6 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `tier-architecture` | 1 |
 | `account-schema` | 1 |
 | `engagement-structure` | 1 |
-| `linkedin-outreach` | 1 |
-| `metrics` | 1 |
 | `ehr-integration` | 1 |
 | `data-enrichment` | 1 |
 | `safety-risk-notification` | 1 |

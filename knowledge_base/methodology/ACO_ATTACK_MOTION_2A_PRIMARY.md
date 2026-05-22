@@ -24,10 +24,12 @@ related_concepts:
   - "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"
   - "[[OUTREACH_WAVE_STRUCTURE]]"
   - "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
-  - "[[KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY]]"
+  - "[[CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE]]"
+  - "[[ACO_2A_HEYREACH_PERSONA_FILTER]]"
+  - "[[PAIN_SEGMENT_MATRIX]]"
 source:
   type: notes
-  file: "Plan ACO placement and TAM 2026-05-21"
+  file: "raw-context/kivira-internal/aco-attack-ingest-2026-05-21.md"
   date: "2026-05-21"
 ---
 

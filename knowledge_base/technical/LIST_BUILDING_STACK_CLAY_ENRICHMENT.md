@@ -11,6 +11,8 @@ tags:
   - source-research-synthesis
   - gtm-tooling
 related_concepts:
+  - "[[LIST_BUILD_ACCESSIBILITY_FIRST]]"
+  - "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
   - "[[COCM_ACCOUNT_PROFILE_SCHEMA]]"
   - "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"
   - "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]"

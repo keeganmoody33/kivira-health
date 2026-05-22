@@ -1,7 +1,7 @@
 # ACO attack list build (2A)
 
 **Canonical script:** `scripts/build_aco_attack_lists.py`  
-**Policy node:** `knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md`
+**Policy nodes:** `knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md`, `knowledge_base/methodology/CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE.md`
 
 ## When to run
 

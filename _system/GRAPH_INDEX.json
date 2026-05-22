@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 13:04 UTC",
+  "generated_at": "2026-05-22 13:51 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -490,6 +490,7 @@
         "BUYER_PERSONA_OPERATIONAL_BUYER",
         "BUYER_PERSONA_TECHNOLOGY_GATEKEEPER",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
         "gtm-plan-v1",
         "wave1a_heyreach_copy"
       ]
@@ -874,6 +875,7 @@
       "inbound": [
         "EDP_COCM_REVENUE_REALIZATION",
         "MARKET_ADOPTION_STAGE_2026",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "OUTREACH_BASELINE_METRICS",
@@ -1112,7 +1114,9 @@
         "[[TAM_TIER_2_ACO_VBC_73M]]",
         "[[TAM_TIER_3_ENTERPRISE_92M]]",
         "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
-        "[[TAM_DEDUP_METHODOLOGY]]"
+        "[[TAM_DEDUP_METHODOLOGY]]",
+        "[[TAM_INBOX_CAPACITY_THREE_PERSONAS]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
       ],
       "source_type": "document",
       "source_file": "Kivira TAM Document Suite",
@@ -1122,14 +1126,19 @@
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
-        "TAM_DEDUP_METHODOLOGY"
+        "TAM_DEDUP_METHODOLOGY",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM"
       ],
       "inbound": [
         "TAM_TIER_1_PROVIDER_534M",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "OUTREACH_WAVE_STRUCTURE",
-        "TAM_DEDUP_METHODOLOGY"
+        "TAM_DEDUP_METHODOLOGY",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS"
       ]
     },
     {
@@ -1217,6 +1226,7 @@
         "TAM_COMPLETE_698M_ALL_TIERS",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "OUTREACH_WAVE_STRUCTURE"
       ]
     },
@@ -1324,6 +1334,50 @@
         "PILOT_SITE_ACQUISITION_PRIORITY",
         "TAM_DEDUP_METHODOLOGY",
         "gtm-plan-v1"
+      ]
+    },
+    {
+      "name": "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
+      "rel_path": "knowledge_base/execution/JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11.md",
+      "domain": "methodology",
+      "node_type": "case-study",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Operational deposit for Wave 1 LinkedIn accept triage and 10-person follow-up cohort — synthesis folder, scripts, and linked graph evidence nodes.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20]]",
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_20]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "raw-context/kivira-internal/wave1-josh-followup-package-2026-05-11.md",
+      "body_lines": 40,
+      "outbound": [
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "inbound": [
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20"
       ]
     },
     {
@@ -1439,6 +1493,8 @@
         "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
         "[[OUTREACH_BASELINE_METRICS]]",
         "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20]]",
+        "[[JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11]]",
         "[[OUTREACH_WAVE_STRUCTURE]]"
       ],
       "source_type": "internal-doc",
@@ -1449,14 +1505,23 @@
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "OUTREACH_BASELINE_METRICS",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
         "OUTREACH_WAVE_STRUCTURE"
       ],
       "inbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_BLITZ_2026_05_W2_PLAN",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
-        "OUTREACH_BASELINE_METRICS"
+        "OUTREACH_BASELINE_METRICS",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS"
       ]
     },
     {
@@ -1581,6 +1646,9 @@
         "gtm-motion"
       ],
       "related_concepts": [
+        "[[JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20]]",
         "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_10]]",
         "[[WEEKLY_MOC_GRAPH_RITUAL]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
@@ -1592,6 +1660,9 @@
       "source_file": "scripts/heyreach_accepts_pull.py",
       "body_lines": 46,
       "outbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -1600,7 +1671,9 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
       ],
       "inbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "messages-josh-preview"
       ]
     },
@@ -1642,6 +1715,7 @@
       ],
       "inbound": [
         "HEAT_2026_05_04",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
@@ -1692,6 +1766,49 @@
       ]
     },
     {
+      "name": "ACO_2A_HEYREACH_PERSONA_FILTER",
+      "rel_path": "knowledge_base/methodology/ACO_2A_HEYREACH_PERSONA_FILTER.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-05-21",
+      "description": "List-build rules for Tier 2A LinkedIn/HeyReach — anti-persona exclusion, persona buckets from title+snippet, and ban on CMS placeholder exec titles as operating buyers.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "workflow"
+      ],
+      "topics": [
+        "gtm-motion",
+        "outbound",
+        "workflow",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]",
+        "[[CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Cursor session ACO placement and TAM plan implementation 2026-05-21",
+      "body_lines": 64,
+      "outbound": [
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "ACO_BLITZ_2026_05_W2_PLAN"
+      ],
+      "inbound": [
+        "ACO_ATTACK_MOTION_2A_PRIMARY"
+      ]
+    },
+    {
       "name": "ACO_ATTACK_MOTION_2A_PRIMARY",
       "rel_path": "knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md",
       "domain": "methodology",
@@ -1720,10 +1837,12 @@
         "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
         "[[OUTREACH_WAVE_STRUCTURE]]",
         "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
-        "[[KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY]]"
+        "[[CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE]]",
+        "[[ACO_2A_HEYREACH_PERSONA_FILTER]]",
+        "[[PAIN_SEGMENT_MATRIX]]"
       ],
       "source_type": "notes",
-      "source_file": "Plan ACO placement and TAM 2026-05-21",
+      "source_file": "raw-context/kivira-internal/aco-attack-ingest-2026-05-21.md",
       "body_lines": 66,
       "outbound": [
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -1733,7 +1852,9 @@
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "OUTREACH_WAVE_STRUCTURE",
         "THREE_SEGMENT_ICP_FRAMEWORK",
-        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
+        "PAIN_SEGMENT_MATRIX",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
         "DIRECT_BILLING_MODEL_FFS",
         "PUBLIC_DATA_SOURCES_TAM",
@@ -1741,7 +1862,9 @@
       ],
       "inbound": [
         "TAM_TIER_2_ACO_VBC_73M",
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_BLITZ_2026_05_W2_PLAN",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12"
@@ -1790,7 +1913,9 @@
         "TAM_TIER_2_ACO_VBC_73M"
       ],
       "inbound": [
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "wave2a_aco_heyreach_copy"
       ]
@@ -1834,6 +1959,50 @@
       ],
       "inbound": [
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP"
+      ]
+    },
+    {
+      "name": "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
+      "rel_path": "knowledge_base/methodology/CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-21",
+      "description": "ACO-level CMS PY2026 MSSP Organizations CSV as the canonical spine for Tier 2A list build, high-fit filtering, and blitz cohorts — distinct from the participant-level Par_LBN file.",
+      "tags": [
+        "methodology",
+        "tam-total-addressable-market",
+        "gtm-motion",
+        "workflow",
+        "source-public-web"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "gtm-motion",
+        "workflow",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[PUBLIC_DATA_SOURCES_TAM]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
+        "[[TAM_TIER_2_ACO_VBC_73M]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[TAM_DEDUP_METHODOLOGY]]"
+      ],
+      "source_type": "document",
+      "source_file": "Cursor session ACO placement and TAM plan implementation 2026-05-21",
+      "body_lines": 75,
+      "outbound": [
+        "PUBLIC_DATA_SOURCES_TAM",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "TAM_DEDUP_METHODOLOGY",
+        "ACO_BLITZ_2026_05_W2_PLAN"
+      ],
+      "inbound": [
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
+        "ACO_ATTACK_MOTION_2A_PRIMARY"
       ]
     },
     {
@@ -2201,6 +2370,7 @@
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "OUTREACH_WAVE_STRUCTURE",
         "PILOT_SITE_ACQUISITION_PRIORITY",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "WAVE_1_SCORING_FRAMEWORK",
@@ -2310,22 +2480,28 @@
         "HEAT_2026_05_11",
         "KIVIRA_COMPANY_PROFILE_2026_05_11",
         "PAIN_SEGMENT_MATRIX",
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "ACCOUNT_SCHEMA_EXTENDED",
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "PUBLIC_DATA_SOURCES_TAM",
         "SUBTIER_EXCLUSION_RULES",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
@@ -2374,6 +2550,47 @@
       ]
     },
     {
+      "name": "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+      "rel_path": "knowledge_base/methodology/INBOXKIT_DOMAIN_ESP_MAPPING_2026_04.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Six Namecheap sending domains imported to InboxKit with 4 Google + 2 Microsoft ESP split — domain list, rationale, and import CSV artifact.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound-infrastructure",
+        "gtm-tooling"
+      ],
+      "topics": [
+        "outbound-infrastructure",
+        "gtm-motion",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[INBOXKIT_SENDKIT_SEQUENCER_ROADMAP]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[OUTBOUND_INBOX_SEND_VOLUME_MATH]]"
+      ],
+      "source_type": "document",
+      "source_file": "raw-context/kivira-internal/inboxkit-domain-import-2026-04-17.csv",
+      "body_lines": 57,
+      "outbound": [
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTREACH_WAVE_STRUCTURE",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "WEEKLY_INBOXKIT_HEALTH_2026_05_04"
+      ],
+      "inbound": [
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP"
+      ]
+    },
+    {
       "name": "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
       "rel_path": "knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md",
       "domain": "methodology",
@@ -2396,7 +2613,11 @@
         "[[OUTREACH_BASELINE_METRICS]]",
         "[[COCM_OUTREACH_SEQUENCING]]",
         "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]",
-        "[[CANONICAL_GTM_SEGMENTATION_MIRO_BOARD]]"
+        "[[CANONICAL_GTM_SEGMENTATION_MIRO_BOARD]]",
+        "[[TAM_INBOX_CAPACITY_THREE_PERSONAS]]",
+        "[[OUTBOUND_INBOX_SEND_VOLUME_MATH]]",
+        "[[INBOXKIT_DOMAIN_ESP_MAPPING_2026_04]]",
+        "[[TAM_BREADTH_DEPTH_TESTING_FRAMEWORK]]"
       ],
       "source_type": "hybrid",
       "source_file": "",
@@ -2406,10 +2627,17 @@
         "OUTREACH_BASELINE_METRICS",
         "COCM_OUTREACH_SEQUENCING",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
-        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK"
       ],
       "inbound": [
-        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
+        "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS"
       ]
     },
     {
@@ -2450,9 +2678,7 @@
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "DEMO_FIRST_OUTBOUND_STRATEGY"
       ],
-      "inbound": [
-        "ACO_ATTACK_MOTION_2A_PRIMARY"
-      ]
+      "inbound": []
     },
     {
       "name": "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
@@ -2492,10 +2718,56 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY"
       ],
       "inbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "OUTREACH_BASELINE_METRICS"
+      ]
+    },
+    {
+      "name": "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
+      "rel_path": "knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-05-20",
+      "description": "v6 LinkedIn warm follow-up variant — first-name greeting, GTM lead-in with Kivira.health + Antler, named Maria demo line, two-path close; supersedes v5 for the Wave 1 ten-person cohort sends.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound",
+        "linkedin-outreach",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "discovery-calls"
+      ],
+      "related_concepts": [
+        "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]",
+        "[[JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11]]",
+        "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "00_foundation/_synthesis/josh-followup-2026-05-11/messages-josh-preview.md",
+      "body_lines": 53,
+      "outbound": [
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20"
+      ],
+      "inbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20"
       ]
     },
     {
@@ -2540,6 +2812,52 @@
       ]
     },
     {
+      "name": "LIST_BUILD_ACCESSIBILITY_FIRST",
+      "rel_path": "knowledge_base/methodology/LIST_BUILD_ACCESSIBILITY_FIRST.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "List-build and scrape optimization prioritizes reachable channels (website, NPPES endpoint, phone) before subtier-only filtering; subtier drives message fit, not crawl viability.",
+      "tags": [
+        "methodology",
+        "workflow",
+        "gtm-motion",
+        "tam-total-addressable-market"
+      ],
+      "topics": [
+        "workflow",
+        "gtm-motion",
+        "tam-total-addressable-market"
+      ],
+      "related_concepts": [
+        "[[PUBLIC_DATA_SOURCES_TAM]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]"
+      ],
+      "source_type": "notes",
+      "source_file": "agent-transcript/70fb541d-c48a-4f21-954d-63f15e578d3c",
+      "body_lines": 41,
+      "outbound": [
+        "PUBLIC_DATA_SOURCES_TAM",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+      ],
+      "inbound": [
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
+      ]
+    },
+    {
       "name": "MESSAGING_HYPOTHESIS_DISCIPLINE",
       "rel_path": "knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md",
       "domain": "methodology",
@@ -2579,7 +2897,53 @@
         "PRIMARY_CARE_WEDGE_ICP",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "PILOT_SITE_ACQUISITION_PRIORITY",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET"
+      ]
+    },
+    {
+      "name": "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
+      "rel_path": "knowledge_base/methodology/OPERATIONAL_LIST_VS_STRATEGIC_TAM.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Distinguishes CMS-deduped strategic TAM logo counts from state NPPES operational list rows produced by the GTM pipeline—never interchange without reconciliation.",
+      "tags": [
+        "methodology",
+        "tam-total-addressable-market",
+        "workflow",
+        "market-segmentation"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "workflow",
+        "market-segmentation"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[TAM_DEDUP_METHODOLOGY]]",
+        "[[PUBLIC_DATA_SOURCES_TAM]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[LIST_BUILD_ACCESSIBILITY_FIRST]]"
+      ],
+      "source_type": "notes",
+      "source_file": "agent-transcript/70fb541d-c48a-4f21-954d-63f15e578d3c",
+      "body_lines": 36,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "TAM_DEDUP_METHODOLOGY",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "LIST_BUILD_ACCESSIBILITY_FIRST"
+      ],
+      "inbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "TAM_DEDUP_METHODOLOGY",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+        "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ]
     },
     {
@@ -2621,6 +2985,55 @@
         "COCM_OUTREACH_SEQUENCING",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "wave2a_aco_heyreach_copy"
+      ]
+    },
+    {
+      "name": "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+      "rel_path": "knowledge_base/methodology/OUTBOUND_INBOX_SEND_VOLUME_MATH.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Monthly cold-email send capacity for Kivira's 6-domain × 3-inbox InboxKit setup — per-inbox caps, 3-touch sequences, warmup ramp, and TAM coverage timelines.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "outbound-infrastructure",
+        "tam-total-addressable-market"
+      ],
+      "topics": [
+        "outbound-infrastructure",
+        "gtm-motion",
+        "execution-cadence",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[TAM_INBOX_CAPACITY_THREE_PERSONAS]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[INBOXKIT_SENDKIT_SEQUENCER_ROADMAP]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[THIRTY_DAY_OFFICE_MANAGER_TARGET]]"
+      ],
+      "source_type": "notes",
+      "source_file": "cursor-session outbound-volume-planning 2026-05-22",
+      "body_lines": 79,
+      "outbound": [
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "OUTREACH_BASELINE_METRICS",
+        "THIRTY_DAY_OFFICE_MANAGER_TARGET",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
+      ],
+      "inbound": [
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS"
       ]
     },
     {
@@ -2708,9 +3121,11 @@
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
       ],
       "inbound": [
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
-        "OUTBOUND_SENDER_RAMP_2026_05_W2"
+        "OUTBOUND_SENDER_RAMP_2026_05_W2",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK"
       ]
     },
     {
@@ -2759,9 +3174,12 @@
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
         "WEEKLY_MOC_GRAPH_RITUAL",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "WEEKLY_MOC_2026_05_04",
@@ -2822,6 +3240,9 @@
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "WAVE_1_SCORING_FRAMEWORK",
         "WEEKLY_MOC_2026_05_04",
@@ -2871,17 +3292,23 @@
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT"
       ],
       "inbound": [
+        "JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "ACO_2A_HEYREACH_PERSONA_FILTER",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTREACH_BASELINE_METRICS",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
         "wave2a_aco_heyreach_copy",
@@ -2954,7 +3381,9 @@
         "[[ACCOUNT_SCHEMA_EXTENDED]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
         "[[SUBTIER_EXCLUSION_RULES]]",
-        "[[TAM_DEDUP_METHODOLOGY]]"
+        "[[TAM_DEDUP_METHODOLOGY]]",
+        "[[LIST_BUILD_ACCESSIBILITY_FIRST]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/MARKETANALYSIS.md",
@@ -2963,12 +3392,17 @@
         "ACCOUNT_SCHEMA_EXTENDED",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "SUBTIER_EXCLUSION_RULES",
-        "TAM_DEDUP_METHODOLOGY"
+        "TAM_DEDUP_METHODOLOGY",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM"
       ],
       "inbound": [
         "ACCOUNT_SCHEMA_EXTENDED",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
         "SUBTIER_EXCLUSION_RULES",
         "gtm-plan-v1"
       ]
@@ -3015,6 +3449,56 @@
       ]
     },
     {
+      "name": "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+      "rel_path": "knowledge_base/methodology/TAM_BREADTH_DEPTH_TESTING_FRAMEWORK.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Stratified breadth-first TAM testing — one persona × one message per subtier, ~7% sample with holdout, prune/graduate thresholds, then depth on winners.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "tam-total-addressable-market",
+        "outbound",
+        "metrics"
+      ],
+      "topics": [
+        "gtm-motion",
+        "tam-total-addressable-market",
+        "workflow",
+        "execution-cadence"
+      ],
+      "related_concepts": [
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[MESSAGING_HYPOTHESIS_DISCIPLINE]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[OUTBOUND_INBOX_SEND_VOLUME_MATH]]"
+      ],
+      "source_type": "notes",
+      "source_file": "cursor-session outbound-volume-planning 2026-05-22",
+      "body_lines": 78,
+      "outbound": [
+        "OUTREACH_BASELINE_METRICS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "GTM_30_60_90_EXECUTION_CADENCE"
+      ],
+      "inbound": [
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "TAM_INBOX_CAPACITY_THREE_PERSONAS"
+      ]
+    },
+    {
       "name": "TAM_DEDUP_METHODOLOGY",
       "rel_path": "knowledge_base/methodology/TAM_DEDUP_METHODOLOGY.md",
       "domain": "methodology",
@@ -3036,7 +3520,8 @@
         "[[TAM_COMPLETE_698M_ALL_TIERS]]",
         "[[TAM_TIER_1_PROVIDER_534M]]",
         "[[TAM_TIER_3_ENTERPRISE_92M]]",
-        "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
       ],
       "source_type": "document",
       "source_file": "Kivira Complete TAM All Tiers.pdf",
@@ -3045,15 +3530,69 @@
         "TAM_COMPLETE_698M_ALL_TIERS",
         "TAM_TIER_1_PROVIDER_534M",
         "TAM_TIER_3_ENTERPRISE_92M",
-        "THREE_SEGMENT_ICP_FRAMEWORK"
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM"
       ],
       "inbound": [
         "TAM_COMPLETE_698M_ALL_TIERS",
         "TAM_TIER_3_ENTERPRISE_92M",
         "ACCOUNT_SCHEMA_EXTENDED",
         "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
         "PUBLIC_DATA_SOURCES_TAM"
+      ]
+    },
+    {
+      "name": "TAM_INBOX_CAPACITY_THREE_PERSONAS",
+      "rel_path": "knowledge_base/methodology/TAM_INBOX_CAPACITY_THREE_PERSONAS.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Operational inbox/domain capacity when planning three personas and three sending inboxes per account location against strategic TAM logo counts.",
+      "tags": [
+        "methodology",
+        "tam-total-addressable-market",
+        "gtm-motion",
+        "outbound-infrastructure"
+      ],
+      "topics": [
+        "tam-total-addressable-market",
+        "outbound-infrastructure",
+        "gtm-motion",
+        "workflow"
+      ],
+      "related_concepts": [
+        "[[TAM_COMPLETE_698M_ALL_TIERS]]",
+        "[[INBOXKIT_SENDKIT_SEQUENCER_ROADMAP]]",
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[BUYING_COMMITTEE_DYNAMICS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]",
+        "[[OUTBOUND_INBOX_SEND_VOLUME_MATH]]",
+        "[[TAM_BREADTH_DEPTH_TESTING_FRAMEWORK]]"
+      ],
+      "source_type": "notes",
+      "source_file": "agent-transcript/70fb541d-c48a-4f21-954d-63f15e578d3c",
+      "body_lines": 56,
+      "outbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "OUTREACH_BASELINE_METRICS",
+        "BUYING_COMMITTEE_DYNAMICS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
+      ],
+      "inbound": [
+        "TAM_COMPLETE_698M_ALL_TIERS",
+        "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH"
       ]
     },
     {
@@ -3109,8 +3648,11 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
+        "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
         "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTREACH_WAVE_STRUCTURE",
         "WEEKLY_MOC_GRAPH_RITUAL",
@@ -3156,6 +3698,7 @@
       "inbound": [
         "GTM_30_60_90_EXECUTION_CADENCE",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
+        "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
       ]
     },
@@ -3201,8 +3744,11 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "COCM_CONFIDENCE_GRADE_RULES",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
         "OUTREACH_WAVE_STRUCTURE",
+        "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "THIRTY_DAY_OFFICE_MANAGER_TARGET",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
@@ -3298,6 +3844,7 @@
         "PUBLIC_VALUE_PROPOSITION_HOME",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "GTM_MOTION_HYPOTHESIS",
+        "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "CLINICAL_INSTRUMENTS_SURFACE",
         "CPT_BILLING_CODES_BHI",
         "PATIENT_APP_SAFETY_ALERTS",
@@ -3491,6 +4038,8 @@
       ],
       "topics": [],
       "related_concepts": [
+        "[[LIST_BUILD_ACCESSIBILITY_FIRST]]",
+        "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]",
         "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
         "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
@@ -3500,6 +4049,8 @@
       "source_file": "raw-context/kivira-internal/jp-km-outbound-strategy-meeting-notes-2026-04-07.md",
       "body_lines": 27,
       "outbound": [
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
+        "OPERATIONAL_LIST_VS_STRATEGIC_TAM",
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
@@ -3509,6 +4060,7 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "LIST_BUILD_ACCESSIBILITY_FIRST",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
       ]
     },

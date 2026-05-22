@@ -18,6 +18,7 @@ related_concepts:
   - "[[TAM_TIER_1_PROVIDER_534M]]"
   - "[[TAM_TIER_3_ENTERPRISE_92M]]"
   - "[[THREE_SEGMENT_ICP_FRAMEWORK]]"
+  - "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
 source:
   type: document
   file: "Kivira Complete TAM All Tiers.pdf"

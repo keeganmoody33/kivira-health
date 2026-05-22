@@ -19,6 +19,8 @@ related_concepts:
   - "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]"
   - "[[SUBTIER_EXCLUSION_RULES]]"
   - "[[TAM_DEDUP_METHODOLOGY]]"
+  - "[[LIST_BUILD_ACCESSIBILITY_FIRST]]"
+  - "[[OPERATIONAL_LIST_VS_STRATEGIC_TAM]]"
 source:
   type: research-synthesis
   file: "raw-context/MARKETANALYSIS.md"
