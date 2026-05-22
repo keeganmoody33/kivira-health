@@ -1,22 +1,22 @@
 # Context OS — Graph Index
-> Generated: 2026-05-22 13:51 UTC  |  Run `python scripts/index_graph.py` to refresh.
+> Generated: 2026-05-22 15:28 UTC  |  Run `python scripts/index_graph.py` to refresh.
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total nodes indexed | 107 |
-| knowledge_base nodes | 88 |
+| Total nodes indexed | 109 |
+| knowledge_base nodes | 90 |
 | foundation / synthesis docs | 16 |
-| Agent workflows | 11 |
+| Agent workflows | 12 |
 | Skills | 8 |
-| Total wiki-links mapped | 658 |
+| Total wiki-links mapped | 668 |
 | Orphan nodes (0 inbound) | 1 |
 | knowledge_base nodes with <3 outbound | 0 |
 
 **Domains:**
 - `business`: 31 nodes
-- `methodology`: 48 nodes
+- `methodology`: 50 nodes
 - `technical`: 9 nodes
 - `unknown`: 19 nodes
 
@@ -56,21 +56,21 @@
 `FRESH_LIST_BUILD_RUNBOOK_1ABC                ` → `knowledge_base/methodology/FRESH_LIST_BUILD_RUNBOOK_1ABC.md` ✅ [methodology/pattern] ←3
 `GTM_30_60_90_EXECUTION_CADENCE               ` → `knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md` ✅ [methodology/framework] ←20
 `GTM_MOTION_HYPOTHESIS                        ` → `knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md` ✅ [methodology/framework] ←9
-`GTM_TIER_ARCHITECTURE_9_SUBTIERS             ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←34
+`GTM_TIER_ARCHITECTURE_9_SUBTIERS             ` → `knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md` ✅ [methodology/framework] ←36
 `HEAT_EXCEPTION_EXTERNAL_VALIDATION           ` → `knowledge_base/methodology/HEAT_EXCEPTION_EXTERNAL_VALIDATION.md` ✅ [methodology/principle] ←3
 `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12   ` → `knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12.md` ✅ [methodology/pattern] ←6
 `MESSAGING_HYPOTHESIS_DISCIPLINE              ` → `knowledge_base/methodology/MESSAGING_HYPOTHESIS_DISCIPLINE.md` ✅ [methodology/pattern] ←5
 `ORG_TYPE_BUYER_MAP_COCM                      ` → `knowledge_base/methodology/ORG_TYPE_BUYER_MAP_COCM.md` ✅ [methodology/framework] ←4
 `OUTREACH_BASELINE_METRICS                    ` → `knowledge_base/methodology/OUTREACH_BASELINE_METRICS.md` ✅ [methodology/framework] ←20
-`OUTREACH_WAVE_STRUCTURE                      ` → `knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md` ✅ [methodology/framework] ←20
-`PERSONA_TITLE_DICTIONARY_BY_SUBTIER          ` → `knowledge_base/methodology/PERSONA_TITLE_DICTIONARY_BY_SUBTIER.md` ✅ [methodology/framework] ←21
+`OUTREACH_WAVE_STRUCTURE                      ` → `knowledge_base/methodology/OUTREACH_WAVE_STRUCTURE.md` ✅ [methodology/framework] ←22
+`PERSONA_TITLE_DICTIONARY_BY_SUBTIER          ` → `knowledge_base/methodology/PERSONA_TITLE_DICTIONARY_BY_SUBTIER.md` ✅ [methodology/framework] ←23
 `PILOT_SITE_ACQUISITION_PRIORITY              ` → `knowledge_base/methodology/PILOT_SITE_ACQUISITION_PRIORITY.md` ✅ [methodology/framework] ←6
 `PUBLIC_DATA_SOURCES_TAM                      ` → `knowledge_base/methodology/PUBLIC_DATA_SOURCES_TAM.md` ✅ [methodology/framework] ←8
 `SUBTIER_EXCLUSION_RULES                      ` → `knowledge_base/methodology/SUBTIER_EXCLUSION_RULES.md` ✅ [methodology/framework] ←5
 `TAM_DEDUP_METHODOLOGY                        ` → `knowledge_base/methodology/TAM_DEDUP_METHODOLOGY.md` ✅ [methodology/framework] ←8
 `TECH_STACK_OUTBOUND_INFRASTRUCTURE           ` → `knowledge_base/methodology/TECH_STACK_OUTBOUND_INFRASTRUCTURE.md` ✅ [methodology/framework] ←19
 `THIRTY_DAY_OFFICE_MANAGER_TARGET             ` → `knowledge_base/methodology/THIRTY_DAY_OFFICE_MANAGER_TARGET.md` ✅ [methodology/pattern] ←4
-`WAVE_1_SCORING_FRAMEWORK                     ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←12
+`WAVE_1_SCORING_FRAMEWORK                     ` → `knowledge_base/methodology/WAVE_1_SCORING_FRAMEWORK.md` ✅ [methodology/framework] ←14
 `WEEKLY_MOC_GRAPH_RITUAL                      ` → `knowledge_base/methodology/WEEKLY_MOC_GRAPH_RITUAL.md` ✅ [methodology/framework] ←12
 `CDS_NOT_DIAGNOSIS_FRAMING                    ` → `knowledge_base/technical/CDS_NOT_DIAGNOSIS_FRAMING.md` ✅ [technical/framework] ←20
 `CLINICAL_INSTRUMENTS_SURFACE                 ` → `knowledge_base/technical/CLINICAL_INSTRUMENTS_SURFACE.md` ✅ [technical/concept] ←12
@@ -94,6 +94,8 @@
 `HEAT_2026_05_11                              ` → `knowledge_base/_index/heat-2026-05-11.md` 🌱 [methodology/framework] ←1
 `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04          ` → `knowledge_base/methodology/INBOXKIT_DOMAIN_ESP_MAPPING_2026_04.md` 🌱 [methodology/framework] ←1
 `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP           ` → `knowledge_base/methodology/INBOXKIT_SENDKIT_SEQUENCER_ROADMAP.md` 🌱 [methodology/framework] ←4
+`JOSH_DRS_GROUP_LIST_INGEST_2026              ` → `knowledge_base/methodology/JOSH_DRS_GROUP_LIST_INGEST_2026.md` 🌱 [methodology/pattern] ←1
+`JOSH_PILOT_LIST_MOTION_2026                  ` → `knowledge_base/methodology/JOSH_PILOT_LIST_MOTION_2026.md` 🌱 [methodology/pattern] ←1
 `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11       ` → `knowledge_base/execution/JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11.md` 🌱 [methodology/case-study] ←3
 `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY  ` → `knowledge_base/methodology/KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY.md` 🌱 [methodology/framework] ←0
 `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20` → `knowledge_base/methodology/KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20.md` 🌱 [methodology/pattern] ←3
@@ -169,21 +171,21 @@
 | `FRESH_LIST_BUILD_RUNBOOK_1ABC` | methodology | pattern | ✅ validated | 3 | 35 | Operational runbook for fresh GTM subtier lists (1A/1B/1C)—base_gap fi… |
 | `GTM_30_60_90_EXECUTION_CADENCE` | methodology | framework | ✅ validated | 20 | 79 | 30-60-90 day execution cadence for Kivira GTM motion |
 | `GTM_MOTION_HYPOTHESIS` | methodology | framework | ✅ validated | 9 | 22 | Hypothesized motion—enterprise/clinic-led sale of EHR-integrated CDS f… |
-| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 34 | 332 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
+| `GTM_TIER_ARCHITECTURE_9_SUBTIERS` | methodology | framework | ✅ validated | 36 | 332 | Nine-subtier GTM architecture for Kivira - Tier 1 Provider wedge, Tier… |
 | `HEAT_EXCEPTION_EXTERNAL_VALIDATION` | methodology | principle | ✅ validated | 3 | 59 | Heat (inbound link count) is the default v2 lifecycle signal, but it u… |
 | `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12` | methodology | pattern | ✅ validated | 6 | 101 | Canonical 5-paragraph LinkedIn DM pattern for warm follow-up to accept… |
 | `MESSAGING_HYPOTHESIS_DISCIPLINE` | methodology | pattern | ✅ validated | 5 | 54 | Treat all messaging as hypothesis to be validated/disproved by outreac… |
 | `ORG_TYPE_BUYER_MAP_COCM` | methodology | framework | ✅ validated | 4 | 31 | Internal buyer-routing map that changes champion order, title matching… |
 | `OUTREACH_BASELINE_METRICS` | methodology | framework | ✅ validated | 20 | 92 | Minimal measurement spec for outbound so we can learn which subtiers/p… |
-| `OUTREACH_WAVE_STRUCTURE` | methodology | framework | ✅ validated | 20 | 129 | Wave 1-3 outreach execution structure with contact volumes and timing |
-| `PERSONA_TITLE_DICTIONARY_BY_SUBTIER` | methodology | framework | ✅ validated | 21 | 417 | Clay/LinkedIn-searchable title dictionary for five demo-bookable buyin… |
+| `OUTREACH_WAVE_STRUCTURE` | methodology | framework | ✅ validated | 22 | 129 | Wave 1-3 outreach execution structure with contact volumes and timing |
+| `PERSONA_TITLE_DICTIONARY_BY_SUBTIER` | methodology | framework | ✅ validated | 23 | 417 | Clay/LinkedIn-searchable title dictionary for five demo-bookable buyin… |
 | `PILOT_SITE_ACQUISITION_PRIORITY` | methodology | framework | ✅ validated | 6 | 36 | Pre-seed stage priority - secure pilot sites to prove value before sca… |
 | `PUBLIC_DATA_SOURCES_TAM` | methodology | framework | ✅ validated | 8 | 193 | Free public data sources for Kivira TAM building - NPPES, CMS, HRSA, N… |
 | `SUBTIER_EXCLUSION_RULES` | methodology | framework | ✅ validated | 5 | 157 | Exclusion rules by subtier for Kivira TAM building - what to exclude b… |
 | `TAM_DEDUP_METHODOLOGY` | methodology | framework | ✅ validated | 8 | 133 | CMS-based deduplication methodology for Kivira TAM - ensures no logo i… |
 | `TECH_STACK_OUTBOUND_INFRASTRUCTURE` | methodology | framework | ✅ validated | 19 | 34 | Recommended outbound GTM tooling (email, LinkedIn, enrichment, CRM, di… |
 | `THIRTY_DAY_OFFICE_MANAGER_TARGET` | methodology | pattern | ✅ validated | 4 | 65 | Concrete 30-day milestone - 5 office managers on the phone as proof of… |
-| `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 12 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
+| `WAVE_1_SCORING_FRAMEWORK` | methodology | framework | ✅ validated | 14 | 146 | Pilot feasibility and buyer complexity scoring for Wave 1 account prio… |
 | `WEEKLY_MOC_GRAPH_RITUAL` | methodology | framework | ✅ validated | 12 | 25 | Weekly email as graph operation—the MOC is a citation hub that heats e… |
 | `CDS_NOT_DIAGNOSIS_FRAMING` | technical | framework | ✅ validated | 20 | 19 | Legally and clinically, Kivira’s outputs are clinical decision support… |
 | `CLINICAL_INSTRUMENTS_SURFACE` | technical | concept | ✅ validated | 12 | 19 | Public instrument overview lists scale names, constructs, and primary … |
@@ -207,6 +209,8 @@
 | `HEAT_2026_05_11` | methodology | framework | 🌱 emergent | 1 | 112 | Week-of heat snapshot for the Context OS graph — Sunday-night maintena… |
 | `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04` | methodology | framework | 🌱 emergent | 1 | 57 | Six Namecheap sending domains imported to InboxKit with 4 Google + 2 M… |
 | `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP` | methodology | framework | 🌱 emergent | 4 | 34 | Target operating model for outbound—InboxKit fully configured for doma… |
+| `JOSH_DRS_GROUP_LIST_INGEST_2026` | methodology | pattern | 🌱 emergent | 1 | 28 | Column semantics and ingest rules for Josh Drs Group 2026 physician-gr… |
+| `JOSH_PILOT_LIST_MOTION_2026` | methodology | pattern | 🌱 emergent | 1 | 39 | LinkedIn-first HeyReach pilot motion from Josh Drs Group lists plus TA… |
 | `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11` | methodology | case-study | 🌱 emergent | 3 | 40 | Operational deposit for Wave 1 LinkedIn accept triage and 10-person fo… |
 | `KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY` | methodology | framework | 🌱 emergent | 0 | 37 | The commercial structure of the Kivira GTM engagement — Josh Pappas as… |
 | `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20` | methodology | pattern | 🌱 emergent | 3 | 53 | v6 LinkedIn warm follow-up variant — first-name greeting, GTM lead-in … |
@@ -376,7 +380,7 @@
 **→** `B2B_CLINIC_BUYER_MODEL`, `CDS_NOT_DIAGNOSIS_FRAMING`, `COMPETITIVE_EVIDENCE_GAP`, `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `POLSKY_UCHICAGO_KIVIRA_PROFILE_2026`, `PRIMARY_CARE_WEDGE_ICP`
 
 ### `GTM_TIER_ARCHITECTURE_9_SUBTIERS`
-**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `wave2a_aco_heyreach_copy`, `weekly-moc-template`
+**←** `2026-05-04-investor-email`, `ACCOUNT_SCHEMA_EXTENDED`, `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `EMBEDDED_DISTRIBUTION_VBC_ENABLERS`, `FRESH_LIST_BUILD_RUNBOOK_1ABC`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `JOSH_DRS_GROUP_LIST_INGEST_2026`, `JOSH_PILOT_LIST_MOTION_2026`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_COMPANY_PROFILE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OPERATIONAL_LIST_VS_STRATEGIC_TAM`, `OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `PUBLIC_DATA_SOURCES_TAM`, `SUBTIER_EXCLUSION_RULES`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `gtm-plan-v1`, `wave2a_aco_heyreach_copy`, `weekly-moc-template`
 **→** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_ACCOUNT_PROFILE_SCHEMA`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTREACH_BASELINE_METRICS`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `SUBTIER_EXCLUSION_RULES`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_MOC_2026_05_04`
 
 ### `HEAT_EXCEPTION_EXTERNAL_VALIDATION`
@@ -400,11 +404,11 @@
 **→** `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `PAIN_SEGMENT_MATRIX`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`
 
 ### `OUTREACH_WAVE_STRUCTURE`
-**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_CONFIDENCE_GRADE_RULES`, `COCM_OUTREACH_SEQUENCING`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
+**←** `ACO_ATTACK_MOTION_2A_PRIMARY`, `COCM_CONFIDENCE_GRADE_RULES`, `COCM_OUTREACH_SEQUENCING`, `HEAT_2026_05_04`, `HEAT_2026_05_11`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `JOSH_DRS_GROUP_LIST_INGEST_2026`, `JOSH_PILOT_LIST_MOTION_2026`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_LINEAR_SHIPPED_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `WEEKLY_MOC_2026_05_10`, `weekly-moc-template`
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `TAM_COMPLETE_698M_ALL_TIERS`, `TAM_TIER_1_PROVIDER_534M`, `TAM_TIER_2_ACO_VBC_73M`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`, `THREE_SEGMENT_ICP_FRAMEWORK`, `WAVE_1_SCORING_FRAMEWORK`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_MOC_2026_05_04`
 
 ### `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`
-**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `gtm-plan-v1`, `wave1a_heyreach_copy`, `wave2a_aco_heyreach_copy`
+**←** `ACO_2A_HEYREACH_PERSONA_FILTER`, `ACO_ATTACK_MOTION_2A_PRIMARY`, `ACO_BLITZ_2026_05_W2_PLAN`, `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_DRS_GROUP_LIST_INGEST_2026`, `JOSH_PILOT_LIST_MOTION_2026`, `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12`, `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTBOUND_SENDER_RAMP_2026_05_W2`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `gtm-plan-v1`, `wave1a_heyreach_copy`, `wave2a_aco_heyreach_copy`
 **→** `BUYING_COMMITTEE_DYNAMICS`, `COCM_OUTREACH_SEQUENCING`, `DEMO_FIRST_OUTBOUND_STRATEGY`, `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `ORG_TYPE_BUYER_MAP_COCM`, `OUTREACH_BASELINE_METRICS`
 
 ### `PILOT_SITE_ACQUISITION_PRIORITY`
@@ -432,7 +436,7 @@
 **→** `GTM_30_60_90_EXECUTION_CADENCE`, `MESSAGING_HYPOTHESIS_DISCIPLINE`, `PILOT_SITE_ACQUISITION_PRIORITY`, `WAVE_1_SCORING_FRAMEWORK`
 
 ### `WAVE_1_SCORING_FRAMEWORK`
-**←** `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `COCM_CONFIDENCE_GRADE_RULES`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTREACH_WAVE_STRUCTURE`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
+**←** `CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE`, `COCM_CONFIDENCE_GRADE_RULES`, `JOSH_DRS_GROUP_LIST_INGEST_2026`, `JOSH_PILOT_LIST_MOTION_2026`, `LIST_BUILD_ACCESSIBILITY_FIRST`, `OUTREACH_WAVE_STRUCTURE`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_TIER_1_PROVIDER_534M`, `THIRTY_DAY_OFFICE_MANAGER_TARGET`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_04`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_10`, `WEEKLY_INBOXKIT_HEALTH_2026_05_04`, `WEEKLY_MOC_2026_05_04`, `weekly-moc-template`
 **→** `DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER`, `GTM_30_60_90_EXECUTION_CADENCE`, `OUTREACH_WAVE_STRUCTURE`, `PRIMARY_CARE_WEDGE_ICP`, `TAM_TIER_1_PROVIDER_534M`
 
 ### `WEEKLY_MOC_GRAPH_RITUAL`
@@ -526,6 +530,14 @@
 ### `INBOXKIT_SENDKIT_SEQUENCER_ROADMAP`
 **←** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`
 **→** `CANONICAL_GTM_SEGMENTATION_MIRO_BOARD`, `COCM_OUTREACH_SEQUENCING`, `INBOXKIT_DOMAIN_ESP_MAPPING_2026_04`, `LIST_BUILDING_STACK_CLAY_ENRICHMENT`, `OUTBOUND_INBOX_SEND_VOLUME_MATH`, `OUTREACH_BASELINE_METRICS`, `TAM_BREADTH_DEPTH_TESTING_FRAMEWORK`, `TAM_INBOX_CAPACITY_THREE_PERSONAS`, `TECH_STACK_OUTBOUND_INFRASTRUCTURE`
+
+### `JOSH_DRS_GROUP_LIST_INGEST_2026`
+**←** `JOSH_PILOT_LIST_MOTION_2026`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_PILOT_LIST_MOTION_2026`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_SCORING_FRAMEWORK`
+
+### `JOSH_PILOT_LIST_MOTION_2026`
+**←** `JOSH_DRS_GROUP_LIST_INGEST_2026`
+**→** `GTM_TIER_ARCHITECTURE_9_SUBTIERS`, `JOSH_DRS_GROUP_LIST_INGEST_2026`, `OUTREACH_WAVE_STRUCTURE`, `PERSONA_TITLE_DICTIONARY_BY_SUBTIER`, `WAVE_1_SCORING_FRAMEWORK`
 
 ### `JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11`
 **←** `KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20`, `WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12`, `WEEKLY_HEYREACH_EVIDENCE_2026_05_20`
@@ -676,11 +688,11 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 
 | Tag | Count |
 |-----|-------|
-| `methodology` | 44 |
-| `gtm-motion` | 38 |
+| `methodology` | 46 |
+| `gtm-motion` | 40 |
 | `source-research-synthesis` | 29 |
 | `business` | 27 |
-| `source-internal-doc` | 18 |
+| `source-internal-doc` | 20 |
 | `outbound` | 17 |
 | `workflow` | 17 |
 | `tam-total-addressable-market` | 16 |
@@ -688,7 +700,7 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `market-segmentation` | 12 |
 | `technical` | 9 |
 | `gtm-tooling` | 9 |
-| `execution-cadence` | 8 |
+| `execution-cadence` | 9 |
 | `b2b-health-system` | 7 |
 | `evidence-discipline` | 6 |
 | `weekly-evidence` | 6 |
@@ -696,9 +708,9 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `icp-primary-care` | 5 |
 | `context-os` | 4 |
 | `buyer-persona` | 4 |
+| `heyreach` | 4 |
 | `graph-health` | 3 |
 | `weekly-moc` | 3 |
-| `heyreach` | 3 |
 | `wave1` | 3 |
 | `outbound-infrastructure` | 3 |
 | `buyer-diligence` | 3 |
@@ -724,6 +736,7 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `discovery-calls` | 1 |
 | `tier-architecture` | 1 |
 | `account-schema` | 1 |
+| `list-building` | 1 |
 | `engagement-structure` | 1 |
 | `ehr-integration` | 1 |
 | `data-enrichment` | 1 |
@@ -740,6 +753,7 @@ _All knowledge_base nodes have ≥3 outbound links._ ✅
 | `heyreach-mcp-load-runbook` | `_system/agent_workflows/heyreach-mcp-load-runbook.md` | **Purpose:** Step-by-step instructions for loading enriched LinkedIn URLs from `… |
 | `heyreach-zero-budget-sourcing` | `_system/agent_workflows/heyreach-zero-budget-sourcing.md` | **Purpose:** Take a qualified subtier account list and produce a CSV of LinkedIn… |
 | `heyreach_cli_load_runbook` | `_system/agent_workflows/heyreach_cli_load_runbook.md` | **Last updated:** 2026-05-01 |
+| `josh-pilot-linkedin-enrichment` | `_system/agent_workflows/josh-pilot-linkedin-enrichment.md` | Canonical workflow for enriching `pilot_finalists_pre_linkedin.csv` → `pilot_lin… |
 | `meeting-notes-ingest` | `_system/agent_workflows/meeting-notes-ingest.md` | **Purpose:** Standardize how we ingest meeting notes into the Context OS so raw … |
 | `persona-router` | `_system/agent_workflows/persona-router.md` | Convert `org_type` and priority persona inputs into a concrete buyer sequence an… |
 | `tam-account-intake` | `_system/agent_workflows/tam-account-intake.md` | Normalize arbitrary TAM/list-building CSV inputs into the repo-local account sch… |

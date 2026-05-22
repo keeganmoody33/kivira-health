@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 13:51 UTC",
+  "generated_at": "2026-05-22 15:28 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -2492,6 +2492,8 @@
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "JOSH_DRS_GROUP_LIST_INGEST_2026",
+        "JOSH_PILOT_LIST_MOTION_2026",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
         "LIST_BUILD_ACCESSIBILITY_FIRST",
@@ -2638,6 +2640,87 @@
         "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
         "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "TAM_INBOX_CAPACITY_THREE_PERSONAS"
+      ]
+    },
+    {
+      "name": "JOSH_DRS_GROUP_LIST_INGEST_2026",
+      "rel_path": "knowledge_base/methodology/JOSH_DRS_GROUP_LIST_INGEST_2026.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "Column semantics and ingest rules for Josh Drs Group 2026 physician-group CSV exports.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "list-building",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[JOSH_PILOT_LIST_MOTION_2026]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "Drs Group US_Kivira Project 2026 - Physician_Group_Nationwide_Execs_.csv",
+      "body_lines": 28,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "JOSH_PILOT_LIST_MOTION_2026",
+        "WAVE_1_SCORING_FRAMEWORK",
+        "OUTREACH_WAVE_STRUCTURE"
+      ],
+      "inbound": [
+        "JOSH_PILOT_LIST_MOTION_2026"
+      ]
+    },
+    {
+      "name": "JOSH_PILOT_LIST_MOTION_2026",
+      "rel_path": "knowledge_base/methodology/JOSH_PILOT_LIST_MOTION_2026.md",
+      "domain": "methodology",
+      "node_type": "pattern",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "LinkedIn-first HeyReach pilot motion from Josh Drs Group lists plus TAM fixtures — filter, score, enrich, gate, export.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "execution-cadence",
+        "heyreach",
+        "source-internal-doc"
+      ],
+      "topics": [
+        "gtm-motion",
+        "workflow",
+        "buyer-diligence"
+      ],
+      "related_concepts": [
+        "[[JOSH_DRS_GROUP_LIST_INGEST_2026]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[WAVE_1_SCORING_FRAMEWORK]]"
+      ],
+      "source_type": "internal-doc",
+      "source_file": "fixtures/josh_drs_group_2026/README.md",
+      "body_lines": 39,
+      "outbound": [
+        "JOSH_DRS_GROUP_LIST_INGEST_2026",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OUTREACH_WAVE_STRUCTURE",
+        "WAVE_1_SCORING_FRAMEWORK"
+      ],
+      "inbound": [
+        "JOSH_DRS_GROUP_LIST_INGEST_2026"
       ]
     },
     {
@@ -3241,6 +3324,8 @@
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
         "INBOXKIT_DOMAIN_ESP_MAPPING_2026_04",
+        "JOSH_DRS_GROUP_LIST_INGEST_2026",
+        "JOSH_PILOT_LIST_MOTION_2026",
         "OUTBOUND_INBOX_SEND_VOLUME_MATH",
         "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -3301,6 +3386,8 @@
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "JOSH_DRS_GROUP_LIST_INGEST_2026",
+        "JOSH_PILOT_LIST_MOTION_2026",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_V6_2026_05_20",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12",
@@ -3746,6 +3833,8 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "CMS_MSSP_ORGANIZATIONS_PY2026_2A_LIST_SPINE",
         "COCM_CONFIDENCE_GRADE_RULES",
+        "JOSH_DRS_GROUP_LIST_INGEST_2026",
+        "JOSH_PILOT_LIST_MOTION_2026",
         "LIST_BUILD_ACCESSIBILITY_FIRST",
         "OUTREACH_WAVE_STRUCTURE",
         "TAM_BREADTH_DEPTH_TESTING_FRAMEWORK",
@@ -4659,6 +4748,11 @@
       "name": "heyreach_cli_load_runbook",
       "rel_path": "_system/agent_workflows/heyreach_cli_load_runbook.md",
       "description": "**Last updated:** 2026-05-01"
+    },
+    {
+      "name": "josh-pilot-linkedin-enrichment",
+      "rel_path": "_system/agent_workflows/josh-pilot-linkedin-enrichment.md",
+      "description": "Canonical workflow for enriching `pilot_finalists_pre_linkedin.csv` → `pilot_linkedin_master.csv`."
     },
     {
       "name": "meeting-notes-ingest",
