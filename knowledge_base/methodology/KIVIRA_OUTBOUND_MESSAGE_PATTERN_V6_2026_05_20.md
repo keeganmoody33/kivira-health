@@ -16,6 +16,7 @@ topics:
   - workflow
   - discovery-calls
 related_concepts:
+  - "[[KIVIRA_FIRST_TOUCH_LINKEDIN_PLAYBOOK]]"
   - "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]"
   - "[[JOSH_WAVE1_FOLLOWUP_PACKAGE_2026_05_11]]"
   - "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]"

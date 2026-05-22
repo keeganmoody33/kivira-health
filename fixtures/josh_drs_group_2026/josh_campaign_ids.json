@@ -1,0 +1,37 @@
+{
+  "_comment": "Josh pilot launched 2026-05-22 on Wave1 PAUSED campaigns (sequences pre-configured). v6-only DRAFT shells need UI sequence.",
+  "list_id": 686808,
+  "list_name": "Josh Drs Group Pilot 2026-05-22",
+  "master_list_id": 686808,
+  "combined_list_id": 686853,
+  "combined_list_name": "Josh-Pilot-All-In-One-20260522",
+  "linkedin_account_id": 192406,
+  "go_live_approved": true,
+  "launched_at": "2026-05-22",
+  "launch_mode": "wave1_paused_campaigns_with_sequences",
+  "playbook": "knowledge_base/methodology/KIVIRA_FIRST_TOUCH_LINKEDIN_PLAYBOOK.md",
+  "templates": "fixtures/josh_drs_group_2026/heyreach_first_touch_v6_templates.md",
+  "campaign_mapping": {
+    "A": 416316,
+    "B": 416299,
+    "C": 416316,
+    "D": 416629,
+    "E": 416629
+  },
+  "campaign_names": {
+    "416316": "Wave1-OperationalOwner",
+    "416299": "Wave1-ClinicalChampion",
+    "416629": "Wave1-Baseline-9Subtier-20260503"
+  },
+  "draft_for_v6_ui": {
+    "441560": "Josh-Pilot-ClusterA-Provider-20260522",
+    "441566": "Josh-Pilot-20260522",
+    "441563": "Josh-Pilot-B-2-test",
+    "note": "DRAFT until sequence saved in HeyReach UI; then load from list 686853"
+  },
+  "A": 416316,
+  "B": 416299,
+  "C": 416316,
+  "D": 416629,
+  "E": 416629
+}

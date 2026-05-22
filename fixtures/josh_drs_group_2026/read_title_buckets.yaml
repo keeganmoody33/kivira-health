@@ -1,0 +1,26 @@
+integrated_care:
+- VP of Integrated Care / Integrated Health
+- Director of Behavioral Health Integration (BHI)
+- Medical Director of Behavioral Health
+- VP of Population Health
+- Director of Collaborative Care Operations
+regulatory_revenue:
+- VP of Value-Based Care
+- Director of Risk Adjustment / V28 Strategy
+- VP of Revenue Cycle Management (RCM)
+- Director of Quality (HEDIS/Stars)
+- Chief Financial Officer (CFO) — Focus on those at FQHCs or large physician groups.
+service_line:
+- Kivira’s value is highest in specialties with high behavioral acuity, such as Oncology
+  or Orthopedics (especially with the TEAM model shift).
+- Director of Care Management / Care Coordination
+- Medical Director (Primary Care / Family Medicine)
+- VP of Behavoiral Health
+- Chief Nursing Officer (CNO)
+boolean_strings:
+- 'The BHI Specialist: (""Behavioral Health"" OR ""Mental Health"") AND (""Integration""
+  OR ""Director"" OR ""VP"" OR ""Operations"")'
+- 'The CoCM Strategist: (""Collaborative Care"" OR ""CoCM"" OR ""BHI"" OR ""Integrated
+  Health"")'
+- 'The VBC/Risk Lead: (""Value Based Care"" OR ""VBC"" OR ""Risk Adjustment"" OR ""Population
+  Health"")'
