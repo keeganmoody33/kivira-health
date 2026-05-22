@@ -19,14 +19,14 @@ already-sent minority is harmless.
 | Verdict | Count | Meaning |
 |---------|------:|---------|
 | **KEEP** | **445** | In-tier decision-maker — Buyer or Champion, authority HIGH/MED. Can book a demo and/or buy. |
-| **REVIEW** | **488** | In-tier but lower-authority, or no usable title to judge. Worth a 30-sec human look before sending. |
-| **CUT** | **16** | Out of line — not our buyer, not in our sub-tiers. |
+| **REVIEW** | **286** | In-tier but lower-authority, or unmatched title. Worth a 30-sec human look before sending. |
+| **CUT** | **218** | Out of line, or a ghost profile (no title, no headline, no photo). |
 
 **KEEP roles:** 271 Buyers (purchase authority) + 174 Champions (book demos, drive internally).
 
 ### Per campaign (vs the 17% in-scope floor from the Wave-1 accept triage)
-- **OperationalOwner / 2A ACO** (359): KEEP 192 (**53%**), REVIEW 161, CUT 6
-- **ClinicalChampion / 1C ProvGroup** (590): KEEP 251 (**42%**), REVIEW 327, CUT 12
+- **OperationalOwner / 2A ACO** (359): KEEP 192 (**53%**), REVIEW 62, CUT 105 (29%)
+- **ClinicalChampion / 1C ProvGroup** (590): KEEP 253 (**43%**), REVIEW 224, CUT 113 (19%)
 
 Both far exceed the 17% Wave-1 accept floor — expected, because these are curated *outbound*
 lists (CMS ACO contacts + provider-group personas), not the inbound *accept* pool where vendor
@@ -38,21 +38,30 @@ spam dominated. **The noise problem was in who replied, not who we targeted.**
 | **2A (ACO)** | 153 | 39 |
 | **1C (Provider group)** | 118 | 133 |
 
-## Why REVIEW is large (488)
-- **202 — no title or headline at all.** HeyReach never enriched these (no title, no headline,
-  no photo); a free join against `wave1_linkedin_master.csv` recovered 81, but the rest can only
-  be resolved by an authenticated LinkedIn look (see Constraints). Not judgeable from data alone.
+## Why REVIEW is 286
 - **196 — low-authority operational roles** (Practice Administrator / Practice Manager / generic
   Director). Real, in-tier, demo-bookable, but lower purchase authority than a VP/C-suite — your call.
 - **83 — title present but unmatched** (company-name-as-title noise, ambiguous strings).
 - **7 — tech gatekeepers** (CMIO/CIO) — needed later, not the demo-booker.
 
-## The 16 CUTs (all genuinely out of line)
-Cybersecurity analyst, IT service-desk, a university student, 2 professors + a clinical professor,
-QMS Manager at an aerospace firm (Aero Alliance), a "Head Coach", 3 retired, a recruiter,
-3 medical assistants, a phlebotomy technician. None are healthcare decision-makers.
-(Dual-title clinicians like "Medical Director … Associate Professor" are correctly **kept** — the
-out-of-scope rule only fires when no decision-maker title is present.)
+## The 218 CUTs
+- **202 — ghost profiles: no title, no headline, AND no photo.** Per your rule — nothing to
+  validate and a thin/likely-stale profile. HeyReach never enriched them and they can't be judged
+  from data; a free `wave1_linkedin_master.csv` join already recovered titles for the 81 that had one
+  (those survived). These are the bulk of the cut.
+- **15 — out-of-scope titles:** cybersecurity analyst, IT service-desk, a university student, 2
+  professors + a clinical professor, QMS Manager at an aerospace firm, a "Head Coach", 3 retired,
+  medical assistants, a phlebotomy technician. (Dual-title clinicians like "Medical Director …
+  Associate Professor" are correctly **kept** — the out-of-scope rule only fires when no
+  decision-maker title is present.)
+- **1 — recruiter** (anti-persona).
+
+### Edge case preserved, not cut: 22 "thin profile but real title"
+22 leads have **no photo and no headline but DO have a real title** in HeyReach (e.g. Director of
+Operations, Office Manager, VBC Population Health). The "no headline + no photo" cut deliberately
+spares them because we *can* validate the person from their title — cutting a Director of Operations
+over a missing photo would be wrong. 11 are KEEP, 11 REVIEW. If you'd rather cut thin profiles even
+when titled, say so and I'll widen the rule.
 
 ## Sample of strong keepers (Buyers, named org, has photo)
 | Sub-tier | Title | Org |
@@ -85,7 +94,8 @@ companies are legitimate, but a few slipped).
    `scripts/heyreach_list_pull.py`.
 2. **Spider profile-scrape doesn't work on LinkedIn unauthenticated** — it returns the
    "Sign Up | LinkedIn" wall, not the profile. So titles were recovered from our own master CSV
-   (free), not scraped. The 202 no-title REVIEWs would need an authenticated browser pass to resolve.
+   (free), not scraped. The 202 leads with no recoverable title + no photo are now CUT as ghosts;
+   reviving any would require an authenticated browser pass.
 
 ## Artifacts
 - `fixtures/heyreach_pending_2026-05-22/pending_triaged.csv` — full per-lead triage (the actionable file).

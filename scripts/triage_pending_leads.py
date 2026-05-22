@@ -165,7 +165,11 @@ def triage_row(row: dict) -> dict:
     # 3. Verdict.
     if bucket == "unknown":
         if title_source == "none":
-            out.update(verdict="REVIEW", reason="no_title_or_headline")
+            # No title, no headline. If also no photo -> ghost profile, cut. Else keep for review.
+            if (row.get("has_photo") or "") != "true":
+                out.update(verdict="CUT", reason="no_headline_no_photo")
+            else:
+                out.update(verdict="REVIEW", reason="no_title_has_photo")
         elif OUT_OF_SCOPE_TITLE_RE.search(title):
             # Out-of-scope cut only when no competing decision-maker title classified.
             out.update(persona_bucket="out_of_scope", buyer_role="None",
