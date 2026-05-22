@@ -41,142 +41,15 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
 
-# Persona bucket patterns. Match on lowercased title. Order matters: most
-# specific/highest-value buckets first so a "VP Pop Health" title doesn't
-# get caught by the generic "VP" pattern.
-PERSONA_RULES = [
-    # (regex, bucket, confidence). Patterns match against title+snippet
-    # lowercased. Order matters: most specific first. Spider page titles
-    # frequently truncate at ~60 chars (e.g. "Administrative Director of
-    # Behavioral ..." cuts before "Health"), so patterns are also tolerant
-    # of partial phrases.
-
-    # BH/Quality Influencer
-    (r"chief behavioral health officer|behavioral health medical director", "clin_champ", "H"),
-    (r"director of behavioral health|director of bh|vp behavioral health|"
-     r"behavioral health director|director, behavioral health", "bh_quality", "H"),
-    (r"(?:director|administrator|administrative director|regional director|"
-     r"clinical director|program director).*\bbehavioral\b", "bh_quality", "M"),
-    (r"\bbh integration\b|bh program", "bh_quality", "M"),
-
-    # Clinical Champion
-    (r"\bcmo\b|chief medical officer|chief clinical officer", "clin_champ", "H"),
-    (r"medical director.*population health|population health.*medical director", "clin_champ", "H"),
-    (r"medical director.*(?:quality|value[ -]based|aco)", "clin_champ", "H"),
-    (r"physician executive|vp medical|vp clinical|chief physician", "clin_champ", "M"),
-    (r"director.*clinical (?:initiatives|programs|integration|operations|quality)", "clin_champ", "M"),
-    (r"medical director", "clin_champ", "M"),
-
-    # Operational Owner — pop health / care coordination / value-based ops
-    (r"vp population health|vice president[, ]+population health|"
-     r"svp population health", "op_owner", "H"),
-    (r"(?:executive |senior |regional |sr\.? )?director[, ]+population health|"
-     r"director of population health|director.*\bpopulation health\b", "op_owner", "H"),
-    (r"director of care coordination|director of value[ -]based|"
-     r"vp value[ -]based|vp care management", "op_owner", "H"),
-    (r"director of network performance|risk operations leader|"
-     r"director of aco|aco.*operations", "op_owner", "M"),
-    (r"director,? care management|director of programs|"
-     r"director of operations", "op_owner", "M"),
-
-    # BH/Quality Influencer — pure quality role
-    (r"vp quality|director of quality (?:improvement|measurement|programs|operations)|"
-     r"quality performance director|stars program director|"
-     r"director,? hedis|hedis director", "bh_quality", "M"),
-
-    # Economic Buyer
-    (r"chief executive officer|\bceo\b|^president\b|\bpresident\b at |"
-     r"\bsvp\b.*(?:clinical|medical)", "econ_buyer", "H"),
-    (r"chief financial officer|\bcfo\b", "econ_buyer", "H"),
-    (r"chief operating officer|\bcoo\b", "econ_buyer", "M"),
-    (r"executive director", "econ_buyer", "M"),
-    (r"president\b", "econ_buyer", "M"),
-
-    # Technical Gatekeeper
-    (r"chief medical information officer|\bcmio\b", "tech_gate", "H"),
-    (r"\bcio\b|chief information officer|chief technology officer|\bcto\b", "tech_gate", "H"),
-    (r"director of analytics|vp data|interoperability|"
-     r"director.*analytics", "tech_gate", "M"),
-    (r"health it director|director of clinical analytics", "tech_gate", "M"),
-
-    # Snippet-side patterns. Many Spider titles collapse to "<Company> |
-    # LinkedIn" with the actual role only in the snippet. These rules match
-    # role-indicator phrases that frequently appear in LinkedIn About/headline
-    # snippets even when the title is uninformative.
-    (r"chief population health officer", "econ_buyer", "H"),
-    (r"physician.*(?:population health|value[ -]based|aco|quality)", "clin_champ", "M"),
-    (r"population health (?:manager|specialist|coordinator|analyst|"
-     r"administrator|consultant|lead)", "op_owner", "M"),
-    (r"(?:value[ -]based|vbc).*(?:director|manager|leader|lead|administrator)", "op_owner", "M"),
-    (r"aco (?:practice engagement|engagement|operations|administrator|"
-     r"administration|manager|coordinator|specialist|analyst|lead)", "op_owner", "M"),
-    (r"care management.*(?:director|manager|administrator)|"
-     r"director.*care management", "op_owner", "M"),
-    (r"quality (?:improvement|measurement|management|analyst|specialist).*"
-     r"(?:lead|coordinator|manager|administrator)", "bh_quality", "M"),
-
-    # Fallback: any "director", "vp", or visible "manager/administrator" we
-    # couldn't classify — likely mid-level operator. Confidence L; user
-    # should manually verify before sending.
-    (r"\bvp\b|vice president", "op_owner", "L"),
-    (r"\bdirector\b", "op_owner", "L"),
-    (r"\bmanager\b.*(?:health|care|quality|operations|practice)|"
-     r"(?:health|care|quality|operations|practice).*\bmanager\b", "op_owner", "L"),
-    (r"\badministrator\b.*(?:health|care|quality|operations|practice|aco)|"
-     r"(?:health|care|quality|operations|practice|aco).*\badministrator\b", "op_owner", "L"),
-]
-
-# US state names + abbreviations — when an ACO's brand token is just a state,
-# the match is much more likely to be a cross-org collision (different org in
-# the same state). These get pushed to Tier C by the tiering rule.
-US_STATE_TOKENS = {
-    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
-    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
-    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
-    "maine", "maryland", "massachusetts", "michigan", "minnesota",
-    "mississippi", "missouri", "montana", "nebraska", "nevada", "hampshire",
-    "jersey", "mexico", "york", "carolina", "dakota", "ohio", "oklahoma",
-    "oregon", "pennsylvania", "rhode", "tennessee", "texas", "utah",
-    "vermont", "virginia", "washington", "wisconsin", "wyoming",
-}
-
-# Generic healthcare tokens — mirrors spider_account_search.py BH_GENERIC.
-# Used here to identify the org brand token for ranking & for state-only
-# detection in the tier rule.
-GENERIC_ORG_TOKENS = {
-    "health", "healthcare", "care", "medical", "medicine", "clinical",
-    "services", "service", "partners", "partner", "network", "networks",
-    "associates", "association", "physicians", "physician", "hospital",
-    "hospitals", "clinic", "clinics", "consultation", "management",
-    "solutions", "coalition", "accountable", "organization", "professional",
-    "group", "alliance", "system", "systems", "wellness", "primary",
-    "community", "regional", "national", "integrated", "advanced",
-    "premier", "select", "performance", "aco", "llc", "inc", "the",
-    "and", "of", "co", "corp", "corporation", "company", "or", "ltd",
-    "pa", "pc", "llp", "mssp", "for",
-}
-
-
-def tokenize_org(name: str) -> list[str]:
-    raw = re.findall(r"[a-z]+", (name or "").lower())
-    return [t for t in raw if len(t) >= 3 and t not in GENERIC_ORG_TOKENS]
-
-
-def brand_token(org_name: str) -> str | None:
-    toks = sorted(tokenize_org(org_name), key=len, reverse=True)
-    return toks[0] if toks else None
-
-
-def classify_persona(title: str, snippet: str) -> tuple[str, str]:
-    """Return (persona_bucket, confidence) by matching title+snippet against
-    PERSONA_RULES. First match wins (rules ordered by specificity).
-    """
-    blob = f"{title} {snippet}".lower()
-    for pattern, bucket, conf in PERSONA_RULES:
-        if re.search(pattern, blob):
-            return bucket, conf
-    return "unknown", "L"
+from tam_builder.aco_persona_rules import (  # noqa: E402
+    brand_is_state_only,
+    brand_token,
+    classify_persona,
+    filter_persona_rows,
+)
 
 
 def extract_position(title_str: str) -> str:
@@ -224,6 +97,11 @@ def main():
     ap.add_argument("--bh", help="Q2A_BH_raw_urls.json path (optional)")
     ap.add_argument("--out-heyreach", required=True)
     ap.add_argument("--out-meta", required=True)
+    ap.add_argument(
+        "--apply-anti-persona",
+        action="store_true",
+        help="Drop anti-persona titles and unknown-low-confidence rows before HeyReach export.",
+    )
     args = ap.parse_args()
 
     rows: list[dict] = []
@@ -283,8 +161,18 @@ def main():
             "_snippet": snippet,
             "_state": state,
             "_brand_token": brand_token(company) or "",
-            "_brand_is_state_only": (brand_token(company) or "") in US_STATE_TOKENS,
+            "_brand_is_state_only": brand_is_state_only(company),
         })
+
+    if args.apply_anti_persona:
+        pre = len(enriched)
+        kept, dropped = filter_persona_rows(enriched)
+        enriched = kept
+        print(
+            f"[anti-persona] dropped {len(dropped)} of {pre} "
+            f"(kept {len(enriched)})",
+            file=sys.stderr,
+        )
 
     # Hit count per ACO (post-dedup).
     aco_hits: dict[str, int] = defaultdict(int)

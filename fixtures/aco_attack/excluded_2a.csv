@@ -1,0 +1,5 @@
+aco_id,aco_name,state,subtier_primary,fit_tier,agreement_period_num,enhanced_track,basic_track,basic_track_level,value_based_track,pc_flex,exec_name,exec_email,exec_phone,medical_director_name,has_cms_contact,exclude_reason,primary_motion,tam_acv_usd
+A4597,Achiever Health Care Consultation and Management LLC,CA,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Venu Kondle,VenuKondle@gmail.com,(916) 277-8824,Venu Kondle,true,admin_shell,2A_entity,120000
+A4992,Aledade 90 OH Christ Hospital MSSP Enhanced,IN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,,,,,false,hospital_only,2A_entity,120000
+A1001,"PBACO Holding, LLC",DC,2A,HIGH,4,1,0,N/A,MSSP ACO,0,David Klebonis,dklebonis@pbaco.org,(352) 258-1188,Rohit Dandiya,true,admin_shell,2A_entity,120000
+A5561,RIPC Population Management LLC,CT,2A,MEDIUM,2,0,1,E,MSSP ACO,1,Noah Benedict,nbenedict@ripcpc.com,(401) 654-4000,Thomas Warcup,true,admin_shell,2A_entity,120000

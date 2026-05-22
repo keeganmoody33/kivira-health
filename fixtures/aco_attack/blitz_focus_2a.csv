@@ -1,0 +1,41 @@
+aco_id,aco_name,state,subtier_primary,fit_tier,agreement_period_num,enhanced_track,basic_track,basic_track_level,value_based_track,pc_flex,exec_name,exec_email,exec_phone,medical_director_name,has_cms_contact,exclude_reason,primary_motion,tam_acv_usd
+A5002,Aledade 102 NC TN CHC MSSP Enhanced,NC,2A,HIGH,4,1,0,N/A,MSSP ACO,1,Alexander Mullineaux,amullineaux@aledade.com,(202) 803-7979,Mickel Anglin,true,,2A_entity,120000
+A3630,Aledade 22 NC MSSP Enhanced,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Alexander Mullineaux,amullineaux@aledade.com,(202) 803-7979,Umar Bowers,true,,2A_entity,120000
+A3894,Aledade 37 VA MSSP Enhanced,KY,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Kevin Van Dyke,kvandyke@aledade.com,(513) 532-9457,Alok Gupta,true,,2A_entity,120000
+A4671,Aledade 48 National MSSP Enhanced,AR,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Joseph Brown,true,,2A_entity,120000
+A2542,Baylor Scott & White Quality Alliance,TX,2A,HIGH,6,1,0,N/A,MSSP ACO,0,Edwin Lee,edwin.lee@bswhealth.org,(844) 633-5325,Michael Massey,true,,2A_entity,120000
+A2019,"Lancaster General Health Community Care Collaborative, LLC",PA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Kevin Bogari,KJBogari@LGHealth.org,(717) 544-4766,John Wood,true,,2A_entity,120000
+A1401,TP-ACO L.L.C.,AR,2A,HIGH,5,1,0,N/A,MSSP ACO,0,John Woods,jwoods@topmd.health,(615) 390-9757,kiran zaveri,true,,2A_entity,120000
+A4922,"Wellforce ACO, LLC",MA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Kathleen Garland,Kathleen.Garland@lowellgeneral.org,(617) 710-7056,Frank Osborn,true,,2A_entity,120000
+A1596,"Accountable Care Coalition of Georgia, LLC.",GA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Karen Holt,karen.holt@astranahealth.com,(713) 443-0885,Theresa Jacobs,true,,2A_entity,120000
+A4744,Aledade 43 MS CHC MSSP Enhanced,MS,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Evelyn Cayson,ecayson@aledade.com,(202) 803-7979,Kevin Koehler,true,,2A_entity,120000
+A5836,Arches CMMI 1 LLC,MA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,John Kryder,chris.kryder@archesmd.com,(617) 513-9505,David Gellis,true,,2A_entity,120000
+A1061,Ascension Care Management,TN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Joyce Colton,Joyce.Colton@ascension.org,(917) 940-1770,Christopher Turner,true,,2A_entity,120000
+A1392,"Asian American Accountable Care Organization, LLC",NY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Jing Shui,jshui@caipa.com,(212) 965-9888 x146,eliza ng,true,,2A_entity,120000
+A2342,"Health Connect Partners, LLC",AK,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Craig Enge,craig.enge@providence.org,(310) 920-3643,Brendan Lloyd,true,,2A_entity,120000
+A1675,HHC ACO Inc,NY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Matthew Siegler,sieglerm@nychhc.org,(212) 788-3479,Anthony Okolo,true,,2A_entity,120000
+A4945,Imperium Clinical Partners,IN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Gary Albers,garyalbers@imperiumhealth.com,(502) 386-4944,Jerome Dixon,true,,2A_entity,120000
+A1557,"MCM ACCOUNTABLE CARE ORGANIZATION, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Mazin Shikara,mshikara@mcmhealthcare.com,(561) 406-6080,YERVANT KHATCHERIAN,true,,2A_entity,120000
+A5116,"PHP Prime, LLC",CO,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Colleen Daywalt,colleen.daywalt@phpmcs.com,(202) 415-2074,,true,,2A_entity,120000
+A4629,SoNE Health ACO LLC,CT,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Lisa Trumble,lisa.trumble@sohohealth.com,(413) 822-5641,James Uberti,true,,2A_entity,120000
+A1063,Summa Accountable Care Organization,OH,2A,HIGH,4,1,0,N/A,MSSP ACO,0,William Epling,eplingw@summacare.com,(330) 996-5675,Dawn Hubbard,true,,2A_entity,120000
+A1041,"West Florida ACO, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Jayadeva Chowdappa,jchowdappa@westfloridaaco.com,(727) 408-6999 x4,Mahender Reddy,true,,2A_entity,120000
+A5365,Aledade 200 Chesapeake MSSP Enhanced,DC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,,true,,2A_entity,120000
+A5778,Aledade 244 Scripps MSSP Enhanced,CA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Gavin White,gwhite@aledade.com,(202) 803-7979,Amy Magnuson,true,,2A_entity,120000
+A4546,Aledade 38 KS OK MSSP Enhanced,KS,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Amy Byer,abyer@aledade.com,(316) 737-9743,Jeremy Presley,true,,2A_entity,120000
+A4776,Aledade 59 AR MSSP Enhanced,AR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Nadine Robin,nrobin@aledade.com,(202) 803-7979,William Freeman,true,,2A_entity,120000
+A4996,Aledade 94 VA MSSP Enhanced,TN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kevin Van Dyke,kvandyke@aledade.com,(202) 803-7979,Andrew Schwentker,true,,2A_entity,120000
+A4999,Aledade 99 Pacific Northwest MSSP Enhanced,OR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Amy Byer,abyer@aledade.com,(202) 803-7979,John Countiss,true,,2A_entity,120000
+A2809,Aledade A2809 Commonwealth MSSP Enhanced,KY,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jeffrey Mandel,jmandel@aledade.com,(202) 803-7979,John Reinhardt,true,,2A_entity,120000
+A2909,Aledade A2909 FL MSSP Enhanced,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Ross Coapstick,rcoapstick@aledade.com,(321) 759-6999,Christopher Nunes,true,,2A_entity,120000
+A2920,Aledade A2920 WV MSSP Enhanced,OH,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Ashley Austin,aaustin@aledade.com,(276) 733-1061,Jonathan Lilly,true,,2A_entity,120000
+A3047,Aledade A3047 AL MS MSSP Enhanced,AL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Evelyn Cayson,ecayson@aledade.com,(202) 803-7979,Beverly Jordan,true,,2A_entity,120000
+A5166,Aledade A5166 MI MSSP Enhanced,MI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Karen Duncan,kduncan@aledade.com,(573) 239-7680,Robert Jackson,true,,2A_entity,120000
+A2666,"BMC Integrated Care Services, Inc.",MA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Michael Olsen,michael.olsen@bmc.org,(857) 278-1200,Jason Worcester,true,,2A_entity,120000
+A2801,Central Florida ACO,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jayadeva Chowdappa,jchowdappa@nhs-aco.com,(727) 455-5474,Jayadeva Chowdappa,true,,2A_entity,120000
+A5245,"Doylestown Value Partners, LLC",NJ,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Tiara Swindell,tswindell@tandigm.com,(757) 754-1970,Nicole Geracimos,true,,2A_entity,120000
+A2550,"Franciscan ACO, Inc.",IL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Stacey Leva,stacey.leva@franciscanalliance.org,(708) 372-0099,Anthony Akosa,true,,2A_entity,120000
+A3324,Hampton Roads Good Help ACO,NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Stephanie Savicki,ssavicki0@mercy.com,(859) 240-4654,Anand Kapur,true,,2A_entity,120000
+A3466,"LPCACO, LLC",LA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Gerrelda Davis,gdavis@lpca.net,(225) 927-7662,Gary Wiltz,true,,2A_entity,120000
+A2973,"LTC ACO, LLC",IN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kristen Krzyzewski,kristenk@ltcaco.com,(443) 465-8088,Laura Slack,true,,2A_entity,120000
+A3380,MercyOne ACO III,IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Andrea Harding,andrea.harding@trinity-health.org,(207) 956-1425,Steven Aguilar,true,,2A_entity,120000

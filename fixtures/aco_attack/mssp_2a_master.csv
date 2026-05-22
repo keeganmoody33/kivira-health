@@ -1,0 +1,505 @@
+aco_id,aco_name,state,subtier_primary,fit_tier,agreement_period_num,enhanced_track,basic_track,basic_track_level,value_based_track,pc_flex,exec_name,exec_email,exec_phone,medical_director_name,has_cms_contact,exclude_reason,primary_motion,tam_acv_usd
+A2811,Abacus Health LLC,AZ,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jim Stelzer,jstelzer@azacp.com,(520) 547-4918,Melissa Levine,true,,2A_entity,120000
+A5554,ABC Network,AZ,2A,LOWER,1,0,1,E,MSSP ACO,0,Tony Rodgers,trodgers@vbcare.org,(602) 649-1602,,true,,2A_entity,120000
+A1596,"Accountable Care Coalition of Georgia, LLC.",GA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Karen Holt,karen.holt@astranahealth.com,(713) 443-0885,Theresa Jacobs,true,,2A_entity,120000
+A5460,ACME Health Partners ACO,GA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,CARLA BELCHER,cbelcher@chcsga.org,(478) 290-7064,Walter Austin,true,,2A_entity,120000
+A4749,"ACMG Health Systems, Inc.",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,1,Roger Rodriguez,rr@genuinehealthgroup.com,(786) 878-5500,Pedro Carballo,true,,2A_entity,120000
+A5067,"ACO Collaborative, LLC",AZ,2A,MEDIUM,2,0,1,A,MSSP ACO,0,Stephanie Schreiner,stephanie.schreiner@acocollaborative.org,(308) 390-4311,Kandra Yee,true,,2A_entity,120000
+A3563,ACO West Virginia,MD,2A,MEDIUM,2,0,1,B,MSSP ACO,0,April Oakes,april.oakes@wvumedicine.org,(304) 285-7188,Kevin Halbritter,true,,2A_entity,120000
+A4654,"AdvantagePoint Health Alliance - Blue Ridge, LLC",NC,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Erin Shustack,erin.shustack1@lifepointhealth.net,(218) 329-5763,Michael Caplan,true,,2A_entity,120000
+A5028,"AdvantagePoint Health Alliance - Bluegrass, LLC",KY,2A,MEDIUM,2,0,1,E,MSSP ACO,0,David Mastin,david.mastin@lpnt.net,(810) 919-7026,JONATHAN DIXON,true,,2A_entity,120000
+A4652,"AdvantagePoint Health Alliance - Great Lakes, LLC",MI,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Julie Kelly,julie.kelly1@lpnt.net,(906) 361-5678,,true,,2A_entity,120000
+A5037,"AdvantagePoint Health Alliance - Hot Springs, LLC",AR,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Brittney Carrington,brittney.carrington@lpnt.net,(501) 317-6355,Christopher Skelley,true,,2A_entity,120000
+A4657,"AdvantagePoint Health Alliance - Laurel Highlands, LLC",IA,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Sonia Walker,sonia.walker@lpnt.net,(814) 241-1998,Jessica Masser,true,,2A_entity,120000
+A5025,"AdvantagePoint Health Alliance - Northwest, LLC",ID,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Delana Hanacek,delana.hanacek@lpnt.net,(208) 437-6598,Timothy Dykstra,true,,2A_entity,120000
+A5038,"AdvantagePoint Health Alliance - Tennessee Valley, LLC",AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Rebecca Hall,Becky.hall@lpnt.net,(615) 920-7000,Timothy Crater,true,,2A_entity,120000
+A5039,"AdvantagePoint Health Alliance - Western North Carolina, LLC",NC,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Mitchell Slade,Mitchell.Slade@lpnt.net,(201) 709-6754,Philip Greene,true,,2A_entity,120000
+A5814,AdventHealth ACO,FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Susan Herbert,susan.herbert@adventhealth.com,(407) 357-1566,Stephanie Benedict,true,,2A_entity,120000
+A3873,"Adventist Health Accountable Care, LLC",CA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Regina Berman,BermanRS@ah.org,(949) 554-3636,James Burke,true,,2A_entity,120000
+A1033,Advocate Health Enterprise ACO,GA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Michael Barbati,michael.barbati@advocatehealth.com,(847) 375-2231,Amanpreet Sethi,true,,2A_entity,120000
+A1403,"AHN Accountable Care Organization, LLC",IN,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Chingping Wan,chingping.wan@gmail.com,(412) 551-5069,Michael Mull,true,,2A_entity,120000
+A2366,Akira Health of Fresno Inc.,CA,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Tien Trinh,ttrinh@akiramso.com,(408) 809-7533,Tien Trinh,true,,2A_entity,120000
+A2634,Akira Health of Los Angeles Inc,CA,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Tien Trinh,ttrinh@akiramso.com,(408) 809-7533,Tien Trinh,true,,2A_entity,120000
+A3738,"Alabama Physician Network, LLC",AL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Thalia Baker,thbaker@uabmc.edu,(205) 405-6143,Stephen Stair,true,,2A_entity,120000
+A5216,Aledade 101 Northeast MSSP Enhanced,CT,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Krista Sperry,ksperry@aledade.com,(202) 803-7979,Nancy Lentine,true,,2A_entity,120000
+A5002,Aledade 102 NC TN CHC MSSP Enhanced,NC,2A,HIGH,4,1,0,N/A,MSSP ACO,1,Alexander Mullineaux,amullineaux@aledade.com,(202) 803-7979,Mickel Anglin,true,,2A_entity,120000
+A5003,Aledade 103 Catholic Health MSSP Enhanced,NY,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Deepika Kewlani,dkewlanivarkey@aledade.com,(516) 840-0082,Anthony Ardito,true,,2A_entity,120000
+A3302,Aledade 12 WV CHC MSSP Enhanced,KY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Ashley Austin,aaustin@aledade.com,(276) 733-1061,Mathew Weimer,true,,2A_entity,120000
+A5230,Aledade 147 Hill Physicians MSSP Enhanced,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,,,,,false,,2A_entity,120000
+A5231,Aledade 149 National MSSP,CA,2A,LOWER,1,0,1,E,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(202) 803-7979,Scott Nass,true,,2A_entity,120000
+A5348,Aledade 150 PACHC MSSP Enhanced,PA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Jeffrey Mandel,jmandel@aledade.com,(202) 803-7979,Anne-Marie Derrico,true,,2A_entity,120000
+A5349,Aledade 151 Northern Territories MSSP Enhanced,ID,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Cathi Lewis,cllewis@aledade.com,(202) 803-7979,Michael Zaruba,true,,2A_entity,120000
+A5355,Aledade 152 Hill Physicians MSSP Basic E,CA,2A,LOWER,1,0,1,E,MSSP ACO,0,,,,,false,,2A_entity,120000
+A5356,Aledade 153 SC MSSP Enhanced,NC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Ross Coapstick,rcoapstick@aledade.com,(321) 759-6999,William Dixon,true,,2A_entity,120000
+A5357,Aledade 154 South Atlantic MSSP Enhanced,FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Ross Coapstick,rcoapstick@aledade.com,(321) 759-6999,Jeffrey Vasta,true,,2A_entity,120000
+A5358,Aledade 155 National MSSP Enhanced,AR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(202) 803-7979,,true,,2A_entity,120000
+A5360,Aledade 157 OH MSSP Enhanced,OH,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Sarah McHugh,smchugh@aledade.com,(202) 803-7979,Scott Swabb,true,,2A_entity,120000
+A5361,Aledade 158 TX MSSP Enhanced,TX,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Nadine Robin,nrobin@aledade.com,(202) 802-3797,Brenda Vozza,true,,2A_entity,120000
+A5362,Aledade 159 CO MSSP Enhanced,CO,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Wyatt Packer,wpacker@aledade.com,(202) 803-7979,Emma McCarty,true,,2A_entity,120000
+A5363,Aledade 160 VA CHC MSSP Enhanced,VA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Kevin Van Dyke,kvandyke@aledade.com,(202) 803-7979,JEFFREY PEELE,true,,2A_entity,120000
+A5364,Aledade 196 Advocare Collaborative Health MSSP,NJ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Jeffrey Mandel,jmandel@aledade.com,(202) 803-7979,Mohammad Abdeljawad,true,,2A_entity,120000
+A5365,Aledade 200 Chesapeake MSSP Enhanced,DC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,,true,,2A_entity,120000
+A5522,Aledade 201 National MSSP,CA,2A,MEDIUM,1,0,1,E,MSSP ACO,1,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(202) 803-7979,Margaret Coughlan,true,,2A_entity,120000
+A5526,Aledade 203 National MSSP Enhanced,AZ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Luciano Fochesatto Filho,true,,2A_entity,120000
+A5527,Aledade 204 Potomac MSSP Enhanced,DE,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,Titus Abraham,true,,2A_entity,120000
+A5370,Aledade 205 New England MSSP Enhanced,CT,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Krista Sperry,ksperry@aledade.com,(202) 803-7979,Akinyele Lovelace,true,,2A_entity,120000
+A5528,Aledade 206 SC CHC MSSP Enhanced,NC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Ross Coapstick,rcoapstick@aledade.com,(321) 759-6999,Edward Behling,true,,2A_entity,120000
+A3630,Aledade 22 NC MSSP Enhanced,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Alexander Mullineaux,amullineaux@aledade.com,(202) 803-7979,Umar Bowers,true,,2A_entity,120000
+A5771,Aledade 237 CA TX MSSP Enhanced,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Nirupama yalamanchili,true,,2A_entity,120000
+A5556,Aledade 238 MO Saint Francis MSSP,MO,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Karen Duncan,kduncan@aledade.com,(202) 803-7979,Steven Douglas,true,,2A_entity,120000
+A5774,Aledade 240 National MSSP,AR,2A,LOWER,1,0,1,E,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Vesna Solheim,true,,2A_entity,120000
+A5775,Aledade 241 National MSSP Enhanced,AL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Valerie Briones-Pryor,true,,2A_entity,120000
+A5776,Aledade 242 Open Door MSSP Enhanced,CA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Gavin White,gwhite@aledade.com,(202) 803-7979,Malia Honda,true,,2A_entity,120000
+A5778,Aledade 244 Scripps MSSP Enhanced,CA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Gavin White,gwhite@aledade.com,(202) 803-7979,Amy Magnuson,true,,2A_entity,120000
+A3891,Aledade 25 NJ MSSP Enhanced,ME,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Krista Sperry,ksperry@aledade.com,(202) 803-7979,Marcus Magnet,true,,2A_entity,120000
+A4737,Aledade 34 GA MSSP Enhanced,GA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Jessica Smith,jsmith@aledade.com,(843) 509-3925,Christopher Apostol,true,,2A_entity,120000
+A3899,Aledade 35 Lagniappe MSSP Enhanced,LA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Mat Kendall,mat@aledade.com,(202) 803-7857,Kenneth Brown,true,,2A_entity,120000
+A3894,Aledade 37 VA MSSP Enhanced,KY,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Kevin Van Dyke,kvandyke@aledade.com,(513) 532-9457,Alok Gupta,true,,2A_entity,120000
+A4546,Aledade 38 KS OK MSSP Enhanced,KS,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Amy Byer,abyer@aledade.com,(316) 737-9743,Jeremy Presley,true,,2A_entity,120000
+A4744,Aledade 43 MS CHC MSSP Enhanced,MS,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Evelyn Cayson,ecayson@aledade.com,(202) 803-7979,Kevin Koehler,true,,2A_entity,120000
+A4542,Aledade 45 CA CHC MSSP Enhanced,CA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,,,,Allen Rodriguez,false,,2A_entity,120000
+A4671,Aledade 48 National MSSP Enhanced,AR,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(917) 983-5669,Joseph Brown,true,,2A_entity,120000
+A4756,Aledade 57 Western Sky MSSP Enhanced,AR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(202) 803-7979,Steve Newman,true,,2A_entity,120000
+A4757,Aledade 58 AR CHC MSSP Enhanced,AR,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Nadine Robin,nrobin@aledade.com,(202) 803-7979,Susan Jones,true,,2A_entity,120000
+A4776,Aledade 59 AR MSSP Enhanced,AR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Nadine Robin,nrobin@aledade.com,(202) 803-7979,William Freeman,true,,2A_entity,120000
+A4775,Aledade 60 CA MSSP Enhanced,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,,,,Tanya Stewart,false,,2A_entity,120000
+A4777,Aledade 61 Luminis Bayhealth MSSP Enhanced,DE,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,Andrew McGlone,true,,2A_entity,120000
+A4894,Aledade 79 AL MS MSSP Enhanced,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Evelyn Cayson,ecayson@aledade.com,(202) 803-7979,Jarod Speer,true,,2A_entity,120000
+A4856,Aledade 80 DelMar MSSP Enhanced,DE,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,RAJIV Dua,true,,2A_entity,120000
+A5193,Aledade 91 CA MSSP Enhanced,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,,,,Tanya Stewart,false,,2A_entity,120000
+A5206,Aledade 93 National MSSP Enhanced,AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Victoria Njoku-Anokam,vnjokuanokam@aledade.com,(202) 803-7979,Robert Reeves,true,,2A_entity,120000
+A4996,Aledade 94 VA MSSP Enhanced,TN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kevin Van Dyke,kvandyke@aledade.com,(202) 803-7979,Andrew Schwentker,true,,2A_entity,120000
+A4998,Aledade 98 MO MSSP Enhanced,IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,,,,Michael Quinlan,false,,2A_entity,120000
+A4999,Aledade 99 Pacific Northwest MSSP Enhanced,OR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Amy Byer,abyer@aledade.com,(202) 803-7979,John Countiss,true,,2A_entity,120000
+A2198,Aledade A2198 MI MSSP Enhanced,MI,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Karen Duncan,kduncan@aledade.com,(573) 239-7680,Saed Sahouri,true,,2A_entity,120000
+A2557,Aledade A2557 Coastal MSSP Enhanced,DC,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Tyler Blanchard,tyler@aledade.com,(202) 803-7979,Manu Sehgal,true,,2A_entity,120000
+A2643,Aledade A2643 MO IA MSSP Enhanced,GA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,,,,,false,,2A_entity,120000
+A2809,Aledade A2809 Commonwealth MSSP Enhanced,KY,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jeffrey Mandel,jmandel@aledade.com,(202) 803-7979,John Reinhardt,true,,2A_entity,120000
+A2909,Aledade A2909 FL MSSP Enhanced,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Ross Coapstick,rcoapstick@aledade.com,(321) 759-6999,Christopher Nunes,true,,2A_entity,120000
+A2916,Aledade A2916 KS OK MSSP Enhanced,KS,2A,HIGH,3,1,0,N/A,MSSP ACO,1,AMY BYER,abyer@aledade.com,(316) 737-9743,Jeremy Presley,true,,2A_entity,120000
+A2918,Aledade A2918 LA MSSP Enhanced,LA,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Jennifer Daspit,jdaspit@aledade.com,(202) 803-7979,Darrin Menard,true,,2A_entity,120000
+A2920,Aledade A2920 WV MSSP Enhanced,OH,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Ashley Austin,aaustin@aledade.com,(276) 733-1061,Jonathan Lilly,true,,2A_entity,120000
+A3047,Aledade A3047 AL MS MSSP Enhanced,AL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Evelyn Cayson,ecayson@aledade.com,(202) 803-7979,Beverly Jordan,true,,2A_entity,120000
+A3299,Aledade A3299 CA MSSP Enhanced,CA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,,,,Tanya Stewart,false,,2A_entity,120000
+A4548,Aledade A4548 NC Legacy MSSP Enhanced,NC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Alexander Mullineaux,amullineaux@aledade.com,(202) 803-7979,Alan Story,true,,2A_entity,120000
+A5166,Aledade A5166 MI MSSP Enhanced,MI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Karen Duncan,kduncan@aledade.com,(573) 239-7680,Robert Jackson,true,,2A_entity,120000
+A3720,Aledade HealthChoice MSSP Enhanced,MS,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Arthur Townsend,arthur.townsend@myhealthchoice.com,(901) 229-4339,Arthur Townsend,true,,2A_entity,120000
+A4620,Aledade Willis-Knighton MSSP Enhanced,LA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Bruce Stroud,bstroud@wkhs.com,(318) 212-6720,Timothy Nicholls,true,,2A_entity,120000
+A3378,AllCare Health Alliance,NJ,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Daniel Hyman,Hyman-Daniel@cooperhealth.edu,(856) 342-2030,John Robertson,true,,2A_entity,120000
+A5826,"Alliance ACO, LLC",TX,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Olga Duchicela,oduchicela@ydclinic.com,(979) 820-5052,Jorge Duchicela,true,,2A_entity,120000
+A2452,"Alliance for Integrated Care of New York, LLC",NY,2A,MEDIUM,4,0,1,C,MSSP ACO,0,Wei-Jia shen,wshen@caredesignny.org,(518) 691-4327,Maulik Trivedi,true,,2A_entity,120000
+A5339,Altais Care Alliance,CA,2A,LOWER,1,0,1,A,MSSP ACO,0,purav Bhatt,purav.bhatt@altais.com,(402) 541-8279,Rebecca Stahl,true,,2A_entity,120000
+A5759,"American Choice Healthcare MSSP, LLC",CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,John Lines,John.Lines@CanoHealth.com,(615) 866-8861,Pablo Quintela,true,,2A_entity,120000
+A1702,"American Health Alliance, LLC",AL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Jayanti Panchal,drjaypanchal1@gmail.com,(352) 895-4890,Jayanti Panchal,true,,2A_entity,120000
+A5918,AMGA Value Care Network 001,UT,2A,LOWER,1,0,1,A,MSSP ACO,0,Melissa Odom,modom@wilmingtonhealth.com,(910) 341-1520,Melissa Odom,true,,2A_entity,120000
+A1501,"AMITA Health Accountable Care Organization, LLC",IL,2A,MEDIUM,4,0,1,E,MSSP ACO,0,David Hurter,david.hurter@ascension.org,(224) 273-3373,Reinhold Llerena,true,,2A_entity,120000
+A1241,"AnewCare Collaborative, LLC",TN,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Paula Claytore,Paula.claytore@balladhealth.org,(423) 979-2171,Shari Rajoo,true,,2A_entity,120000
+A5836,Arches CMMI 1 LLC,MA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,John Kryder,chris.kryder@archesmd.com,(617) 513-9505,David Gellis,true,,2A_entity,120000
+A5176,Arizona Care Network,AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Todd Ricotta,todd.ricotta@azcarenetwork.org,(602) 406-6613,Kevin Theodorou,true,,2A_entity,120000
+A1095,Arvon CIN,MI,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Walter Lorang,walter.lorang@beaumont.org,(947) 522-0023,Sarju Shah,true,,2A_entity,120000
+A5830,Ascend Clinical Partners ACO  LLC,AZ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Nick Martin,nmartin@advancedaco.com,(561) 603-0220,,true,,2A_entity,120000
+A1061,Ascension Care Management,TN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Joyce Colton,Joyce.Colton@ascension.org,(917) 940-1770,Christopher Turner,true,,2A_entity,120000
+A5329,"Ascension Care Management Health Partners Wisconsin, LLC",WI,2A,LOWER,1,0,1,A,MSSP ACO,0,Joyce Colton,joyce.colton@ascension.org,(917) 940-1770,Patricia Golden,true,,2A_entity,120000
+A2309,Ascension Seton Accountable Care Organization,TX,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Philip Eaves,philip.eaves@ascension.org,(281) 755-9984,Anas Daghestani,true,,2A_entity,120000
+A5803,"Ascension Texas Accountable Care Organization, LLC",TX,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Philip Eaves,philip.eaves@ascension.org,(281) 755-9984,ROGER FOWLER,true,,2A_entity,120000
+A5834,"Ascension Via Christi Health Alliance in Accountable Care, Inc.",KS,2A,MEDIUM,3,0,1,A,MSSP ACO,0,Joyce Colton,joyce.colton@ascension.org,(855) 288-6747,Samer Antonios,true,,2A_entity,120000
+A1392,"Asian American Accountable Care Organization, LLC",NY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Jing Shui,jshui@caipa.com,(212) 965-9888 x146,eliza ng,true,,2A_entity,120000
+A5450,Astrana Care Partners ACO,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Brandon Sim,BSim@apollomed.net,(909) 217-5767,Albert Young,true,,2A_entity,120000
+A1026,Atlantic ACO,NJ,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Andrew Albano,andrew.albano@atlantichealth.org,(864) 404-5739,James Barr,true,,2A_entity,120000
+A4516,"AtlantiCare Health Solutions, Inc.",NJ,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Laura Campbell,laura.campbell@atlanticare.org,(609) 383-2117,Edward Fog,true,,2A_entity,120000
+A5088,"Atrius Health, Inc.",MA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Melissa Inthirath,melissa.inthirath@reliantmedicalgroup.org,(508) 595-2575,Thad Schilling,true,,2A_entity,120000
+A2266,"Augusta Care Partners, LLC",VA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Clinton Merritt,cmerritt@augustahealth.com,(434) 825-7306,Clinton Merritt,true,,2A_entity,120000
+A3094,Avant MSO,SC,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Terry Cunningham,tcunningham@palmettoprimarycare.com,(843) 820-3360,John Redwine,true,,2A_entity,120000
+A3229,Banner Health Network,AZ,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kynda Wolfrum,kynda.wolfrum@bannerhealth.com,(970) 810-8706,Ed Clarke,true,,2A_entity,120000
+A5811,Banner Health Network Aspire LLC,AZ,2A,LOWER,1,0,1,A,MSSP ACO,0,Kynda Wolfrum,kynda.wolfrum@bannerhealth.com,(970) 810-8706,,true,,2A_entity,120000
+A4768,"Banner Network Colorado, LLC",CO,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Kynda Wolfrum,kynda.wolfrum@bannerhealth.com,(970) 810-8706,Steven Loecke,true,,2A_entity,120000
+A5178,"Banner Network Southern Arizona, LLC",AZ,2A,LOWER,1,0,1,A,MSSP ACO,0,Kynda Wolfrum,kynda.wolfrum@bannerhealth.com,(970) 810-8706,Patricia Iris,true,,2A_entity,120000
+A5693,"Baptist Connected Care Solutions, Inc.",AR,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Justin Rhodes,justin.rhodes@bmhcc.org,(901) 227-4054,Justin Rhodes,true,,2A_entity,120000
+A5667,"Baptist Health Care ACO, LLC",AL,2A,LOWER,1,0,1,B,MSSP ACO,0,Marlin Seay,Marlin.Seay@bhcpns.org,(850) 437-8600,Dan Sontheimer,true,,2A_entity,120000
+A2975,"Baptist Health Care Partners, LLC",IL,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Jacqueline Gisch,Jacqueline.Gisch@bhsi.com,(859) 260-5133,Brian Chaney,true,,2A_entity,120000
+A5013,Baptist Health Quality Network LLC,FL,2A,MEDIUM,3,0,1,A,MSSP ACO,0,Vedner Guerrier,vedner.guerrier@Baptisthealth.net,(305) 318-0819,CARLOS VICTORICA,true,,2A_entity,120000
+A3633,Baptist Health/UAMS Accountable Care Alliance,AR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jasmin Sumrall,jasmin.sumrall@baptist-health.org,(501) 944-9550,Riley Lipschitz,true,,2A_entity,120000
+A3864,"Baptist Physician Partners ACO, LLC",FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Mary Leen,mary.leen@bmcjax.com,(904) 607-7100,Timothy Groover,true,,2A_entity,120000
+A1247,Barnabas Health Care Network,NJ,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Maruf Rahman,maruf.rahman@rwjbh.org,(732) 729-7691,Joshua Bershad,true,,2A_entity,120000
+A2612,"Bassett Accountable Care Partners, LLC",NY,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Brenda Kelley,brenda.kelley@bassett.org,(607) 547-6947,Scott Cohen,true,,2A_entity,120000
+A2542,Baylor Scott & White Quality Alliance,TX,2A,HIGH,6,1,0,N/A,MSSP ACO,0,Edwin Lee,edwin.lee@bswhealth.org,(844) 633-5325,Michael Massey,true,,2A_entity,120000
+A4977,"Bellin Health Partners, Inc.",MI,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Eric Weaver,eric.weaver@emplifyhealth.org,(512) 789-5945,Saied Assef,true,,2A_entity,120000
+A4937,"BEST CARE COLLABORATIVE, LLC",FL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Benjamin Spence,ben.spence@leehealth.org,(239) 691-6329,Marilyn Kole,true,,2A_entity,120000
+A5869,"BH MSSP, LLC",KS,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Srishti Mirchandani,srishti.mirchandani@belong-health.com,(312) 659-4128,Jordan Anderson,true,,2A_entity,120000
+A5638,BILH Performance Network Medicare ACO-1 LLC,MA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Nicole DeVita,nicole.devita@bilh.org,(978) 236-1655,Darren Guy,true,,2A_entity,120000
+A1652,Billings Clinic,MT,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Chad Miller,cmiller@billingsclinic.org,(406) 435-4603,Michael Temporal,true,,2A_entity,120000
+A1204,"BJC HealthCare ACO, LLC",IL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Douglas Pogue,douglas.pogue@bjc.org,(314) 996-6199,NATHAN MOORE,true,,2A_entity,120000
+A5722,BJC Saint Luke's ACO,KS,2A,LOWER,1,0,1,A,MSSP ACO,0,Damara Harper,Dlharper@saint-lukes.org,(573) 999-0693,Jason Hand,true,,2A_entity,120000
+A4795,Bluestone ACO,FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Nate Hunkins,nate.hunkins@bluestonemd.com,(612) 916-4497,Charles O'Hare,true,,2A_entity,120000
+A2666,"BMC Integrated Care Services, Inc.",MA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Michael Olsen,michael.olsen@bmc.org,(857) 278-1200,Jason Worcester,true,,2A_entity,120000
+A3919,Bridges Health Partners Accountable Care Organization,PA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Robert Zimmerman,robert.zimmerman@bridgeshealthpartners.org,(724) 300-8101,Robert Zimmerman,true,,2A_entity,120000
+A2286,"Broward Guardian, LLC",FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Grayling Yarbrough,gyarbrough@mhs.net,(954) 265-5452,Paul Entler,true,,2A_entity,120000
+A4573,"Bryan Health Connect ACO, LLC",NE,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Benjamin Sparks,ben.sparks@bryanhealth.org,(712) 898-6154,Jesica Heckman,true,,2A_entity,120000
+A2142,Buena Vida y Salud LLC,TX,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Sheila Magoon,drmagoon@bizrgv.rr.com,(956) 412-3235 x204,Sheila Magoon,true,,2A_entity,120000
+A5615,C3 MSSP Enhanced LLC,CO,2A,MEDIUM,1,1,0,N/A,MSSP ACO,1,Aditya Mahalingam Dhingra,amahalingam-dhingra@c3aco.org,(617) 869-2564,Joseph Peppe,true,,2A_entity,120000
+A5344,C3 MSSP LLC,CA,2A,LOWER,1,0,1,A,MSSP ACO,0,Aditya Mahalingam Dhingra,AMahalingam-Dhingra@c3aco.org,(617) 869-2564,Joseph Peppe,true,,2A_entity,120000
+A4709,"CALIFORNIA CLINICAL PARTNERS ACO, LLC",CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,David Klebonis,dklebonis@pbaco.org,(352) 285-1188,Lori LaneHansen,true,,2A_entity,120000
+A2528,"Capital Health Accountable Care Organization, LLC",NJ,2A,MEDIUM,3,0,1,B,MSSP ACO,0,David Dafilou,ddafilou@capitalhealth.org,(609) 537-7045,Eric Schwartz,true,,2A_entity,120000
+A4604,Caravan Collaborative Pathways,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Anthony Russell,true,,2A_entity,120000
+A4974,Caravan Health ACO 43 LLC,CO,2A,LOWER,1,0,1,E,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Armando Monroy,true,,2A_entity,120000
+A5160,Caravan Health ACO 50 LLC,AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Adam Smith,true,,2A_entity,120000
+A5350,"Care Partners ACO, LLC",CA,2A,LOWER,1,0,1,E,MSSP ACO,0,Kim Phan,kphan@careconnectmd.com,(714) 308-5288,KERRY WEINER,true,,2A_entity,120000
+A5746,"Care Solutions ACO, LLC",NY,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Oraida Roman,oroman1@humana.com,(502) 580-1000,Todd Prewitt,true,,2A_entity,120000
+A5661,"CareAllies Accountable Care Solutions, LLC",AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Eric Watson,eric.watson@cigna.com,(215) 694-3853,Erlinda Rodriquez,true,,2A_entity,120000
+A3477,Carina Health Network,CO,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jason Greer,jason@ccmcn.org,(303) 601-2266,Autumn Orser,true,,2A_entity,120000
+A5866,Carolina Medical Home Network ACO LLC,NC,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Crystal Shank,shankc@ncchca.org,(910) 617-2064,Lauren Lowery,true,,2A_entity,120000
+A3675,"Carolinas HealthCare System ACO, LLC",NC,2A,MEDIUM,2,0,1,D,MSSP ACO,0,Jennifer Brady,jennifer.brady@carolinasphysicianalliance.org,(704) 340-4500,David Cosenza,true,,2A_entity,120000
+A3731,Cascadia Care Network LLC,WA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Sandeep Singh,ssingh@skagitregionalhealth.org,(360) 814-7472,Jennifer Benson,true,,2A_entity,120000
+A5840,Castell Mountain West ACO LLC,NV,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Eric Cragun,eric.cragun@imail.org,(801) 442-4619,Josh Romney,true,,2A_entity,120000
+A3195,Cayuga Health Partners,NY,2A,MEDIUM,3,0,1,C,MSSP ACO,0,Robert Lawlis,rlawlis@cayugamed.org,(607) 252-3690,JOHN-PAUL MEAD,true,,2A_entity,120000
+A5610,CCCN ACO LLC,AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Benjamin Potter,ben.potter@ccnwa.com,(208) 758-4183,Felipe Gutierrez,true,,2A_entity,120000
+A5621,CDHC ACO LLC,AL,2A,LOWER,1,0,1,A,MSSP ACO,0,Mary McCormack,mmccormack@cdhcaco.com,(818) 601-2041,Sanjay patil,true,,2A_entity,120000
+A2801,Central Florida ACO,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jayadeva Chowdappa,jchowdappa@nhs-aco.com,(727) 455-5474,Jayadeva Chowdappa,true,,2A_entity,120000
+A2844,"Central Minnesota ACO, LLC",MN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Hannah Wieshalla,Hannah.Wieshalla@centracare.com,(320) 251-2700 x57907,Sean Wherry,true,,2A_entity,120000
+A5304,Centrus Health LLC,KS,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Sarah Emry,semry@centrushealth.com,(816) 718-8661,Kenna Belshe,true,,2A_entity,120000
+A5305,Centrus Health of Kansas LLC,KS,2A,LOWER,1,0,1,A,MSSP ACO,0,Sarah Emry,semry@centrushealth.com,(816) 718-8661,Branden Comfort,true,,2A_entity,120000
+A5857,"Centrus Health of Northeast Kansas, LLC",KS,2A,LOWER,1,0,1,A,MSSP ACO,0,Sarah Emry,semry@centrushealth.com,(816) 718-8661,Kirk Sloan,true,,2A_entity,120000
+A2207,"CHA ACO, LLC",IN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Barb Garrett,bgarrett@beaconhealthsystem.org,(574) 647-1845,Keyna Martinez,true,,2A_entity,120000
+A3391,"CHESS Value, LLC",NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Joshua Vire,jvire@chesshealthsolutions.com,(704) 953-2043,Kelley Singer,true,,2A_entity,120000
+A5832,Choice ACO LLC,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Nick Martin,nmartin@advancedaco.com,(561) 603-0220,,true,,2A_entity,120000
+A3029,CHRISTUS Health Quality Care Alliance,LA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Shannon Stansbury,shannon.stansbury@christushealth.org,(469) 282-2529,Dean Cannon,true,,2A_entity,120000
+A3722,"CHSPSC ACO 12, LLC",AL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,calvin reid,true,,2A_entity,120000
+A3723,"CHSPSC ACO 13, LLC",PA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Kenneth Gentilezza,true,,2A_entity,120000
+A3724,"CHSPSC ACO 14, LLC",GA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Debra Sams,true,,2A_entity,120000
+A3692,"CHSPSC ACO 15, LLC",KY,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,stephen white,true,,2A_entity,120000
+A3694,"CHSPSC ACO 17, LLC",NM,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Sandra Ordonez-Sanchez,true,,2A_entity,120000
+A3664,"CHSPSC ACO 2, LLC",IN,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Scott Armstrong,true,,2A_entity,120000
+A3698,"CHSPSC ACO 21, LLC",IN,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Rebecca Byrd,true,,2A_entity,120000
+A3712,"CHSPSC ACO 6, LLC",AZ,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,George Osuchukwu,true,,2A_entity,120000
+A3714,"CHSPSC ACO 7, LLC",AR,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Craig Levoy,true,,2A_entity,120000
+A3715,"CHSPSC ACO 8, LLC",AK,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Michael Yim,true,,2A_entity,120000
+A5791,Cibolo ACO 1 LLC,MN,2A,LOWER,1,0,1,A,MSSP ACO,0,Naomi Wedin,naomi.wedin@cibolohealth.com,(920) 660-0230,Gautam Sachdeva,true,,2A_entity,120000
+A5743,CINQCARE MSSP LLC,IL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Kimberly Small,kimberly.small@cinq.care,(336) 414-2069,Jessica Hubbs,true,,2A_entity,120000
+A5944,Clarity ACO LLC,AZ,2A,LOWER,1,0,1,A,MSSP ACO,0,brian gillan,bgillan1957@yahoo.com,(513) 582-0322,sanjay patil,true,,2A_entity,120000
+A3588,Cleveland Clinic Florida Integrated Health,FL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Marria Janjua,janjuam@ccf.org,(954) 253-5569,manjaree daw,true,,2A_entity,120000
+A2729,"Cleveland Clinic Medicare ACO, LLC",OH,2A,HIGH,3,1,0,N/A,MSSP ACO,0,"Robert Jones, Jr",jonesr@ccf.org,(216) 210-0905,Kenneth Braman,true,,2A_entity,120000
+A2490,"CMG ACO, LLC",CT,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Joseph Quaranta,jquaranta@nhcmg.org,(203) 687-4422 x111,Joseph Quaranta,true,,2A_entity,120000
+A2684,"Coastal Plains Network, LLC",NC,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Pamela Cowin,pcowin@vidanthealth.com,(252) 229-1318,Mott Blair,true,,2A_entity,120000
+A3591,"ColigoCare, LLC",NJ,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Joseph Yallowitz,yalljo@valleyhealth.com,(201) 447-8016,Susan Volpicella-Levy,true,,2A_entity,120000
+A5483,"Collaborative ACO 30, LLC",FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Chadwick Smith,true,,2A_entity,120000
+A2164,CommonSpirit ACO I,AR,2A,HIGH,6,1,0,N/A,MSSP ACO,0,Brian Christopher,brian.christopher@commonspirit.org,(859) 684-8298,Scott Robertson,true,,2A_entity,120000
+A5729,CommonSpirit ACO IV LLC,AR,2A,MEDIUM,3,0,1,A,MSSP ACO,0,Brian Christopher,brian.christopher@commonspirit.org,(859) 684-8298,Heather OToole,true,,2A_entity,120000
+A5737,COMMONSPIRIT ACO VII LLC,AR,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Brian Christopher,brian.christopher@commonspirit.org,(859) 684-8298,Heather OToole,true,,2A_entity,120000
+A3318,Community Care Collaborative of Pennsylvania and New Jersey LLC,PA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Joseph Taylor,jtaylor4@holyredeemer.com,(215) 938-4668,Brenda Buzydlowski,true,,2A_entity,120000
+A4723,"Community Care of Brooklyn IPA, Inc.",NY,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Kishor Malavade,kmalavade@maimo.org,(917) 841-1337,Kishor Malavade,true,,2A_entity,120000
+A2831,"Community Care Partnership of Maine, LLC",ME,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Sandy Nesin,sandy.nesin@sjhhealth.com,(207) 631-0045,Timothy Clifford,true,,2A_entity,120000
+A3554,"Community Health Center Network Of Idaho, LLC",ID,2A,MEDIUM,2,0,1,C,MSSP ACO,0,David Garrett,dgarrett@idahopca.org,(208) 898-3828,Andrew Baron,true,,2A_entity,120000
+A5709,"Compass ACO, LLC",AL,2A,MEDIUM,4,0,1,E,MSSP ACO,0,David Barber,dbarber@nmhs.net,(662) 377-5221,Ronald Crosswhite,true,,2A_entity,120000
+A4984,"Concord Hospital ACO, LLC",NH,2A,LOWER,1,0,1,A,MSSP ACO,0,Betsey Rhynhart,brhynhar@crhc.org,(603) 227-7000 x7267,Michael McLeod,true,,2A_entity,120000
+A3840,"Connected Care of Middle Tennessee, LLC",TN,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Cynthia Powell,Cynthia.a.powell@vumc.org,(407) 408-0133,Cynthia Powell,true,,2A_entity,120000
+A3832,"Connected Care of West Tennessee, LLC",KY,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Cynthia Powell,Cynthia.a.powell@vumc.org,(407) 408-0133,Cynthia Powell,true,,2A_entity,120000
+A5645,CoreHealth Alliance LLC,AZ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Steven Reeves,true,,2A_entity,120000
+A2506,Cotton-O'Neil ACO llc,KS,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Todd Lutz,tolutz@stormontvail.org,(785) 354-6000,Michael Lexow,true,,2A_entity,120000
+A2021,"Covenant ACO, Inc.",NM,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Walter Cathey,wcathey@covhs.org,(806) 725-4472,Michael Robertson,true,,2A_entity,120000
+A3696,Crestwood Regional Healthcare Alliance,AL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,James Horrar,Jim_Horrar@chs.net,(615) 465-3279,Jeffrey Garber,true,,2A_entity,120000
+A1225,Cumberland Center for Healthcare Innovation,TN,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Brent Staton MD,bstaton@cchi-tn.com,(931) 400-0011,Ty Webb MD,true,,2A_entity,120000
+A3599,CVACC,VA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Giuliana Allega,Giuliana.Allega@centrahealth.com,(434) 315-5340,Giuliana Allega,true,,2A_entity,120000
+A5407,CVS ACO,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Aaron Clark,true,,2A_entity,120000
+A5865,Dakota Vantage LLC,IA,2A,MEDIUM,2,0,1,E,MSSP ACO,0,David Flicek,david.flicek@avera.org,(605) 322-4533,David Basel,true,,2A_entity,120000
+A5414,"Dartmouth Health Performance Network, LLC",NH,2A,LOWER,1,0,1,A,MSSP ACO,0,Lynn Guillette,Lynn.M.Guillette@Hitchcock.org,(603) 653-1260,Maria Padin,true,,2A_entity,120000
+A2024,Delaware Valley ACO,DE,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Robert Kagarise,kagariser@dvaco.org,(610) 225-6229,Todd Prewitt,true,,2A_entity,120000
+A5895,"Dependable Care Partners, Enhanced 2, LLC",AR,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Aria Sameni,true,,2A_entity,120000
+A5894,"Dependable Care Partners, Enhanced, LLC",CO,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Aria Sameni,true,,2A_entity,120000
+A5666,"Dependable Care Partners, Select",AZ,2A,LOWER,1,0,1,A,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Mark Montoney,true,,2A_entity,120000
+A4961,"Desert Mountain ACO, LLC.",NV,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Brigette Mang,bmang@dmmso.com,(702) 830-3569,Dana Forte,true,,2A_entity,120000
+A4949,Doctors Connected,VA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,John Epling,jwepling@carilionclinic.org,(540) 581-0166,John Epling,true,,2A_entity,120000
+A5245,"Doylestown Value Partners, LLC",NJ,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Tiara Swindell,tswindell@tandigm.com,(757) 754-1970,Nicole Geracimos,true,,2A_entity,120000
+A2419,"Duke Connected Care, LLC",NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Daniel Costello,daniel.costello@dm.duke.edu,(919) 660-0657,Susan Spratt,true,,2A_entity,120000
+A4794,DULY HEALTH AND CARE MSSP ACO,IL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Jordan Hall,jhall@sentrymedllc.com,(909) 653-6351,Jordan Hall,true,,2A_entity,120000
+A3053,eBrightHealth ACO,DE,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Donna Antenucci,donna.antenucci@christianacare.org,(215) 680-9252,Rose Kakoza,true,,2A_entity,120000
+A5898,"EHN MSSP ACO II, LLC",GA,2A,MEDIUM,2,0,1,A,MSSP ACO,0,S Patrick Hammond,patrick.hammond@emoryhealthcare.org,(404) 778-5160,Daniel Salinas,true,,2A_entity,120000
+A3671,"Einstein Care Partners, LLC",NJ,2A,MEDIUM,5,0,1,E,MSSP ACO,0,Jason Aronovitz,aronovij@einstein.edu,(215) 867-8814,Christopher Scaven,true,,2A_entity,120000
+A5191,ELEHEALTH MEDICARE ACO LLC,LA,2A,LOWER,1,0,1,A,MSSP ACO,0,Sabrina Hogan,sabrina.hogan@bcbsla.com,(318) 366-9350,Kyle Bruyninckx,true,,2A_entity,120000
+A5646,ElevateCare Network LLC,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Lilian Alevato,true,,2A_entity,120000
+A5946,Elite Healthcare LLC,CA,2A,LOWER,1,0,1,A,MSSP ACO,0,sanjay patil,sanjay.patil@medicareplatform.com,(714) 980-0128,sanjay patil,true,,2A_entity,120000
+A5069,"Elite Patient Care, LLC",AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Jennifer Marcus,jennifer.marcus@curanahealth.com,(413) 553-7325,Paula Requeijo,true,,2A_entity,120000
+A5640,Elliot Health System ACO LLC,NH,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Alisha Feightner,alisha.feightner@solutionhealth.org,(603) 663-2831,John Klunk,true,,2A_entity,120000
+A5203,"Emergent ACO 23.1, LLC",NE,2A,LOWER,1,0,1,E,MSSP ACO,0,Scott Fowler,scott.fowler@myhmg.com,(423) 857-2091,Shelton Hager,true,,2A_entity,120000
+A5378,"Emergent ACO 24.1, LLC",GA,2A,LOWER,1,0,1,E,MSSP ACO,0,Scott Fowler,scott.fowler@myhmg.com,(423) 857-2091,Shelton Hager,true,,2A_entity,120000
+A4556,"Emergent ACO, LLC",NC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Scott Fowler,scott.fowler@myhmg.com,(423) 857-2091,Shelton Hager,true,,2A_entity,120000
+A5787,Emory Healthcare Network Advantage,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,S Patrick Hammond,patrick.hammond@emoryhealthcare.org,(404) 778-5160,Daniel Salinas,true,,2A_entity,120000
+A5653,"Englewood Health ACO, LLC",NJ,2A,MEDIUM,4,0,1,D,MSSP ACO,0,Jamie Ketas,jamie.ketas@ehmchealth.org,(201) 894-3418,Stephen Brunnquell,true,,2A_entity,120000
+A5392,"Envoy Integrated Health ACO, LLC",AK,2A,LOWER,1,0,1,A,MSSP ACO,0,Gene Quinn,gquinn@alaskaheart.com,(907) 346-7678,Gene Quinn,true,,2A_entity,120000
+A5515,"Equality Health ACO, LLC",AZ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Timothy Dohse,tdohse@equalityhealth.com,(928) 380-8794,Brian Huynh,true,,2A_entity,120000
+A5930,EQUITY CARE PARTNERS LLC,MA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kristin Shaw,kristin.shaw@reveremedical.com,(716) 725-1100,Joseph Weinstein,true,,2A_entity,120000
+A5617,"Essentia Health ACO, Inc.",MN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Cathy Cantor,cathy.cantor@essentiahealth.org,(419) 490-7718,Sarah Nelson,true,,2A_entity,120000
+A5897,"Essential Care 2, LLC",CO,2A,LOWER,1,0,1,E,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Aria Sameni,true,,2A_entity,120000
+A4707,"Essential Health Partners ACO, LLC",IL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Monika Dimitrova,MDimitrova@innovista-health.com,(312) 560-2334,Joseph Hindo,true,,2A_entity,120000
+A5249,"FACS MEDICARE ACO, LLC",FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Vikram Saini,vsaini@floridaaco.com,(407) 960-5457,William Silverman,true,,2A_entity,120000
+A3770,"Family Choice ACO, LLC",CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Toan Tran,ttran@familychoice.com,(714) 898-0765,Toan Tran,true,,2A_entity,120000
+A5473,Family Health ACO LLC,CT,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Meghann Hardesty,mhardesty@sunriver.org,(845) 891-5663,AMANDA ASCHER,true,,2A_entity,120000
+A2083,"First Coast Health Alliance, LLC",FL,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Ashfaq Kudia,kudiaashfaq@gmail.com,(904) 461-9330,suhas neerukonda,true,,2A_entity,120000
+A1131,"Florida Medical Clinic ACO, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Joe Delatorre,jdelatorre@floridamedicalclinic.com,(813) 712-1741,Chandresh Saraiya,true,,2A_entity,120000
+A2550,"Franciscan ACO, Inc.",IL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Stacey Leva,stacey.leva@franciscanalliance.org,(708) 372-0099,Anthony Akosa,true,,2A_entity,120000
+A4701,"Freedom Healthcare Alliance, LLC",SC,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Lissa Lara,lissalara@qualityhealthcaredevelopment.com,(843) 412-1590,Hugh Durrence,true,,2A_entity,120000
+A4825,"Froedtert & The Medical College of Wisconsin ACO, LLC",WI,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Ian Schwartz,ian.schwartz@froedtert.com,(414) 805-4266,Mark Lodes,true,,2A_entity,120000
+A5889,FutureHealth LLC,AZ,2A,LOWER,1,0,1,A,MSSP ACO,0,brian gillan,bgillan1957@yahoo.com,(949) 220-1850,sanjay patil,true,,2A_entity,120000
+A5908,"Geisinger Accountable Care Organization, LLC",PA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Sierra Hawthorne,shawthorne@geisinger.edu,(805) 748-1090,,true,,2A_entity,120000
+A4799,"Genesis Accountable Care Organization, LLC.",IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Andrea Harding,Andrea.Harding@trinity-health.org,(515) 321-3843,Steven Aguilar,true,,2A_entity,120000
+A2597,"Genesys PHO, L.L.C.",MI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,ann donnelly,ann.donnelly@genesyspho.com,(810) 424-2025,Kevin Youngs,true,,2A_entity,120000
+A5611,GGC ValueCare LLC,KY,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Michael D'Eramo,deramoM@ggclinic.com,(614) 499-0667,Amy Gearlds,true,,2A_entity,120000
+A5750,Golden Care ACO LLC,FL,2A,LOWER,1,0,1,E,MSSP ACO,0,Daniel Roberts,droberts@valueservicesmgmt.com,(727) 244-8989,Jayadeva Chowdappa,true,,2A_entity,120000
+A2299,Gulf Coast Health Partners,AL,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Laura Behr,lwbehr@ascension.org,(850) 746-1403,Dale Tucker,true,,2A_entity,120000
+A2311,Hackensack Meridian ACO,NJ,2A,HIGH,5,1,0,N/A,MSSP ACO,0,WIlliam Oser,william.oser@hmhn.org,(732) 718-3118,Philip Woodham,true,,2A_entity,120000
+A3324,Hampton Roads Good Help ACO,NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Stephanie Savicki,ssavicki0@mercy.com,(859) 240-4654,Anand Kapur,true,,2A_entity,120000
+A1749,"HARTFORD HEALTHCARE ACCOUNTABLE CARE ORGANIZATION, INC.",CT,2A,MEDIUM,4,0,1,C,MSSP ACO,0,David Santoro,David.Santoro@hhchealth.org,(860) 972-9024,Wilner Samson,true,,2A_entity,120000
+A2880,Hattiesburg Clinic ACO,MS,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Bryan Batson,bryan.batson@hattiesburgclinic.com,(601) 579-5340,DANIEL MCCALL,true,,2A_entity,120000
+A5411,Health Centers of Ohio ACO LLC,OH,2A,LOWER,1,0,1,A,MSSP ACO,0,Julie DiRossi,jdirossi@ohiochc.org,(614) 507-7805,Heidi Gullett,true,,2A_entity,120000
+A2147,"Health Choice Care, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Margarita Ollet,mollet@hcnetwork.org,(786) 255-6633,Johann Torres,true,,2A_entity,120000
+A2342,"Health Connect Partners, LLC",AK,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Craig Enge,craig.enge@providence.org,(310) 920-3643,Brendan Lloyd,true,,2A_entity,120000
+A5451,Health First Physicians ACO,FL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,JANMEJAY SHAKTAWAT,janmejays@hotmail.com,(352) 267-4257,NALINI YELAMANCHI,true,,2A_entity,120000
+A5756,Health Leaders Network,LA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Chris Funes,christopher.funes@fmolhs.org,(225) 603-3906,Chris Funes,true,,2A_entity,120000
+A5148,Health Leaders Network of Mississippi LLC,LA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Chris Funes,christopher.funes@fmolhs.org,(225) 603-3906,Chris Funes,true,,2A_entity,120000
+A5959,Healthbridge LLC,CA,2A,LOWER,1,0,1,A,MSSP ACO,0,Herman Cordero,herman@networkcorp.net,(949) 220-1850,sanjay patil,true,,2A_entity,120000
+A3283,Healthcare Solutions Network,IN,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Lori Ritchey,lori.ritchey-baldwin@stelizabeth.com,(937) 901-0988,Raymond Metzger,true,,2A_entity,120000
+A4778,"Healthier Communities ACO, LLC",NJ,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Craig Dickman,craig.dickman@wmchealth.org,(845) 213-5208,Deborah Shapiro,true,,2A_entity,120000
+A5328,HealthONE Colorado Care Partners ACO LLC,CO,2A,LOWER,1,0,1,A,MSSP ACO,0,Dana Underwood,dana.underwood@healthonecares.com,(720) 990-2692,Crista Keller,true,,2A_entity,120000
+A3730,"Heritage Valley Healthcare Network ACO, LLC",OH,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Norman Mitry,nmitry@hvhs.org,(724) 773-2024,Kathleen Osten,true,,2A_entity,120000
+A1675,HHC ACO Inc,NY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Matthew Siegler,sieglerm@nychhc.org,(212) 788-3479,Anthony Okolo,true,,2A_entity,120000
+A5616,Honest MSSP of Michigan LLC,MI,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Aaron DeBoer,adeboer@honestmedicalgroup.com,(312) 343-2636,James Whelan,true,,2A_entity,120000
+A5831,Horizon Clinical Partners ACO LLC,AR,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Nick Martin,nmartin@advancedaco.com,(561) 603-0220,,true,,2A_entity,120000
+A3473,Houston Methodist Coordinated Care,TX,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Julia Andrieni,jdandrieni@houstonmethodist.org,(346) 356-1553,Christopher Robben,true,,2A_entity,120000
+A2783,"HSHS ACO, L.L.C.",IL,2A,MEDIUM,3,0,1,B,MSSP ACO,0,James Bock,james.bock@hshs.org,(217) 520-2342,James Bock,true,,2A_entity,120000
+A3579,Huntsville ACO,AL,2A,MEDIUM,3,0,1,C,MSSP ACO,0,Joshua Hewiett,Joshua.Hewiett@hhsys.org,(256) 801-6679,James Morrison,true,,2A_entity,120000
+A2833,"IHC Quality Partners, LLC",OH,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Steve Nam,steve.nam@aultman.com,(917) 538-7969,Julie Oberly,true,,2A_entity,120000
+A4931,IHCI ACO LLC,IN,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Christina McIntosh,cmcintosh@ecommunity.com,(317) 626-1467,Lori Sieboldt,true,,2A_entity,120000
+A5516,IHCI ACO Midwest LLC,IL,2A,LOWER,1,0,1,A,MSSP ACO,0,Christina McIntosh,cmcintosh@ecommunity.com,(317) 626-1467,Lori Sieboldt,true,,2A_entity,120000
+A5816,"ILUMED MSSP II, LLC",FL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Frank Richter,frichter@ilumed.com,(561) 801-5985,Marri Brackman,true,,2A_entity,120000
+A4945,Imperium Clinical Partners,IN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Gary Albers,garyalbers@imperiumhealth.com,(502) 386-4944,Jerome Dixon,true,,2A_entity,120000
+A5523,"Imperium Clinical Partners II, LLC",AL,2A,LOWER,1,0,1,E,MSSP ACO,0,Gary Albers,garyalbers@imperiumhealth.com,(502) 209-9426,Tobin Fisher,true,,2A_entity,120000
+A1494,Indiana Lakes ACO,IN,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Margaret Franger,sfranger@goshenhealth.com,(574) 364-2907,Thomas Pechin II,true,,2A_entity,120000
+A2029,Innovation Care Partners MSSP,AZ,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Tiffany Nelson,tnelson@scottsdalehealthpartners.com,(480) 696-4020,Kris Samaddar,true,,2A_entity,120000
+A3555,"Inspire Health Partners, LLC",IN,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Marc Rothbart,mrothbart@inspirehealthpartners.com,(812) 343-4798,Roy Goode,true,,2A_entity,120000
+A4575,"Integra Community Care Network, LLC.",CT,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Ana Fulton,afulton@carene.org,(401) 430-2000,Ana Fulton,true,,2A_entity,120000
+A5331,"INTEGRIS Health Partners, LLC",IL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Brian Jones,brian.jones@integrisok.com,(515) 707-4620,justin sparkes,true,,2A_entity,120000
+A5255,IntraCare Premier ACO,AZ,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Anwar Kazi,anwar.kazi@theintracare.com,(214) 808-8368,Mohammad Amir,true,,2A_entity,120000
+A5719,"inVio Health Network, LLC",SC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Anna Kay,anna.kay@prismahealth.org,(803) 319-8381,William Gerard,true,,2A_entity,120000
+A2619,IRCCO,IL,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Todd Searls,tsearls@ircco.org,(815) 719-6213,Lauren Fore,true,,2A_entity,120000
+A5793,IYAR CARE LLC,CA,2A,LOWER,1,0,1,A,MSSP ACO,0,Yossi Rosengarten,Yossi@medelitegrp.com,(917) 647-9197,Rekha Bhandari,true,,2A_entity,120000
+A5275,"Jefferson Accountable Care, LLC",WA,2A,LOWER,1,0,1,A,MSSP ACO,0,Tyler Freeman,tfreeman@jeffersonhealthcare.org,(360) 385-2200,Joseph Mattern,true,,2A_entity,120000
+A5718,Kentucky Integrated Care,KY,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Martha Lewis,mlewis@kypca.net,(859) 608-0099,Stephen Houghland,true,,2A_entity,120000
+A5062,Kettering Physician Partners Accountable Care LLC,MD,2A,LOWER,1,0,1,E,MSSP ACO,0,Jody Underwood,jody.underwood@ketteringhealth.org,(937) 558-3267,Peter Nelson,true,,2A_entity,120000
+A3621,"Kootenai Accountable Care, LLC",ID,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Michele Bouit,Michele.Bouit@kh.org,(208) 625-4004,Karen Cabell,true,,2A_entity,120000
+A1490,Lahey Clinical Performance ACO,MA,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Nicole DeVita,nicole.devita@BILH.org,(978) 236-1655,Darren Guy,true,,2A_entity,120000
+A2019,"Lancaster General Health Community Care Collaborative, LLC",PA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Kevin Bogari,KJBogari@LGHealth.org,(717) 544-4766,John Wood,true,,2A_entity,120000
+A2735,"Lehigh Valley Health Network Accountable Care Organization, LLC",PA,2A,MEDIUM,5,0,1,E,MSSP ACO,0,Robert Murphy,Robert.Murphy@lvhn.org,(484) 862-3514,Kevin McNeill,true,,2A_entity,120000
+A3644,Lifecare ACO LLC,OK,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Meegan Carter,mcarter@lchs.com,(405) 618-9776,Krishna Vedala,true,,2A_entity,120000
+A3336,"Lifespan Health Alliance, LLC",MA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Daniel Moynihan,dmoynihan1@brownhealth.org,,Peter Hollmann,true,,2A_entity,120000
+A5192,Lore Health ACO,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Mark Briesacher,mbriesacher@lorehealthcare.com,(801) 598-4078,Frederick Miller,true,,2A_entity,120000
+A2189,Loudoun Medical Group ACO LLC,VA,2A,MEDIUM,4,0,1,C,MSSP ACO,0,Mary Beth Tamasy,mtamasy@lmgdoctors.com,(703) 737-6006,anthony crowley,true,,2A_entity,120000
+A3466,"LPCACO, LLC",LA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Gerrelda Davis,gdavis@lpca.net,(225) 927-7662,Gary Wiltz,true,,2A_entity,120000
+A2973,"LTC ACO, LLC",IN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kristen Krzyzewski,kristenk@ltcaco.com,(443) 465-8088,Laura Slack,true,,2A_entity,120000
+A5736,"Lumeris MSSP ACO, LLC",CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Joseph Satorius,jsatorius@lumeris.com,(551) 208-8424,Erin Hurlburt,true,,2A_entity,120000
+A5439,Main Street Rural Health Cottonwood ACO LLC,AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5421,Main Street Rural Health Dogwood ACO LLC,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5438,Main Street Rural Health Hawthorn ACO LLC,IA,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5334,Main Street Rural Health Hickory ACO LLC,AR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 498-4043,Sarah Chouinard,true,,2A_entity,120000
+A5399,Main Street Rural Health Juniper ACO LLC,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5400,Main Street Rural Health Magnolia ACO LLC,AR,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5401,Main Street Rural Health Maple ACO LLC,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5402,Main Street Rural Health Poplar ACO LLC,AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5403,Main Street Rural Health Sycamore ACO LLC,AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A5404,Main Street Rural Health Willow ACO LLC,AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Bennett Graham,bgraham@mainstreetruralhealth.com,(615) 739-5017,Sarah Chouinard,true,,2A_entity,120000
+A1290,MaineHealth Accountable Care Organization,ME,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Shannon Banks,shannon.banks@mainehealth.org,(207) 482-7050,Kendra Emery,true,,2A_entity,120000
+A5748,Mango ACO LLC,FL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Frank Exposito,Frank.exposito@mangoaco.com,(305) 335-1817,Brian Raymaker,true,,2A_entity,120000
+A5828,Mary Washington Health Alliance LLC,VA,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Travis Turner,travis.turner@mwhc.com,(540) 741-2248,Tristan Imhof,true,,2A_entity,120000
+A5932,"MASS GENERAL BRIGHAM ACO 2, LLC",MA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Sharon Wolf,sawolf@mgb.org,(860) 234-0090,Jeanine Bulan,true,,2A_entity,120000
+A4641,"Mass General Brigham ACO, LLC",MA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Sharon Wolf,sawolf@mgb.org,(860) 234-0090,Jeanine Bulan,true,,2A_entity,120000
+A4617,"Mayo Clinic Community ACO, LLC",MN,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Kristin Johnson,johnson.kris2@mayo.edu,(507) 422-6244,Jamie Newman,true,,2A_entity,120000
+A3317,"McLaren High Performance Network, LLC",MI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Gary Wentzloff,gary.wentzloff@mclaren.org,(248) 484-4928,Michael Ziccardi,true,,2A_entity,120000
+A1557,"MCM ACCOUNTABLE CARE ORGANIZATION, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Mazin Shikara,mshikara@mcmhealthcare.com,(561) 406-6080,YERVANT KHATCHERIAN,true,,2A_entity,120000
+A2141,MD Value Care,VA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Shannon Lodge,admin@mdvaluecare.com,(804) 306-3478,Ken Zelenak,true,,2A_entity,120000
+A5542,"Medical Home Network Community Health ACO, LLC",OK,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Cheryl Lulias,clulias@mhnchicago.org,(773) 968-1389,Henish Bhansali,true,,2A_entity,120000
+A5518,"Medical Home Network Health Alliance I, LLC",IL,2A,LOWER,1,0,1,A,MSSP ACO,0,Cheryl Lulias,clulias@mhnchicago.org,(773) 968-1389,Henish Bhansali,true,,2A_entity,120000
+A5388,"Medical Home Network Health Alliance II, LLC",CA,2A,MEDIUM,2,0,1,A,MSSP ACO,0,Cheryl Lulias,clulias@mhnchicago.org,(773) 968-1389,Henish Bhansali,true,,2A_entity,120000
+A5855,"Medicare Partners MSSP V, LLC",IN,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Joseph Satorius,jsatorius@lumeris.com,(551) 208-8424,Erin Hurlburt,true,,2A_entity,120000
+A5335,Memorial Health Partners ACO LLC,GA,2A,LOWER,1,0,1,A,MSSP ACO,0,John Clark,john.clark4@hcahealthcare.com,(843) 693-4820,Jules Toraya,true,,2A_entity,120000
+A1175,Memorial Hermann Accountable Care Organization,TX,2A,HIGH,4,1,0,N/A,MSSP ACO,0,James McCarthy,james.mccarthy@memorialhermann.org,(713) 242-2444,Tiffany Albritton,true,,2A_entity,120000
+A2616,"Mercy Health ACO, LLC",AR,2A,HIGH,4,1,0,N/A,MSSP ACO,0,John Helton,Gavin.Helton@Mercy.net,(636) 237-4102,Justin Huynh,true,,2A_entity,120000
+A2097,Mercy Health Corporation,IL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Javon Bea,jbea@mhemail.org,(608) 756-6080,Mark Goelzer,true,,2A_entity,120000
+A1215,"Mercy Health Select, LLC",KY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Stephanie Savicki,ssavicki0@mercy.com,(859) 240-4654,Bernadette DeGuzman,true,,2A_entity,120000
+A4649,"Mercycare Accountable Care Organization, LLC",IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Timothy Quinn,tquinn@mercycare.org,(319) 390-8145,Tony Myers,true,,2A_entity,120000
+A3380,MercyOne ACO III,IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Andrea Harding,andrea.harding@trinity-health.org,(207) 956-1425,Steven Aguilar,true,,2A_entity,120000
+A1196,Methodist Alliance for Patients and Physicians,TX,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Shannon Huggins,shannonhuggins@mhd.com,(214) 947-4527,Brian Jones,true,,2A_entity,120000
+A3319,"Mid-Atlantic Collaborative Care, LLC",CT,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Shawn Bassett,shawn.bassett@astranahealth.com,(801) 885-7015,ROJI MENON,true,,2A_entity,120000
+A5543,MID-TENNESSEE COMMUNITY ACO LLC,TN,2A,LOWER,1,0,1,B,MSSP ACO,0,Nathan Miller,nmiller@mauryregional.com,(931) 540-4330 x4330,James Couch,true,,2A_entity,120000
+A5911,Midwest Care Partners ACO LLC,KS,2A,LOWER,1,0,1,A,MSSP ACO,0,Amy Frye-Anderson,amy.fryeanderson@hcahealthcare.com,(615) 372-7252,Melissa Smith,true,,2A_entity,120000
+A5721,Millennium Accountable Care Organization,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Taylor Hall,taylor.hall@mpgus.com,(423) 383-1435,Kevin Spencer,true,,2A_entity,120000
+A2591,"Mission Health Partners, LLC",NC,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Karen Roby,karen.roby@hcahealthcare.com,(828) 242-1616,Ansley Miller,true,,2A_entity,120000
+A5340,Missouri Health Center ACO,MO,2A,LOWER,1,0,1,A,MSSP ACO,0,Joe Pierle,jpierle@mo-pca.org,(573) 636-4222,Katherine Friedebach,true,,2A_entity,120000
+A5202,Montana Health Plus,MT,2A,LOWER,1,0,1,A,MSSP ACO,0,Leslie Southworth,lsouthworth@mtpca.org,(406) 594-3863,Shawna Yates,true,,2A_entity,120000
+A5033,Mosaic ACO,MI,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Jodie Elsberg,jelsber1@hfhs.org,(248) 770-5235,Jerome Finkel,true,,2A_entity,120000
+A3327,Mount Sinai Care,NY,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Arshad Rahim,arshad.rahim@mountsinai.org,(203) 676-2456,Arshad Rahim,true,,2A_entity,120000
+A5181,MountainStar Care Partners ACO,ID,2A,LOWER,1,0,1,E,MSSP ACO,0,Kelley Frazier,kelley.frazier@mountainstarhealth.com,(801) 568-5982,Boyd Southwick,true,,2A_entity,120000
+A5395,MPMG Aledade FL MSSP Enhanced,FL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Jordan Hall,jhall@sentrymedllc.com,(909) 653-6351,Jimmy Fernandez,true,,2A_entity,120000
+A3631,"MultiCare Connected Care, LLC",ID,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Melanie Matthews,melaniem@pswipa.com,(360) 584-6944,Michael Bota,true,,2A_entity,120000
+A5321,MultiCare Health Partners,WA,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Melanie Matthews,MelanieM@pswipa.com,(360) 943-4337,Nathaniel Davenport,true,,2A_entity,120000
+A5535,"MUSC Health Alliance, LLC",SC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,David Louder,louder@musc.edu,(843) 876-2811,David Louder,true,,2A_entity,120000
+A5670,"My Choice Quality Care Network, LLC",CA,2A,MEDIUM,1,0,1,A,MSSP ACO,1,Amanda Simmons,asimmons@ihpsocal.org,(713) 859-9683,Jay Lee,true,,2A_entity,120000
+A3797,"NCH ACO, LLC",FL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Noble Arrington,noble.arrington@nchmd.org,(239) 624-4005,Bryan Murphey,true,,2A_entity,120000
+A3273,"Nebraska Health Network, LLC",IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Lee Handke,lhandke@nebraskahealthnetwork.com,(402) 552-2299,Jeffrey Harrison,true,,2A_entity,120000
+A5941,Netrin Accountable Health,MD,2A,LOWER,1,0,1,A,MSSP ACO,0,Arumani Manisundaram,arumani@netrinhealth.com,(708) 205-8250,,true,,2A_entity,120000
+A3272,"Netrin Primary Care ACO, LLC",DC,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Arumani Manisundaram,arumani@netrinhealth.com,(708) 205-8250,Seth Eaton,true,,2A_entity,120000
+A5906,NeueHealth Accountable Care,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Tomas Orozco,torozco@neuehealth.com,(305) 496-1146,Ayesha Khan,true,,2A_entity,120000
+A5513,NeueHealth Collaborative Care LLC,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,1,Tomas Orozco,torozco@neuehealth.com,(305) 496-1146,Manuel Lam,true,,2A_entity,120000
+A2571,NewYork Quality Care,NJ,2A,MEDIUM,5,0,1,E,MSSP ACO,0,Jessica Han,jeh9112@nyp.org,(646) 697-9993,joy gelbman,true,,2A_entity,120000
+A4862,"NJPACO R, LLC",MA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Vinod Sancheti,vsancheti@njphysiciansaco.com,(732) 298-4262,Vinod Sancheti,true,,2A_entity,120000
+A2695,"Northeast Medical Group ACO, LLC",CT,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Rajlakshmi Krishnamurthy,rajlakshmi.krishnamurthy@yale.edu,(203) 915-0735,Ohm Deshpande,true,,2A_entity,120000
+A3030,Northwell Health ACO,CT,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Matt Jelavic,mjelavic@northwell.edu,(516) 876-6709,Sandy Balwan,true,,2A_entity,120000
+A5444,Northwestern Medicine Health Network ACO LLC,IL,2A,MEDIUM,3,0,1,C,MSSP ACO,0,Jessica Walradt,jessica.walradt@nm.org,(312) 926-5637,douglas ambler,true,,2A_entity,120000
+A2620,Northwestern Medicine Physician Network ACO,IL,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Jessica Walradt,jessica.walradt@nm.org,(312) 926-5637,Cheryl Wilkes,true,,2A_entity,120000
+A3504,"Novant Health Accountable Care Organization I, LLC",NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Michael Hoben,mshoben@novanthealth.org,(704) 996-6275,Michael Hoben,true,,2A_entity,120000
+A5612,NW Momentum Health Partners ACO,OR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Melanie Matthews,MelanieM@pswipa.com,(360) 943-4337,Michael Bota,true,,2A_entity,120000
+A1535,"Ochsner Accountable Care Network, LLC",AL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Sidney Raymond,sidney.raymond@ochsner.org,(504) 388-3496,Sidney Raymond,true,,2A_entity,120000
+A5662,"Ochsner Senior Care Network, LLC",AL,2A,LOWER,1,0,1,A,MSSP ACO,0,Sidney Raymond,sidney.raymond@ochsner.org,(504) 703-9043,Sidney Raymond,true,,2A_entity,120000
+A4901,OHSU Health Clinically Integrated Network,OR,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Khalid Wahab,wahabk@ohsu.edu,(503) 481-3300,Katrina McPherson,true,,2A_entity,120000
+A2202,Oklahoma Health Initiatives,KS,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Andrew Barna,Andrew.Barna@ascension.org,(717) 220-3450,Ashley Hildebrand,true,,2A_entity,120000
+A5260,On Belay Health Solutions,CT,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Andrew Allison,andrew@onbelayhealthsolutions.com,(952) 210-5844,Scott Early,true,,2A_entity,120000
+A5412,ONCHC ACO LLC,OR,2A,LOWER,1,0,1,A,MSSP ACO,0,Carla Jones,cjones@orpca.org,(541) 609-0114,Stuart Currie,true,,2A_entity,120000
+A3509,"OneHealth Nebraska ACO, LLC",NE,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Steve Kros,skros@onehealthne.com,(402) 261-9530,Brandon Webb,true,,2A_entity,120000
+A1059,"Optimus Healthcare Partners, LLC",NJ,2A,MEDIUM,5,0,1,E,MSSP ACO,0,Scott Maron,smaron@optimushp.com,,James Barr,true,,2A_entity,120000
+A4960,"Optum Accountable Care, Arizona",AZ,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Lynn Allen,lynn.allen@optum.com,(602) 703-5971,Scott Steingard,true,,2A_entity,120000
+A5045,Optum California ACO,CA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Anh Pham,anh.pham@optum.optumcare.com,(562) 899-8409,Anh Pham,true,,2A_entity,120000
+A5912,"Optum East ACO, LLC",NJ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Dylan McKay,dmckay@riversidemedgroup.com,(201) 805-8229,Gaurang Brahmbhatt,true,,2A_entity,120000
+A5835,"Optum Health Network MSSP ACO, LLC",OR,2A,LOWER,1,0,1,A,MSSP ACO,0,Julie Spalding,julie.spalding@optum.com,(612) 642-7909,David Rankey,true,,2A_entity,120000
+A5058,OptumCare ACO West,CO,2A,LOWER,1,0,1,A,MSSP ACO,0,Nilesh Gokal,nilesh.gokal@optum.com,(702) 379-3525,David Rankey,true,,2A_entity,120000
+A5752,"Orion ACO, Inc.",CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,YuHsiang Lee,yslee9@gmail.com,(816) 269-3953,YuHsiang Lee,true,,2A_entity,120000
+A1539,Orlando Health Collaborative Care,AL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Brandon Burket,brandon.burket@orlandohealth.com,(321) 841-7992,Martin Soto,true,,2A_entity,120000
+A3289,OSF Healthcare System,IL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Robert Sehring,robert.c.sehring@osfhealthcare.org,(309) 655-7804,Ralph Velazquez,true,,2A_entity,120000
+A5030,PA Clinical Network ACO Inc,PA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,John Pagan,jpagan@patientccc.com,(717) 803-8063,John Pagan,true,,2A_entity,120000
+A5557,"Pearl Care 1, LLC",AK,2A,LOWER,1,0,1,E,MSSP ACO,0,Gillian Christie,gillian.christie@pearlhealth.com,(917) 280-5121,Cameron Berg,true,,2A_entity,120000
+A5861,"Pearl Care 12, LLC",HI,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Michael Monsegur,michael.monsegur@pearlhealth.com,(978) 772-9736,Cameron Berg,true,,2A_entity,120000
+A5742,"Pearl Care 2, LLC",NY,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Michael Monsegur,michael.monsegur@pearlhealth.com,(978) 772-9736,Cameron Berg,true,,2A_entity,120000
+A5600,"Pearl Care 4, LLC",CA,2A,LOWER,1,0,1,E,MSSP ACO,0,Gillian Christie,gillian.christie@pearlhealth.com,(917) 280-5121,Cameron Berg,true,,2A_entity,120000
+A5599,"Pearl Care 6, LLC",OR,2A,LOWER,1,0,1,E,MSSP ACO,0,Gillian Christie,gillian.christie@pearlhealth.com,(917) 280-5121,Cameron Berg,true,,2A_entity,120000
+A4924,"Peninsula Regional Clinically Integrated Network, LLC",DE,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Courtney Cooper,courtney.cooper@peninsula.org,(410) 912-5808 x5808,James Trumble,true,,2A_entity,120000
+A5806,PENN MEDICINE HEALTHCARE PARTNERS 2,DE,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,TIARA SWINDELL,tswindell@tandigm.com,(757) 754-1970,Mark Angelo,true,,2A_entity,120000
+A5818,PENN MEDICINE HEALTHCARE PARTNERS 3,NJ,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,TIARA SWINDELL,tswindell@tandigm.com,(757) 754-1970,Mark Angelo,true,,2A_entity,120000
+A5116,"PHP Prime, LLC",CO,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Colleen Daywalt,colleen.daywalt@phpmcs.com,(202) 415-2074,,true,,2A_entity,120000
+A5308,"Physician Partners ACO 2, LLC / Select Physicians Associates, LLC",AL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Andrea Cauthen,andrea.cauthen@betterhealthgroup.com,(407) 885-1216,Sangeeta Hans,true,,2A_entity,120000
+A3547,Physician Partners of Western PA LLC,NY,2A,HIGH,3,1,0,N/A,MSSP ACO,1,Brian Johnson,brian.johnson@ahn.org,(724) 255-4134,Brian Johnson,true,,2A_entity,120000
+A2778,"Physician Quality Partners, LLC",NC,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Bill Schiff,bschiff@novanthealth.org,(919) 229-2319,Jeffrey Warhaftig,true,,2A_entity,120000
+A2551,Physicians ACO,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Louis Morgenier,Lmorgenier@healthcaredevelopment.com,(561) 346-7796,Srinivas Murthy,true,,2A_entity,120000
+A5488,Physicians Collaborative Solutions,FL,2A,LOWER,1,0,1,A,MSSP ACO,0,Melissa Odom,modom@wilmingtonhealth.com,(910) 341-1520,Melissa Odom,true,,2A_entity,120000
+A5509,Physicians First ACO LLC,AL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Stephen Kardon,skardon@southeastpcp.com,(404) 229-5839,Stephen Kardon,true,,2A_entity,120000
+A3250,Piedmont Clinic ACO LLC,AL,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Christopher Lloyd,christopher.lloyd@piedmont.org,(404) 425-1320,Patrick Railey,true,,2A_entity,120000
+A5040,"Pioneer Valley Accountable Care, LLC",CT,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Brian Banker,bbanker@baycarehealth.org,(413) 320-8215,Brian Banker,true,,2A_entity,120000
+A1297,POM ACO,MI,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Brook Watts,bwatts@med.umich.edu,(216) 337-4979,David Serlin,true,,2A_entity,120000
+A3632,Powers Health Partners ACO,IL,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Kevin Mybeck,kmybeck@powershealth.org,(219) 934-8260,Alan Kumar,true,,2A_entity,120000
+A2706,"PQN - Central Texas, LLC",TX,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Larry Tatum,ltatum@priviahealth.com,(817) 740-8400,Raymond Blair,true,,2A_entity,120000
+A2107,"Primary PartnerCare ACO Independent Practice Association, Inc.",NY,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Marion Davis,mdavis@primarypartnercare.com,(516) 233-2485 x5,Harry Jacob,true,,2A_entity,120000
+A3280,"Prime Care Managers, LLC",AR,2A,HIGH,3,1,0,N/A,MSSP ACO,0,John Ford,JFord@PrimeCareManagers.com,(903) 247-0484 x230,James Sawyer,true,,2A_entity,120000
+A5533,PRIVIA QUALITY NETWORK - I LLC,GA,2A,LOWER,1,0,1,A,MSSP ACO,0,Nico Salas,nico.salas@priviahealth.com,(571) 366-8850,Kamal Singh,true,,2A_entity,120000
+A4947,"Privia Quality Network Central Florida, LLC",FL,2A,LOWER,1,0,1,E,MSSP ACO,0,James McCoy,james.mccoy@priviahealth.com,(757) 409-0390,Mario Ruberte,true,,2A_entity,120000
+A3783,"Privia Quality Network Gulf Coast II, LLC",OR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,douglas fernandez,kfernandez@priviahealth.com,(713) 545-1366,douglas fernandez,true,,2A_entity,120000
+A4986,Privia Quality Network Maryland,DC,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Eric Beyer,ebeyer@priviahealth.com,(671) 851-2932,Benjamin Lee,true,,2A_entity,120000
+A3236,Privia Quality Network of Georgia,GA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Zia Khan MD,zia.khan@priviahealth.com,(917) 744-1980,Zia Khan MD,true,,2A_entity,120000
+A4943,"Privia Quality Network Tennessee, LLC",CA,2A,LOWER,1,0,1,A,MSSP ACO,0,Mark Kuntz,mark.kuntz@priviahealth.com,(831) 888-7761,Douglas Fernandez,true,,2A_entity,120000
+A2057,"Privia Quality Network, LLC",DC,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Corey Perdue,cperdue@priviahealth.com,(571) 366-8850,Fred Taweel,true,,2A_entity,120000
+A2000,"ProHealth Physicians ACO, LLC",CT,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Pamela George,pamela.george@optum.com,(603) 305-1199,Jennifer Donahue,true,,2A_entity,120000
+A4979,"ProHealth Solutions, LLC",WI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Peter Bacon,peter.bacon@phci.org,(262) 696-0475,Arthur Coffey,true,,2A_entity,120000
+A3016,"ProMedica Health Network, Inc.",MI,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Deno Monnett,Deno.Monnett@ProMedica.org,(567) 585-7429,kent bishop,true,,2A_entity,120000
+A5323,PSW ACO,WA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Melanie Matthews,MelanieM@pswipa.com,(360) 943-4337,Joseph Huang,true,,2A_entity,120000
+A5080,"Pursuit Accountable Care Network, LLC",AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Kristin Shaw,kristin.shaw@reveremedical.com,(716) 725-1100,JOSEPH WEINSTEIN,true,,2A_entity,120000
+A4614,QCIPN,HI,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Hermina Taylor,htaylor@queens.org,(808) 691-7283,Aaron Hoo,true,,2A_entity,120000
+A5553,"Quality Health Partners, LLC",IL,2A,LOWER,1,0,1,B,MSSP ACO,0,John Antes,john.antes@sih.net,(636) 699-5501,kevin oestmann,true,,2A_entity,120000
+A5892,RESOLUTE HEALTH ALLIANCE OF ALASKA LLC,AK,2A,LOWER,1,0,1,A,MSSP ACO,0,Nancy Merriman,nancy@alaskapca.org,(907) 331-9008,Nancy Merriman,true,,2A_entity,120000
+A5215,"Responsive Care Solutions, LLC",FL,2A,LOWER,1,0,1,D,MSSP ACO,0,Robert West,twest@bgcarenav.org,(859) 276-5344,Jennifer Welsh,true,,2A_entity,120000
+A2704,"Richmond Quality, LLC",NJ,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Gregory Fernandez,grfernandez@rumcsi.org,(718) 818-3204,,true,,2A_entity,120000
+A3759,"Riverside Health Source, LLC",VA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Sally Ryan,Sally.Ryan@rivhs.com,(757) 316-5800,Thomas Kayrouz,true,,2A_entity,120000
+A2217,"Rocky Mountain Accountable Health Network, Inc",CO,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Eric Cragun,eric.cragun@imail.org,(801) 442-4619,Elizabeth Buisker,true,,2A_entity,120000
+A5899,Rush Health,IL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Meghan McInnis,meghan_mcinnis@rush.edu,(313) 303-6063,,true,,2A_entity,120000
+A5372,Saint Francis Accountable Health Alliance LLC,OK,2A,MEDIUM,2,1,0,N/A,MSSP ACO,1,Scott Ptacnik,svptacnik@saintfrancis.com,(310) 590-8790,Brent Dennis,true,,2A_entity,120000
+A5147,SBL accountable care organization,IL,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Sean Fischer,sfischer@sblhs.org,(217) 258-2591,Dwight Pentzien Jr,true,,2A_entity,120000
+A3764,"Select Physicians Associates, LLC",AL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Andrea Cauthen,andrea.cauthen@betterhealthgroup.com,(407) 885-1216,Sangeeta Hans,true,,2A_entity,120000
+A5386,Senior Health Connect ACO 10,KY,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Eric Becker,eric.becker@agilonhealth.com,(510) 206-5719,Jordan Prendergast,true,,2A_entity,120000
+A5882,Senior Health Connect ACO 2,OH,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Eric Becker,eric.becker@agilonhealth.com,(510) 206-5719,,true,,2A_entity,120000
+A5886,Senior Health Connect ACO 4,PA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Eric Becker,eric.becker@agilonhealth.com,(510) 206-5719,Frank Civitarese,true,,2A_entity,120000
+A5881,Senior Health Connect ACO 5,NC,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Eric Becker,eric.becker@agilonhealth.com,(510) 206-5719,,true,,2A_entity,120000
+A4868,"Sentara Accountable Care Organization, LLC",VA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Daniel Dickinson,djdickin@sentara.com,(757) 678-6247,Margaret Baumgarten,true,,2A_entity,120000
+A5521,Sharp Rees-Stealy Medical Group,CA,2A,LOWER,1,0,1,B,MSSP ACO,0,Michael Martin,michael.martinmd@sharp.com,(858) 262-6666,John Clark,true,,2A_entity,120000
+A2530,Signature Partners in Health LLC,VA,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Eugene Christian,eugene.christian@inova.org,(703) 391-3601,Eugene Christian,true,,2A_entity,120000
+A2251,Silver State ACO LLC,AZ,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Lawrence Preston,lpreston@pmclv.com,(702) 598-0600,Leslie Jacobs Shoemaker,true,,2A_entity,120000
+A4577,SOMOS ACO,GA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,OSCAR FUKILMAN,Jfernandez@optimusha.com,(347) 791-4369,SUMIR SAHGAL,true,,2A_entity,120000
+A4629,SoNE Health ACO LLC,CT,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Lisa Trumble,lisa.trumble@sohohealth.com,(413) 822-5641,James Uberti,true,,2A_entity,120000
+A5538,Sound Physicians Long Term Care Management II,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Mike Camacho,mcamacho@soundphysicians.com,(817) 965-8030,Thomas Kim,true,,2A_entity,120000
+A5220,"Sound Physicians Long Term Care Management, LLC",CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Mike Camacho,mcamacho@soundphysicians.com,(817) 965-8030,Thomas Kim,true,,2A_entity,120000
+A1522,"Southcoast Accountable Care Organization, LLC",MA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Lauren Melby,melbyl@southcoast.org,(774) 762-7004,Brett Hurteau,true,,2A_entity,120000
+A5337,"Southeast Quality Network, LLC",AL,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Eric Pfleger,epfleger@southeastpcp.com,(678) 400-2628,Jeff Stone,true,,2A_entity,120000
+A3325,"Southeastern Health Partners Medicare ACO, LLC",NC,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Keith Newnam,keith_newnam@southeasternhealthpartners.org,(804) 572-3669,Michael Seemuller,true,,2A_entity,120000
+A5639,Southern New Hampshire Health ACO LLC,MA,2A,MEDIUM,4,0,1,E,MSSP ACO,0,Rebecca Cooper-Piela,rebecca.cooper-piela@snhhs.org,(603) 493-8308,Terry Buchanan,true,,2A_entity,120000
+A2802,Space Coast ACO,FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jayadeva Chowdappa,jchowdappa@nhs-aco.com,(727) 455-5474,Jayadeva Chowdappa,true,,2A_entity,120000
+A2587,"Springfield Clinic ACO, LLC",IL,2A,MEDIUM,4,0,1,C,MSSP ACO,0,Sunny Hampsey,suhampsey@springfieldclinic.com,(217) 725-9921,Kenneth Sagins,true,,2A_entity,120000
+A2272,"SSM ACO, LLC",IL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Mark Webber,Mark.Webber@ssmhealth.com,(314) 989-6816,Shesha Katakam,true,,2A_entity,120000
+A4832,"SSM IL ACO, LLC",IL,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Mark Webber,mark.webber@ssmhealth.com,(314) 994-7904,Sudeep Nair,true,,2A_entity,120000
+A5124,SSM WI ACO LLC,IL,2A,LOWER,1,0,1,E,MSSP ACO,0,Brenton Meier,brent.meier@ssmhealth.com,(608) 239-8195,Danielle Mitchell,true,,2A_entity,120000
+A2205,St Vincents Accountable Care Organization LLC,FL,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Laura Behr,lwbehr@ascension.org,(850) 746-1403,Willie Pennick,true,,2A_entity,120000
+A5655,"St. David's Care Partners ACO, LLC",TX,2A,LOWER,1,0,1,A,MSSP ACO,0,Danielle Sistrunk,danielle.sistrunk@stdavids.com,(512) 544-0963,Kenneth Mitchell,true,,2A_entity,120000
+A5417,"St. John Providence ACO, LLC",MI,2A,MEDIUM,2,0,1,A,MSSP ACO,0,Jennifer Cobb,JCobb3@hfhs.org,(248) 930-1721,Kevin Deighton,true,,2A_entity,120000
+A3623,"St. Luke's ACO, LLC",IL,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Tammy Lett,tammy.lett@stlukes-stl.com,(314) 434-1500,J. William Campbell,true,,2A_entity,120000
+A3560,St. Luke's Medicare ACO,NJ,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Scott Wolfe,scott.wolfe@sluhn.org,(610) 223-0987,Robert Gayner,true,,2A_entity,120000
+A5346,Stellar Health ACO,AR,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Daniel Lithwick,daniel.lithwick@stellar.health,(718) 300-8821,Soujanya Pulluru,true,,2A_entity,120000
+A5868,Stellar Health ACO II,DE,2A,LOWER,1,0,1,E,MSSP ACO,0,Daniel Lithwick,daniel.lithwick@stellar.health,(347) 716-9022,Soujanya Pulluru,true,,2A_entity,120000
+A3834,"Steward National Care Network, Inc.",FL,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Kristin Shaw,kristin.shaw@reveremedical.com,(716) 725-1100,JOSEPH WEINSTEIN,true,,2A_entity,120000
+A4830,"Stony Brook ACO, LLC.",NY,2A,MEDIUM,2,0,1,E,MSSP ACO,0,John Hutter,John.Hutter@stonybrookmedicine.edu,(631) 216-8300,Donna Heinemann,true,,2A_entity,120000
+A4527,Stratum Med ACO,IA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,William Kramer,trent.kramer@stratummed.com,(217) 902-5470,Michael Little,true,,2A_entity,120000
+A1063,Summa Accountable Care Organization,OH,2A,HIGH,4,1,0,N/A,MSSP ACO,0,William Epling,eplingw@summacare.com,(330) 996-5675,Dawn Hubbard,true,,2A_entity,120000
+A5049,Summit Health ACO,NJ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Ashish Parikh,aparikh@shm.net,(973) 934-2006,Adam Barrison,true,,2A_entity,120000
+A5858,Summus Health Network,PA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Lauren Schiegg,lauren.schiegg@premiersummus.com,(972) 765-7069,,true,,2A_entity,120000
+A5499,Sunflower ACO LLC,FL,2A,LOWER,1,0,1,A,MSSP ACO,0,Daniel Roberts,droberts@valueservicesmgmt.com,(727) 244-8989,Peyman Younesi,true,,2A_entity,120000
+A5279,Sutter Medicare Direct,CA,2A,LOWER,1,0,1,E,MSSP ACO,0,Gregory Montemayor,greg.montemayor@sutterhealth.org,(916) 500-2829,Chhavi Mehta,true,,2A_entity,120000
+A5562,TACHC Accountable Care Organization LLC,TX,2A,LOWER,1,0,1,A,MSSP ACO,0,Franchella Jennett,fjennett@tachc.org,(512) 329-5959,Roxana Cruz,true,,2A_entity,120000
+A5056,"Tandigm Value Partners, LLC",PA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Tiara Swindell,tswindell@tandigm.com,(757) 754-1970,Natalie McGann,true,,2A_entity,120000
+A3365,"TC2, LLC",GA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Alan Wills,wills.alan@TC2health.com,(678) 358-7836,Freddy Gaton,true,,2A_entity,120000
+A5341,TeamACO,CT,2A,LOWER,1,0,1,A,MSSP ACO,0,Amanda McMullen,amanda_mcmullen@teamhealth.com,(865) 293-5620,Jamie Freelin,true,,2A_entity,120000
+A4585,"Texoma Clinical Partners ACO, LLC",NM,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Kamal Jemmoua,kamal.jemmoua@uhsinc.com,(775) 770-9325,robert sanders,true,,2A_entity,120000
+A2098,"The Accountable Care Organization, Ltd.",AR,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Sam Starbuck,sstarbuck@priviahealth.com,(765) 918-2216,Douglas Short,true,,2A_entity,120000
+A1737,The Premier HealthCare Network LLC,GA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,John Woods,jwoods@topmd.health,(615) 390-9757,James Poindexter,true,,2A_entity,120000
+A4988,THEDACARE ACO,WI,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Jennifer Glasheen,jennifer.glasheen@thedacare.org,(920) 851-6027,Maria Iliescu-Levine,true,,2A_entity,120000
+A2773,"Think ACO, LLC",IA,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Jason Doll,Jason.doll@thinkhealthcare.org,(531) 222-8851,robert Recker,true,,2A_entity,120000
+A4964,"Torrance Memorial Integrated Physicians, LLC",CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Chris Rogers,labrogers2@aol.com,(310) 487-5527,Zachary Gray,true,,2A_entity,120000
+A1401,TP-ACO L.L.C.,AR,2A,HIGH,5,1,0,N/A,MSSP ACO,0,John Woods,jwoods@topmd.health,(615) 390-9757,kiran zaveri,true,,2A_entity,120000
+A3454,Trinity Health Integrated Care,DE,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Victoria Bratcher,tori.bratcher@trinity-health.org,(630) 742-0085,Michael Twomey,true,,2A_entity,120000
+A5419,Trinity Health Of New England CIN LLC,CT,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Deborah Bitsoli,deborah.bitsoli@trinityhealthofne.org,(860) 714-5783,Joshua Mosdale,true,,2A_entity,120000
+A5720,TriStar Medical Network ACO LLC,TN,2A,LOWER,1,0,1,A,MSSP ACO,0,Kenneth Larson,kenneth.larson@hcahealthcare.com,(615) 478-5458,Matthew Beuter,true,,2A_entity,120000
+A5177,"Tryon ACO, LLC",NC,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Robert Brownlee,rbrownlee@tryonmed.com,(704) 626-6700,enrico belgrave,true,,2A_entity,120000
+A3799,UC Irvine Health Accountable Care Organization,CA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Randolph Siwabessy,rsiwabes@hs.uci.edu,(714) 456-5180,Lisa Gibbs,true,,2A_entity,120000
+A3531,"UCMCNACO, LLC",IL,2A,MEDIUM,3,0,1,E,MSSP ACO,0,Zachary Goodling,Zachary.goodling@uchospitals.edu,(717) 512-1273,George Weyer,true,,2A_entity,120000
+A5468,"UF HEALTH ACO GAINESVILLE, LLC",FL,2A,LOWER,1,0,1,A,MSSP ACO,0,Marvin Dewar,dewarma@ufl.edu,(352) 265-8309,Marvin Dewar,true,,2A_entity,120000
+A5465,"UF HEALTH ACO JACKSONVILLE, LLC",FL,2A,LOWER,1,0,1,C,MSSP ACO,0,Steven Godwin,andy.godwin@jax.ufl.edu,(904) 244-3159,Steven Godwin,true,,2A_entity,120000
+A2754,UM ACO,DE,2A,MEDIUM,3,0,1,B,MSSP ACO,0,Kemal Erkan,ke@umusa.net,(302) 451-5600,Carlo Valencia,true,,2A_entity,120000
+A2598,"UMASS Memorial Accountable Care Organization, INC.",MA,2A,MEDIUM,3,0,1,B,MSSP ACO,0,John Greenwood,john.greenwood@umassmemorial.org,(508) 334-0690,Thomas Scornavacca,true,,2A_entity,120000
+A5170,"UnityPoint Accountable Care, L.C.",IA,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Steven Palmersheim,steven.palmersheim@unitypoint.org,(319) 330-5719,Alecia Allen,true,,2A_entity,120000
+A3791,"University Health ACO, LLC",TN,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Keith Gray,kgray@utmck.edu,(865) 305-6597,Julie Jeter,true,,2A_entity,120000
+A4733,University Healthcare Alliance DBA Stanford Medicine Partners,CA,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Kyle Wichelmann,kwichelmann@stanfordhealthcare.org,(831) 566-7589,Robin Kamal,true,,2A_entity,120000
+A1262,University Hospitals Coordinated Care Organization,OH,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Valerie Reese,valerie.reese@uhhospitals.org,(216) 286-9159,george topalsky,true,,2A_entity,120000
+A2671,"USMM ACCOUNTABLE CARE PARTNERS, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,William Robinson,wrobinson@harmonycares.com,(207) 939-3403,Austin Moody,true,,2A_entity,120000
+A4678,UT Health San Antonio Regional Physician Network,TX,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Robert Leverence,leverence@uthscsa.edu,(210) 450-0544,Edward Sankary,true,,2A_entity,120000
+A3507,"UVA Community Health Accountable Care Organization, LLC",VA,2A,MEDIUM,3,0,1,E,MSSP ACO,0,James Min,jbm3pr@uvahealth.org,(703) 599-1403,Kara Siford,true,,2A_entity,120000
+A5500,"UW Health ACO, Inc",WI,2A,HIGH,3,1,0,N/A,MSSP ACO,0,Robin Lankton,rlankton@uwhealth.org,(608) 422-8065,Sancia Ferguson,true,,2A_entity,120000
+A5802,VALUE BASED LONG TERM CARE II,AK,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Patricia Tobon,ptobon@vbltc.com,(917) 364-3198,Richard Feifer,true,,2A_entity,120000
+A4513,Vandalia Health Network,PA,2A,MEDIUM,2,0,1,B,MSSP ACO,0,Michelle Coon,michelle.coon@camc.org,(304) 767-2231,Jyotirmaya Nanda,true,,2A_entity,120000
+A5495,VBCA NATIONAL ACO LLC,CA,2A,LOWER,1,0,1,B,MSSP ACO,0,Marvin Gallo,Marvin@VBCA.com,(484) 756-9301,Kristy Reinert,true,,2A_entity,120000
+A5330,VBLTC,NJ,2A,LOWER,1,0,1,A,MSSP ACO,0,Patricia Tobon,ptobon@vbltc.com,(917) 364-3198,Richard Feifer,true,,2A_entity,120000
+A5810,Virtua Medical Group PA,NJ,2A,LOWER,1,0,1,E,MSSP ACO,0,Maryann Graham,mgraham@virtua.org,(856) 355-0393,,true,,2A_entity,120000
+A5713,VitaSavings Florida,FL,2A,LOWER,1,0,1,A,MSSP ACO,0,Jonathan Chapman,jonathan.fl@vitasavings.com,(833) 878-3334 x2,Monica Rider,true,,2A_entity,120000
+A5068,Vivant Health ACO,CA,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Jordan Hall,jhall@sentrymedllc.com,(909) 653-6351,Tarek Hassan,true,,2A_entity,120000
+A5767,Vytalize Health 26 LLC,MD,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Steven Greenspan,steven.greenspan@vytalizehealth.com,(610) 547-9500,Amer Alnajar,true,,2A_entity,120000
+A4592,Vytalize Health ACO,AZ,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Steven Greenspan,steven.greenspan@vytalizehealth.com,(610) 547-9500,Amer Alnajar,true,,2A_entity,120000
+A5798,Vytalize Health ACO26 LLC,CA,2A,LOWER,1,0,1,E,MSSP ACO,0,Steven Greenspan,steven.greenspan@vytalizehealth.com,(610) 547-9500,Amer Alnajar,true,,2A_entity,120000
+A5300,Vytalize Health Enhanced ACO LLC,FL,2A,MEDIUM,1,1,0,N/A,MSSP ACO,0,Steven Greenspan,steven.greenspan@vytalizehealth.com,(610) 547-9500,Amer Alnajar,true,,2A_entity,120000
+A4922,"Wellforce ACO, LLC",MA,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Kathleen Garland,Kathleen.Garland@lowellgeneral.org,(617) 710-7056,Frank Osborn,true,,2A_entity,120000
+A4888,"WellMed DFW Medicare ACO, LLC",TX,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Carter Rieser,carter.rieser@imperiumhealth.com,(502) 209-9426,Rupal Chiniwala,true,,2A_entity,120000
+A4895,"WellMed Greater Texas Medicare ACO, LLC",NM,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Carter Rieser,carter.rieser@imperiumhealth.com,(502) 209-9426,miguel ayala,true,,2A_entity,120000
+A4889,"WellMed Texas Medicare ACO, LLC",TX,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Carter Rieser,carter.rieser@imperiumhealth.com,(502) 209-9426,Ryan Jones,true,,2A_entity,120000
+A2500,WellSpan Population Health Services,MD,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Brandon Danz,bdanz@wellspan.org,(717) 851-6649,Debra Bell,true,,2A_entity,120000
+A4803,"WellStar Clinical Partners Medicare ACO, LLC",GA,2A,MEDIUM,4,0,1,B,MSSP ACO,0,Barbara Corey,barbara.corey@wellstar.org,(470) 644-0013,Alan Muster,true,,2A_entity,120000
+A5453,Wellvana Essential Care LLC,AL,2A,MEDIUM,2,0,1,E,MSSP ACO,0,Aria Sameni,asameni@wellvana.com,(507) 251-5219,Mark Montoney,true,,2A_entity,120000
+A1041,"West Florida ACO, LLC",FL,2A,HIGH,4,1,0,N/A,MSSP ACO,0,Jayadeva Chowdappa,jchowdappa@westfloridaaco.com,(727) 408-6999 x4,Mahender Reddy,true,,2A_entity,120000
+A4626,"West Michigan Accountable Care Organization, LLC",MI,2A,MEDIUM,2,1,0,N/A,MSSP ACO,0,Andrea Charmley,andrea.charmley@corewellhealth.org,(517) 899-5909,Erica Stevens,true,,2A_entity,120000
+A1199,WESTMED Medical Group,CT,2A,HIGH,5,1,0,N/A,MSSP ACO,0,Patricia Calayag,pcalayag@westmedgroup.com,(203) 253-2181,Patricia Calayag,true,,2A_entity,120000

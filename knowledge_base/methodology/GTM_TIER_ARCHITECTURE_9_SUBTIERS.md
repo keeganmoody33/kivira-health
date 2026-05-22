@@ -23,6 +23,7 @@ related_concepts:
   - "[[COCM_ACCOUNT_PROFILE_SCHEMA]]"
   - "[[DEMO_FIRST_OUTBOUND_STRATEGY]]"
   - "[[OUTREACH_BASELINE_METRICS]]"
+  - "[[ACO_ATTACK_MOTION_2A_PRIMARY]]"
   - "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]"
 source:
   type: research-synthesis

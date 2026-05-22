@@ -4,7 +4,7 @@ description: Manual email + phone blitz on a focused ACO target list — 2-hour 
 domain: methodology
 node_type: framework
 status: emergent
-last_updated: 2026-05-12
+last_updated: 2026-05-21
 tags:
   - methodology
   - gtm-motion
@@ -17,11 +17,13 @@ topics:
   - execution-cadence
   - market-segmentation
 related_concepts:
+  - "[[ACO_ATTACK_MOTION_2A_PRIMARY]]"
   - "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]"
   - "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]"
   - "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]"
   - "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]"
   - "[[OUTREACH_BASELINE_METRICS]]"
+  - "[[TAM_TIER_2_ACO_VBC_73M]]"
 source:
   type: notes
   file: "Session conversation 2026-05-12 (Josh text msg + Keegan + Claude planning)"
@@ -64,6 +66,20 @@ Separate from Wave 1's 359-lead 2A pool — that list is in HeyReach campaign 41
 
 **Intended size:** 30-50 accounts for the first two blocks (gives ~3-5 accounts of buffer per block in case some are unreachable or get bounced).
 
+**Built list (regenerate before each block):**
+
+```bash
+python3 scripts/build_aco_attack_lists.py
+```
+
+| Artifact | Rows (2026-05-21 ingest) | Use |
+|----------|--------------------------|-----|
+| `fixtures/aco_attack/blitz_focus_2a.csv` | 40 | Sync email + phone cohort; excludes Wave 1 `heyreach_leads_2a.json` org names |
+| `fixtures/aco_attack/high_fit_2a.csv` | 156 | Full HIGH-fit spine (ENHANCED + period ≥3, CMS exec contact) |
+| `fixtures/aco_attack/wave2_linkedin_2a.csv` | 135 | Account spine for Spider / Wave 2 LinkedIn (not blitz) |
+
+Primary motion decision: [[ACO_ATTACK_MOTION_2A_PRIMARY]]. Runbook: `_system/agent_workflows/aco-attack-list-build.md`.
+
 ## Copy + script outline
 
 The blitz email is **not** the v5 LinkedIn DM pattern. Different medium, different constraint:
@@ -72,7 +88,9 @@ The blitz email is **not** the v5 LinkedIn DM pattern. Different medium, differe
 - **Body:** ~80-120 words. Lead with the named-funder social proof (*"Backed by Antler, funded by Wellstar Catalyst"*), one sentence on the role-specific value-prop tied to ACO performance, founder + Josh available for a 15-minute call. No connection-request preamble.
 - **Phone script:** 30-second hook → ask if it's a fit conversation → if yes, schedule on the call; if no, get the right name for the team.
 
-Draft copy goes into `00_foundation/_synthesis/aco-blitz-2026-05-week-of/` when the blocks start. **HeyReach copy review HARD RULE does not apply** to this channel — these emails go out from Josh's or Keegan's direct email, not via HeyReach.
+Draft copy: `00_foundation/_synthesis/wave2a-aco-heyreach-copy-2026-05-21/` (LinkedIn); blitz email bodies still go in `00_foundation/_synthesis/aco-blitz-2026-05-week-of/` when blocks start. **HeyReach copy review HARD RULE does not apply** to blitz email — sent from Josh's or Keegan's direct inbox, not HeyReach.
+
+**Blitz contact fields (from `blitz_focus_2a.csv`):** `exec_name`, `exec_email`, `exec_phone`, `medical_director_name` — CMS-sourced; do not substitute LinkedIn placeholder `ACO Executive (per CMS public filing)` as the operating buyer.
 
 ## Success criteria
 
@@ -88,9 +106,11 @@ Draft copy goes into `00_foundation/_synthesis/aco-blitz-2026-05-week-of/` when 
 - Does not pull in Josh for LinkedIn copy review during the test window — that's separate workflow.
 - Does not extend to 3A health systems or 1C VBC providers in this iteration. ACO-only.
 
-## Open questions to resolve before the first block
+## Open questions (updated 2026-05-21)
 
-1. Who owns the focus-list build before the block? (Josh? Keegan? Clay automation?)
-2. What's the call-tool for the synchronous blocks (direct dial from cell? Aircall? Dialpad?)?
-3. Are we recording calls for replay / training, or just notetaking live?
-4. Where do qualified-call outcomes get logged? (Linear ticket? CRM-deferred until the 5/15 CRM decision?)
+| # | Question | Status |
+|---|----------|--------|
+| 1 | Who owns focus-list build? | **Resolved:** `scripts/build_aco_attack_lists.py` → `fixtures/aco_attack/blitz_focus_2a.csv` (Keegan regenerates; Clay enriches only missing phone) |
+| 2 | Call tool for sync blocks? | Open — default direct dial + voicemail; confirm Aircall/Dialpad if recording needed |
+| 3 | Call recording? | Open — live notes minimum |
+| 4 | Outcome logging? | Open — Linear ticket per qualified call until CRM decision |
