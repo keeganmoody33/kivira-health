@@ -1,0 +1,151 @@
+{
+  "query_id": "Q2A_BH",
+  "query_string": "per-row 2a-bh-persona (Spider /search + site:linkedin.com/in)",
+  "industry_filter": "(N/A \u2014 account-first sourcing)",
+  "location": "United States",
+  "expected_subtiers": [
+    "2A"
+  ],
+  "cluster": "per-row sourcing mode=2a-bh-persona",
+  "why_this_slot": "Account-first: subtier known from CMS source, only persona/contact varies per row.",
+  "run_at": "2026-05-21T19:04:20.522807+00:00",
+  "raw_result_count": 15,
+  "deduped_result_count": 15,
+  "results": [
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/beth-calarco-ma-bcba-9858014",
+      "title": "Beth Calarco, MA, BCBA - ABACUS BEHAVIORAL HEALTH, INC | LinkedIn",
+      "snippet": "April 27, 2023 - Experience: ABACUS BEHAVIORAL HEALTH, INC \u00b7 Location: San Diego \u00b7 500+ connections on LinkedIn. View Beth Calarco, MA, BCBA\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 4,
+      "source_account": "Abacus Health LLC",
+      "source_state": "AZ",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/alexandra-gholi-48605a1b3",
+      "title": "Alexandra Gholi - ABAcus Behavioral Health | LinkedIn",
+      "snippet": "With a background in Business and Spanish, I bring a unique perspective to every task I\u2026 \u00b7 Experience: ABAcus Behavioral Health \u00b7 Education: American University \u00b7 Location: Chicago \u00b7 276 connections on LinkedIn. View Alexandra Gholi\u2019s&nbsp;...",
+      "match_score": 4,
+      "source_account": "Abacus Health LLC",
+      "source_state": "AZ",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dane-jorento-24098938",
+      "title": "Dane Jorento - Executive Director at ABC Mental Health THerapy",
+      "snippet": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+      "match_score": 4,
+      "source_account": "ABC Network",
+      "source_state": "AZ, NV",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/sheila-shepherd-921b4a16",
+      "title": "Sheila Shepherd - Director of Behavioral Health at Greenleaf Center - South Georgia Medical Center | LinkedIn",
+      "snippet": "Director of Behavioral Health at Greenleaf Center - South Georgia Medical Center \u00b7 Experience: Greenleaf Center - South Georgia Medical Center \u00b7 Education: University of Phoenix \u00b7 Location: Panama City. View Sheila Shepherd\u2019s profile on&nbsp;...",
+      "match_score": 5,
+      "source_account": "Accountable Care Coalition of Georgia, LLC.",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/cynthia-parsons-177210277",
+      "title": "Cynthia Parsons - Director- Behavioral Health and Long ...",
+      "snippet": "\u00b7 Congratulations to some of my very favorite people who never cease to inspire me and I\u2019m lucky enough to work with every day! Vestal April , Dr\u2026 \u00b7 Today is my last working day with the Georgia Department of Behavioral Health and&nbsp;...",
+      "match_score": 4,
+      "source_account": "Accountable Care Coalition of Georgia, LLC.",
+      "source_state": "GA",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/demario-adkins",
+      "title": "Demario Adkins - CEO at Behavioral Health Services of ...",
+      "snippet": "January 16, 2025 - Demario Adkins is a highly accomplished entrepreneur and CEO who has built an\u2026 \u00b7 Experience: VirtuAssist \u00b7 Education: Virginia Commonwealth University \u00b7 Location: Greater Richmond Region \u00b7 500+ connections on LinkedIn.",
+      "match_score": 3,
+      "source_account": "ACO West Virginia",
+      "source_state": "MD, OH, PA, WV",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dean-gilbertson-036155377",
+      "title": "Dean Gilbertson - Sagent Behavioral Health | LinkedIn",
+      "snippet": "\u201cThis affiliation allows us to extend our reach and strengthen the support systems available to seniors, individuals facing serious illness, and their caregivers across California, Colorado and beyond.\u201d https://lnkd.in/dMGZKRwu ... In response to the dissolution of the federal Advisory Committee on Heritable Disorders in Newborns and Children (#ACHDNC), ACMG is moving forward with organizing a new advisory framework to fill the gap in #newbornscreening condition evidence reviews.",
+      "match_score": 5,
+      "source_account": "ACMG Health Systems, Inc.",
+      "source_state": "FL, NY, TX",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/kathryn-weinschenker-794657161",
+      "title": "Kathryn Weinschenker - Community Care Behavioral Health Organization | LinkedIn",
+      "snippet": "We\u2019ll be launching efforts by hosting a virtual stakeholder roundtable this summer to gather input on structure, function, and representation. Details: https://bit.ly/3IngaCi ACMG will begin outreach soon to former ACHDNC groups and other key stakeholders. More updates to come as we move forward together to protect and advance #NBS. #RUSP #PublicHealth #MedicalGenetics",
+      "match_score": 5,
+      "source_account": "ACMG Health Systems, Inc.",
+      "source_state": "FL, NY, TX",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/jan-cairnes-5b73b817",
+      "title": "Jan Cairnes - Palm Beach County Behavioral Health Coalition | LinkedIn",
+      "snippet": "International Friendships, Inc. ... In response to the dissolution of the federal Advisory Committee on Heritable Disorders in Newborns and Children (#ACHDNC), ACMG is moving forward with organizing a new advisory framework to fill the gap in #newbornscreening condition evidence reviews.",
+      "match_score": 4,
+      "source_account": "ACMG Health Systems, Inc.",
+      "source_state": "FL, NY, TX",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/advantagepointbehavioral",
+      "title": "Toby Varghese - Principal and Founding Member - Advantage Point Behavioral | LinkedIn",
+      "snippet": "Our specialty is neuromodulation, ... 1-877-583-5633 or info@advantagepointbehavioral.com \u00b7 A nationwide telehealth practice that offers accessible, convenient, high-quality ......",
+      "match_score": 4,
+      "source_account": "AdvantagePoint Health Alliance - Bluegrass, LLC",
+      "source_state": "KY",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/marcia-sinegal-b014a479",
+      "title": "Marcia Sinegal - Director of Behavioral Health - AdventHealth",
+      "snippet": "Director of Behavioral Health \u00b7 Experience: AdventHealth \u00b7 Education: Baylor University \u00b7 Location: Killeen \u00b7 11 connections on LinkedIn. View Marcia Sinegal\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 4,
+      "source_account": "AdventHealth ACO",
+      "source_state": "FL",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/greg-helsel-ab681156",
+      "title": "Greg Helsel - Clinical Director of Behavioral Health AdventHealth Shawnee Mission | LinkedIn",
+      "snippet": "November 20, 2019 - Clinical Director of Behavioral Health AdventHealth Shawnee Mission \u00b7 Experience: AdventHealth \u00b7 Education: MidAmerica Nazarene University \u00b7 Location: Kansas City \u00b7 106 connections on LinkedIn. View Greg Helsel\u2019s profile on LinkedIn, a&nbsp;...",
+      "match_score": 4,
+      "source_account": "AdventHealth ACO",
+      "source_state": "FL",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/dru-lazzara-37034a19",
+      "title": "Dru Lazzara - Regional Director of Behavioral Health - AdventHealth | LinkedIn",
+      "snippet": "Regional Director of Behavioral Health at AdventHealth \u00b7 Experience: AdventHealth \u00b7 Education: University of Illinois at Chicago - Graduate College \u00b7 Location: Hanover Park \u00b7 500+ connections on LinkedIn. View Dru Lazzara\u2019s profile on&nbsp;...",
+      "match_score": 4,
+      "source_account": "AdventHealth ACO",
+      "source_state": "FL",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/rennie-mckinney-2a36ab8",
+      "title": "Rennie McKinney - Administrative Director of Behavioral ...",
+      "snippet": "Experience: AdventHealth \u00b7 Location: Overland Park \u00b7 500+ connections on LinkedIn. View Rennie McKinney\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 4,
+      "source_account": "AdventHealth ACO",
+      "source_state": "FL",
+      "source_subtier": "2A"
+    },
+    {
+      "linkedin_profile_url": "https://www.linkedin.com/in/ahnpete",
+      "title": "Peter Ahn, BCBA - Area Director - Behavioral Health Works, Inc. | LinkedIn",
+      "snippet": "Experience: Behavioral Health Works, Inc. \u00b7 Location: United States \u00b7 463 connections on LinkedIn. View Peter Ahn, BCBA\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+      "match_score": 4,
+      "source_account": "AHN Accountable Care Organization, LLC",
+      "source_state": "IN, OH",
+      "source_subtier": "2A"
+    }
+  ]
+}

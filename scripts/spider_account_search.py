@@ -70,6 +70,39 @@ PERSONA_TITLES_1C = [
 # decision-maker roles. Defined separately so they can diverge if needed.
 PERSONA_TITLES_1A = PERSONA_TITLES_1C
 
+# 2A BH-purpose persona set. Inverts the standard 2A search: instead of
+# searching for a named CMS contact at an ACO and asking "is this person
+# BH-aligned?", we search the ACO org for any person with a behavioral-health
+# title. Targets the user's "BH-purpose decision maker" hypothesis.
+#
+# Capped at 3 OR-terms: Spider/Google returns empty content above 3 ORs in
+# most query length bands (verified 2026-05-21 — 3-OR=20 hits, 4-OR=0,
+# 5-OR=20, 6-OR=0). Picking the 3 highest-prevalence BH leadership titles
+# covers the standard ops lead, senior exec, and physician-executive variants;
+# adjacent titles (Chief BH Officer, BH Director, etc.) still surface in the
+# matched profiles' snippets and can be detected in downstream scoring.
+PERSONA_TITLES_2A_BH = [
+    "Director of Behavioral Health",
+    "VP Behavioral Health",
+    "Behavioral Health Medical Director",
+]
+
+# 2A ACO buying-persona set — the three highest-yield titles for Kivira's
+# value prop at an ACO (collaborative care decision support, BH workflow,
+# pop-health quality improvement). Same 3-OR cap as BH mode. Picks one
+# title per primary persona bucket:
+#   - VP Population Health         → Operational Owner (highest-prevalence)
+#   - Director of Population Health→ Operational Owner alt (mid-level)
+#   - CMO                          → Clinical Champion
+# Other personas (CFO/CEO, Director of Analytics, BH/Quality Influencer)
+# are covered by separate queries — see PERSONA_TITLES_2A_BH for BH and
+# the planned `2a-econ-persona` mode for econ-buyer titles if needed.
+PERSONA_TITLES_2A_ACO = [
+    "VP Population Health",
+    "Director of Population Health",
+    "CMO",
+]
+
 # Tokens too generic to be useful for matching. Most ACO/practice names contain
 # at least one of these — including them in the org-match would inflate scores
 # meaninglessly. Keep "medical" and "group" because they ARE discriminative.
@@ -155,6 +188,12 @@ def build_query(row: dict, mode: str) -> str | None:
     if mode == "1a-persona":
         personas_or = " OR ".join(f'"{p}"' for p in PERSONA_TITLES_1A)
         return f'({personas_or}) "{org}"'
+    if mode == "2a-bh-persona":
+        personas_or = " OR ".join(f'"{p}"' for p in PERSONA_TITLES_2A_BH)
+        return f'({personas_or}) "{org}"'
+    if mode == "2a-aco-persona":
+        personas_or = " OR ".join(f'"{p}"' for p in PERSONA_TITLES_2A_ACO)
+        return f'({personas_or}) "{org}"'
     raise ValueError(f"unknown mode: {mode}")
 
 
@@ -176,6 +215,10 @@ def filter_accounts_for_mode(rows: list[dict], mode: str) -> list[dict]:
         return [r for r in rows if row_subtier(r) == "1C"]
     if mode == "1a-persona":
         return [r for r in rows if row_subtier(r) == "1A"]
+    if mode == "2a-bh-persona":
+        return [r for r in rows if row_subtier(r) == "2A"]
+    if mode == "2a-aco-persona":
+        return [r for r in rows if row_subtier(r) == "2A"]
     return rows
 
 
@@ -238,10 +281,15 @@ def collate_jsonl_to_q_json(
         if mode == "2a-named":
             identity = obj.get("contact_name", "")
             identity_tokens = tokenize(identity)
-        elif mode in ("1c-persona", "1a-persona"):
+        elif mode in ("1c-persona", "1a-persona", "2a-bh-persona", "2a-aco-persona"):
             # Use the persona phrases as the identity tokens — at least one
             # must appear in title/snippet for the hit to qualify.
-            titles = PERSONA_TITLES_1C if mode == "1c-persona" else PERSONA_TITLES_1A
+            titles = {
+                "1c-persona": PERSONA_TITLES_1C,
+                "1a-persona": PERSONA_TITLES_1A,
+                "2a-bh-persona": PERSONA_TITLES_2A_BH,
+                "2a-aco-persona": PERSONA_TITLES_2A_ACO,
+            }[mode]
             identity_tokens = []
             for p in titles:
                 identity_tokens.extend(tokenize(p))
@@ -256,6 +304,58 @@ def collate_jsonl_to_q_json(
             min_identity_matches=min_id_matches,
             min_org_matches=min_org_matches,
         )
+
+        # Persona-mode precision tightening for 2A modes. tokenize() splits
+        # multi-word title patterns ("VP Population Health" → "vp" dropped,
+        # "population" + "health") and strips healthcare-generic org words,
+        # which lets cross-org name collisions through (Michael Paustian @
+        # Trinity Health matching the Abacus Health LLC ACO because "health"
+        # is shared). Two layered filters address this:
+        #
+        # 1. Distinctive-org-token (brand) match — require the longest
+        #    non-generic org token (e.g. "abacus" from "Abacus Health LLC",
+        #    "adventhealth" from "AdventHealth ACO") to appear in the
+        #    candidate's URL/title/snippet blob.
+        # 2. BH semantic anchor (BH mode only) — require literal "behavioral"
+        #    or "mental" in title/snippet so generic "Director at Health Co"
+        #    titles don't pass.
+        if mode in ("2a-bh-persona", "2a-aco-persona"):
+            # Pick the most distinctive ("brand") token: the longest token
+            # that isn't a generic healthcare/org word.
+            BH_GENERIC = {
+                "health", "healthcare", "care", "medical", "medicine",
+                "clinical", "services", "service", "partners", "partner",
+                "network", "networks", "associates", "association",
+                "physicians", "physician", "hospital", "hospitals", "clinic",
+                "clinics", "consultation", "management", "solutions",
+                "coalition", "accountable", "organization", "professional",
+                "group", "alliance", "system", "systems", "wellness",
+                "primary", "community", "regional", "national", "integrated",
+                "advanced", "premier", "select", "performance",
+            }
+            org_tokens_local = sorted(
+                (t for t in org_tokens if t not in BH_GENERIC),
+                key=len, reverse=True,
+            )
+            distinctive = org_tokens_local[0] if org_tokens_local else None
+
+            def _passes_persona_filters(h: dict) -> bool:
+                blob = " ".join([
+                    h.get("linkedin_profile_url", ""),
+                    h.get("title", ""),
+                    h.get("snippet", ""),
+                ]).lower()
+                if mode == "2a-bh-persona":
+                    if ("behavioral" not in blob
+                            and "mental " not in blob
+                            and "mental-" not in blob):
+                        return False
+                if distinctive and distinctive not in blob:
+                    return False
+                return True
+
+            ranked = [h for h in ranked if _passes_persona_filters(h)]
+
         per_account_kept.append((org_name, len(obj.get("hits", [])), len(ranked)))
 
         for hit in ranked:
@@ -275,7 +375,13 @@ def collate_jsonl_to_q_json(
                 }
             )
     # Set top-level subtier label on the JSON file itself.
-    expected_subtiers = {"2a-named": ["2A"], "1c-persona": ["1C"], "1a-persona": ["1A"]}.get(mode, [mode])
+    expected_subtiers = {
+        "2a-named": ["2A"],
+        "1c-persona": ["1C"],
+        "1a-persona": ["1A"],
+        "2a-bh-persona": ["2A"],
+        "2a-aco-persona": ["2A"],
+    }.get(mode, [mode])
     payload = {
         "query_id": query_id,
         "query_string": f"per-row {mode} (Spider /search + {LINKEDIN_PERSON_OPERATOR})",
@@ -296,7 +402,7 @@ def collate_jsonl_to_q_json(
 
 def main() -> int:
     p = argparse.ArgumentParser()
-    p.add_argument("--mode", choices=["2a-named", "1c-persona", "1a-persona"], required=True)
+    p.add_argument("--mode", choices=["2a-named", "1c-persona", "1a-persona", "2a-bh-persona", "2a-aco-persona"], required=True)
     p.add_argument("--accounts-csv", default=str(ACCOUNTS_CSV))
     p.add_argument(
         "--run-dir",
@@ -328,7 +434,7 @@ def main() -> int:
         run_dir = RUNS_DIR / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    _default_qid = {"2a-named": "Q2A", "1c-persona": "Q1C", "1a-persona": "Q1A"}
+    _default_qid = {"2a-named": "Q2A", "1c-persona": "Q1C", "1a-persona": "Q1A", "2a-bh-persona": "Q2A_BH", "2a-aco-persona": "Q2A_ACO"}
     query_id = args.query_id or _default_qid.get(args.mode, "Q_UNKNOWN")
     jsonl_path = run_dir / f"{query_id}_progress.jsonl"
     out_json = run_dir / f"{query_id}_raw_urls.json"

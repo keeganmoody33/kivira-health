@@ -351,7 +351,8 @@ Apply across every subtier:
 - **Persona-targeted lists beat baseline lists 4 to 1.** The Clinical Champion (1C) and OperationalOwner (2A) campaigns produced the cleaner accepts; the Baseline-9Subtier campaign produced most of the 48-noise noise. The "generic healthcare growth" LinkedIn slice is the main source of vendor / GTM-tool / recruiter accepts.
 - **2A ACO campaign produced zero in-scope.** The list itself loaded 359 ACO-tagged leads but no Wave 1 accept-quality fit fell out. Either the title patterns from PERSONA_TITLE_DICTIONARY for 2A need tightening (the patterns may be capturing administrative shell roles instead of operating Population Health / Care Coordination leads), or the 7-day send window is too short for the ACO buying motion to surface. Both worth testing in Wave 2.
 - **Operating wisdom:** HeyReach's `excludeInOtherCampaigns` flag is sticky across campaign-state changes. Pausing the holding campaign does not release leads from the exclusion check on dependent campaigns; the persistent fix is to toggle the flag off via UpdateSettings (which requires PAUSED status — Pause → UpdateSettings → Resume sequence). See `_system/agent_workflows/heyreach-cli-load-runbook.md` for the runbook.
-- **Wave 1 follow-up artifact:** `00_foundation/_synthesis/josh-followup-2026-05-11/` — sub-tier-mapped accept list + 10 individualized v5 messages going out from Keegan's LinkedIn for the in-scope cohort.
+- **Wave 1 follow-up artifact:** `00_foundation/_synthesis/josh-followup-2026-05-11/` — sub-tier-mapped accept list + individualized follow-ups (v7 preview, 2026-05-20). Evidence: `[[WEEKLY_HEYREACH_EVIDENCE_2026_05_20]]`.
+- **Wave 2A synthesis (draft):** `00_foundation/_synthesis/wave2a-aco-heyreach-copy-2026-05-21/` — ACO sub-tier copy + build scripts; not promoted to messaging until human review.
 
 ### Wave 2 planning constraints (forward-looking)
 

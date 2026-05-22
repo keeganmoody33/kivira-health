@@ -235,6 +235,9 @@ def call_spider_search(boolean: str, api_key: str, search_limit: int = 30) -> li
     except urllib.error.URLError as e:
         sys.stderr.write(f"[spider] URL error for query: {e.reason}\n")
         return []
+    except (TimeoutError, OSError) as e:
+        sys.stderr.write(f"[spider] Network/socket error: {type(e).__name__}: {e}\n")
+        return []
 
     try:
         data = json.loads(raw)

@@ -1,22 +1,58 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": false,
-  "showArrow": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:00_foundation/",
+      "color": {
+        "a": 1,
+        "rgb": 15561728
+      }
+    },
+    {
+      "query": "domain:methodology",
+      "color": {
+        "a": 1,
+        "rgb": 4886015
+      }
+    },
+    {
+      "query": "domain:business",
+      "color": {
+        "a": 1,
+        "rgb": 5263471
+      }
+    },
+    {
+      "query": "domain:technical",
+      "color": {
+        "a": 1,
+        "rgb": 10178958
+      }
+    },
+    {
+      "query": "path:knowledge_base/emergent/",
+      "color": {
+        "a": 1,
+        "rgb": 14989181
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.684214409722222,
-  "lineSizeMultiplier": 1.8666796875,
+  "nodeSizeMultiplier": 1.0,
+  "lineSizeMultiplier": 1.5,
   "collapse-forces": false,
-  "centerStrength": 0.334027777777778,
-  "repelStrength": 12.5894097222222,
-  "linkStrength": 0.318055555555556,
-  "linkDistance": 291,
-  "scale": 0.2247236324678119,
+  "centerStrength": 0.55,
+  "repelStrength": 10,
+  "linkStrength": 0.7,
+  "linkDistance": 250,
+  "scale": 0.6,
   "close": false
 }

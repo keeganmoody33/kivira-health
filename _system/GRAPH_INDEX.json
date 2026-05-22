@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12 13:40 UTC",
+  "generated_at": "2026-05-22 00:46 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -1548,8 +1548,52 @@
       "inbound": [
         "HEAT_2026_05_11",
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_MOC_2026_05_10",
         "2026-05-11-investor-email"
+      ]
+    },
+    {
+      "name": "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
+      "rel_path": "knowledge_base/gtm_signals/heyreach/weekly-evidence-2026-05-20.md",
+      "domain": "business",
+      "node_type": "gtm_signal",
+      "status": "emergent",
+      "last_updated": "",
+      "description": "HeyReach Wave 1 follow-up execution snapshot — 4 of 10 touched, Oltmans demo missed, Wave 2A ACO copy drafted",
+      "tags": [
+        "heyreach",
+        "weekly-evidence",
+        "outbound",
+        "wave1",
+        "wave2a",
+        "follow-up"
+      ],
+      "topics": [
+        "gtm-motion"
+      ],
+      "related_concepts": [
+        "[[WEEKLY_HEYREACH_EVIDENCE_2026_05_10]]",
+        "[[WEEKLY_MOC_GRAPH_RITUAL]]",
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[CDS_NOT_DIAGNOSIS_FRAMING]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]"
+      ],
+      "source_type": "tool_export",
+      "source_file": "scripts/heyreach_accepts_pull.py",
+      "body_lines": 46,
+      "outbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_MOC_GRAPH_RITUAL",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "OUTREACH_WAVE_STRUCTURE",
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE"
+      ],
+      "inbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "messages-josh-preview"
       ]
     },
     {
@@ -1678,7 +1722,8 @@
         "OUTREACH_BASELINE_METRICS"
       ],
       "inbound": [
-        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12"
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "wave2a_aco_heyreach_copy"
       ]
     },
     {
@@ -2172,7 +2217,7 @@
       ],
       "source_type": "research-synthesis",
       "source_file": "raw-context/MARKETANALYSIS.md",
-      "body_lines": 331,
+      "body_lines": 332,
       "outbound": [
         "THREE_SEGMENT_ICP_FRAMEWORK",
         "PAIN_SEGMENT_MATRIX",
@@ -2183,7 +2228,8 @@
         "OUTREACH_BASELINE_METRICS",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "WEEKLY_MOC_2026_05_04",
-        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04"
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20"
       ],
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
@@ -2193,6 +2239,7 @@
         "PAIN_SEGMENT_MATRIX",
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "ACCOUNT_SCHEMA_EXTENDED",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
@@ -2208,6 +2255,7 @@
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
+        "wave2a_aco_heyreach_copy",
         "2026-05-04-investor-email",
         "WEEKLY_MOC_2026_05_04",
         "weekly-moc-template"
@@ -2455,7 +2503,8 @@
       "inbound": [
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "COCM_OUTREACH_SEQUENCING",
-        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "wave2a_aco_heyreach_copy"
       ]
     },
     {
@@ -2649,6 +2698,7 @@
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
@@ -2713,6 +2763,7 @@
         "OUTREACH_BASELINE_METRICS",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "gtm-plan-v1",
+        "wave2a_aco_heyreach_copy",
         "wave1a_heyreach_copy"
       ]
     },
@@ -2932,6 +2983,7 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
@@ -3073,6 +3125,7 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS",
         "WEEKLY_MOC_2026_05_04",
@@ -3119,12 +3172,14 @@
         "POLSKY_UCHICAGO_KIVIRA_PROFILE_2026",
         "PRIMARY_CARE_WEDGE_ICP",
         "PUBLIC_VALUE_PROPOSITION_HOME",
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "GTM_MOTION_HYPOTHESIS",
         "CLINICAL_INSTRUMENTS_SURFACE",
         "CPT_BILLING_CODES_BHI",
         "PATIENT_APP_SAFETY_ALERTS",
         "PRIVACY_AND_HIPAA_ROLE",
         "gtm-plan-v1",
+        "wave2a_aco_heyreach_copy",
         "messaging-pillars-v1",
         "positioning-v1",
         "WEEKLY_MOC_2026_05_10"
@@ -3520,13 +3575,32 @@
       "node_type": "",
       "status": "",
       "last_updated": "",
-      "description": "10 individualized LinkedIn DMs going out from Keegan's account. ~45-55 words each.",
+      "description": "10 individualized LinkedIn DMs from Keegan's account (`keeganmoody33`). Paste-ready copy below uses the **v6 shape** (fi",
       "tags": [],
       "topics": [],
       "related_concepts": [],
       "source_type": "",
       "source_file": "",
-      "body_lines": 244,
+      "body_lines": 245,
+      "outbound": [
+        "WEEKLY_HEYREACH_EVIDENCE_2026_05_20"
+      ],
+      "inbound": []
+    },
+    {
+      "name": "messages-v6-2026-05-12",
+      "rel_path": "00_foundation/_synthesis/josh-followup-2026-05-11/messages-v6-2026-05-12.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "Author: Keegan. Sender LinkedIn: `keeganmoody33`.",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 188,
       "outbound": [],
       "inbound": []
     },
@@ -3551,6 +3625,29 @@
       "inbound": [
         "WEEKLY_MOC_2026_05_04"
       ]
+    },
+    {
+      "name": "wave2a_aco_heyreach_copy",
+      "rel_path": "00_foundation/_synthesis/wave2a-aco-heyreach-copy-2026-05-21/wave2a_aco_heyreach_copy.md",
+      "domain": "",
+      "node_type": "",
+      "status": "",
+      "last_updated": "",
+      "description": "**Status:** Draft. Promote to `00_foundation/messaging/wave2a_aco_heyreach_copy.md` only after human review per CLAUDE.m",
+      "tags": [],
+      "topics": [],
+      "related_concepts": [],
+      "source_type": "",
+      "source_file": "",
+      "body_lines": 163,
+      "outbound": [
+        "CDS_NOT_DIAGNOSIS_FRAMING",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "ORG_TYPE_BUYER_MAP_COCM",
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS"
+      ],
+      "inbound": []
     },
     {
       "name": "messaging-pillars-v1",

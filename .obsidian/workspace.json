@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "69460551c6d2be4f",
+        "id": "ac2b3f6936c55b78",
         "type": "tabs",
         "children": [
           {
-            "id": "8493fb4d6d28dc2e",
+            "id": "38eb47fc7e0c1dba",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#source-research-synthesis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,8 +180,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "8493fb4d6d28dc2e",
+  "active": "38eb47fc7e0c1dba",
   "lastOpenFiles": [
+    "knowledge_base/methodology/GTM_TIER_ARCHITECTURE_9_SUBTIERS.md",
+    "knowledge_base/_archive/EMBEDDED_DISTRIBUTION_VBC_ENABLERS.md",
+    "knowledge_base/business/CLINICAL_TRIALS_DIGITAL_ENDPOINTS.md",
+    "knowledge_base/gtm_signals/inboxkit/weekly-health-2026-05-04.md",
+    "_system/CONTEXT_OS_OPERATING_RHYTHM.md",
+    "knowledge_base/business/COMPETITIVE_EVIDENCE_GAP.md",
     "scripts/heyreach_create_and_load_test.py",
     "fixtures/randomized_test_batch.csv",
     "scripts/build_randomized_test_batch.py",
@@ -192,7 +198,6 @@
     "fixtures/wave1_runs/20260503T170409Z/Q3B-TG_raw_urls.json",
     "fixtures/wave1_runs/20260503T170409Z/Q3B-EB_raw_urls.json",
     "fixtures/wave1_runs/20260503T170409Z/Q3B-CC_raw_urls.json",
-    "fixtures/wave1_runs/20260503T170409Z/Q3B-OO_raw_urls.json",
     "fixtures/canonical_linkedin_queries.md",
     "_system/agent_workflows/heyreach_cli_load_runbook.md",
     "_system/GRAPH_INDEX.md",
@@ -212,11 +217,6 @@
     "gtm-context-os-quickstart/CLAUDE_CODE_SETUP_GUIDE.md",
     "scripts/MANUAL_LIVE_PUBLIC_SMOKE.md",
     "CLAUDE.md",
-    "MARKETANALYSIS.md",
-    "6.md",
-    "knowledge_base/methodology/DISCOVERY_QUESTIONS_PRIMARY_CARE_BUYER.md",
-    "knowledge_base/methodology/EVIDENCE_DISCIPLINE_RESEARCH_SYNTHESIS.md",
-    "knowledge_base/methodology/GTM_30_60_90_EXECUTION_CADENCE.md",
-    "knowledge_base/methodology/GTM_MOTION_HYPOTHESIS.md"
+    "MARKETANALYSIS.md"
   ]
 }

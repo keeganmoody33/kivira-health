@@ -30,3 +30,6 @@ fixtures/*.csv
 # Nested git repo — track as submodule separately
 gtm-context-os-quickstart/
 *.crdownload
+
+# Personal iMessage extracts — never commit
+raw-context/*-imessage-thread-full.md
