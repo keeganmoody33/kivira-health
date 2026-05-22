@@ -166,6 +166,10 @@ def triage_row(row: dict) -> dict:
     if bucket == "unknown":
         if title_source == "none":
             out.update(verdict="REVIEW", reason="no_title_or_headline")
+        elif OUT_OF_SCOPE_TITLE_RE.search(title):
+            # Out-of-scope cut only when no competing decision-maker title classified.
+            out.update(persona_bucket="out_of_scope", buyer_role="None",
+                       verdict="CUT", reason="out_of_scope_title")
         else:
             out.update(verdict="REVIEW", reason="unclassified_title")
     elif bucket in ("econ_buyer", "clin_champ", "op_owner") and grade in ("HIGH", "MED"):
