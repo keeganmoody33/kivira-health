@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 00:46 UTC",
+  "generated_at": "2026-05-22 13:04 UTC",
   "nodes": [
     {
       "name": "CLINICAL_TRIALS_DIGITAL_ENDPOINTS",
@@ -575,6 +575,7 @@
         "EDP_COCM_REVENUE_REALIZATION",
         "TAM_TIER_1_PROVIDER_534M",
         "THREE_SEGMENT_ICP_FRAMEWORK",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "COCM_PUBLIC_ESTIMATE_ENGINE_V2",
         "CPT_BILLING_CODES_BHI"
       ]
@@ -753,6 +754,7 @@
       ],
       "inbound": [
         "KIVIRA_BACKER_COPY_SHIFT_2026_05",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "LINKEDIN_CONNECTION_EXPORT_AS_GTM_2026_05_12"
       ]
@@ -1081,7 +1083,8 @@
         "MEDICAL_SPEND_MODEL_ER_AVOIDANCE",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
-        "THREE_SEGMENT_ICP_FRAMEWORK"
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "ACO_ATTACK_MOTION_2A_PRIMARY"
       ]
     },
     {
@@ -1195,6 +1198,7 @@
       "related_concepts": [
         "[[TAM_COMPLETE_698M_ALL_TIERS]]",
         "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
         "[[REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT]]",
         "[[OUTREACH_WAVE_STRUCTURE]]"
       ],
@@ -1204,12 +1208,15 @@
       "outbound": [
         "TAM_COMPLETE_698M_ALL_TIERS",
         "THREE_SEGMENT_ICP_FRAMEWORK",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
         "OUTREACH_WAVE_STRUCTURE"
       ],
       "inbound": [
         "EMBEDDED_DISTRIBUTION_VBC_ENABLERS",
         "TAM_COMPLETE_698M_ALL_TIERS",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "ACO_BLITZ_2026_05_W2_PLAN",
         "OUTREACH_WAVE_STRUCTURE"
       ]
     },
@@ -1307,6 +1314,7 @@
         "TAM_TIER_1_PROVIDER_534M",
         "TAM_TIER_2_ACO_VBC_73M",
         "TAM_TIER_3_ENTERPRISE_92M",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "GTM_30_60_90_EXECUTION_CADENCE",
@@ -1684,12 +1692,68 @@
       ]
     },
     {
+      "name": "ACO_ATTACK_MOTION_2A_PRIMARY",
+      "rel_path": "knowledge_base/methodology/ACO_ATTACK_MOTION_2A_PRIMARY.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-21",
+      "description": "Canonical decision — attack ACOs as Tier 2A entities (sync blitz + Wave 2 LinkedIn); 1C ACO-affiliated groups are secondary, deduped channel.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "market-segmentation",
+        "outbound",
+        "workflow"
+      ],
+      "topics": [
+        "gtm-motion",
+        "market-segmentation",
+        "workflow",
+        "execution-cadence"
+      ],
+      "related_concepts": [
+        "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
+        "[[TAM_TIER_2_ACO_VBC_73M]]",
+        "[[ACO_BLITZ_2026_05_W2_PLAN]]",
+        "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]",
+        "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
+        "[[OUTREACH_WAVE_STRUCTURE]]",
+        "[[THREE_SEGMENT_ICP_FRAMEWORK]]",
+        "[[KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY]]"
+      ],
+      "source_type": "notes",
+      "source_file": "Plan ACO placement and TAM 2026-05-21",
+      "body_lines": 66,
+      "outbound": [
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "TAM_TIER_2_ACO_VBC_73M",
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
+        "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
+        "OUTREACH_WAVE_STRUCTURE",
+        "THREE_SEGMENT_ICP_FRAMEWORK",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
+        "REVENUE_ACCURACY_MODEL_RISK_ADJUSTMENT",
+        "DIRECT_BILLING_MODEL_FFS",
+        "PUBLIC_DATA_SOURCES_TAM",
+        "TAM_DEDUP_METHODOLOGY"
+      ],
+      "inbound": [
+        "TAM_TIER_2_ACO_VBC_73M",
+        "ACO_BLITZ_2026_05_W2_PLAN",
+        "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
+        "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12"
+      ]
+    },
+    {
       "name": "ACO_BLITZ_2026_05_W2_PLAN",
       "rel_path": "knowledge_base/methodology/ACO_BLITZ_2026_05_W2_PLAN.md",
       "domain": "methodology",
       "node_type": "framework",
       "status": "emergent",
-      "last_updated": "2026-05-12",
+      "last_updated": "2026-05-21",
       "description": "Manual email + phone blitz on a focused ACO target list — 2-hour synchronous blocks with Josh, intended to test whether the 2A buying motion is reachable on a sync cadence that Wave 1's LinkedIn warm-async motion did not surface.",
       "tags": [
         "methodology",
@@ -1705,23 +1769,28 @@
         "market-segmentation"
       ],
       "related_concepts": [
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
         "[[WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12]]",
         "[[OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12]]",
         "[[PERSONA_TITLE_DICTIONARY_BY_SUBTIER]]",
-        "[[OUTREACH_BASELINE_METRICS]]"
+        "[[OUTREACH_BASELINE_METRICS]]",
+        "[[TAM_TIER_2_ACO_VBC_73M]]"
       ],
       "source_type": "notes",
       "source_file": "Session conversation 2026-05-12 (Josh text msg + Keegan + Claude planning)",
-      "body_lines": 66,
+      "body_lines": 84,
       "outbound": [
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER",
-        "OUTREACH_BASELINE_METRICS"
+        "OUTREACH_BASELINE_METRICS",
+        "TAM_TIER_2_ACO_VBC_73M"
       ],
       "inbound": [
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "OUTBOUND_TWO_CHANNEL_POSTURE_2026_05_12",
         "wave2a_aco_heyreach_copy"
       ]
@@ -1928,6 +1997,7 @@
       "inbound": [
         "WEEKLY_LINEAR_SHIPPED_2026_05_04",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "OUTREACH_BASELINE_METRICS",
         "PERSONA_TITLE_DICTIONARY_BY_SUBTIER"
@@ -2127,6 +2197,7 @@
         "WEEKLY_LINEAR_SHIPPED_2026_05_10",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "COCM_OUTREACH_SEQUENCING",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
         "MESSAGING_HYPOTHESIS_DISCIPLINE",
         "OUTREACH_WAVE_STRUCTURE",
         "PILOT_SITE_ACQUISITION_PRIORITY",
@@ -2213,6 +2284,7 @@
         "[[COCM_ACCOUNT_PROFILE_SCHEMA]]",
         "[[DEMO_FIRST_OUTBOUND_STRATEGY]]",
         "[[OUTREACH_BASELINE_METRICS]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
         "[[LIST_BUILDING_STACK_CLAY_ENRICHMENT]]"
       ],
       "source_type": "research-synthesis",
@@ -2226,6 +2298,7 @@
         "COCM_ACCOUNT_PROFILE_SCHEMA",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
         "OUTREACH_BASELINE_METRICS",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "LIST_BUILDING_STACK_CLAY_ENRICHMENT",
         "WEEKLY_MOC_2026_05_04",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
@@ -2241,6 +2314,7 @@
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "ACCOUNT_SCHEMA_EXTENDED",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
@@ -2336,6 +2410,48 @@
       ],
       "inbound": [
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD"
+      ]
+    },
+    {
+      "name": "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
+      "rel_path": "knowledge_base/methodology/KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY.md",
+      "domain": "methodology",
+      "node_type": "framework",
+      "status": "emergent",
+      "last_updated": "2026-05-22",
+      "description": "The commercial structure of the Kivira GTM engagement — Josh Pappas as contracted intermediary subcontracting outbound execution to Keegan, with retainer + per-meeting comp, a 3-month prove-value arc, and a day-60 demo target.",
+      "tags": [
+        "methodology",
+        "gtm-motion",
+        "workflow",
+        "engagement-structure",
+        "execution-cadence"
+      ],
+      "topics": [
+        "gtm-motion",
+        "execution-cadence",
+        "workflow",
+        "stakeholder-map"
+      ],
+      "related_concepts": [
+        "[[KIVIRA_COMPANY_PROFILE_2026_05_11]]",
+        "[[GTM_30_60_90_EXECUTION_CADENCE]]",
+        "[[TECH_STACK_OUTBOUND_INFRASTRUCTURE]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
+        "[[DEMO_FIRST_OUTBOUND_STRATEGY]]"
+      ],
+      "source_type": "transcript",
+      "source_file": "raw-context/josh-pappas-imessage-thread-full.md",
+      "body_lines": 37,
+      "outbound": [
+        "KIVIRA_COMPANY_PROFILE_2026_05_11",
+        "GTM_30_60_90_EXECUTION_CADENCE",
+        "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
+        "DEMO_FIRST_OUTBOUND_STRATEGY"
+      ],
+      "inbound": [
+        "ACO_ATTACK_MOTION_2A_PRIMARY"
       ]
     },
     {
@@ -2575,6 +2691,7 @@
         "[[OUTREACH_BASELINE_METRICS]]",
         "[[GTM_TIER_ARCHITECTURE_9_SUBTIERS]]",
         "[[ACO_BLITZ_2026_05_W2_PLAN]]",
+        "[[ACO_ATTACK_MOTION_2A_PRIMARY]]",
         "[[OUTBOUND_SENDER_RAMP_2026_05_W2]]",
         "[[KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12]]"
       ],
@@ -2585,11 +2702,13 @@
         "OUTREACH_BASELINE_METRICS",
         "GTM_TIER_ARCHITECTURE_9_SUBTIERS",
         "ACO_BLITZ_2026_05_W2_PLAN",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "KIVIRA_OUTBOUND_MESSAGE_PATTERN_2026_05_12",
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12"
       ],
       "inbound": [
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "OUTBOUND_SENDER_RAMP_2026_05_W2"
       ]
@@ -2700,6 +2819,7 @@
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_10",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_20",
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "COCM_CONFIDENCE_GRADE_RULES",
         "COCM_OUTREACH_SEQUENCING",
         "TECH_STACK_OUTBOUND_INFRASTRUCTURE",
@@ -2753,6 +2873,7 @@
       "inbound": [
         "WAVE_1_ACCEPT_TRIAGE_LEARNINGS_2026_05_12",
         "WEEKLY_HEYREACH_EVIDENCE_2026_05_04",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "ACO_BLITZ_2026_05_W2_PLAN",
         "CANONICAL_GTM_SEGMENTATION_MIRO_BOARD",
         "DEMO_FIRST_OUTBOUND_STRATEGY",
@@ -2846,6 +2967,7 @@
       ],
       "inbound": [
         "ACCOUNT_SCHEMA_EXTENDED",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "SUBTIER_EXCLUSION_RULES",
         "gtm-plan-v1"
@@ -2929,6 +3051,7 @@
         "TAM_COMPLETE_698M_ALL_TIERS",
         "TAM_TIER_3_ENTERPRISE_92M",
         "ACCOUNT_SCHEMA_EXTENDED",
+        "ACO_ATTACK_MOTION_2A_PRIMARY",
         "FRESH_LIST_BUILD_RUNBOOK_1ABC",
         "PUBLIC_DATA_SOURCES_TAM"
       ]
@@ -2987,6 +3110,7 @@
         "WEEKLY_INBOXKIT_HEALTH_2026_05_04",
         "GTM_30_60_90_EXECUTION_CADENCE",
         "INBOXKIT_SENDKIT_SEQUENCER_ROADMAP",
+        "KIVIRA_ENGAGEMENT_STRUCTURE_JP_INTERMEDIARY",
         "OUTBOUND_SENDER_RAMP_2026_05_W2",
         "OUTREACH_WAVE_STRUCTURE",
         "WEEKLY_MOC_GRAPH_RITUAL",
@@ -3954,6 +4078,11 @@
     }
   ],
   "workflows": [
+    {
+      "name": "aco-attack-list-build",
+      "rel_path": "_system/agent_workflows/aco-attack-list-build.md",
+      "description": "**Canonical script:** `scripts/build_aco_attack_lists.py`"
+    },
     {
       "name": "claims-safe-outbound",
       "rel_path": "_system/agent_workflows/claims-safe-outbound.md",
